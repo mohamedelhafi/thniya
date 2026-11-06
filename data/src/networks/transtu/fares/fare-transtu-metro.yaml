@@ -1,0 +1,18 @@
+# Généré par `python -m citydata import-doc` depuis doc/metro-tramway/tarifs.md.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-TRANSTU-METRO
+model: flat
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2021-06-01'
+  price_millimes:
+    PLEIN: 500
+provenance:
+  source: ESTIMATION
+  ref: 'Grille Transtu « nouvelle tarification » en vigueur depuis le 2021-06-01 (transtu.tn, pages 0067 et 0068 ; doc/metro-tramway/tarifs.md)
+    : ticket zone 1 = 0,500 DT, zones 2 et 3 = 1,000 et 1,500 DT ; la zone d''un trajet n''est pas publiée. 0,500 DT relevé
+    pour un trajet d''une section (Wikivoyage Tunis, 2025).'
+  verified_at: '2026-10-14'
+  by: import-doc

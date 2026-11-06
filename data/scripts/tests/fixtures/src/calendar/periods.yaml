@@ -1,0 +1,3 @@
+- { id: NORMAL, name: { fr: "Normal", ar: "عادي" }, default: true }
+- { id: ETE, name: { fr: "Été", ar: "صيف" }, from_events: [ETE], show_banner: true }
+- { id: RAMADAN, name: { fr: "Ramadan", ar: "رمضان" }, from_events: [RAMADAN], show_banner: true }

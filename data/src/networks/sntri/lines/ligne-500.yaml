@@ -1,0 +1,88 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-500
+network: SNTRI
+mode: BUS
+public_code: '500'
+name:
+  fr: Tunis Sud – Djerba (Houmt Souk)
+  ar: تونس الجنوبية – جربة
+long_name:
+  fr: Tunis Sud – Djerba (Houmt Souk) par Kairouan
+  ar: تونس الجنوبية – جربة عبر القيروان
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Djerba (Houmt Souk)
+    ar: جربة
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-GROMBALIA
+  - SNTRI-ENFIDHA
+  - SNTRI-KAIROUAN
+  - SNTRI-BOUHAJLA
+  - SNTRI-CHARARDA
+  - SNTRI-BIR-ALI
+  - SNTRI-SKHIRA
+  - SNTRI-GABES
+  - SNTRI-MARETH
+  - SNTRI-JORF
+  - SNTRI-JERBA
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-JERBA
+  - SNTRI-JORF
+  - SNTRI-MARETH
+  - SNTRI-GABES
+  - SNTRI-SKHIRA
+  - SNTRI-BIR-ALI
+  - SNTRI-CHARARDA
+  - SNTRI-BOUHAJLA
+  - SNTRI-KAIROUAN
+  - SNTRI-ENFIDHA
+  - SNTRI-GROMBALIA
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/500
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 500 « TUNIS SUD - JERBA » (502
+        km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-500
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 500 « TUNIS SUD - JERBA » (502 km)
+  verified_at: '2026-10-14'
+  by: import-doc

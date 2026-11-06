@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schemas/calendar-year.schema.json
+# Événements 2027 (specs/04b §3). Fêtes religieuses : estimations, à confirmer par l'annonce officielle.
+year: 2027
+events:
+  # --- Fêtes civiles
+  - { id: NOUVEL_AN,     kind: holiday, date: 2027-01-01, status: confirmed, name: { fr: "Jour de l'an", ar: "رأس السنة الإدارية" } }
+  - { id: INDEPENDANCE,  kind: holiday, date: 2027-03-20, status: confirmed, name: { fr: "Fête de l'indépendance", ar: "عيد الاستقلال" } }
+  - { id: MARTYRS,       kind: holiday, date: 2027-04-09, status: confirmed, name: { fr: "Journée des martyrs", ar: "عيد الشهداء" } }
+  - { id: TRAVAIL,       kind: holiday, date: 2027-05-01, status: confirmed, name: { fr: "Fête du travail", ar: "عيد الشغل" } }
+  - { id: REPUBLIQUE,    kind: holiday, date: 2027-07-25, status: confirmed, name: { fr: "Fête de la République", ar: "عيد الجمهورية" } }
+  - { id: FEMME,         kind: holiday, date: 2027-08-13, status: confirmed, name: { fr: "Fête de la femme", ar: "عيد المرأة" } }
+  - { id: EVACUATION,    kind: holiday, date: 2027-10-15, status: confirmed, name: { fr: "Fête de l'évacuation", ar: "عيد الجلاء" } }
+  - { id: REVOLUTION,    kind: holiday, date: 2027-12-17, status: confirmed, name: { fr: "Fête de la révolution", ar: "عيد الثورة" } }
+
+  # --- Fêtes religieuses (à confirmer par le Mufti ; doc/synthese/calendrier-et-regimes.md)
+  # Ramadan 1448 : calcul astronomique de la Cité des sciences (Tuniscope, 2026-10-06) : 1er jour le 8 février,
+  # 1er Chawwal le 10 mars (le 9 si le mois compte 29 jours).
+  - { id: RAMADAN,       kind: period_event, from: 2027-02-08, to: 2027-03-09, status: estimated, name: { fr: "Ramadan", ar: "رمضان" } }
+  - { id: AID_FITR,      kind: holiday, from: 2027-03-10, to: 2027-03-12, status: estimated, name: { fr: "Aïd el-Fitr", ar: "عيد الفطر" } }
+  - { id: AID_ADHA,      kind: holiday, from: 2027-05-16, to: 2027-05-17, status: estimated, name: { fr: "Aïd el-Adha", ar: "عيد الأضحى" } }
+  - { id: HIJRI,         kind: holiday, date: 2027-06-06, status: estimated, name: { fr: "Ras el Am el Hijri", ar: "رأس السنة الهجرية" } }
+  - { id: MOULED,        kind: holiday, date: 2027-08-14, status: estimated, name: { fr: "Mouled", ar: "المولد النبوي" } }
+
+  # --- Saisons
+  - { id: ETE, kind: period_event, from: 2027-07-01, to: 2027-08-31, status: estimated, name: { fr: "Horaires d'été", ar: "التوقيت الصيفي" } }

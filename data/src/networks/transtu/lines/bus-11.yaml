@@ -1,0 +1,202 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-11
+network: TRANSTU
+mode: BUS
+public_code: '11'
+name:
+  fr: Bus 11
+  ar: حافلة 11
+long_name:
+  fr: Tunis Marine – Jebel Lahmar
+  ar: محطة تونس البحرية – الجبل الأحمر
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Jebel Lahmar
+    ar: الجبل الأحمر
+- id: RETOUR
+  headsign:
+    fr: Tunis Marine
+    ar: محطة تونس البحرية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-TUNIS-MARINE
+  - BUS-RUE-DE-LA-TURQUIE-ALLER
+  - BUS-MONCEF-BEY-ALLER
+  - BUS-SIDI-BECHIR-ALLER
+  - BUS-BAB-JDID-ALLER
+  - BUS-BAB-MNARA-ALLER
+  - BUS-KASBAH
+  - BUS-TELECOM
+  - BUS-CHARLE-NICOLE-RETOUR
+  - BUS-MEFTEH-SAADALLAH-ALLER
+  - BUS-CIMETIERE-SIDI-YAHIA-ALLER
+  - BUS-ECOLE-FRANCAISE-OMARANE-ALLER
+  - BUS-CITE-ZAYATINE-ALLER
+  - BUS-TERMINUS-JBEL-LAHMER
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 3
+    - 3
+    - 2
+    - 4
+    - 3
+    CHARGE:
+    - 2
+    - 4
+    - 4
+    - 3
+    - 1
+    - 2
+    - 3
+    - 2
+    - 5
+    - 4
+    - 3
+    - 6
+    - 4
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-JBEL-LAHMER
+  - BUS-ECOLE-FRANCAISE-OMARANE-RETOUR
+  - BUS-RESTAURANT-BOU-FERES-ALLER
+  - BUS-MARCHE-ZAYATINE-ALLER
+  - BUS-CITE-ZAYATINE-ALLER
+  - BUS-TERMINUS-ZAYATINE
+  - BUS-CITE-ZAYATINE-RETOUR
+  - BUS-MARCHE-ZAYATINE-RETOUR
+  - BUS-CIMETIERE-SIDI-YAHIA-RETOUR
+  - BUS-MEFTEH-SAADALLAH-RETOUR
+  - BUS-HOPITAL-DES-ENFANTS
+  - BUS-CHARLE-NICOLE-ALLER
+  - BUS-TRIBUNAL-TAAKIB
+  - BUS-BAB-MNARA-RETOUR
+  - BUS-BAB-JDID-RETOUR
+  - BUS-MOSQUEE-SIDI-BECHIR
+  - BUS-SIDI-BECHIR-RETOUR
+  - BUS-MONCEF-BEY-RETOUR
+  - BUS-SAAD-ZAGHLOUL
+  - BUS-TUNIS-MARINE
+  run_times:
+    FLUIDE:
+    - 1
+    - 3
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 1
+    - 3
+    - 2
+    - 1
+    - 1
+    - 3
+    - 2
+    - 2
+    CHARGE:
+    - 2
+    - 4
+    - 1
+    - 2
+    - 2
+    - 1
+    - 3
+    - 3
+    - 3
+    - 2
+    - 4
+    - 2
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    - 4
+    - 2
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:50
+      last: '19:30'
+      by_direction:
+        ALLER:
+          first: 06:30
+          last: '19:30'
+        RETOUR:
+          first: 05:50
+          last: '18:40'
+    bands:
+      NUIT:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 40
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 40
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 50
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 06:20
+      last: '19:30'
+      by_direction:
+        ALLER:
+          first: 07:00
+          last: '19:30'
+        RETOUR:
+          first: 06:20
+          last: '18:40'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 55
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 06:30 → 19:30, terminus 05:50 → 18:40) et fréquence de pointe (40 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, TunisMarineH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 11 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

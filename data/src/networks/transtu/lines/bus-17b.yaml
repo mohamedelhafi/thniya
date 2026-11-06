@@ -1,0 +1,301 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-17B
+network: TRANSTU
+mode: BUS
+public_code: 17B
+name:
+  fr: Bus 17B
+  ar: حافلة 17ب
+long_name:
+  fr: Place de Barcelone – Port de Radès
+  ar: محطة برشلونة – ميناء رادس
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Port de Radès
+    ar: ميناء رادس
+- id: RETOUR
+  headsign:
+    fr: Place de Barcelone
+    ar: محطة برشلونة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-PLACE-DE-BARCELONE
+  - BUS-DUBOSVILLE
+  - BUS-CENTRE-DE-COORDINATION-OUARDIA
+  - BUS-EL-AFRANE
+  - BUS-DJEBEL-JELLOUD-GP1
+  - BUS-GARE-DJEBEL-JELLOUD
+  - BUS-STOA
+  - BUS-SOFOMECA
+  - BUS-CNSS
+  - BUS-CENTRE-DE-FORMATION-SNT
+  - BUS-SOCIETE-NOUR
+  - BUS-LUSTRERIES
+  - BUS-CHOUCHET-RADES
+  - BUS-IMPRIMERIE-OFFICIELLE
+  - BUS-STADE-MUNICIPALE
+  - BUS-LYCEE-TECHNIQUE-RADES
+  - BUS-MONGIL
+  - BUS-CENTRE-RADES
+  - BUS-PTT-RADES
+  - BUS-AVENUE-DE-LA-REPUBLIQUE-1
+  - BUS-AVENUE-DE-LA-REPUBLIQUE-2
+  - BUS-SOUK-RADES
+  - BUS-VILLAGE-D-ENFANTS
+  - BUS-CASINO-RADES
+  - BUS-LES-BUNGALOWS
+  - BUS-RADES-PLAGE-1
+  - BUS-RADES-PLAGE-2
+  - BUS-LAC-DE-RADES
+  - BUS-LES-SALINES
+  - BUS-STEG-RADES
+  - BUS-CAPITAINERIE
+  - BUS-PORT-DE-RADES-TERMINUS
+  run_times:
+    FLUIDE:
+    - 6
+    - 2
+    - 1
+    - 3
+    - 2
+    - 3
+    - 2
+    - 1
+    - 3
+    - 1
+    - 3
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    - 3
+    - 4
+    - 1
+    - 1
+    - 3
+    - 4
+    - 1
+    - 3
+    - 2
+    CHARGE:
+    - 8
+    - 3
+    - 2
+    - 5
+    - 2
+    - 4
+    - 3
+    - 1
+    - 5
+    - 1
+    - 5
+    - 2
+    - 3
+    - 4
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 5
+    - 2
+    - 5
+    - 5
+    - 1
+    - 2
+    - 5
+    - 4
+    - 2
+    - 5
+    - 3
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-PORT-DE-RADES-TERMINUS
+  - BUS-CAPITAINERIE
+  - BUS-STEG-RADES
+  - BUS-LES-SALINES
+  - BUS-LAC-DE-RADES
+  - BUS-RADES-PLAGE-2
+  - BUS-RADES-PLAGE-1
+  - BUS-LES-BUNGALOWS
+  - BUS-CASINO-RADES
+  - BUS-VILLAGE-D-ENFANTS
+  - BUS-SOUK-RADES
+  - BUS-LYCEE-IBN-KHALDOUN
+  - BUS-AVENUE-DE-LA-REPUBLIQUE-1
+  - BUS-AVENUE-DE-LA-REPUBLIQUE-2
+  - BUS-PTT-RADES
+  - BUS-CENTRE-RADES
+  - BUS-MONGIL
+  - BUS-LYCEE-TECHNIQUE-RADES
+  - BUS-STADE-MUNICIPALE
+  - BUS-USINE-DE-CARTON
+  - BUS-LUSTRERIES
+  - BUS-SOCIETE-NOUR
+  - BUS-CENTRE-DE-FORMATION-SNT
+  - BUS-SIEFCOL
+  - BUS-CNSS
+  - BUS-SOFOMECA
+  - BUS-STOA
+  - BUS-GARE-DJEBEL-JELLOUD
+  - BUS-DJEBEL-JELLOUD-GP1
+  - BUS-EL-AFRANE
+  - BUS-CENTRE-DE-COORDINATION-OUARDIA
+  - BUS-DUBOSVILLE
+  - BUS-BAB-ALIOUA-GP1
+  - BUS-AVENUE-DE-LA-GARE
+  - BUS-PLACE-DE-BARCELONE
+  run_times:
+    FLUIDE:
+    - 2
+    - 3
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    - 4
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    - 4
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    - 3
+    - 2
+    - 3
+    - 1
+    - 2
+    - 3
+    - 2
+    - 2
+    CHARGE:
+    - 3
+    - 5
+    - 2
+    - 4
+    - 5
+    - 2
+    - 1
+    - 5
+    - 5
+    - 2
+    - 3
+    - 3
+    - 1
+    - 3
+    - 1
+    - 3
+    - 2
+    - 3
+    - 5
+    - 2
+    - 5
+    - 2
+    - 1
+    - 4
+    - 1
+    - 3
+    - 4
+    - 2
+    - 5
+    - 2
+    - 2
+    - 5
+    - 2
+    - 4
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:00
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 06:00
+          last: '19:00'
+        RETOUR:
+          first: 05:00
+          last: '18:00'
+    bands:
+      NUIT:
+        headway_min: 60
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 60
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 60
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 60
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 75
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:30
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 06:30
+          last: '19:00'
+        RETOUR:
+          first: 05:30
+          last: '18:00'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 80
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 06:00 → 19:00, terminus 05:00 → 18:00) et fréquence de pointe (60 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, BarceloneH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 17B » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

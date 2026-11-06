@@ -1,0 +1,6 @@
+- id: COUV-TEST
+  name: { fr: "Test", ar: "تجربة" }
+  level: complete
+  modes: [TRAIN, LOUAGE]
+  polygon: [[10.30, 36.60], [10.50, 36.60], [10.50, 36.80], [10.30, 36.80], [10.30, 36.60]]
+  status: active

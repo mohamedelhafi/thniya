@@ -1,0 +1,113 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-AEROPORT
+network: TRANSTU
+mode: BUS
+public_code: Aéroport
+name:
+  fr: Bus de l'aéroport
+  ar: حافلة المطار
+long_name:
+  fr: Tunis Marine – Aéroport Tunis-Carthage
+  ar: محطة تونس البحرية – مطار تونس قرطاج
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Aéroport Tunis-Carthage
+    ar: مطار تونس قرطاج
+- id: RETOUR
+  headsign:
+    fr: Tunis Marine
+    ar: محطة تونس البحرية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-TUNIS-MARINE
+  - BUS-AEROPORT-TUNIS-CARTHAGE
+  run_times:
+    FLUIDE:
+    - 18
+    CHARGE:
+    - 26
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-AEROPORT-TUNIS-CARTHAGE
+  - BUS-TUNIS-MARINE
+  run_times:
+    FLUIDE:
+    - 18
+    CHARGE:
+    - 26
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:30
+      last: '20:45'
+      by_direction:
+        ALLER:
+          first: 05:30
+          last: '20:15'
+        RETOUR:
+          first: 06:00
+          last: '20:45'
+    bands:
+      NUIT:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 30
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 30
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 40
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 06:00
+      last: '20:45'
+      by_direction:
+        ALLER:
+          first: 06:00
+          last: '20:15'
+        RETOUR:
+          first: 06:30
+          last: '20:45'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS-AEROPORT
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 05:30 → 20:15, terminus 06:00 → 20:45) et fréquence de pointe (30 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, TunisMarineH26-27.jpg) [officiel] ; arrêts : Tunis
+    Marine (itinéraires open data) et aéroport (positions géographiques open data, « AÉROPORT TUNIS CARTHAGE ») ; arrêts et
+    tarif : Webdo, 2026-03-13 ; heures creuses et dimanche estimés : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après
+    19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports médians des départs détaillés de l''open
+    data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et
+    0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé) ; parcours : les deux terminus seulement (arrêts
+    brefs à l''Office de l''aviation civile et à la gare de fret, Webdo 2026-03-13, sans position) ; aucun numéro sur l''affiche
+    (« 35 » selon Webdo, non confirmé)'
+  verified_at: '2026-10-14'
+  by: import-doc

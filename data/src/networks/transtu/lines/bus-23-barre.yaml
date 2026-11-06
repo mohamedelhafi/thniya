@@ -1,0 +1,126 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-23-BARRE
+network: TRANSTU
+mode: BUS
+public_code: 23/
+name:
+  fr: Bus 23/
+  ar: حافلة 23/
+long_name:
+  fr: Slimane Kahia – Borj El Amri
+  ar: محطة الترابط سليمان كاهية – برج العامري
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Borj El Amri
+    ar: برج العامري
+- id: RETOUR
+  headsign:
+    fr: Slimane Kahia
+    ar: محطة الترابط سليمان كاهية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-CAFE-MEDINA
+  - BUS-CITE-26-26-2
+  - BUS-AALOUINE1
+  - BUS-AALOUINE2
+  - BUS-MENZEL-HBIB
+  - BUS-CROISEMENT-BORJ-AMRI
+  - BUS-STEG-MENZEL-HBIB
+  - BUS-POULAILLER-MENZEL-HBIB
+  - BUS-PRISON-CIVILE-BORJ-AMRI
+  - BUS-ENTREE-FEJJA-ALLER
+  - BUS-CITE-FEJJA-ALLER
+  - BUS-ECOLE-FEJJA-ALLER
+  run_times:
+    FLUIDE:
+    - 6
+    - 5
+    - 4
+    - 7
+    - 6
+    - 4
+    - 4
+    - 3
+    - 2
+    - 3
+    - 2
+    CHARGE:
+    - 9
+    - 7
+    - 5
+    - 11
+    - 8
+    - 6
+    - 5
+    - 5
+    - 3
+    - 3
+    - 3
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-ECOLE-FEJJA-RETOUR
+  - BUS-CITE-FEJJA-RETOUR
+  - BUS-ENTREE-FEJJA-RETOUR
+  - BUS-PRISON-CIVILE-BORJ-AMRI
+  - BUS-POULAILLER-MENZEL-HBIB
+  - BUS-STEG-MENZEL-HBIB
+  - BUS-CROISEMENT-BORJ-AMRI
+  - BUS-MENZEL-HBIB
+  - BUS-AALOUINE2
+  - BUS-AALOUINE1
+  - BUS-CITE-26-26-2
+  - BUS-CAFE-MEDINA
+  run_times:
+    FLUIDE:
+    - 2
+    - 3
+    - 2
+    - 3
+    - 4
+    - 4
+    - 6
+    - 7
+    - 4
+    - 5
+    - 6
+    CHARGE:
+    - 3
+    - 3
+    - 4
+    - 5
+    - 4
+    - 7
+    - 8
+    - 10
+    - 5
+    - 7
+    - 9
+schedule:
+  kind: frequency
+  regimes: []
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : aucun sens de l''itinéraire open data ne part du pôle de l''affiche ; itinéraire open data « à vérifier
+    » (open data : Café Médina 23/ – École Fejja) ; horaires incomplets sur l''affiche (manque : premier départ du pôle, premier
+    départ du terminus) ; Premiers et derniers départs (pôle – → 19:00, terminus – → 18:10) et fréquence de pointe (100 min)
+    : affiche Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, SlimenKahiaH26-27.jpg) [officiel] ; arrêts
+    : open data Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques
+    des stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non
+    publiée (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 23/ » ; heures creuses et dimanche estimés
+    : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min
+    plus tard (rapports médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées
+    estimées depuis les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic
+    chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

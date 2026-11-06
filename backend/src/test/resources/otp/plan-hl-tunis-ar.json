@@ -1,0 +1,619 @@
+{
+ "data": {
+  "planConnection": {
+   "routingErrors": [],
+   "edges": [
+    {
+     "node": {
+      "start": "2026-10-14T07:35:09+01:00",
+      "end": "2026-10-14T08:16:50+01:00",
+      "duration": 2501,
+      "numberOfTransfers": 0,
+      "walkDistance": 418.95,
+      "legs": [
+       {
+        "mode": "WALK",
+        "distance": 363.57,
+        "duration": 291.0,
+        "transitLeg": false,
+        "serviceDate": null,
+        "headsign": null,
+        "start": {
+         "scheduledTime": "2026-10-14T07:35:09+01:00"
+        },
+        "end": {
+         "scheduledTime": "2026-10-14T07:40:00+01:00"
+        },
+        "from": {
+         "name": "Hammam Lif centre",
+         "lat": 36.729,
+         "lon": 10.337,
+         "stop": null
+        },
+        "to": {
+         "name": "حمام الأنف",
+         "lat": 36.729381,
+         "lon": 10.334551,
+         "stop": {
+          "gtfsId": "TN:TRN-HAMMAMLIF",
+          "name": "حمام الأنف",
+          "platformCode": null
+         }
+        },
+        "route": null,
+        "trip": null,
+        "legGeometry": {
+         "points": "_sd_F_~a~@[Mu@a@kAhDkAxDr@`@nAj@HDe@|Al@Z"
+        },
+        "intermediatePlaces": null,
+        "steps": [
+         {
+          "distance": 50.95,
+          "relativeDirection": "DEPART",
+          "absoluteDirection": "NORTH",
+          "streetName": "road",
+          "bogusName": true
+         },
+         {
+          "distance": 179.13,
+          "relativeDirection": "LEFT",
+          "absoluteDirection": "NORTHWEST",
+          "streetName": "نهج علي باش حانبة",
+          "bogusName": false
+         },
+         {
+          "distance": 133.51,
+          "relativeDirection": "LEFT",
+          "absoluteDirection": "SOUTHWEST",
+          "streetName": "road",
+          "bogusName": true
+         }
+        ],
+        "nextLegs": null
+       },
+       {
+        "mode": "RAIL",
+        "distance": 16360.0,
+        "duration": 2160.0,
+        "transitLeg": true,
+        "serviceDate": "2026-10-14",
+        "headsign": "تونس",
+        "start": {
+         "scheduledTime": "2026-10-14T07:40:00+01:00"
+        },
+        "end": {
+         "scheduledTime": "2026-10-14T08:16:00+01:00"
+        },
+        "from": {
+         "name": "حمام الأنف",
+         "lat": 36.729381,
+         "lon": 10.334551,
+         "stop": {
+          "gtfsId": "TN:TRN-HAMMAMLIF",
+          "name": "حمام الأنف",
+          "platformCode": null
+         }
+        },
+        "to": {
+         "name": "تونس",
+         "lat": 36.79565,
+         "lon": 10.18085,
+         "stop": {
+          "gtfsId": "TN:TRN-TUNISVILLE",
+          "name": "تونس",
+          "platformCode": null
+         }
+        },
+        "route": {
+         "gtfsId": "TN:SNCFT-BS",
+         "shortName": "BS",
+         "longName": "تونس – الرياض"
+        },
+        "trip": {
+         "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:134",
+         "tripShortName": "134",
+         "tripHeadsign": "تونس"
+        },
+        "legGeometry": {
+         "points": "sud_F}ma~@ga@raAwYhd@io@`cAqdBzmCea@ptAfJ`{@kB`eBcFncAqJf`AiLtsA_pCrrD"
+        },
+        "intermediatePlaces": [
+         {
+          "name": "بوقرنين",
+          "stop": {
+           "gtfsId": "TN:TRN-BOUKORNINE",
+           "name": "بوقرنين"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T07:43:00+01:00"
+          }
+         },
+         {
+          "name": "معهد الزهراء",
+          "stop": {
+           "gtfsId": "TN:TRN-LYCEEEZZAHRA",
+           "name": "معهد الزهراء"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T07:45:00+01:00"
+          }
+         },
+         {
+          "name": "الزهراء",
+          "stop": {
+           "gtfsId": "TN:TRN-EZZAHRA",
+           "name": "الزهراء"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T07:48:00+01:00"
+          }
+         },
+         {
+          "name": "رادس مليان",
+          "stop": {
+           "gtfsId": "TN:TRN-RADESMELIANE",
+           "name": "رادس مليان"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T07:51:00+01:00"
+          }
+         },
+         {
+          "name": "رادس",
+          "stop": {
+           "gtfsId": "TN:TRN-RADES",
+           "name": "رادس"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T07:54:00+01:00"
+          }
+         },
+         {
+          "name": "معهد رادس",
+          "stop": {
+           "gtfsId": "TN:TRN-LYCEERADES",
+           "name": "معهد رادس"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T07:57:00+01:00"
+          }
+         },
+         {
+          "name": "سيدي رزيق",
+          "stop": {
+           "gtfsId": "TN:TRN-SIDIREZIG",
+           "name": "سيدي رزيق"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T07:59:00+01:00"
+          }
+         },
+         {
+          "name": "مقرين",
+          "stop": {
+           "gtfsId": "TN:TRN-MEGRINE",
+           "name": "مقرين"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:02:00+01:00"
+          }
+         },
+         {
+          "name": "مقرين الرياض",
+          "stop": {
+           "gtfsId": "TN:TRN-MEGRINERIADH",
+           "name": "مقرين الرياض"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:04:00+01:00"
+          }
+         },
+         {
+          "name": "جبل الجلود",
+          "stop": {
+           "gtfsId": "TN:TRN-JEBELJELLOUD",
+           "name": "جبل الجلود"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:06:00+01:00"
+          }
+         }
+        ],
+        "steps": [],
+        "nextLegs": [
+         {
+          "start": {
+           "scheduledTime": "2026-10-14T08:00:00+01:00"
+          },
+          "end": {
+           "scheduledTime": "2026-10-14T08:37:00+01:00"
+          },
+          "trip": {
+           "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:138",
+           "tripShortName": "138"
+          }
+         },
+         {
+          "start": {
+           "scheduledTime": "2026-10-14T08:25:00+01:00"
+          },
+          "end": {
+           "scheduledTime": "2026-10-14T09:01:00+01:00"
+          },
+          "trip": {
+           "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:140",
+           "tripShortName": "140"
+          }
+         },
+         {
+          "start": {
+           "scheduledTime": "2026-10-14T08:49:00+01:00"
+          },
+          "end": {
+           "scheduledTime": "2026-10-14T09:26:00+01:00"
+          },
+          "trip": {
+           "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:142",
+           "tripShortName": "142"
+          }
+         }
+        ]
+       },
+       {
+        "mode": "WALK",
+        "distance": 55.38,
+        "duration": 50.0,
+        "transitLeg": false,
+        "serviceDate": null,
+        "headsign": null,
+        "start": {
+         "scheduledTime": "2026-10-14T08:16:00+01:00"
+        },
+        "end": {
+         "scheduledTime": "2026-10-14T08:16:50+01:00"
+        },
+        "from": {
+         "name": "تونس",
+         "lat": 36.79565,
+         "lon": 10.18085,
+         "stop": {
+          "gtfsId": "TN:TRN-TUNISVILLE",
+          "name": "تونس",
+          "platformCode": null
+         }
+        },
+        "to": {
+         "name": "Place Barcelone",
+         "lat": 36.7957,
+         "lon": 10.181,
+         "stop": null
+        },
+        "route": null,
+        "trip": null,
+        "legGeometry": {
+         "points": "ysq_Fimc}@D?Bb@O@EaA"
+        },
+        "intermediatePlaces": null,
+        "steps": [
+         {
+          "distance": 55.38,
+          "relativeDirection": "DEPART",
+          "absoluteDirection": "WEST",
+          "streetName": "service road",
+          "bogusName": true
+         }
+        ],
+        "nextLegs": null
+       }
+      ]
+     }
+    },
+    {
+     "node": {
+      "start": "2026-10-14T07:55:09+01:00",
+      "end": "2026-10-14T08:37:50+01:00",
+      "duration": 2561,
+      "numberOfTransfers": 0,
+      "walkDistance": 418.95,
+      "legs": [
+       {
+        "mode": "WALK",
+        "distance": 363.57,
+        "duration": 291.0,
+        "transitLeg": false,
+        "serviceDate": null,
+        "headsign": null,
+        "start": {
+         "scheduledTime": "2026-10-14T07:55:09+01:00"
+        },
+        "end": {
+         "scheduledTime": "2026-10-14T08:00:00+01:00"
+        },
+        "from": {
+         "name": "Hammam Lif centre",
+         "lat": 36.729,
+         "lon": 10.337,
+         "stop": null
+        },
+        "to": {
+         "name": "حمام الأنف",
+         "lat": 36.729381,
+         "lon": 10.334551,
+         "stop": {
+          "gtfsId": "TN:TRN-HAMMAMLIF",
+          "name": "حمام الأنف",
+          "platformCode": null
+         }
+        },
+        "route": null,
+        "trip": null,
+        "legGeometry": {
+         "points": "_sd_F_~a~@[Mu@a@kAhDkAxDr@`@nAj@HDe@|Al@Z"
+        },
+        "intermediatePlaces": null,
+        "steps": [
+         {
+          "distance": 50.95,
+          "relativeDirection": "DEPART",
+          "absoluteDirection": "NORTH",
+          "streetName": "road",
+          "bogusName": true
+         },
+         {
+          "distance": 179.13,
+          "relativeDirection": "LEFT",
+          "absoluteDirection": "NORTHWEST",
+          "streetName": "نهج علي باش حانبة",
+          "bogusName": false
+         },
+         {
+          "distance": 133.51,
+          "relativeDirection": "LEFT",
+          "absoluteDirection": "SOUTHWEST",
+          "streetName": "road",
+          "bogusName": true
+         }
+        ],
+        "nextLegs": null
+       },
+       {
+        "mode": "RAIL",
+        "distance": 16360.0,
+        "duration": 2220.0,
+        "transitLeg": true,
+        "serviceDate": "2026-10-14",
+        "headsign": "تونس",
+        "start": {
+         "scheduledTime": "2026-10-14T08:00:00+01:00"
+        },
+        "end": {
+         "scheduledTime": "2026-10-14T08:37:00+01:00"
+        },
+        "from": {
+         "name": "حمام الأنف",
+         "lat": 36.729381,
+         "lon": 10.334551,
+         "stop": {
+          "gtfsId": "TN:TRN-HAMMAMLIF",
+          "name": "حمام الأنف",
+          "platformCode": null
+         }
+        },
+        "to": {
+         "name": "تونس",
+         "lat": 36.79565,
+         "lon": 10.18085,
+         "stop": {
+          "gtfsId": "TN:TRN-TUNISVILLE",
+          "name": "تونس",
+          "platformCode": null
+         }
+        },
+        "route": {
+         "gtfsId": "TN:SNCFT-BS",
+         "shortName": "BS",
+         "longName": "تونس – الرياض"
+        },
+        "trip": {
+         "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:138",
+         "tripShortName": "138",
+         "tripHeadsign": "تونس"
+        },
+        "legGeometry": {
+         "points": "sud_F}ma~@ga@raAwYhd@io@`cAqdBzmCea@ptAfJ`{@kB`eBcFncAqJf`AiLtsA_pCrrD"
+        },
+        "intermediatePlaces": [
+         {
+          "name": "بوقرنين",
+          "stop": {
+           "gtfsId": "TN:TRN-BOUKORNINE",
+           "name": "بوقرنين"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:03:00+01:00"
+          }
+         },
+         {
+          "name": "معهد الزهراء",
+          "stop": {
+           "gtfsId": "TN:TRN-LYCEEEZZAHRA",
+           "name": "معهد الزهراء"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:05:00+01:00"
+          }
+         },
+         {
+          "name": "الزهراء",
+          "stop": {
+           "gtfsId": "TN:TRN-EZZAHRA",
+           "name": "الزهراء"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:07:00+01:00"
+          }
+         },
+         {
+          "name": "رادس مليان",
+          "stop": {
+           "gtfsId": "TN:TRN-RADESMELIANE",
+           "name": "رادس مليان"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:11:00+01:00"
+          }
+         },
+         {
+          "name": "رادس",
+          "stop": {
+           "gtfsId": "TN:TRN-RADES",
+           "name": "رادس"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:14:00+01:00"
+          }
+         },
+         {
+          "name": "معهد رادس",
+          "stop": {
+           "gtfsId": "TN:TRN-LYCEERADES",
+           "name": "معهد رادس"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:17:00+01:00"
+          }
+         },
+         {
+          "name": "سيدي رزيق",
+          "stop": {
+           "gtfsId": "TN:TRN-SIDIREZIG",
+           "name": "سيدي رزيق"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:20:00+01:00"
+          }
+         },
+         {
+          "name": "مقرين",
+          "stop": {
+           "gtfsId": "TN:TRN-MEGRINE",
+           "name": "مقرين"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:22:00+01:00"
+          }
+         },
+         {
+          "name": "مقرين الرياض",
+          "stop": {
+           "gtfsId": "TN:TRN-MEGRINERIADH",
+           "name": "مقرين الرياض"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:24:00+01:00"
+          }
+         },
+         {
+          "name": "جبل الجلود",
+          "stop": {
+           "gtfsId": "TN:TRN-JEBELJELLOUD",
+           "name": "جبل الجلود"
+          },
+          "arrival": {
+           "scheduledTime": "2026-10-14T08:27:00+01:00"
+          }
+         }
+        ],
+        "steps": [],
+        "nextLegs": [
+         {
+          "start": {
+           "scheduledTime": "2026-10-14T08:25:00+01:00"
+          },
+          "end": {
+           "scheduledTime": "2026-10-14T09:01:00+01:00"
+          },
+          "trip": {
+           "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:140",
+           "tripShortName": "140"
+          }
+         },
+         {
+          "start": {
+           "scheduledTime": "2026-10-14T08:49:00+01:00"
+          },
+          "end": {
+           "scheduledTime": "2026-10-14T09:26:00+01:00"
+          },
+          "trip": {
+           "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:142",
+           "tripShortName": "142"
+          }
+         },
+         {
+          "start": {
+           "scheduledTime": "2026-10-14T09:15:00+01:00"
+          },
+          "end": {
+           "scheduledTime": "2026-10-14T09:51:00+01:00"
+          },
+          "trip": {
+           "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:146",
+           "tripShortName": "146"
+          }
+         }
+        ]
+       },
+       {
+        "mode": "WALK",
+        "distance": 55.38,
+        "duration": 50.0,
+        "transitLeg": false,
+        "serviceDate": null,
+        "headsign": null,
+        "start": {
+         "scheduledTime": "2026-10-14T08:37:00+01:00"
+        },
+        "end": {
+         "scheduledTime": "2026-10-14T08:37:50+01:00"
+        },
+        "from": {
+         "name": "تونس",
+         "lat": 36.79565,
+         "lon": 10.18085,
+         "stop": {
+          "gtfsId": "TN:TRN-TUNISVILLE",
+          "name": "تونس",
+          "platformCode": null
+         }
+        },
+        "to": {
+         "name": "Place Barcelone",
+         "lat": 36.7957,
+         "lon": 10.181,
+         "stop": null
+        },
+        "route": null,
+        "trip": null,
+        "legGeometry": {
+         "points": "ysq_Fimc}@D?Bb@O@EaA"
+        },
+        "intermediatePlaces": null,
+        "steps": [
+         {
+          "distance": 55.38,
+          "relativeDirection": "DEPART",
+          "absoluteDirection": "WEST",
+          "streetName": "service road",
+          "bogusName": true
+         }
+        ],
+        "nextLegs": null
+       }
+      ]
+     }
+    }
+   ]
+  }
+ }
+}

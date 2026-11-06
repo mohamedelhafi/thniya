@@ -1,0 +1,343 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-26B
+network: TRANSTU
+mode: BUS
+public_code: 26B
+name:
+  fr: Bus 26B
+  ar: حافلة 26ب
+long_name:
+  fr: Place de Barcelone – Mornag par la RN1 – Chala
+  ar: محطة برشلونة – مرناق عبر الطريق الوطنية 1 - شالة
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Mornag par la RN1 – Chala
+    ar: مرناق عبر الطريق الوطنية 1 - شالة
+- id: RETOUR
+  headsign:
+    fr: Place de Barcelone
+    ar: محطة برشلونة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-PLACE-DE-BARCELONE
+  - BUS-DUBOSVILLE
+  - BUS-CENTRE-DE-COORDINATION-OUARDIA
+  - BUS-EL-AFRANE
+  - BUS-DJEBEL-JELLOUD-GP1
+  - BUS-GARE-DJEBEL-JELLOUD
+  - BUS-STOA
+  - BUS-SOFOMECA
+  - BUS-CNSS
+  - BUS-SIEFCOL
+  - BUS-CENTRE-DE-FORMATION-SNT
+  - BUS-SOCIETE-NOUR
+  - BUS-LUSTRERIES
+  - BUS-GOUVERNORAT-DE-BEN-AROUS
+  - BUS-CITE-SPROLS
+  - BUS-MOSQUEE-MEDINA-JEDIDA
+  - BUS-MEDINA-JADIDA-1
+  - BUS-STADE-RADES
+  - BUS-USINE-DE-TOMATE
+  - BUS-OUED-MELIANE
+  - BUS-ONCV-BORJ-LOUZIR
+  - BUS-GP1-KIOSQUE-ESSO
+  - BUS-COMPTOIR-SFAXIEN
+  - BUS-POULINA
+  - BUS-CROISEMENT-EZZAHRA
+  - BUS-SETCAR
+  - BUS-CITE-MILED
+  - BUS-KM-14-CROISEMENT-GP1-MC39
+  - BUS-CITE-SPROLS-BOUMHEL
+  - BUS-AV-DE-L-ENVIRONNEMENT
+  - BUS-PLACE-14-JANVIER-BOUMHEL
+  - BUS-GAN
+  - BUS-CITE-SNIT-BOUMHEL
+  - BUS-ESPACE-RANINE
+  - BUS-ESPACE-CHRIF
+  - BUS-LE-CANAL
+  - BUS-EP-CHALA
+  - BUS-CARRIERE-MORNAG
+  - BUS-CITE-ECHIKH-2
+  - BUS-CITE-ECHIKH-1
+  - BUS-MORNAG
+  run_times:
+    FLUIDE:
+    - 6
+    - 2
+    - 1
+    - 3
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    - 4
+    - 2
+    - 1
+    - 1
+    - 1
+    - 5
+    - 2
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+    - 5
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    CHARGE:
+    - 8
+    - 3
+    - 2
+    - 5
+    - 2
+    - 4
+    - 3
+    - 1
+    - 4
+    - 1
+    - 2
+    - 4
+    - 3
+    - 2
+    - 2
+    - 1
+    - 7
+    - 3
+    - 3
+    - 4
+    - 3
+    - 1
+    - 2
+    - 2
+    - 3
+    - 4
+    - 1
+    - 4
+    - 3
+    - 3
+    - 3
+    - 1
+    - 7
+    - 3
+    - 3
+    - 4
+    - 2
+    - 4
+    - 4
+    - 2
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-MORNAG
+  - BUS-CITE-ECHIKH-1
+  - BUS-CITE-ECHIKH-2
+  - BUS-CARRIERE-MORNAG
+  - BUS-EP-CHALA
+  - BUS-LE-CANAL
+  - BUS-ESPACE-CHRIF
+  - BUS-ESPACE-RANINE
+  - BUS-CITE-SNIT-BOUMHEL
+  - BUS-GAN
+  - BUS-PLACE-14-JANVIER-BOUMHEL
+  - BUS-AV-DE-L-ENVIRONNEMENT
+  - BUS-CITE-SPROLS-BOUMHEL
+  - BUS-KM-14-CROISEMENT-GP1-MC39
+  - BUS-CITE-MILED
+  - BUS-SETCAR
+  - BUS-CROISEMENT-EZZAHRA
+  - BUS-POULINA
+  - BUS-COMPTOIR-SFAXIEN
+  - BUS-GP1-KIOSQUE-ESSO
+  - BUS-ONCV-BORJ-LOUZIR
+  - BUS-OUED-MELIANE
+  - BUS-USINE-DE-TOMATE
+  - BUS-STADE-RADES
+  - BUS-MEDINA-JADIDA-1
+  - BUS-LUSTRERIES
+  - BUS-SOCIETE-NOUR
+  - BUS-CENTRE-DE-FORMATION-SNT
+  - BUS-SIEFCOL
+  - BUS-CNSS
+  - BUS-SOFOMECA
+  - BUS-STOA
+  - BUS-GARE-DJEBEL-JELLOUD
+  - BUS-DJEBEL-JELLOUD-GP1
+  - BUS-EL-AFRANE
+  - BUS-CENTRE-DE-COORDINATION-OUARDIA
+  - BUS-DUBOSVILLE
+  - BUS-BAB-ALIOUA-GP1
+  - BUS-AVENUE-DE-LA-GARE
+  - BUS-PLACE-DE-BARCELONE
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    - 5
+    - 1
+    - 2
+    - 1
+    - 3
+    - 2
+    - 1
+    - 3
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 4
+    - 4
+    - 4
+    - 1
+    - 1
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    - 4
+    - 1
+    - 3
+    CHARGE:
+    - 3
+    - 3
+    - 4
+    - 3
+    - 4
+    - 3
+    - 2
+    - 7
+    - 2
+    - 3
+    - 2
+    - 4
+    - 3
+    - 2
+    - 3
+    - 4
+    - 1
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 3
+    - 7
+    - 6
+    - 5
+    - 1
+    - 2
+    - 3
+    - 1
+    - 4
+    - 4
+    - 2
+    - 5
+    - 1
+    - 3
+    - 5
+    - 2
+    - 4
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 06:10
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 06:30
+          last: '19:00'
+        RETOUR:
+          first: 06:10
+          last: '17:50'
+    bands:
+      NUIT:
+        headway_min: 25
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 25
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 25
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 25
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 35
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 06:40
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 07:00
+          last: '19:00'
+        RETOUR:
+          first: 06:40
+          last: '17:50'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 35
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 06:30 → 19:00, terminus 06:10 → 17:50) et fréquence de pointe (25 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, BarceloneH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 26B » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

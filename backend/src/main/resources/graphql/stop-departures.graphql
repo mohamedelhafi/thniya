@@ -1,0 +1,10 @@
+query StopDepartures($id: String!, $start: Long, $range: Int, $n: Int) {
+  stop(id: $id) {
+    gtfsId
+    name
+    stoptimesForPatterns(startTime: $start, timeRange: $range, numberOfDepartures: $n, omitNonPickups: true) {
+      pattern { code directionId headsign route { gtfsId } }
+      stoptimes { scheduledDeparture serviceDay headsign trip { gtfsId tripShortName } }
+    }
+  }
+}

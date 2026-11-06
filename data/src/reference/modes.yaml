@@ -1,0 +1,64 @@
+# yaml-language-server: $schema=../../schemas/modes.schema.json
+# Modes de transport et leur comportement (specs/04-donnees-modele.md §5)
+
+- id: TRAIN
+  name: { fr: "Train", ar: "قطار" }
+  gtfs_route_type: 2
+  # frequency : TGM, dont l'exploitant ne publie qu'un intervalle avec les premiers et derniers départs
+  schedule_kinds: [timetable, frequency]
+  shows_exact_times: true
+  icon: train
+  default_color: "#1565C0"
+  max_data_age_days: { timetable: 180, frequency: 180, fare: 365 }
+  status: active
+
+- id: METRO
+  name: { fr: "Métro léger", ar: "المترو الخفيف" }
+  gtfs_route_type: 0
+  schedule_kinds: [timetable, frequency]
+  shows_exact_times: true
+  icon: metro
+  default_color: "#2E7D32"
+  max_data_age_days: { timetable: 180, frequency: 180, fare: 365 }
+  status: active
+
+- id: BUS
+  name: { fr: "Bus", ar: "حافلة" }
+  gtfs_route_type: 3
+  schedule_kinds: [timetable, frequency, mixed]
+  shows_exact_times: true
+  icon: bus
+  default_color: "#C62828"
+  max_data_age_days: { timetable: 180, frequency: 120, fare: 365 }
+  status: active
+
+- id: LOUAGE
+  name: { fr: "Louage", ar: "لواج" }
+  gtfs_route_type: 3
+  schedule_kinds: [frequency]
+  shows_exact_times: false
+  departs_when_full: true
+  seats: 8
+  icon: louage
+  default_color: "#E8A317"
+  max_data_age_days: { frequency: 120, fare: 90 }
+  status: active
+
+- id: TAXI_COLLECTIF
+  name: { fr: "Taxi collectif", ar: "تاكسي جماعي" }
+  gtfs_route_type: 3
+  schedule_kinds: [frequency]
+  shows_exact_times: false
+  departs_when_full: true
+  icon: taxi
+  default_color: "#F9A825"
+  status: draft
+
+- id: FERRY
+  name: { fr: "Bac", ar: "بطاح" }
+  gtfs_route_type: 4
+  schedule_kinds: [timetable, frequency]
+  shows_exact_times: true
+  icon: ferry
+  default_color: "#00838F"
+  status: draft

@@ -1,0 +1,24 @@
+name: Correction de données
+description: Un horaire, un tarif, un arrêt ou un trajet est faux
+labels: [données]
+body:
+  - type: input
+    id: quoi
+    attributes:
+      label: Ligne ou arrêt concerné
+      placeholder: "Bus 20B, gare de Hammam Lif…"
+    validations:
+      required: true
+  - type: textarea
+    id: erreur
+    attributes:
+      label: Ce qui est faux et la bonne information
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Votre source
+      description: Lien officiel, relevé terrain (date et lieu), affiche. Évitez les informations personnelles sur les photos.
+    validations:
+      required: true

@@ -1,0 +1,160 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-14A
+network: TRANSTU
+mode: BUS
+public_code: 14A
+name:
+  fr: Bus 14A
+  ar: حافلة 14أ
+long_name:
+  fr: Ali Belhouane – El Omrane Supérieur
+  ar: محطة علي بلهوان – العمران الأعلى
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: El Omrane Supérieur
+    ar: العمران الأعلى
+- id: RETOUR
+  headsign:
+    fr: Ali Belhouane
+    ar: محطة علي بلهوان
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-ALI-BELHOUANE
+  - BUS-SIDI-ALOUI
+  - BUS-BAB-SADOUN
+  - BUS-GARE-ROUTIERE-NORD-RETOUR
+  - BUS-FOYER-BARDO-1-ALLER
+  - BUS-FOYER-BARDO-2-ALLER
+  - BUS-CENTER-DE-FORMATION-RAS-TABIA-ALLER
+  - BUS-RESIDENCE-YESMINE-ALLER
+  - BUS-ETTAHRIR-SUPERIEUR
+  - BUS-OMRANE-SUPERIEUR-ALLER
+  run_times:
+    FLUIDE:
+    - 2
+    - 5
+    - 1
+    - 2
+    - 3
+    - 1
+    - 3
+    - 1
+    - 3
+    CHARGE:
+    - 3
+    - 7
+    - 1
+    - 4
+    - 3
+    - 2
+    - 4
+    - 2
+    - 4
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-OMRANE-SUPERIEUR-ALLER
+  - BUS-ETTAHRIR-SUPERIEUR
+  - BUS-RESIDENCE-YESMINE-ALLER
+  - BUS-CENTER-DE-FORMATION-RAS-TABIA-ALLER
+  - BUS-FOYER-BARDO-2-ALLER
+  - BUS-FOYER-BARDO-1-ALLER
+  - BUS-GARE-ROUTIERE-NORD-RETOUR
+  - BUS-BAB-SADOUN
+  - BUS-SIDI-ALOUI
+  - BUS-ALI-BELHOUANE
+  run_times:
+    FLUIDE:
+    - 3
+    - 1
+    - 3
+    - 1
+    - 2
+    - 3
+    - 1
+    - 5
+    - 2
+    CHARGE:
+    - 4
+    - 1
+    - 5
+    - 1
+    - 4
+    - 3
+    - 2
+    - 7
+    - 3
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 03:40
+      last: '24:00'
+      by_direction:
+        ALLER:
+          first: 04:10
+          last: '24:00'
+        RETOUR:
+          first: 03:40
+          last: '23:15'
+    bands:
+      NUIT:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 30
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 30
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 40
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 04:10
+      last: '24:00'
+      by_direction:
+        ALLER:
+          first: 04:40
+          last: '24:00'
+        RETOUR:
+          first: 04:10
+          last: '23:15'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 04:10 → 00:00, terminus 03:40 → 23:15) et fréquence de pointe (30 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, belehouenH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 14A » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

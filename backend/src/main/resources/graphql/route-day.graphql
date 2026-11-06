@@ -1,0 +1,16 @@
+query RouteDay($id: String!, $date: String!) {
+  route(id: $id) {
+    gtfsId
+    patterns {
+      code
+      directionId
+      headsign
+      stops { gtfsId }
+      tripsForDate(serviceDate: $date) {
+        gtfsId
+        tripShortName
+        stoptimes { stop { gtfsId } scheduledDeparture scheduledArrival }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+name: Bug
+description: L'application ou l'API ne fonctionne pas comme prévu
+labels: [bug]
+body:
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes pour reproduire
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Résultat attendu et résultat obtenu
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version des données et appareil
+      description: La version figure dans Réglages → À propos des données.

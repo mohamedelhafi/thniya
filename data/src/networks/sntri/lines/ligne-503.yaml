@@ -1,0 +1,89 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-503
+network: SNTRI
+mode: BUS
+public_code: '503'
+name:
+  fr: Tunis Sud – Ben Guerdane
+  ar: تونس الجنوبية – بن قردان
+long_name:
+  fr: Tunis Sud – Ben Guerdane par Sousse, Sfax et Médenine
+  ar: تونس الجنوبية – بن قردان عبر سوسة، صفاقس، مدنين
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Ben Guerdane
+    ar: بن قردان
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-GROMBALIA
+  - SNTRI-ENFIDHA
+  - SNTRI-SOUSSE
+  - SNTRI-EL-JEM
+  - SNTRI-SFAX
+  - SNTRI-MAHARES
+  - SNTRI-SKHIRA
+  - SNTRI-GABES
+  - SNTRI-MARETH
+  - SNTRI-MEDENINE
+  - SNTRI-B-GUARDEN
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-B-GUARDEN
+  - SNTRI-MEDENINE
+  - SNTRI-MARETH
+  - SNTRI-GABES
+  - SNTRI-SKHIRA
+  - SNTRI-MAHARES
+  - SNTRI-SFAX
+  - SNTRI-EL-JEM
+  - SNTRI-SOUSSE
+  - SNTRI-ENFIDHA
+  - SNTRI-GROMBALIA
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/503
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 503 « TUNIS SUD - B. GUARDEN »
+        (563 km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-503
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 503 « TUNIS SUD - B. GUARDEN » (563
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

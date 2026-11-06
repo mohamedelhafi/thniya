@@ -1,0 +1,175 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-66
+network: TRANSTU
+mode: BUS
+public_code: '66'
+name:
+  fr: Bus 66
+  ar: حافلة 66
+long_name:
+  fr: Tebourba – Dkhila
+  ar: محطة طبربة – الدخيلة
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Dkhila
+    ar: الدخيلة
+- id: RETOUR
+  headsign:
+    fr: Tebourba
+    ar: محطة طبربة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-TEBOURBA
+  - BUS-CITE-ERRAJET
+  - BUS-LYCEE-TECHNIQUE-TEBOURBA
+  - BUS-HOPITAL-TEBOURBA
+  - BUS-FRIGO
+  - BUS-ROUTE-CHOUIGUI
+  - BUS-ENTREE-CHOUIGUI
+  - BUS-FORET-DE-TEBOURBA
+  - BUS-CROISEMENT-MATEUR
+  - BUS-LYCEE-EDKHILA
+  - BUS-EDKHILA
+  - BUS-TERMINUS-EDKHILA
+  run_times:
+    FLUIDE:
+    - 4
+    - 4
+    - 1
+    - 10
+    - 1
+    - 5
+    - 4
+    - 15
+    - 10
+    - 2
+    - 2
+    CHARGE:
+    - 6
+    - 5
+    - 2
+    - 13
+    - 3
+    - 7
+    - 6
+    - 20
+    - 15
+    - 2
+    - 3
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-EDKHILA
+  - BUS-EDKHILA
+  - BUS-LYCEE-EDKHILA
+  - BUS-CROISEMENT-MATEUR
+  - BUS-FORET-DE-TEBOURBA
+  - BUS-ENTREE-CHOUIGUI
+  - BUS-ROUTE-CHOUIGUI
+  - BUS-FRIGO
+  - BUS-HOPITAL-TEBOURBA
+  - BUS-LYCEE-TECHNIQUE-TEBOURBA
+  - BUS-CITE-ERRAJET
+  - BUS-E-P-TEBOURBA
+  - BUS-TEBOURBA
+  run_times:
+    FLUIDE:
+    - 2
+    - 1
+    - 11
+    - 14
+    - 5
+    - 5
+    - 1
+    - 10
+    - 1
+    - 3
+    - 3
+    - 2
+    CHARGE:
+    - 2
+    - 3
+    - 14
+    - 21
+    - 6
+    - 7
+    - 2
+    - 14
+    - 1
+    - 6
+    - 4
+    - 3
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 04:40
+      last: '20:35'
+      by_direction:
+        ALLER:
+          first: 05:25
+          last: '20:00'
+        RETOUR:
+          first: 04:40
+          last: '20:35'
+    bands:
+      NUIT:
+        headway_min: 60
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 60
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 60
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 60
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 75
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:10
+      last: '20:35'
+      by_direction:
+        ALLER:
+          first: 05:55
+          last: '20:00'
+        RETOUR:
+          first: 05:10
+          last: '20:35'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 80
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 05:25 → 20:00, terminus 04:40 → 20:35) et fréquence de pointe (60 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, TebourbaH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 66 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

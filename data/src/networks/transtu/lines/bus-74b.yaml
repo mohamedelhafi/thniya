@@ -1,0 +1,274 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-74B
+network: TRANSTU
+mode: BUS
+public_code: 74B
+name:
+  fr: Bus 74B
+  ar: حافلة 74ب
+long_name:
+  fr: Mourouj 5 – Bab Saadoun
+  ar: مروج 5 – باب سعدون
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Bab Saadoun
+    ar: باب سعدون
+- id: RETOUR
+  headsign:
+    fr: Mourouj 5
+    ar: مروج 5
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-MOUROUJ-5
+  - BUS-AV-EL-BORHENE
+  - BUS-CITE-AFH
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-5
+  - BUS-CITE-EL-FAOUEZ
+  - BUS-14-JANVIER
+  - BUS-CENTRE-CHALLAKH-EL-MOUROUJ-4
+  - BUS-FOYER-UNIVERSITAIRE-MOUROUJ-3
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-3
+  - BUS-MOUROUJ-3
+  - BUS-MEUBLATEX
+  - BUS-IMMEUBLE-OASIS
+  - BUS-BATAM
+  - BUS-LES-ROSES-MOUROUJ-1
+  - BUS-CROISEMENT-MOUROUJ-2
+  - BUS-PONT-MOUROUJ-2
+  - BUS-HAMMAM-LACAGNA
+  - BUS-LA-CAGNA
+  - BUS-LYCEE-2-MARS-EL-OUARDIA
+  - BUS-13-AOUT
+  - BUS-POSTE-POLICE-RUE-DU-SAHEL
+  - BUS-RUE-DU-SAHEL
+  - BUS-SALLE-DES-FETES-KERMESS
+  - BUS-ARRET-ESSAYDA-ALLER
+  - BUS-GORJANI-ALLER
+  - BUS-MOSQUEE-AL-HAWA-ALLER
+  - BUS-FACULTE-9-AVRIL-ALLER
+  - BUS-TELECOM
+  - BUS-CHARLE-NICOLE-ALLER
+  - BUS-HOPITAL-DES-ENFANTS
+  run_times:
+    FLUIDE:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 4
+    - 6
+    - 2
+    - 1
+    - 1
+    - 1
+    - 2
+    - 11
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    CHARGE:
+    - 1
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    - 2
+    - 5
+    - 8
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    - 16
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 1
+    - 3
+    - 4
+    - 1
+    - 3
+    - 2
+    - 4
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-HOPITAL-DES-ENFANTS
+  - BUS-CHARLE-NICOLE-ALLER
+  - BUS-TRIBUNAL-TAAKIB
+  - BUS-FACULTE-9-AVRIL-ALLER
+  - BUS-MOSQUEE-AL-HAWA-ALLER
+  - BUS-GORJANI-ALLER
+  - BUS-ARRET-ESSAYDA-ALLER
+  - BUS-SALLE-DES-FETES-KERMESS
+  - BUS-RUE-DU-SAHEL
+  - BUS-POSTE-POLICE-RUE-DU-SAHEL
+  - BUS-13-AOUT
+  - BUS-LYCEE-2-MARS-EL-OUARDIA
+  - BUS-LA-CAGNA
+  - BUS-HAMMAM-LACAGNA
+  - BUS-PONT-MOUROUJ-2
+  - BUS-CROISEMENT-MOUROUJ-2
+  - BUS-LES-ROSES-MOUROUJ-1
+  - BUS-BATAM
+  - BUS-IMMEUBLE-OASIS
+  - BUS-MEUBLATEX
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-3
+  - BUS-FOYER-UNIVERSITAIRE-MOUROUJ-3
+  - BUS-CENTRE-CHALLAKH-EL-MOUROUJ-4
+  - BUS-14-JANVIER
+  - BUS-CITE-EL-FAOUEZ
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-5
+  - BUS-CITE-AFH
+  - BUS-MOUROUJ-5
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 2
+    - 1
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 11
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 3
+    - 1
+    - 2
+    CHARGE:
+    - 3
+    - 3
+    - 3
+    - 1
+    - 4
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 16
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 4
+    - 1
+    - 3
+    - 2
+    - 3
+    - 3
+    - 2
+    - 2
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 07:05
+      last: '16:20'
+      by_direction:
+        ALLER:
+          first: 07:05
+          last: '16:20'
+        RETOUR:
+          first: 08:30
+          last: '15:05'
+    bands:
+      NUIT:
+        headway_min: 155
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 155
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 155
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 155
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 195
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 07:35
+      last: '16:20'
+      by_direction:
+        ALLER:
+          first: 07:35
+          last: '16:20'
+        RETOUR:
+          first: 09:00
+          last: '15:05'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 205
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 07:05 → 16:20, terminus 08:30 → 15:05) et fréquence de pointe (155 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, ResteLigneH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 74B » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

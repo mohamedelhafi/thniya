@@ -1,0 +1,109 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-145
+network: SNTRI
+mode: BUS
+public_code: '145'
+name:
+  fr: Tunis Sud – El Alaa
+  ar: تونس الجنوبية – العلا
+long_name:
+  fr: Tunis Sud – El Alaa par Oueslatia
+  ar: تونس الجنوبية – العلا عبر الوسلاتية
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: El Alaa
+    ar: العلا
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-FOUCHANA
+  - SNTRI-M-HAMEDIA
+  - SNTRI-J-OUEST
+  - SNTRI-B-M-CHERGUA
+  - SNTRI-EL-FAHS
+  - SNTRI-AMAIEM
+  - SNTRI-S-AOUIDET
+  - SNTRI-OUM-LEBOUAB
+  - SNTRI-MAAROUF
+  - SNTRI-O-LAKSAB
+  - SNTRI-EL-HAMMALA
+  - SNTRI-ALEXANDRE
+  - SNTRI-OUESLATIA
+  - SNTRI-ELALIA
+  - SNTRI-KIT-EL-OUED
+  - SNTRI-HAFFOUZ
+  - SNTRI-B-HAMOUDA
+  - SNTRI-O-JEBBAS
+  - SNTRI-EL-ALAA
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-EL-ALAA
+  - SNTRI-O-JEBBAS
+  - SNTRI-B-HAMOUDA
+  - SNTRI-HAFFOUZ
+  - SNTRI-KIT-EL-OUED
+  - SNTRI-ELALIA
+  - SNTRI-OUESLATIA
+  - SNTRI-ALEXANDRE
+  - SNTRI-EL-HAMMALA
+  - SNTRI-O-LAKSAB
+  - SNTRI-MAAROUF
+  - SNTRI-OUM-LEBOUAB
+  - SNTRI-S-AOUIDET
+  - SNTRI-AMAIEM
+  - SNTRI-EL-FAHS
+  - SNTRI-B-M-CHERGUA
+  - SNTRI-J-OUEST
+  - SNTRI-M-HAMEDIA
+  - SNTRI-FOUCHANA
+  - SNTRI-TUNIS-SUD
+  shape: auto
+notes:
+  r:
+    fr: Ne circule pas le jeudi
+    ar: لا يسير يوم الخميس
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/145
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 145 « TUNIS SUD - EL ALAA »
+        (200 km) ; jour sans service : jeu open data SNTRI « horaires des bus » (data.transport.tn, 2026-01-25)'
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-145
+provenance:
+  source: OFFICIEL
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 145 « TUNIS SUD - EL ALAA » (200
+    km) ; jour sans service : jeu open data SNTRI « horaires des bus » (data.transport.tn, 2026-01-25)'
+  verified_at: '2026-10-14'
+  by: import-doc

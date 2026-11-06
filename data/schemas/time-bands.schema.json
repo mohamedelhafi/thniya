@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Tranches horaires (calendar/time-bands.yaml)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "applies_to": {
+        "type": "object",
+        "properties": {
+          "periods": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/periodId" }, "minItems": 1 },
+          "day_types": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/dayType" }, "minItems": 1 }
+        },
+        "required": ["periods", "day_types"],
+        "additionalProperties": false
+      },
+      "bands": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "string", "pattern": "^[A-Z_]+$" },
+            "from": { "$ref": "common.schema.json#/$defs/time" },
+            "to": { "$ref": "common.schema.json#/$defs/time" }
+          },
+          "required": ["id", "from", "to"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["applies_to", "bands"],
+    "additionalProperties": false
+  }
+}

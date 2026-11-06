@@ -1,0 +1,1157 @@
+# Généré par `python -m citydata import-doc` depuis doc/trains-banlieue/donnees/tarifs-banlieue-gtfs-2020-2021.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNCFT-A
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2020-09-01'
+  pairs:
+  - from: TRN-TUNISVILLE
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TUNISVILLE
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TUNISVILLE
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TUNISVILLE
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TUNISVILLE
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TUNISVILLE
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TUNISVILLE
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TUNISVILLE
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TUNISVILLE
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TUNISVILLE
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TUNISVILLE
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TUNISVILLE
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-TUNISVILLE
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-TUNISVILLE
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-TUNISVILLE
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-TUNISVILLE
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-JEBELJELLOUD
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-JEBELJELLOUD
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-JEBELJELLOUD
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-JEBELJELLOUD
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-JEBELJELLOUD
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-JEBELJELLOUD
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-JEBELJELLOUD
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-JEBELJELLOUD
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-MEGRINERIADH
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINERIADH
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINERIADH
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINERIADH
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINERIADH
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINERIADH
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINERIADH
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINERIADH
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINERIADH
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINERIADH
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINERIADH
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINERIADH
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINERIADH
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINERIADH
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINERIADH
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINERIADH
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINERIADH
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINE
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINE
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINE
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINE
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINE
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINE
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINE
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-MEGRINE
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-MEGRINE
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-SIDIREZIG
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-SIDIREZIG
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-SIDIREZIG
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-SIDIREZIG
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-SIDIREZIG
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-SIDIREZIG
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-SIDIREZIG
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-SIDIREZIG
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-SIDIREZIG
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEERADES
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEERADES
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEERADES
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEERADES
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEERADES
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEERADES
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-RADES
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-RADES
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-RADES
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-RADES
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-RADES
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-RADES
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-EZZAHRA
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-EZZAHRA
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-EZZAHRA
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-EZZAHRA
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-LYCEEEZZAHRA
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BOUKORNINE
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BOUKORNINE
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BOUKORNINE
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BOUKORNINE
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BOUKORNINE
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BOUKORNINE
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMLIF
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMLIF
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMLIF
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMLIF
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMLIF
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMLIF
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-STADE
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-STADE
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-STADE
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-STADE
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-STADE
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-STADE
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-TAHARSFAR
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TAHARSFAR
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TAHARSFAR
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TAHARSFAR
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TAHARSFAR
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TAHARSFAR
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-TAHARSFAR
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-TAHARSFAR
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-HAMMAMCHATT
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMCHATT
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMCHATT
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMCHATT
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMCHATT
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMCHATT
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-HAMMAMCHATT
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-HAMMAMCHATT
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-BIRELBEY
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BIRELBEY
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BIRELBEY
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BIRELBEY
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BIRELBEY
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BIRELBEY
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BIRELBEY
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BIRELBEY
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BIRELBEY
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-BORJCEDRIA
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-BORJCEDRIA
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BORJCEDRIA
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BORJCEDRIA
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BORJCEDRIA
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BORJCEDRIA
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BORJCEDRIA
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-BORJCEDRIA
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-BORJCEDRIA
+    to: TRN-ERRIADH
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-TUNISVILLE
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-ERRIADH
+    to: TRN-JEBELJELLOUD
+    price_millimes:
+      PLEIN: 800
+  - from: TRN-ERRIADH
+    to: TRN-MEGRINERIADH
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-ERRIADH
+    to: TRN-MEGRINE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-ERRIADH
+    to: TRN-SIDIREZIG
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-ERRIADH
+    to: TRN-LYCEERADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-ERRIADH
+    to: TRN-RADES
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-ERRIADH
+    to: TRN-RADESMELIANE
+    price_millimes:
+      PLEIN: 600
+  - from: TRN-ERRIADH
+    to: TRN-EZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-LYCEEEZZAHRA
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-BOUKORNINE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-HAMMAMLIF
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-STADE
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-TAHARSFAR
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-HAMMAMCHATT
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-BIRELBEY
+    price_millimes:
+      PLEIN: 450
+  - from: TRN-ERRIADH
+    to: TRN-BORJCEDRIA
+    price_millimes:
+      PLEIN: 450
+provenance:
+  source: ESTIMATION
+  ref: 'Dernier tarif connu : GTFS SNCFT « Spring 2021 version D » (validité 2020-09-01 → 2021-06-30), fare_attributes.txt
+    et fare_rules.txt, transcrits dans doc/trains-banlieue/donnees/tarifs-banlieue-gtfs-2020-2021.csv ; tarif en vigueur non
+    publié (recherches du 2026-10-14)'
+  verified_at: '2026-10-14'
+  by: import-doc

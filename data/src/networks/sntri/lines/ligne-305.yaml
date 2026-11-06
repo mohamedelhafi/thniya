@@ -1,0 +1,87 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-305
+network: SNTRI
+mode: BUS
+public_code: '305'
+name:
+  fr: Tunis Sud – Siliana
+  ar: تونس الجنوبية – سليانة
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Siliana
+    ar: سليانة
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-MORNAGUIA
+  - SNTRI-B-ELAMRI
+  - SNTRI-FURNA
+  - SNTRI-KM44
+  - SNTRI-BOUROUIG
+  - SNTRI-GOUBELLAT
+  - SNTRI-BOUARADA
+  - SNTRI-LAROUSSA
+  - SNTRI-GAAFOUR
+  - SNTRI-LAKHOUET
+  - SNTRI-LAKSAB
+  - SNTRI-SILIANA
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-SILIANA
+  - SNTRI-LAKSAB
+  - SNTRI-LAKHOUET
+  - SNTRI-GAAFOUR
+  - SNTRI-LAROUSSA
+  - SNTRI-BOUARADA
+  - SNTRI-GOUBELLAT
+  - SNTRI-BOUROUIG
+  - SNTRI-KM44
+  - SNTRI-FURNA
+  - SNTRI-B-ELAMRI
+  - SNTRI-MORNAGUIA
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/305
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 305 « TUNIS SUD - SILIANA » (151
+        km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-305
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 305 « TUNIS SUD - SILIANA » (151 km)
+  verified_at: '2026-10-14'
+  by: import-doc

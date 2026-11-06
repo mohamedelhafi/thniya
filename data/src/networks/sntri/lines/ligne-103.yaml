@@ -1,0 +1,85 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-103
+network: SNTRI
+mode: BUS
+public_code: '103'
+name:
+  fr: Sousse – Zarzis
+  ar: سوسة – جرجيس
+long_name:
+  fr: Sousse – Zarzis par Sfax et Médenine
+  ar: سوسة – جرجيس عبر صفاقس، مدنين
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Zarzis
+    ar: جرجيس
+- id: RETOUR
+  headsign:
+    fr: Sousse
+    ar: سوسة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-SOUSSE
+  - SNTRI-EL-JEM
+  - SNTRI-EL-HANCHA
+  - SNTRI-SFAX
+  - SNTRI-MAHARES
+  - SNTRI-SKHIRA
+  - SNTRI-GABES
+  - SNTRI-MARETH
+  - SNTRI-MEDENINE
+  - SNTRI-ZARZIS
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-ZARZIS
+  - SNTRI-MEDENINE
+  - SNTRI-MARETH
+  - SNTRI-GABES
+  - SNTRI-SKHIRA
+  - SNTRI-MAHARES
+  - SNTRI-SFAX
+  - SNTRI-EL-HANCHA
+  - SNTRI-EL-JEM
+  - SNTRI-SOUSSE
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/103
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 103 « SOUSSE - ZARZIS » (404 km,
+        base modifiée le 2022-03-11)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-103
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 103 « SOUSSE - ZARZIS » (404 km, base
+    modifiée le 2022-03-11)
+  verified_at: '2026-10-14'
+  by: import-doc

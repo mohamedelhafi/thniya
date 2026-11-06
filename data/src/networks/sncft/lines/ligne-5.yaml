@@ -1,0 +1,243 @@
+# Généré par `python -m citydata import-doc` depuis doc/trains-grandes-lignes/donnees/horaires-grandes-lignes-hiver-2026-2027.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNCFT-L5
+network: SNCFT
+mode: TRAIN
+public_code: '5'
+name:
+  fr: Tunis – Sfax – Gabès / Tozeur
+  ar: تونس – صفاقس – قابس / توزر
+long_name:
+  fr: Tunis – Bir Bou Regba – Sousse – Monastir – Mahdia – Sfax – Gabès – Gafsa – Métlaoui – Tozeur
+  ar: تونس – بئر بورقبة – سوسة – المنستير – المهدية – صفاقس – قابس – قفصة – المتلوي – توزر
+color: '#4527A0'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: SUD
+  headsign:
+    fr: Gabès
+    ar: قابس
+- id: TUNIS
+  headsign:
+    fr: Tunis Ville
+    ar: تونس
+patterns:
+- id: SUD-GABES-DIRECT
+  direction: SUD
+  main: false
+  stops:
+  - TRN-TUNISVILLE
+  - TRN-HAMMAMLIF
+  - TRN-BORJCEDRIA
+  - TRN-GROMBALIA
+  - TRN-BOUARGOUB
+  - TRN-BIRBOUREGBA
+  - TRN-BOUFICHA
+  - TRN-ENFIDHA
+  - TRN-KALAAKEBIRA
+  - TRN-KALAASEGHIRA
+  - TRN-MESSAADINE
+  - TRN-KERKER
+  - TRN-ELJEM
+  - TRN-LAHENCHA
+  - TRN-SAKIETEZZIT
+  - TRN-SFAX
+  - TRN-MAHRES
+  - TRN-GHRAIBA
+  - TRN-GABES
+  shape: auto
+- id: SUD-MAHDIA
+  direction: SUD
+  main: false
+  stops:
+  - TRN-TUNISVILLE
+  - TRN-HAMMAMLIF
+  - TRN-BORJCEDRIA
+  - TRN-GROMBALIA
+  - TRN-BOUARGOUB
+  - TRN-BIRBOUREGBA
+  - TRN-BOUFICHA
+  - TRN-ENFIDHA
+  - TRN-KALAAKEBIRA
+  - TRN-KALAASEGHIRA
+  - TRN-MESSAADINE
+  - TRN-MONASTIR
+  - TRN-MAHDIA
+  shape: auto
+- id: SUD-GABES
+  direction: SUD
+  main: true
+  stops:
+  - TRN-TUNISVILLE
+  - TRN-HAMMAMLIF
+  - TRN-BORJCEDRIA
+  - TRN-GROMBALIA
+  - TRN-BOUARGOUB
+  - TRN-BIRBOUREGBA
+  - TRN-BOUFICHA
+  - TRN-ENFIDHA
+  - TRN-KALAAKEBIRA
+  - TRN-KALAASEGHIRA
+  - TRN-SOUSSE
+  - TRN-MESSAADINE
+  - TRN-KERKER
+  - TRN-ELJEM
+  - TRN-LAHENCHA
+  - TRN-SAKIETEZZIT
+  - TRN-SFAX
+  - TRN-MAHRES
+  - TRN-GHRAIBA
+  - TRN-GABES
+  shape: auto
+- id: SUD-TOZEUR
+  direction: SUD
+  main: false
+  stops:
+  - TRN-TUNISVILLE
+  - TRN-HAMMAMLIF
+  - TRN-BORJCEDRIA
+  - TRN-GROMBALIA
+  - TRN-BOUARGOUB
+  - TRN-BIRBOUREGBA
+  - TRN-BOUFICHA
+  - TRN-ENFIDHA
+  - TRN-KALAAKEBIRA
+  - TRN-KALAASEGHIRA
+  - TRN-SOUSSE
+  - TRN-MESSAADINE
+  - TRN-KERKER
+  - TRN-ELJEM
+  - TRN-LAHENCHA
+  - TRN-SAKIETEZZIT
+  - TRN-SFAX
+  - TRN-MAHRES
+  - TRN-GHRAIBA
+  - TRN-MAKNASSY
+  - TRN-SENED
+  - TRN-GAFSA
+  - TRN-METLAOUI
+  - TRN-TOZEUR
+  shape: auto
+- id: NORD-GABES
+  direction: TUNIS
+  main: true
+  stops:
+  - TRN-GABES
+  - TRN-GHRAIBA
+  - TRN-MAHRES
+  - TRN-SFAX
+  - TRN-SAKIETEZZIT
+  - TRN-LAHENCHA
+  - TRN-ELJEM
+  - TRN-KERKER
+  - TRN-MESSAADINE
+  - TRN-SOUSSE
+  - TRN-KALAASEGHIRA
+  - TRN-KALAAKEBIRA
+  - TRN-ENFIDHA
+  - TRN-BOUFICHA
+  - TRN-BIRBOUREGBA
+  - TRN-BOUARGOUB
+  - TRN-GROMBALIA
+  - TRN-BORJCEDRIA
+  - TRN-HAMMAMLIF
+  - TRN-TUNISVILLE
+  shape: auto
+- id: NORD-TOZEUR
+  direction: TUNIS
+  main: false
+  stops:
+  - TRN-TOZEUR
+  - TRN-METLAOUI
+  - TRN-GAFSA
+  - TRN-SENED
+  - TRN-MAKNASSY
+  - TRN-GHRAIBA
+  - TRN-MAHRES
+  - TRN-SFAX
+  - TRN-SAKIETEZZIT
+  - TRN-LAHENCHA
+  - TRN-ELJEM
+  - TRN-KERKER
+  - TRN-MESSAADINE
+  - TRN-SOUSSE
+  - TRN-KALAASEGHIRA
+  - TRN-KALAAKEBIRA
+  - TRN-ENFIDHA
+  - TRN-BOUFICHA
+  - TRN-BIRBOUREGBA
+  - TRN-BOUARGOUB
+  - TRN-GROMBALIA
+  - TRN-BORJCEDRIA
+  - TRN-HAMMAMLIF
+  - TRN-TUNISVILLE
+  shape: auto
+- id: NORD-MAHDIA
+  direction: TUNIS
+  main: false
+  stops:
+  - TRN-MAHDIA
+  - TRN-MONASTIR
+  - TRN-MESSAADINE
+  - TRN-SOUSSE
+  - TRN-KALAASEGHIRA
+  - TRN-KALAAKEBIRA
+  - TRN-ENFIDHA
+  - TRN-BOUFICHA
+  - TRN-BIRBOUREGBA
+  - TRN-BOUARGOUB
+  - TRN-GROMBALIA
+  - TRN-BORJCEDRIA
+  - TRN-HAMMAMLIF
+  - TRN-TUNISVILLE
+  shape: auto
+notes:
+  ouediane:
+    fr: 'Dessert aussi El Ouediane (gare non représentée : position inconnue)'
+    ar: يتوقف أيضا بمحطة الوديان
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+  A:
+    days:
+    - OUVRABLE
+    - DIMANCHE
+    label:
+      fr: Tous les jours sauf les samedis et les veilles de fêtes
+      ar: كل الأيام ما عدا السبت و الأيام التي تسبق العطل الرسمية
+  A2:
+    days:
+    - OUVRABLE
+    - SAMEDI
+    label:
+      fr: Tous les jours sauf les dimanches et fêtes
+      ar: كل الأيام ما عدا الآحاد و العطل الرسمية
+schedule:
+  kind: timetable
+  source_dir: timetables/ligne-5
+  fallback: inherit
+  versions:
+  - id: HIVER-2026-2027
+    valid_from: '2026-09-01'
+    valid_to: '2027-06-30'
+    provenance:
+      source: OFFICIEL
+      ref: Affiche SNCFT « Horaires des trains Grandes Lignes » ligne 5 Tunis – Tozeur, du 1er septembre 2026 au 30 juin 2027
+        sauf mois de Ramadan (pages 1 et 2) (https://www.sncft.com.tn/wp-content/uploads/2026/09/L-5-TUNIS-TOZEUR-Hiver-2026-2027-1_page-0001-1-scaled.jpg
+        et …page-0002-1-scaled.jpg), page https://www.sncft.com.tn/voyageurs/horaires/ consultée le 2026-10-14 ; transcription
+        doc/trains-grandes-lignes/donnees/horaires-grandes-lignes-hiver-2026-2027.csv
+      verified_at: '2026-10-14'
+      by: import-doc
+provenance:
+  source: OFFICIEL
+  ref: https://www.sncft.com.tn/voyageurs/horaires/ — affiche hiver 2026-2027 (https://www.sncft.com.tn/wp-content/uploads/2026/09/L-5-TUNIS-TOZEUR-Hiver-2026-2027-1_page-0001-1-scaled.jpg
+    et …page-0002-1-scaled.jpg)
+  verified_at: '2026-10-14'
+  by: import-doc

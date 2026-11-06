@@ -1,0 +1,39 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/sntri.md.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI
+name:
+  fr: SNTRI
+  ar: الشركة الوطنية للنقل بين المدن
+long_name:
+  fr: Société nationale de transport interurbain
+  ar: الشركة الوطنية للنقل بين المدن
+url: https://sntri.com.tn
+phone: +216 80 104 433
+timezone: Africa/Tunis
+calendar:
+  day_type_scheme:
+    mon: OUVRABLE
+    tue: OUVRABLE
+    wed: OUVRABLE
+    thu: OUVRABLE
+    fri: OUVRABLE
+    sat: SAMEDI
+    sun: DIMANCHE
+  holiday_day_type: DIMANCHE
+  periods:
+  - RAMADAN
+  - ETE
+  - NORMAL
+  fallback:
+    periods:
+      RAMADAN: NORMAL
+      ETE: NORMAL
+    day_types:
+      DIMANCHE: SAMEDI
+      SAMEDI: OUVRABLE
+status: active
+provenance:
+  source: OFFICIEL
+  ref: 'sntri.com.tn (consulté le 2026-10-14) ; téléphone du service clients : fiche doc/bus/regional-interurbain/sntri.md'
+  verified_at: '2026-10-14'
+  by: import-doc

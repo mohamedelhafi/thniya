@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Événements d'une année (calendar/years/AAAA.yaml)",
+  "type": "object",
+  "properties": {
+    "year": { "type": "integer", "minimum": 2020, "maximum": 2100 },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "pattern": "^[A-Z_0-9]+$" },
+          "kind": { "enum": ["holiday", "period_event", "special"] },
+          "date": { "$ref": "common.schema.json#/$defs/date" },
+          "from": { "$ref": "common.schema.json#/$defs/date" },
+          "to": { "$ref": "common.schema.json#/$defs/date" },
+          "status": { "enum": ["estimated", "confirmed"] },
+          "name": { "$ref": "common.schema.json#/$defs/i18n" },
+          "source": { "type": "string" }
+        },
+        "required": ["id", "kind", "status"],
+        "oneOf": [
+          { "required": ["date"], "not": { "anyOf": [{ "required": ["from"] }, { "required": ["to"] }] } },
+          { "required": ["from", "to"], "not": { "required": ["date"] } }
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["year", "events"],
+  "additionalProperties": false
+}

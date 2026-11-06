@@ -1,0 +1,31 @@
+id: TST-T
+network: TST
+mode: TRAIN
+public_code: "T"
+name: { fr: "Train test", ar: "قطار تجريبي" }
+color: "#1565C0"
+text_color: "#FFFFFF"
+status: active
+directions:
+  - { id: NORD, headsign: { fr: "Gamma", ar: "غاما" } }
+  - { id: SUD, headsign: { fr: "Alpha", ar: "ألفا" } }
+patterns:
+  - { id: N, direction: NORD, main: true, stops: [TST-A, TST-B, TST-C] }
+  - { id: S, direction: SUD, main: true, stops: [TST-C, TST-B, TST-A] }
+notes:
+  a: { fr: "Note a", ar: "ملاحظة" }
+day_codes:
+  "A": { days: [OUVRABLE, SAMEDI], label: { fr: "Sauf dimanches", ar: "ما عدى الآحاد" } }
+  "B": { days: [DIMANCHE], label: { fr: "Dimanches", ar: "الآحاد" } }
+  "-": { days: [OUVRABLE, SAMEDI, DIMANCHE], label: { fr: "Tous les jours", ar: "كل الأيام" } }
+schedule:
+  kind: timetable
+  source_dir: timetables/train
+  versions:
+    - id: V1
+      valid_from: "2030-01-01"
+      valid_to: "2030-01-31"
+      corrections:
+        - { direction: NORD, train: "1", stop: TST-B, printed: "16:10", corrected: "06:10", reason: "test" }
+fare: null
+provenance: { source: OFFICIEL, verified_at: "2030-01-01" }

@@ -1,0 +1,99 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-182
+network: SNTRI
+mode: BUS
+public_code: '182'
+name:
+  fr: Tunis Sud – Sidi Bouzid
+  ar: تونس الجنوبية – سيدي بوزيد
+long_name:
+  fr: Tunis Sud – Sidi Bouzid par Kairouan
+  ar: تونس الجنوبية – سيدي بوزيد عبر القيروان
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Sidi Bouzid
+    ar: سيدي بوزيد
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-F-JEDID
+  - SNTRI-GROMBALIA
+  - SNTRI-B-SAHEL
+  - SNTRI-B-CASERNE
+  - SNTRI-BOUFICHA
+  - SNTRI-ENFIDHA
+  - SNTRI-KAIROUAN
+  - SNTRI-BOUHAJLA
+  - SNTRI-CHARARDA
+  - SNTRI-KM87
+  - SNTRI-HAFFOUZ-2
+  - SNTRI-KM102
+  - SNTRI-EL-FAIEDH
+  - SNTRI-LASSOUDA
+  - SNTRI-SIDI-BOUZID
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-SIDI-BOUZID
+  - SNTRI-LASSOUDA
+  - SNTRI-EL-FAIEDH
+  - SNTRI-KM102
+  - SNTRI-HAFFOUZ-2
+  - SNTRI-KM87
+  - SNTRI-CHARARDA
+  - SNTRI-BOUHAJLA
+  - SNTRI-KAIROUAN
+  - SNTRI-ENFIDHA
+  - SNTRI-BOUFICHA
+  - SNTRI-B-CASERNE
+  - SNTRI-B-SAHEL
+  - SNTRI-GROMBALIA
+  - SNTRI-F-JEDID
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/182
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 182 « TUNIS SUD - SIDI BOUZID
+        » (288 km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-182
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 182 « TUNIS SUD - SIDI BOUZID » (288
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

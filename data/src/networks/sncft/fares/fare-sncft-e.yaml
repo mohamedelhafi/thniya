@@ -1,0 +1,17 @@
+# Généré par `python -m citydata import-doc` depuis doc/trains-banlieue/tarifs-et-abonnements.md.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNCFT-E
+model: flat
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2023-03-27'
+  price_millimes:
+    PLEIN: 700
+provenance:
+  source: ESTIMATION
+  ref: 'Dernier tarif connu : 0,700 DT, tarif unique de la ligne E depuis le 2023-03-27 (communiqué SNCFT relayé par Webdo,
+    2023, voir doc/trains-banlieue/tarifs-et-abonnements.md) ; tarif en vigueur non publié'
+  verified_at: '2026-10-14'
+  by: import-doc

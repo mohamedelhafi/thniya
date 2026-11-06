@@ -1,0 +1,256 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-62A
+network: TRANSTU
+mode: BUS
+public_code: 62A
+name:
+  fr: Bus 62A
+  ar: حافلة 62أ
+long_name:
+  fr: 10 Décembre – Sidi Amor
+  ar: محطة الترابط 10 ديسمبر – سيدي عمر
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Sidi Amor
+    ar: سيدي عمر
+- id: RETOUR
+  headsign:
+    fr: 10 Décembre
+    ar: محطة الترابط 10 ديسمبر
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-10-DECEMBRE-2
+  - BUS-TOUTA-10-DECEMBRE
+  - BUS-LYCEE-ARIANA
+  - BUS-LA-POSTE
+  - BUS-ARRET-BAB-HADID
+  - BUS-MAGRO
+  - BUS-CITE-ELLIL
+  - BUS-HOPITAL-MAHMOUD-MATRI
+  - BUS-TOUBEN-2
+  - BUS-CROISEMENT-RIADH-ANDALOUS
+  - BUS-CITE-EL-GHAZELA
+  - BUS-USINE-DE-CARRELAGE
+  - BUS-CITE-POPULAIRE-ENNAHLI
+  - BUS-CARRIERE-NAHLI
+  - BUS-NAHLI
+  - BUS-NAHLI-2
+  - BUS-NAHLI-3
+  - BUS-GUICHET-GEANT
+  - BUS-CITE-26-26
+  - BUS-MOSQUEE-BORJE-TOUILE
+  - BUS-EJLAME
+  - BUS-ECOLE-NATIONALE-DES-PRISONS
+  - BUS-STADE-ESSIEBE
+  - BUS-CITE-CHAKER-RAOUED
+  - BUS-MOSQUEE-CITE-CHAKER-RAOUED
+  - BUS-SIDI-AMOR
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    - 4
+    - 2
+    - 3
+    - 4
+    - 11
+    - 2
+    - 1
+    - 1
+    - 4
+    - 4
+    - 2
+    - 2
+    CHARGE:
+    - 2
+    - 4
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 4
+    - 3
+    - 3
+    - 3
+    - 3
+    - 6
+    - 4
+    - 4
+    - 6
+    - 16
+    - 2
+    - 1
+    - 2
+    - 6
+    - 6
+    - 2
+    - 4
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-SIDI-AMOR
+  - BUS-MOSQUEE-CITE-CHAKER-RAOUED
+  - BUS-CITE-CHAKER-RAOUED
+  - BUS-STADE-ESSIEBE
+  - BUS-ECOLE-NATIONALE-DES-PRISONS
+  - BUS-EJLAME
+  - BUS-MOSQUEE-BORJE-TOUILE
+  - BUS-CITE-26-26
+  - BUS-GUICHET-GEANT
+  - BUS-NAHLI-3
+  - BUS-NAHLI-2
+  - BUS-NAHLI
+  - BUS-CARRIERE-NAHLI
+  - BUS-CITE-POPULAIRE-ENNAHLI
+  - BUS-USINE-DE-CARRELAGE
+  - BUS-CITE-EL-GHAZELA
+  - BUS-CROISEMENT-RIADH-ANDALOUS
+  - BUS-TOUBEN-2
+  - BUS-HOPITAL-MAHMOUD-MATRI
+  - BUS-CITE-ELLIL
+  - BUS-MAGRO
+  - BUS-ARRET-BAB-HADID
+  - BUS-LA-POSTE
+  - BUS-LYCEE-ARIANA
+  - BUS-TOUTA-10-DECEMBRE
+  - BUS-10-DECEMBRE-2
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 4
+    - 4
+    - 2
+    - 1
+    - 1
+    - 11
+    - 4
+    - 3
+    - 3
+    - 4
+    - 3
+    - 2
+    - 1
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    CHARGE:
+    - 4
+    - 2
+    - 5
+    - 6
+    - 3
+    - 1
+    - 2
+    - 16
+    - 6
+    - 3
+    - 4
+    - 6
+    - 4
+    - 3
+    - 3
+    - 2
+    - 4
+    - 3
+    - 1
+    - 3
+    - 3
+    - 2
+    - 3
+    - 3
+    - 3
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:00
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 06:00
+          last: '19:00'
+        RETOUR:
+          first: 05:00
+          last: '18:00'
+    bands:
+      NUIT:
+        headway_min: 60
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 60
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 60
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 60
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 75
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:30
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 06:30
+          last: '19:00'
+        RETOUR:
+          first: 05:30
+          last: '18:00'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 80
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 06:00 → 19:00, terminus 05:00 → 18:00) et fréquence de pointe (60 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, 10DécH26-27.jpg) [officiel] ; arrêts : open data Transtu
+    (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des stations
+    » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée (doc/bus/grand-tunis-transtu/donnees-ouvertes.md),
+    ligne open data « 62A » ; heures creuses et dimanche estimés : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après
+    19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports médians des départs détaillés de l''open
+    data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et
+    0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

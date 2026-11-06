@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Modes de transport (reference/modes.yaml)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "string", "pattern": "^[A-Z_]+$" },
+      "name": { "$ref": "common.schema.json#/$defs/i18n" },
+      "gtfs_route_type": { "type": "integer" },
+      "schedule_kinds": { "type": "array", "items": { "enum": ["timetable", "frequency", "mixed"] }, "minItems": 1 },
+      "shows_exact_times": { "type": "boolean" },
+      "departs_when_full": { "type": "boolean" },
+      "seats": { "type": "integer", "minimum": 1 },
+      "icon": { "type": "string" },
+      "default_color": { "$ref": "common.schema.json#/$defs/color" },
+      "max_data_age_days": {
+        "type": "object",
+        "additionalProperties": { "type": "integer", "minimum": 1 }
+      },
+      "status": { "$ref": "common.schema.json#/$defs/status" }
+    },
+    "required": ["id", "name", "gtfs_route_type", "schedule_kinds", "shows_exact_times", "icon", "status"],
+    "additionalProperties": false
+  }
+}

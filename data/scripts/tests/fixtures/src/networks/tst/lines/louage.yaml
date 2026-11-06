@@ -1,0 +1,41 @@
+id: TST-L
+network: TST
+mode: LOUAGE
+public_code: "→ C"
+name: { fr: "Louage Alpha → Gamma", ar: "لواج ألفا ← غاما" }
+color: "#E8A317"
+text_color: "#111417"
+status: active
+directions:
+  - { id: ALLER, headsign: { fr: "Gamma", ar: "غاما" } }
+patterns:
+  - id: ALLER
+    direction: ALLER
+    main: true
+    stops: [TST-A, { stop: TST-B, continuous: true }, TST-C]
+run_times:
+  FLUIDE: [10, 15]
+  CHARGE: [15, 25]
+schedule:
+  kind: frequency
+  regimes:
+    - periods: [NORMAL, ETE]
+      day_types: [OUVRABLE, SAMEDI]
+      service_hours: { first: "06:00", last: "21:00" }
+      bands:
+        POINTE: { headway_min: 10, run_time: CHARGE }
+        JOURNEE: { headway_min: 20, run_time: FLUIDE }
+    - periods: [RAMADAN]
+      day_types: [OUVRABLE, SAMEDI]
+      service_hours: { first: "07:00", last: "25:00" }
+      bands:
+        MATIN: { headway_min: 15, run_time: FLUIDE }
+        FTOUR: { headway_min: null }
+        SOIREE: { headway_min: 30, run_time: FLUIDE }
+    - periods: [NORMAL, ETE, RAMADAN]
+      day_types: [DIMANCHE]
+      service_hours: { first: "08:00", last: "20:00" }
+      bands:
+        TOUTE_LA_JOURNEE: { headway_min: 30, run_time: FLUIDE }
+fare: null
+provenance: { source: TERRAIN, verified_at: "2030-01-01" }

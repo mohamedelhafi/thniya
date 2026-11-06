@@ -1,0 +1,211 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-65
+network: TRANSTU
+mode: BUS
+public_code: '65'
+name:
+  fr: Bus 65
+  ar: حافلة 65
+long_name:
+  fr: Bab Alioua – Cité Ezzouhour 5
+  ar: محطة باب عليوة – حي الزهور 5
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Cité Ezzouhour 5
+    ar: حي الزهور 5
+- id: RETOUR
+  headsign:
+    fr: Bab Alioua
+    ar: محطة باب عليوة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-GARE-ROUTIERE-SUD
+  - BUS-SIDI-BECHIR-ALLER
+  - BUS-BAB-JDID-ALLER
+  - BUS-BAB-MNARA-ALLER
+  - BUS-KASBAH
+  - BUS-UNIVERSITE-IBN-CHARAF-ALLER
+  - BUS-STADE-MELLASSINE-ALLER
+  - BUS-SOUK-MELLASSINE-ALLER
+  - BUS-CENTRE-DE-FORMATION-ZOUHOUR-ALLER
+  - BUS-KHAROUBA-ALLER
+  - BUS-OFFICE-DE-L-HUILE-ALLER
+  - BUS-MIZANETTA-ALLER
+  - BUS-CASERNE-EZZOUHOUR-ALLER
+  - BUS-EZZOUHOUR-4-ALLER
+  - BUS-POSTE-POLICE-17-ZAHROUNI-ALLER
+  - BUS-EL-AKERMA-ALLER
+  - BUS-MOSQUEE-ZAHROUNI-ALLER
+  - BUS-TERMINUS-ZAHROUNI
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    - 1
+    CHARGE:
+    - 3
+    - 3
+    - 1
+    - 2
+    - 4
+    - 4
+    - 1
+    - 3
+    - 1
+    - 3
+    - 4
+    - 2
+    - 4
+    - 2
+    - 4
+    - 1
+    - 2
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-ZAHROUNI
+  - BUS-MOSQUE-ZAHROUNI-RETOUR
+  - BUS-EL-AKERMA-RETOUR
+  - BUS-POSTE-POLICE-17-ZAHROUNI-RETOUR
+  - BUS-EZZOUHOUR-4-RETOUR
+  - BUS-CASERNE-EZZOUHOUR-RETOUR
+  - BUS-MIZANETTA-RETOUR
+  - BUS-OFFICE-DE-L-HUILE-RETOUR
+  - BUS-KHAROUBA-RETOUR
+  - BUS-CENTRE-DE-FORMATION-ZOUHOUR-RETOUR
+  - BUS-SOUK-MELLASSINE-RETOUR
+  - BUS-STADE-MELLASSINE-RETOUR
+  - BUS-RABTA
+  - BUS-TRIBUNAL-TAAKIB
+  - BUS-BAB-MNARA-RETOUR
+  - BUS-BAB-JDID-RETOUR
+  - BUS-MOSQUEE-SIDI-BECHIR
+  - BUS-SIDI-BECHIR-RETOUR
+  - BUS-GARE-ROUTIERE-SUD
+  run_times:
+    FLUIDE:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    - 2
+    CHARGE:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 2
+    - 4
+    - 3
+    - 1
+    - 2
+    - 3
+    - 2
+    - 3
+    - 3
+    - 4
+    - 1
+    - 2
+    - 2
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:20
+      last: '19:40'
+      by_direction:
+        ALLER:
+          first: 06:05
+          last: '19:40'
+        RETOUR:
+          first: 05:20
+          last: '18:40'
+    bands:
+      NUIT:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 40
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 40
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 50
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:50
+      last: '19:40'
+      by_direction:
+        ALLER:
+          first: 06:35
+          last: '19:40'
+        RETOUR:
+          first: 05:50
+          last: '18:40'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 55
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 06:05 → 19:40, terminus 05:20 → 18:40) et fréquence de pointe (40 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, BabAliouaH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 65 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

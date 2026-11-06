@@ -1,0 +1,228 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-22G
+network: TRANSTU
+mode: BUS
+public_code: 22G
+name:
+  fr: Bus 22G
+  ar: حافلة 22ق
+long_name:
+  fr: Place de Barcelone – Ben Arous
+  ar: محطة برشلونة – بن عروس
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Ben Arous
+    ar: بن عروس
+- id: RETOUR
+  headsign:
+    fr: Place de Barcelone
+    ar: محطة برشلونة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-HOPITAL-DES-ENFANTS
+  - BUS-CHARLE-NICOLE-ALLER
+  - BUS-TELECOM
+  - BUS-KASBAH
+  - BUS-FACULTE-9-AVRIL-ALLER
+  - BUS-MOSQUEE-AL-HAWA-ALLER
+  - BUS-GORJANI-RETOUR
+  - BUS-ESSAYDA-RETOUR
+  - BUS-SALLE-DES-FETES-KERMESS
+  - BUS-RUE-DU-SAHEL
+  - BUS-POSTE-POLICE-RUE-DU-SAHEL
+  - BUS-13-AOUT
+  - BUS-LYCEE-2-MARS-EL-OUARDIA
+  - BUS-LA-CAGNA
+  - BUS-HAMMAM-LACAGNA
+  - BUS-CITE-MED-ALI
+  - BUS-HAMMAM-J-JELLOUD
+  - BUS-DJEBEL-JELLOUD-2
+  - BUS-MOSQUEE-CITE-EL-FETH
+  - BUS-GARJOUMA
+  - BUS-PTT-SIDI-FATHALLAH
+  - BUS-SONED-4
+  - BUS-KIOSQUE-MOBIL-BEN-AROUS
+  - BUS-CENTRE-BEN-AROUS
+  - BUS-MUNICIPALITE-BEN-AROUS
+  - BUS-CENTRE-DES-HANDICAPES
+  - BUS-CITE-EL-ESKAN-1
+  - BUS-CITE-EL-ESKAN-2
+  - BUS-CAFE-EL-FERDAOUS
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 5
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    CHARGE:
+    - 3
+    - 2
+    - 3
+    - 3
+    - 1
+    - 4
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    - 1
+    - 6
+    - 3
+    - 3
+    - 1
+    - 1
+    - 2
+    - 2
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-CENTRE-DES-HANDICAPES
+  - BUS-CITE-EL-ESKAN-1
+  - BUS-CITE-EL-ESKAN-2
+  - BUS-CAFE-EL-FERDAOUS
+  - BUS-UGTT-BEN-AROUS
+  - BUS-CENTRE-BEN-AROUS
+  - BUS-BNA-BEN-AROUS
+  - BUS-KIOSQUE-MOBIL-BEN-AROUS
+  - BUS-SONED-4
+  - BUS-PTT-SIDI-FATHALLAH
+  - BUS-GARJOUMA
+  - BUS-MOSQUEE-CITE-EL-FETH
+  - BUS-DJEBEL-JELLOUD-2
+  - BUS-HAMMAM-J-JELLOUD
+  - BUS-HAMMAM-LACAGNA
+  - BUS-LA-CAGNA
+  - BUS-LYCEE-OUARDIA
+  - BUS-LYCEE-2-MARS-EL-OUARDIA
+  - BUS-13-AOUT
+  - BUS-POSTE-POLICE-RUE-DU-SAHEL
+  - BUS-RUE-DU-SAHEL
+  - BUS-SALLE-DES-FETES-KERMESS
+  - BUS-ESSAYDA-RETOUR
+  - BUS-GORJANI-RETOUR
+  - BUS-MOSQUEE-AL-HAWA-ALLER
+  - BUS-FACULTE-9-AVRIL-ALLER
+  - BUS-TRIBUNAL-TAAKIB
+  - BUS-CHARLE-NICOLE-ALLER
+  - BUS-HOPITAL-DES-ENFANTS
+  run_times:
+    FLUIDE:
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 4
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 3
+    CHARGE:
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 5
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    - 3
+schedule:
+  kind: frequency
+  regimes: []
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : aucun sens de l''itinéraire open data ne part du pôle de l''affiche ; itinéraire open data « à vérifier
+    » (open data : départ Hôpital des enfants (Kasbah)) ; horaires incomplets sur l''affiche (manque : dernier départ du pôle,
+    premier départ du terminus, fréquence de pointe) ; Premiers et derniers départs (pôle 07:30 → –, terminus – → 17:40) et
+    fréquence de pointe (– min) : affiche Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, BarceloneH26-27.jpg)
+    [officiel] ; arrêts : open data Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et
+    « positions géographiques des stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel,
+    date de relevé non publiée (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 22G » ; heures creuses
+    et dimanche estimés : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée,
+    premier départ 30 min plus tard (rapports médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026
+    probable) ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h
+    et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

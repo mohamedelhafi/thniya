@@ -1,0 +1,196 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-54B
+network: TRANSTU
+mode: BUS
+public_code: 54B
+name:
+  fr: Bus 54B
+  ar: حافلة 54ب
+long_name:
+  fr: Mourouj 5 – Centre de traumatologie et des grands brûlés (CTGB)
+  ar: مروج 5 – CTGB
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Centre de traumatologie et des grands brûlés (CTGB)
+    ar: CTGB
+- id: RETOUR
+  headsign:
+    fr: Mourouj 5
+    ar: مروج 5
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-MOUROUJ-5
+  - BUS-AV-EL-BORHENE
+  - BUS-CITE-AFH
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-5
+  - BUS-CITE-EL-FAOUEZ
+  - BUS-14-JANVIER
+  - BUS-CENTRE-CHALLAKH-EL-MOUROUJ-4
+  - BUS-FOYER-UNIVERSITAIRE-MOUROUJ-3
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-3
+  - BUS-EL-MOUROUJ-3
+  - BUS-MEUBLATEX
+  - BUS-IMMEUBLE-OASIS
+  - BUS-BATAM
+  - BUS-LES-ROSES-MOUROUJ-1
+  - BUS-CROISEMENT-MOUROUJ-2
+  - BUS-PONT-MOUROUJ-2
+  - BUS-CENTRE-DE-TRAUMATOLOGIE-ET-DES-GRANDS-BRULES
+  run_times:
+    FLUIDE:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    - 2
+    CHARGE:
+    - 1
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    - 3
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-CENTRE-DE-TRAUMATOLOGIE-ET-DES-GRANDS-BRULES
+  - BUS-PONT-MOUROUJ-2
+  - BUS-CROISEMENT-MOUROUJ-2
+  - BUS-LES-ROSES-MOUROUJ-1
+  - BUS-BATAM
+  - BUS-IMMEUBLE-OASIS
+  - BUS-MEUBLATEX
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-3
+  - BUS-FOYER-UNIVERSITAIRE-MOUROUJ-3
+  - BUS-CENTRE-CHALLAKH-EL-MOUROUJ-4
+  - BUS-14-JANVIER
+  - BUS-CITE-EL-FAOUEZ
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-5
+  - BUS-CITE-AFH
+  - BUS-MOUROUJ-5
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    CHARGE:
+    - 3
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 4
+    - 1
+    - 3
+    - 2
+    - 3
+    - 3
+    - 2
+    - 2
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 07:40
+      last: '19:10'
+      by_direction:
+        ALLER:
+          first: 07:40
+          last: '18:15'
+        RETOUR:
+          first: 08:10
+          last: '19:10'
+    bands:
+      NUIT:
+        headway_min: 60
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 60
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 60
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 60
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 75
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 08:10
+      last: '19:10'
+      by_direction:
+        ALLER:
+          first: 08:10
+          last: '18:15'
+        RETOUR:
+          first: 08:40
+          last: '19:10'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 80
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 07:40 → 18:15, terminus 08:10 → 19:10) et fréquence de pointe (60 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, ResteLigneH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 54B » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

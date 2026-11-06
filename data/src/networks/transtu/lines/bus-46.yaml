@@ -1,0 +1,220 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-46
+network: TRANSTU
+mode: BUS
+public_code: '46'
+name:
+  fr: Bus 46
+  ar: حافلة 46
+long_name:
+  fr: Tebourba – Borj Ettoumi
+  ar: محطة طبربة – برج التومي
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Borj Ettoumi
+    ar: برج التومي
+- id: RETOUR
+  headsign:
+    fr: Tebourba
+    ar: محطة طبربة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-TEBOURBA
+  - BUS-CITE-ERRAJET
+  - BUS-LYCEE-TECHNIQUE-L-ANGALINA
+  - BUS-BORJE-ETTOUTA
+  - BUS-SOCIETE-DE-FROMAGE
+  - BUS-EZENGA
+  - BUS-ELAROUSSIA1
+  - BUS-AROUSSIA-EL-BARRAGE
+  - BUS-ELMOATMED
+  - BUS-ERRAYES
+  - BUS-TONGARE
+  - BUS-CITE-ELBJAOUI
+  - BUS-OUED-EDHALEME
+  - BUS-PASSAGE-TKAYA
+  - BUS-ELMELASSINE
+  - BUS-BORJE-ETTOUMI
+  - BUS-EL-HAKIME
+  - BUS-EWLED-BELAID
+  - BUS-DAR-ELBIDHA
+  - BUS-EL-HRACHNIA
+  run_times:
+    FLUIDE:
+    - 4
+    - 3
+    - 8
+    - 5
+    - 4
+    - 5
+    - 5
+    - 3
+    - 2
+    - 2
+    - 1
+    - 1
+    - 3
+    - 2
+    - 9
+    - 8
+    - 1
+    - 2
+    - 2
+    CHARGE:
+    - 6
+    - 5
+    - 10
+    - 8
+    - 5
+    - 7
+    - 7
+    - 4
+    - 3
+    - 3
+    - 1
+    - 3
+    - 4
+    - 3
+    - 13
+    - 11
+    - 1
+    - 3
+    - 2
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-EL-HRACHNIA
+  - BUS-DAR-ELBIDHA
+  - BUS-EWLED-BELAID
+  - BUS-EL-HAKIME
+  - BUS-BORJE-ETTOUMI
+  - BUS-ELMELASSINE
+  - BUS-PASSAGE-TKAYA
+  - BUS-OUED-EDHALEME
+  - BUS-CITE-ELBJAOUI
+  - BUS-TONGARE
+  - BUS-ERRAYES
+  - BUS-ELMOATMED
+  - BUS-AROUSSIA-EL-BARRAGE
+  - BUS-ELAROUSSIA1
+  - BUS-EZENGA
+  - BUS-SOCIETE-DE-FROMAGE
+  - BUS-BORJE-ETTOUTA
+  - BUS-LYCEE-TECHNIQUE-L-ANGALINA
+  - BUS-CITE-ERRAJET
+  - BUS-TEBOURBA
+  run_times:
+    FLUIDE:
+    - 2
+    - 1
+    - 1
+    - 8
+    - 9
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 4
+    - 6
+    - 3
+    - 6
+    - 7
+    - 3
+    - 5
+    CHARGE:
+    - 2
+    - 2
+    - 2
+    - 11
+    - 13
+    - 3
+    - 4
+    - 3
+    - 1
+    - 3
+    - 3
+    - 4
+    - 7
+    - 7
+    - 5
+    - 8
+    - 10
+    - 5
+    - 6
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 04:40
+      last: '20:35'
+      by_direction:
+        ALLER:
+          first: 05:15
+          last: '20:35'
+        RETOUR:
+          first: 04:40
+          last: '20:00'
+    bands:
+      NUIT:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 40
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 40
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 50
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:10
+      last: '20:35'
+      by_direction:
+        ALLER:
+          first: 05:45
+          last: '20:35'
+        RETOUR:
+          first: 05:10
+          last: '20:00'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 55
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 05:15 → 20:35, terminus 04:40 → 20:00) et fréquence de pointe (40 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, TebourbaH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 46 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

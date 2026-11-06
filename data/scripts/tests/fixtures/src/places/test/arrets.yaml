@@ -1,0 +1,8 @@
+- { id: TST-A, kind: station, name: { fr: "Alpha", ar: "ألفا" }, lat: 36.70, lon: 10.40, status: active,
+    provenance: { source: TERRAIN, verified_at: "2030-01-01" } }
+- { id: TST-B, kind: station, name: { fr: "Bêta", ar: "بيتا" }, lat: 36.71, lon: 10.39, status: active,
+    provenance: { source: TERRAIN, verified_at: "2030-01-01" } }
+- { id: TST-C, kind: station, name: { fr: "Gamma", ar: "غاما" }, lat: 36.72, lon: 10.38, status: active,
+    provenance: { source: TERRAIN, verified_at: "2030-01-01" } }
+- { id: TST-D, kind: stop, name: { fr: "Delta (brouillon)" }, lat: 36.73, lon: 10.37, status: draft,
+    provenance: { source: ESTIMATION, verified_at: "2030-01-01" } }

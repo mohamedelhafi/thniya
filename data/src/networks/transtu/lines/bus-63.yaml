@@ -1,0 +1,251 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-63
+network: TRANSTU
+mode: BUS
+public_code: '63'
+name:
+  fr: Bus 63
+  ar: حافلة 63
+long_name:
+  fr: Jardin Thameur – El Mansoura 2
+  ar: محطة حديقة ثامر – المنصورة 2
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: El Mansoura 2
+    ar: المنصورة 2
+- id: RETOUR
+  headsign:
+    fr: Jardin Thameur
+    ar: محطة حديقة ثامر
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-JARDIN-THAMEUR
+  - BUS-PASSAGE-JEANS-JAURES-ALLER
+  - BUS-LA-FAYETTE-ALLER
+  - BUS-PLACE-JEANS-DARK-ALLER
+  - BUS-PLACE-PASTEUR
+  - BUS-PATISSERIE-BEN-YEDER
+  - BUS-CITE-MAHRAJENE
+  - BUS-MINISTERE-DE-L-EQUIPEMENT
+  - BUS-PHARMACIE-CENTRAL
+  - BUS-CITE-SPORTIVE
+  - BUS-10-DECEMBRE-2
+  - BUS-TOUTA-10-DECEMBRE
+  - BUS-LYCEE-ARIANA
+  - BUS-LA-POSTE
+  - BUS-PLACE-SALA-CENTRE
+  - BUS-FOYER-ARIANA
+  - BUS-ARIANA
+  - BUS-CITE-ENNOZHA
+  - BUS-BORJE-LOUZIR
+  - BUS-BORJE-LOUZIR2
+  - BUS-POSTE-POLICE-BORJE-LOUZIR
+  - BUS-CAFE-HMIED
+  - BUS-CITE-EZHENI
+  - BUS-EL-MANSOURA
+  - BUS-TERMINUS-ENKHILETTE
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    CHARGE:
+    - 3
+    - 2
+    - 5
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 4
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-ENKHILETTE
+  - BUS-EL-MANSOURA
+  - BUS-CITE-EZHENI
+  - BUS-CAFE-HMIED
+  - BUS-POSTE-POLICE-BORJE-LOUZIR
+  - BUS-BORJE-LOUZIR2
+  - BUS-BORJE-LOUZIR
+  - BUS-CITE-ENNOZHA
+  - BUS-ARIANA
+  - BUS-FOYER-ARIANA
+  - BUS-PLACE-SALA-CENTRE
+  - BUS-LA-POSTE
+  - BUS-LYCEE-ARIANA
+  - BUS-TOUTA-10-DECEMBRE
+  - BUS-10-DECEMBRE-2
+  - BUS-CITE-SPORTIVE
+  - BUS-PHARMACIE-CENTRAL
+  - BUS-MINISTERE-DE-L-EQUIPEMENT
+  - BUS-CITE-MAHRAJENE
+  - BUS-PATISSERIE-BEN-YEDER
+  - BUS-PLACE-PASTEUR
+  - BUS-PLACE-JEANS-DARK-ALLER
+  - BUS-LA-FAYETTE-ALLER
+  - BUS-PASSAGE-JEANS-JAURES-ALLER
+  - BUS-JARDIN-THAMEUR
+  run_times:
+    FLUIDE:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    CHARGE:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    - 4
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 4
+    - 2
+    - 3
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:00
+      last: '20:10'
+      by_direction:
+        ALLER:
+          first: 06:00
+          last: '19:10'
+        RETOUR:
+          first: 05:00
+          last: '20:10'
+    bands:
+      NUIT:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 40
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 40
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 50
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:30
+      last: '20:10'
+      by_direction:
+        ALLER:
+          first: 06:30
+          last: '19:10'
+        RETOUR:
+          first: 05:30
+          last: '20:10'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 55
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : itinéraire open data « à vérifier » (open data : terminus Enkhilette) ; Premiers et derniers départs (pôle
+    06:00 → 19:10, terminus 05:00 → 20:10) et fréquence de pointe (40 min) : affiche Transtu « marche horaire hiver 2026-2027
+    » (transtu.tn, page 0143, JThameurH26-27.jpg) [officiel] ; arrêts : open data Transtu (catalogue-data.transport.tn), jeux
+    « itinéraires des lignes du réseau bus » et « positions géographiques des stations » publiés le 2026-01-25 ; réseau décrit
+    antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée (doc/bus/grand-tunis-transtu/donnees-ouvertes.md),
+    ligne open data « 63 » ; heures creuses et dimanche estimés : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après
+    19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports médians des départs détaillés de l''open
+    data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et
+    0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

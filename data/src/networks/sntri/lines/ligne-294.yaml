@@ -1,0 +1,81 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-294
+network: SNTRI
+mode: BUS
+public_code: '294'
+name:
+  fr: Tunis Sud – Souk Lahad
+  ar: تونس الجنوبية – سوق الأحد
+long_name:
+  fr: Tunis Sud – Souk Lahad par Kairouan, Sidi Bouzid et Gafsa
+  ar: تونس الجنوبية – سوق الأحد عبر القيروان، سيدي بوزيد، قفصة
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Souk Lahad
+    ar: سوق الأحد
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-F-JEDID
+  - SNTRI-GROMBALIA
+  - SNTRI-B-SAHEL
+  - SNTRI-B-CASERNE
+  - SNTRI-BOUFICHA
+  - SNTRI-ENFIDHA
+  - SNTRI-KAIROUAN
+  - SNTRI-REGGUEDA
+  - SNTRI-ZAAFRANA
+  - SNTRI-EL-KHADRA
+  - SNTRI-M-MHIRI
+  - SNTRI-SIDI-ALI
+  - SNTRI-EL-AJABNA
+  - SNTRI-KABBARA
+  - SNTRI-EL-FAIEDH
+  - SNTRI-LASSOUDA
+  - SNTRI-SIDI-BOUZID
+  - SNTRI-B-EL-HAFFEY
+  - SNTRI-BEN-AOUN
+  - SNTRI-GAFSA
+  - SNTRI-EL-GUETTAR
+  - SNTRI-KEBILI
+  - SNTRI-SOUK-LAHAD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/294
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 294 « TUNIS SUD - SOUK LAHAD »
+        (495 km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-294
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 294 « TUNIS SUD - SOUK LAHAD » (495
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

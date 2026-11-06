@@ -1,0 +1,977 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-164
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-AJIM
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-AJIM
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-AJIM
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-AJIM
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 14100
+  - from: SNTRI-AJIM
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-AJIM
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-AJIM
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 14600
+  - from: SNTRI-AJIM
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-AJIM
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-AJIM
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-AJIM
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 13400
+  - from: SNTRI-AJIM
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-AJIM
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 15700
+  - from: SNTRI-AJIM
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-AJIM
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-AKARIT
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-AKARIT
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AKARIT
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-AKARIT
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-AKARIT
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-AKARIT
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-AKARIT
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-AKARIT
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-AKARIT
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-AKARIT
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-AKARIT
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-AKARIT
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-AKARIT
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-AKARIT
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-AKARIT
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-AOUINET
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-AOUINET
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AOUINET
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-AOUINET
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-AOUINET
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-AOUINET
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AOUINET
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-AOUINET
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-AOUINET
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-AOUINET
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-AOUINET
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 6000
+  - from: SNTRI-AOUINET
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-AOUINET
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-AOUINET
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-AOUINET
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 3000
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 5300
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 10800
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-BOU-SAID
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 8100
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 14100
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 15600
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 9200
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 800
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-CHAFFAR
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 12900
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 13600
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-EMB-CHAAL
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 11000
+  - from: SNTRI-GABES
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-GABES
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-GABES
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-GABES
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 3000
+  - from: SNTRI-GABES
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-GABES
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-GABES
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 8300
+  - from: SNTRI-GABES
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-GABES
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-GABES
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-GABES
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-GABES
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-GABES
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-GABES
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-GABES
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-GARGOUR
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 14600
+  - from: SNTRI-GARGOUR
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-GARGOUR
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-GARGOUR
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 5300
+  - from: SNTRI-GARGOUR
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-GARGOUR
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-GARGOUR
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 8300
+  - from: SNTRI-GARGOUR
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-GARGOUR
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 16100
+  - from: SNTRI-GARGOUR
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-GARGOUR
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-GARGOUR
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 10800
+  - from: SNTRI-GARGOUR
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-GARGOUR
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-GARGOUR
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 13400
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 12700
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-HECHICHINA
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-JERBA
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-JERBA
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-JERBA
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-JERBA
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 10800
+  - from: SNTRI-JERBA
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 15600
+  - from: SNTRI-JERBA
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 13600
+  - from: SNTRI-JERBA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-JERBA
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 16100
+  - from: SNTRI-JERBA
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 12700
+  - from: SNTRI-JERBA
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-JERBA
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 14800
+  - from: SNTRI-JERBA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-JERBA
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 17200
+  - from: SNTRI-JERBA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 11300
+  - from: SNTRI-JERBA
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-KETTANA
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-KETTANA
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-KETTANA
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-KETTANA
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-KETTANA
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 9200
+  - from: SNTRI-KETTANA
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-KETTANA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-KETTANA
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-KETTANA
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-KETTANA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-KETTANA
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 8500
+  - from: SNTRI-KETTANA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-KETTANA
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 10800
+  - from: SNTRI-KETTANA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-KETTANA
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-MAHARES
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 13400
+  - from: SNTRI-MAHARES
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-MAHARES
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 6000
+  - from: SNTRI-MAHARES
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-MAHARES
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 800
+  - from: SNTRI-MAHARES
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-MAHARES
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-MAHARES
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-MAHARES
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-MAHARES
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 14800
+  - from: SNTRI-MAHARES
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 8500
+  - from: SNTRI-MAHARES
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-MAHARES
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-MAHARES
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-MAHARES
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-MARETH
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-MARETH
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-MARETH
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-MARETH
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-MARETH
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-MARETH
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-MARETH
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-MARETH
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 10800
+  - from: SNTRI-MARETH
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-MARETH
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-MARETH
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-MARETH
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-MARETH
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 12000
+  - from: SNTRI-MARETH
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-MARETH
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-SFAX
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 15700
+  - from: SNTRI-SFAX
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-SFAX
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-SFAX
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-SFAX
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-SFAX
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-SFAX
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-SFAX
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-SFAX
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-SFAX
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 17200
+  - from: SNTRI-SFAX
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 10800
+  - from: SNTRI-SFAX
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-SFAX
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 12000
+  - from: SNTRI-SFAX
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-SFAX
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-SKHIRA
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-SKHIRA
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-SKHIRA
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-SKHIRA
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-SKHIRA
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-SKHIRA
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-SKHIRA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-SKHIRA
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-SKHIRA
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-SKHIRA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 11300
+  - from: SNTRI-SKHIRA
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-SKHIRA
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-SKHIRA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-SKHIRA
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-SKHIRA
+    to: SNTRI-TEDINA
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-TEDINA
+    to: SNTRI-AJIM
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-TEDINA
+    to: SNTRI-AKARIT
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-TEDINA
+    to: SNTRI-AOUINET
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-TEDINA
+    to: SNTRI-BOU-SAID
+    price_millimes:
+      PLEIN: 8100
+  - from: SNTRI-TEDINA
+    to: SNTRI-CHAFFAR
+    price_millimes:
+      PLEIN: 12900
+  - from: SNTRI-TEDINA
+    to: SNTRI-EMB-CHAAL
+    price_millimes:
+      PLEIN: 11000
+  - from: SNTRI-TEDINA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-TEDINA
+    to: SNTRI-GARGOUR
+    price_millimes:
+      PLEIN: 13400
+  - from: SNTRI-TEDINA
+    to: SNTRI-HECHICHINA
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-TEDINA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-TEDINA
+    to: SNTRI-KETTANA
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-TEDINA
+    to: SNTRI-MAHARES
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-TEDINA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-TEDINA
+    to: SNTRI-SFAX
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-TEDINA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 8700
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 164 : plein tarif terminus–terminus
+    17,200 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

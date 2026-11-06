@@ -1,0 +1,2079 @@
+# Généré par `python -m citydata import-doc` depuis doc/trains-banlieue/donnees/gares-banlieue.csv et doc/trains-grandes-lignes/donnees/gares-grandes-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+- id: TRN-SAIDAMANOUBIA
+  kind: station
+  name:
+    fr: Saïda Manoubia
+    ar: السيدة المنوبية
+  aliases:
+  - sayada mannoubia
+  - saida mannoubia
+  lat: 36.787074
+  lon: 10.165622
+  status: active
+  provenance:
+    source: OSM
+    ref: 'way/732867335 (extrait Geofabrik du 2026-10-13) ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'commune aux lignes D et E ; data.transport.tn RFR : 36.786915, 10.165711 ; affiche D : « Sayada mannoubia
+    » = Saïda Manoubia ; Lignes : Ligne E (E), Ligne D (D)'
+- id: TRN-ENNAJAH
+  kind: station
+  name:
+    fr: Ennajah
+    ar: النجاح
+  lat: 36.793211
+  lon: 10.154734
+  status: active
+  provenance:
+    source: OSM
+    ref: 'node/10767225171 (extrait Geofabrik du 2026-10-13) ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'data.transport.tn RFR : 36.793188, 10.154805 ; Lignes : Ligne E (E)'
+- id: TRN-ETTAYARANE
+  kind: station
+  name:
+    fr: Ettayarane
+    ar: الطيران
+  aliases:
+  - ettayaran-ezzouhour 1
+  - الطيران-الزهور 1
+  lat: 36.79211
+  lon: 10.138919
+  status: active
+  provenance:
+    source: OSM
+    ref: 'node/10767225183 (extrait Geofabrik du 2026-10-13) ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Lignes : Ligne E (E)'
+- id: TRN-EZZOUHOUR
+  kind: station
+  name:
+    fr: Ezzouhour
+    ar: الزهور
+  aliases:
+  - ezzouhour 2
+  - الزهور 2
+  lat: 36.787696
+  lon: 10.127712
+  status: active
+  provenance:
+    source: OSM
+    ref: 'node/10767225192 (extrait Geofabrik du 2026-10-13) ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Lignes : Ligne E (E)'
+- id: TRN-ELHRAIRIA
+  kind: station
+  name:
+    fr: Al Hrairiya
+    ar: الحرارية
+  aliases:
+  - el hraïria
+  - الحرايرية
+  lat: 36.783786
+  lon: 10.115481
+  status: active
+  provenance:
+    source: OSM
+    ref: 'node/10767225191 (extrait Geofabrik du 2026-10-13) ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Lignes : Ligne E (E)'
+- id: TRN-BOUGATFA
+  kind: station
+  name:
+    fr: Bougatfa
+    ar: بوقطفة
+  aliases:
+  - bougatfa-sidi hassine
+  - بوقطفة-سيدي حسين
+  lat: 36.780103
+  lon: 10.101818
+  status: active
+  provenance:
+    source: OSM
+    ref: 'node/10767239312 (extrait Geofabrik du 2026-10-13) ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'terminus actuel ; prolongement vers Essijoumi non ouvert ; Lignes : Ligne E (E)'
+- id: TRN-MELLASSINE
+  kind: station
+  name:
+    fr: Mellassine
+    ar: الملاسين
+  lat: 36.796497
+  lon: 10.155653
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations du réseau ferroviaire rapide (RFR) » ; noms FR/AR : affiches
+      SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'OSM way/976768239 à 21 m ; OSM concordant (< 25 m) ; Lignes : Ligne D (D)'
+- id: TRN-ERRAOUDHA
+  kind: station
+  name:
+    fr: Erraoudha
+    ar: الروضة
+  lat: 36.801801
+  lon: 10.147692
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations du réseau ferroviaire rapide (RFR) » ; noms FR/AR : affiches
+      SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'OSM way/976763475 à 18 m ; OSM concordant ; distincte de « Cité Erraoudha » (602R) de la ligne de Ghardimaou
+    ; Lignes : Ligne D (D)'
+- id: TRN-LEBARDO
+  kind: station
+  name:
+    fr: Le Bardo
+    ar: باردو
+  lat: 36.80733
+  lon: 10.135577
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations du réseau ferroviaire rapide (RFR) » ; noms FR/AR : affiches
+      SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'OSM way/1223437762 à 13 m ; correspondance métro léger Le Bardo (~35 m) ; OSM concordant ; Lignes : Ligne
+    D (D)'
+- id: TRN-ELBORTAL
+  kind: station
+  name:
+    fr: El Bortal
+    ar: البرطال
+  lat: 36.811955
+  lon: 10.115802
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations du réseau ferroviaire rapide (RFR) » ; noms FR/AR : affiches
+      SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'OSM way/1223243261 à 18 m ; OSM concordant ; Lignes : Ligne D (D)'
+- id: TRN-LESORANGERS
+  kind: station
+  name:
+    fr: Les Orangers
+    ar: حي البرتقال
+  aliases:
+  - elbortoukal
+  lat: 36.818472
+  lon: 10.08577
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations du réseau ferroviaire rapide (RFR) » ; noms FR/AR : affiches
+      SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'OSM way/976766730 à 20 m ; « ElBortoukal » dans les données ; OSM concordant ; Lignes : Ligne D (D)'
+- id: TRN-GOBAA
+  kind: station
+  name:
+    fr: Gobaa
+    ar: القباعة
+  aliases:
+  - goobaa
+  lat: 36.820019
+  lon: 10.075053
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations du réseau ferroviaire rapide (RFR) » ; noms FR/AR : affiches
+      SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'OSM way/976766729 à 19 m ; « Goobaa » dans les données ; OSM « Gobaâ » concordant ; Lignes : Ligne D (D)'
+- id: TRN-SOUSSEBABJEDID
+  kind: station
+  name:
+    fr: Sousse Bab Jedid
+    ar: سوسة باب الجديد
+  aliases:
+  - sousse bab djedid
+  lat: 35.822851
+  lon: 10.641584
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 231A ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 231A ; OSM node/558822525 à 10 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-SOUSSEMOHAMEDV
+  kind: station
+  name:
+    fr: Sousse Mohamed V
+    ar: سوسة محمد الخامس
+  lat: 35.815994
+  lon: 10.643247
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 232B ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 232B ; OSM node/2003736242 à 34 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-SOUSSESUD
+  kind: station
+  name:
+    fr: Sousse Sud
+    ar: سوسة الجنوبية
+  lat: 35.800841
+  lon: 10.649681
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 233C ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 233C ; OSM node/7829854810 à 75 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-SOUSSEZI
+  kind: station
+  name:
+    fr: Sousse Zone industrielle
+    ar: سوسة م.ص
+  aliases:
+  - sousse zone industrielle sidi abdelhamid
+  - سوسة المنطقة الصناعية سيدي عبد الحميد
+  - sousse z.i.
+  - sousse zi
+  lat: 35.782101
+  lon: 10.668376
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 234D ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 234D ; OSM node/2003736249 à 21 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-SAHLINEVILLE
+  kind: station
+  name:
+    fr: Sahline Ville
+    ar: الساحلين
+  lat: 35.759334
+  lon: 10.702473
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 235E ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 235E ; OSM node/2003736247 à 62 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-SAHLINESEBKHA
+  kind: station
+  name:
+    fr: Sahline Sebkha
+    ar: الساحلين السبخة
+  aliases:
+  - الساحلين سبخة
+  lat: 35.757686
+  lon: 10.716538
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 236F ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 236F ; OSM node/2003736244 à 61 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-LESHOTELS
+  kind: station
+  name:
+    fr: Les Hôtels
+    ar: النزل
+  aliases:
+  - les hôtels monastir
+  - نزل المنستير
+  lat: 35.760126
+  lon: 10.74489
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 239J ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 239J ; OSM node/2003736241 à 3 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-AEROPORTMONASTIR
+  kind: station
+  name:
+    fr: L'Aéroport (Monastir-Skanès)
+    ar: المطار (المنستير)
+  aliases:
+  - aéroport monastir
+  - مطار المنستير
+  lat: 35.76249
+  lon: 10.754113
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 237G ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 237G ; OSM node/2003736239 à 42 m ; aéroport Habib-Bourguiba ; Lignes : Métro du Sahel (MS)'
+- id: TRN-LAFACULTE
+  kind: station
+  name:
+    fr: La Faculté
+    ar: الكلية
+  aliases:
+  - faculté 1
+  - المنستير الكلية
+  lat: 35.759617
+  lon: 10.80736
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 240K ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 240K ; OSM node/5227817978 à 38 m ; côté Sousse de la bifurcation de Monastir ; Lignes : Métro
+    du Sahel (MS)'
+- id: TRN-MONASTIR
+  kind: station
+  name:
+    fr: Monastir
+    ar: المنستير
+  lat: 35.770919
+  lon: 10.826226
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 238H ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 238H ; OSM node/7829749519 à 13 m ; terminus de l antenne : les trains rebroussent ; gare du
+    métro du Sahel ; Lignes : Métro du Sahel (MS), Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-LAFACULTE2
+  kind: station
+  name:
+    fr: La Faculté 2
+    ar: الكلية 2
+  aliases:
+  - la faculté (2e arrêt)
+  - faculté 2
+  - المنستير الكلية 2
+  lat: 35.761123
+  lon: 10.809483
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 272Z ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 272Z ; OSM node/5227817957 à 46 m ; « La Faculté 2 » ; côté Mahdia de la bifurcation ; Lignes
+    : Métro du Sahel (MS)'
+- id: TRN-MONASTIRZI
+  kind: station
+  name:
+    fr: Monastir Zone industrielle
+    ar: المنستير م.ص
+  aliases:
+  - المنستير المنطقة الصناعية
+  - monastir z.i.
+  - monastir zi
+  lat: 35.740184
+  lon: 10.820401
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 241L ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 241L ; OSM node/5234855760 à 54 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-FRINA
+  kind: station
+  name:
+    fr: Frina
+    ar: الفرينة
+  lat: 35.730681
+  lon: 10.812684
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 254C ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 254C ; OSM node/5227817945 à 6 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-KHNISSBEMBLA
+  kind: station
+  name:
+    fr: Khniss-Bembla
+    ar: خنيس - بنبلة
+  aliases:
+  - khenis - bembla
+  lat: 35.709044
+  lon: 10.812432
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 242M ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 242M ; OSM node/5227817944 à 14 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-KSIBETBENNANE
+  kind: station
+  name:
+    fr: Ksibet El Médiouni-Bennane
+    ar: قصيبة م - بنان
+  aliases:
+  - ksibet el mediouni
+  - bennane
+  - k. méd. bennane
+  lat: 35.680453
+  lon: 10.841188
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 243N ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 243N ; OSM node/2003739332 à 148 m ; « K. Méd. Bennane » sur l affiche ; Lignes : Métro du Sahel
+    (MS)'
+- id: TRN-BOUHJAR
+  kind: station
+  name:
+    fr: Bouhjar
+    ar: بو حجر
+  aliases:
+  - بوحجر
+  lat: 35.672353
+  lon: 10.867632
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 244P ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 244P ; OSM node/5227817942 à 22 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-LAMTA
+  kind: station
+  name:
+    fr: Lamta
+    ar: لمطة
+  lat: 35.670258
+  lon: 10.882506
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 245R ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 245R ; OSM node/1359492749 à 11 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-SAYADA
+  kind: station
+  name:
+    fr: Sayada
+    ar: صيادة
+  lat: 35.666075
+  lon: 10.8882
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 246S ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 246S ; Lignes : Métro du Sahel (MS)'
+- id: TRN-KSARHELLALZI
+  kind: station
+  name:
+    fr: Ksar Hellal Zone industrielle
+    ar: قصر هلال م.ص
+  aliases:
+  - قصر هلال المنطقة الصناعية
+  - ksar hellal z.i.
+  - ksar hellal zi
+  lat: 35.651923
+  lon: 10.898617
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 247P ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 247P ; OSM node/1359426402 à 20 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-KSARHELLAL
+  kind: station
+  name:
+    fr: Ksar Hellal
+    ar: قصر هلال
+  lat: 35.644689
+  lon: 10.901181
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 248W ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 248W ; OSM node/1359492705 à 29 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-MOKNINEGRIBAA
+  kind: station
+  name:
+    fr: Moknine Gribâa
+    ar: المكنين قريبع
+  aliases:
+  - مكنين قريبع
+  lat: 35.638001
+  lon: 10.906914
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 249X ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 249X ; OSM node/1359426422 à 12 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-MOKNINE
+  kind: station
+  name:
+    fr: Moknine
+    ar: المكنين
+  lat: 35.631289
+  lon: 10.915611
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 260J ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 260J ; OSM node/2003737884 à 11 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-MOKNINEZI
+  kind: station
+  name:
+    fr: Moknine Zone industrielle
+    ar: المكنين م.ص
+  aliases:
+  - المكنين المنطقة الصناعية
+  - moknine z.i.
+  - moknine zi
+  lat: 35.630755
+  lon: 10.9315
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'GTFS SNCFT 2020-2021 (« Spring 2021 version D »), stops.txt, code SNCFT 269U ; noms FR/AR : affiches SNCFT hiver
+      2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 269U ; OSM node/14076288599 à 4 m ; absente du jeu data.transport.tn Sahel ; arrêt ouvert en
+    2020 (WP FR) ; Lignes : Métro du Sahel (MS)'
+- id: TRN-TEBOULBAZI
+  kind: station
+  name:
+    fr: Téboulba Zone industrielle
+    ar: طبلبة م.ص
+  aliases:
+  - طبلبة المنطقة الصناعية
+  - téboulba z.i.
+  - téboulba zi
+  lat: 35.633747
+  lon: 10.943495
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 270X ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 270X ; OSM node/1359426414 à 10 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-TEBOULBA
+  kind: station
+  name:
+    fr: Téboulba
+    ar: طبلبة
+  lat: 35.637715
+  lon: 10.96163
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 261K ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 261K ; OSM node/5234855738 à 39 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-BEKALTA
+  kind: station
+  name:
+    fr: Békalta
+    ar: البقالطة
+  lat: 35.615241
+  lon: 10.989364
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 262L ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 262L ; OSM node/5227817923 à 26 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-BAGHDADI
+  kind: station
+  name:
+    fr: Baghdadi
+    ar: بغدادي
+  lat: 35.569532
+  lon: 11.018425
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 264N ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 264N ; OSM node/5227817921 à 3 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-MAHDIAZT
+  kind: station
+  name:
+    fr: Mahdia Zone touristique
+    ar: المهدية م.س
+  aliases:
+  - المهدية المنطقة السياحية
+  - mahdia z.t.
+  - mahdia zt
+  lat: 35.536911
+  lon: 11.027418
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 265P ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 265P ; OSM node/5227817820 à 6 m ; terminus partiel (trains 509, 517) et origine (520, 528)
+    ; Lignes : Métro du Sahel (MS)'
+- id: TRN-SIDIMESSAOUD
+  kind: station
+  name:
+    fr: Sidi Messaoud
+    ar: سيدي مسعود
+  aliases:
+  - sidi masaoud
+  lat: 35.521072
+  lon: 11.027214
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 271Y ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 271Y ; OSM node/5227817819 à 13 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-BORJARIF
+  kind: station
+  name:
+    fr: Borj El Arif
+    ar: برج العريف
+  aliases:
+  - borj arif
+  - برج عريف
+  lat: 35.506193
+  lon: 11.030367
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 266R ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 266R ; OSM node/5227817818 à 6 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-MAHDIAEZZAHRA
+  kind: station
+  name:
+    fr: Ezzahra (Mahdia)
+    ar: الزهراء (المهدية)
+  aliases:
+  - ezzahra
+  - الزهراء المهدية
+  lat: 35.500043
+  lon: 11.048318
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 268T ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 268T ; OSM node/5227817817 à 7 m ; Lignes : Métro du Sahel (MS)'
+- id: TRN-MAHDIA
+  kind: station
+  name:
+    fr: Mahdia
+    ar: المهدية
+  lat: 35.499194
+  lon: 11.062861
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Cartographie des stations de la banlieue du Sahel SNCFT », code SNCFT 267S ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 267S ; arrêt aussi des grandes lignes (22-5/54, 5-22/85) ; gare du métro du Sahel ; Lignes :
+    Métro du Sahel (MS), Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-GROMBALIA
+  kind: station
+  name:
+    fr: Grombalia
+    ar: قرمبالية
+  lat: 36.596344
+  lon: 10.497722
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 163T
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 163T ; OSM node/7831856312 à 34 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5), Banlieue de
+    Nabeul (BN)'
+- id: TRN-BOUARGOUB
+  kind: station
+  name:
+    fr: Bou Argoub
+    ar: بوعرقوب
+  aliases:
+  - bou arkoub
+  lat: 36.531075
+  lon: 10.551418
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 166Y
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 166Y ; OSM node/7831856331 à 17 m ; « Bou Arkoub » dans les données ; Lignes : Tunis – Sfax
+    – Gabès / Tozeur (5), Banlieue de Nabeul (BN)'
+- id: TRN-BIRBOUREGBA
+  kind: station
+  name:
+    fr: Bir Bou Regba
+    ar: بئر بورقبة
+  aliases:
+  - bir bourekba
+  - bir bouregba
+  lat: 36.430682
+  lon: 10.573745
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 221M
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 221M ; OSM node/7831856332 à 15 m ; « Bir Bourekba » dans les données ; Lignes : Tunis – Sfax
+    – Gabès / Tozeur (5), Banlieue de Nabeul (BN)'
+- id: TRN-BOUFICHA
+  kind: station
+  name:
+    fr: Bouficha
+    ar: بوفيشة
+  aliases:
+  - bou ficha
+  lat: 36.303302
+  lon: 10.451222
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 172E
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 172E ; OSM node/7831856333 à 73 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-ENFIDHA
+  kind: station
+  name:
+    fr: Enfidha
+    ar: النفيضة
+  lat: 36.130731
+  lon: 10.38364
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 174G
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 174G ; OSM node/7831856338 à 2 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-KALAAKEBIRA
+  kind: station
+  name:
+    fr: Kalaa Kebira
+    ar: القلعة الكبرى
+  lat: 35.867843
+  lon: 10.553415
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 183S
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 183S ; OSM node/7830774022 à 40 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-KALAASEGHIRA
+  kind: station
+  name:
+    fr: Kalaa Seghira
+    ar: القلعة الصغرى
+  lat: 35.822014
+  lon: 10.571118
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 191C
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 191C ; OSM node/7830667498 à 31 m ; deux points dans les données (écart ~40 m) ; premier retenu
+    ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-SOUSSE
+  kind: station
+  name:
+    fr: Sousse
+    ar: سوسة
+  aliases:
+  - sousse voyageurs
+  - gare de sousse
+  lat: 35.830425
+  lon: 10.638052
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 193E
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 193E ; OSM node/7829854811 à 15 m ; gare grandes lignes, distincte de Sousse Bab Jedid (métro
+    du Sahel) ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-MESSAADINE
+  kind: station
+  name:
+    fr: Messaadine
+    ar: مسعدين
+  aliases:
+  - m'seken messadine
+  - messadine
+  - المسعدين
+  lat: 35.754957
+  lon: 10.590922
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT » ; noms FR/AR
+      : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'OSM node/5227817813 à 12 m ; « M''seken Messadine » sans code dans les données ; Lignes : Tunis – Sfax
+    – Gabès / Tozeur (5)'
+- id: TRN-KERKER
+  kind: station
+  name:
+    fr: Kerker
+    ar: كركر
+  lat: 35.468276
+  lon: 10.659704
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 202P
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 202P ; OSM node/7832846864 à 18 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-ELJEM
+  kind: station
+  name:
+    fr: El Jem
+    ar: الجم
+  lat: 35.292566
+  lon: 10.70958
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 204S
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 204S ; OSM node/7833063360 à 1 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-LAHENCHA
+  kind: station
+  name:
+    fr: La Hencha
+    ar: الحنشة
+  aliases:
+  - el hencha
+  lat: 35.137461
+  lon: 10.728399
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 212C
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 212C ; OSM node/7833063361 à 19 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-SAKIETEZZIT
+  kind: station
+  name:
+    fr: Sakiet Ezzit
+    ar: ساقية الزيت
+  lat: 34.800716
+  lon: 10.76127
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 215F
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 215F ; OSM node/7833063364 à 51 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-SFAX
+  kind: station
+  name:
+    fr: Sfax
+    ar: صفاقس
+  lat: 34.735151
+  lon: 10.767124
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 450K
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 450K ; OSM node/8231384585 à 4 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-MAHRES
+  kind: station
+  name:
+    fr: Mahrès
+    ar: المحرس
+  lat: 34.526263
+  lon: 10.498693
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 463B
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 463B ; OSM node/7833555209 à 7 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-GHRAIBA
+  kind: station
+  name:
+    fr: Ghraiba
+    ar: الغريبة
+  lat: 34.499659
+  lon: 10.213734
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 465D
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 465D ; OSM node/7833555210 à 4 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-GABES
+  kind: station
+  name:
+    fr: Gabès
+    ar: قابس
+  lat: 33.884225
+  lon: 10.099195
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 488F
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 488F ; OSM node/7833555215 à 6 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-MAKNASSY
+  kind: station
+  name:
+    fr: Maknassy
+    ar: المكناسي
+  aliases:
+  - meknassy
+  lat: 34.606693
+  lon: 9.606439
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 495N
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 495N ; OSM node/7833812091 à 88 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-SENED
+  kind: station
+  name:
+    fr: Sened
+    ar: السند
+  lat: 34.538029
+  lon: 9.253512
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 502Y
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 502Y ; OSM node/7833812093 à 63 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-GAFSA
+  kind: station
+  name:
+    fr: Gafsa
+    ar: قفصة
+  lat: 34.394709
+  lon: 8.803897
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 510G
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 510G ; OSM node/8231384530 à 12 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-METLAOUI
+  kind: station
+  name:
+    fr: Métlaoui
+    ar: المتلوي
+  lat: 34.315777
+  lon: 8.416425
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 522X
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 522X ; OSM node/8231384524 à 0 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5), Redeyef – Métlaoui
+    (RM)'
+- id: TRN-TOZEUR
+  kind: station
+  name:
+    fr: Tozeur
+    ar: توزر
+  lat: 33.926555
+  lon: 8.135781
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 553H
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 553H ; OSM node/8231384531 à 16 m ; Lignes : Tunis – Sfax – Gabès / Tozeur (5)'
+- id: TRN-REDEYEF
+  kind: station
+  name:
+    fr: Redeyef
+    ar: الرديف
+  lat: 34.388008
+  lon: 8.152487
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 536M
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 536M ; OSM node/8231384455 à 44 m ; Lignes : Redeyef – Métlaoui (RM)'
+- id: TRN-TABEDDIT
+  kind: station
+  name:
+    fr: Tabeddit
+    ar: تبديت
+  lat: 34.436496
+  lon: 8.25933
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 535L
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 535L ; OSM node/8231384456 à 3 m ; desservie deux fois (avant et après Moularès) ; Lignes :
+    Redeyef – Métlaoui (RM)'
+- id: TRN-MOULARES
+  kind: station
+  name:
+    fr: Moularès
+    ar: أم العرايس
+  aliases:
+  - om el arais
+  lat: 34.487063
+  lon: 8.277357
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 537N
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 537N ; OSM node/8231384522 à 0 m ; « Om El Arais » dans les données ; Lignes : Redeyef – Métlaoui
+    (RM)'
+- id: TRN-ELAYOUN
+  kind: station
+  name:
+    fr: El Ayoun
+    ar: العيون
+  lat: 34.427967
+  lon: 8.289384
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 533J
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 533J ; Lignes : Redeyef – Métlaoui (RM)'
+- id: TRN-SELJA
+  kind: station
+  name:
+    fr: Selja
+    ar: ثالجة
+  lat: 34.385342
+  lon: 8.339954
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 532H
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 532H ; OSM node/8643227482 à 26 m ; Lignes : Redeyef – Métlaoui (RM)'
+- id: TRN-MAGROUN
+  kind: station
+  name:
+    fr: Magroun
+    ar: المقرون
+  aliases:
+  - مقرون
+  lat: 34.333046
+  lon: 8.394441
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 531G
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 531G ; OSM node/694068569 à 42 m ; Lignes : Redeyef – Métlaoui (RM)'
+- id: TRN-MANOUBA
+  kind: station
+  name:
+    fr: Manouba
+    ar: منوبة
+  aliases:
+  - mannouba
+  lat: 36.81613
+  lon: 10.101108
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 612D
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 612D ; OSM way/1223243264 à 25 m ; « Mannouba » dans les données ; Lignes : Ligne D (D), Tunis
+    – Ghardimaou (TA), Tunis – Bizerte (1)'
+- id: TRN-JEDEIDA
+  kind: station
+  name:
+    fr: Jedeida
+    ar: الجديدة
+  lat: 36.850797
+  lon: 9.933451
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 614F
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 614F ; OSM node/8231372188 à 23 m ; Lignes : Tunis – Ghardimaou (TA), Tunis – Bizerte (1)'
+- id: TRN-TEBOURBA
+  kind: station
+  name:
+    fr: Tebourba
+    ar: طبربة
+  lat: 36.82916
+  lon: 9.844365
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 621N
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 621N ; OSM node/8231372191 à 0 m ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-BORJTOUM
+  kind: station
+  name:
+    fr: Borj Toum
+    ar: برج التوم
+  aliases:
+  - borj ettoum
+  - borj ettoumi
+  - برج التومي
+  lat: 36.78766
+  lon: 9.761557
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 623R
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 623R ; OSM node/7677959231 à 6 m ; « Borj Ettoum » dans les données ; Lignes : Tunis – Ghardimaou
+    (TA)'
+- id: TRN-MEJEZELBAB
+  kind: station
+  name:
+    fr: Mejez El Bab
+    ar: مجاز الباب
+  lat: 36.665725
+  lon: 9.606511
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 625T
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 625T ; OSM node/8231372208 à 0 m ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-OUEDZARGA
+  kind: station
+  name:
+    fr: Oued Zarga
+    ar: واد الزرقاء
+  aliases:
+  - وادي الزرقاء
+  lat: 36.673254
+  lon: 9.42665
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 627X
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 627X ; OSM node/8231372189 à 0 m ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-SIDIMHIMECH
+  kind: station
+  name:
+    fr: Sidi M'Himech
+    ar: سيدي مهيمش
+  lat: 36.782547
+  lon: 9.279308
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 631B
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 631B ; OSM node/5234855798 à 35 m ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-BEJA
+  kind: station
+  name:
+    fr: Béja
+    ar: باجة
+  aliases:
+  - beja voy
+  lat: 36.724868
+  lon: 9.190188
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 633D
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 633D ; OSM node/8037521486 à 11 m ; « Beja Voy » dans les données ; Lignes : Tunis – Ghardimaou
+    (TA), Tunis – Annaba (TM)'
+- id: TRN-MASTOUTA
+  kind: station
+  name:
+    fr: Mastouta
+    ar: مستوتة
+  lat: 36.661613
+  lon: 9.209079
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 635F
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 635F ; OSM node/5227817997 à 6 m ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-SIDISMAIL
+  kind: station
+  name:
+    fr: Sidi S'Mail
+    ar: سيدي اسماعيل
+  aliases:
+  - sidi smail
+  - سيدي إسماعيل
+  lat: 36.595518
+  lon: 9.111899
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 661L
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 661L ; OSM node/8037521489 à 91 m ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-BOUSALEM
+  kind: station
+  name:
+    fr: Bou Salem
+    ar: بوسالم
+  lat: 36.611238
+  lon: 8.96888
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 642N
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 642N ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-BENBECHIR
+  kind: station
+  name:
+    fr: Ben Bechir
+    ar: بن بشير
+  lat: 36.591819
+  lon: 8.905504
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 643P
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 643P ; OSM node/5227818018 à 6 m ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-JENDOUBA
+  kind: station
+  name:
+    fr: Jendouba
+    ar: جندوبة
+  lat: 36.501236
+  lon: 8.777255
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 645S
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 645S ; OSM node/8231372201 à 23 m ; Lignes : Tunis – Ghardimaou (TA), Tunis – Annaba (TM)'
+- id: TRN-OUEDMELIZ
+  kind: station
+  name:
+    fr: Oued Meliz
+    ar: واد مليز
+  lat: 36.469617
+  lon: 8.551335
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 652B
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 652B ; OSM node/8231372200 à 105 m ; Lignes : Tunis – Ghardimaou (TA)'
+- id: TRN-GHARDIMAOU
+  kind: station
+  name:
+    fr: Ghardimaou
+    ar: غار الدماء
+  lat: 36.447768
+  lon: 8.437204
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 657G
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 657G ; OSM node/8231372199 à 0 m ; formalités frontalières ; Lignes : Tunis – Ghardimaou (TA),
+    Tunis – Annaba (TM)'
+- id: TRN-CHAOUAT
+  kind: station
+  name:
+    fr: Chaouat
+    ar: شواط
+  lat: 36.889481
+  lon: 9.944471
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 671Z
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 671Z ; OSM way/822306088 à 31 m ; Lignes : Tunis – Bizerte (1)'
+- id: TRN-SIDIOTHMAN
+  kind: station
+  name:
+    fr: Sidi Othman
+    ar: سيدي عثمان
+  lat: 36.960039
+  lon: 9.924713
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 672A
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 672A ; OSM node/8027925515 à 22 m ; Lignes : Tunis – Bizerte (1)'
+- id: TRN-AINGHELAL
+  kind: station
+  name:
+    fr: Ain Ghelal
+    ar: عين غلال
+  lat: 37.023361
+  lon: 9.83279
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 673B
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 673B ; OSM node/5227818026 à 50 m ; Lignes : Tunis – Bizerte (1)'
+- id: TRN-MATEUR
+  kind: station
+  name:
+    fr: Mateur
+    ar: ماطر
+  lat: 37.037888
+  lon: 9.684491
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 674C
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 674C ; OSM node/8231384517 à 25 m ; Lignes : Tunis – Bizerte (1)'
+- id: TRN-TINJA
+  kind: station
+  name:
+    fr: Tinja
+    ar: تينجة
+  lat: 37.159496
+  lon: 9.757213
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 692Z
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 692Z ; OSM node/9016197592 à 24 m ; Lignes : Tunis – Bizerte (1)'
+- id: TRN-LAPECHERIE
+  kind: station
+  name:
+    fr: La Pêcherie
+    ar: المصيدة
+  lat: 37.254123
+  lon: 9.839403
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 703L
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 703L ; OSM node/9306396343 à 54 m ; Lignes : Tunis – Bizerte (1)'
+- id: TRN-BIZERTE
+  kind: station
+  name:
+    fr: Bizerte
+    ar: بنزرت
+  lat: 37.266437
+  lon: 9.8639
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 710W
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 710W ; Lignes : Tunis – Bizerte (1)'
+- id: TRN-BIRKASSAA
+  kind: station
+  name:
+    fr: Bir Kassaa
+    ar: بئر القصعة
+  aliases:
+  - bir kassa
+  lat: 36.741075
+  lon: 10.228508
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 311W
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 311W ; OSM node/8231384505 à 62 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-NAASSEN
+  kind: station
+  name:
+    fr: Naassen
+    ar: نعسان
+  aliases:
+  - nassen
+  - محطة نعسان
+  lat: 36.703576
+  lon: 10.232804
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 312X
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 312X ; OSM node/8231384504 à 54 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-KHELIDIA
+  kind: station
+  name:
+    fr: Khelidia
+    ar: الخليدية
+  aliases:
+  - khledia
+  lat: 36.646142
+  lon: 10.19449
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 313Y
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 313Y ; OSM node/2014339853 à 18 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-OUDNA
+  kind: station
+  name:
+    fr: Oudna
+    ar: ودنة
+  aliases:
+  - أوذنة
+  lat: 36.62536
+  lon: 10.15112
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 314Z
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 314Z ; OSM node/2014339686 à 10 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-CHEYLUS
+  kind: station
+  name:
+    fr: Cheylus
+    ar: جبل الوسط
+  lat: 36.555419
+  lon: 10.060856
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 316B
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 316B ; OSM node/7678085027 à 83 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-BIRMCHERGA
+  kind: station
+  name:
+    fr: Bir M'Cherga
+    ar: بئر مشارقة
+  aliases:
+  - bir mcherga
+  lat: 36.506211
+  lon: 10.021883
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 317C
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 317C ; OSM node/8676317696 à 13 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-DEPIENNE
+  kind: station
+  name:
+    fr: Depienne
+    ar: سمنجة
+  lat: 36.457209
+  lon: 10.02358
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 321G
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 321G ; OSM node/8231384499 à 5 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-PONTDUFAHS
+  kind: station
+  name:
+    fr: Pont du Fahs
+    ar: الفحص
+  lat: 36.376676
+  lon: 9.902405
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 323J
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 323J ; OSM node/8213917790 à 28 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-BOUARADA
+  kind: station
+  name:
+    fr: Bou Arada
+    ar: بوعرادة
+  lat: 36.356463
+  lon: 9.626903
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 333X
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 333X ; OSM node/8231384494 à 101 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-ELAROUSSA
+  kind: station
+  name:
+    fr: El Aroussa
+    ar: العروسة
+  lat: 36.381158
+  lon: 9.454556
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 335Z
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 335Z ; OSM node/8589212730 à 7 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-SIDIAYED
+  kind: station
+  name:
+    fr: Sidi Ayed
+    ar: سيدي عياد
+  lat: 36.351212
+  lon: 9.390917
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 336A
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 336A ; OSM node/7867290326 à 3 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-GAAFOUR
+  kind: station
+  name:
+    fr: Gaafour
+    ar: قعفور
+  lat: 36.322655
+  lon: 9.326598
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 340E
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 340E ; OSM node/2015479914 à 43 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-ELAKHOUAT
+  kind: station
+  name:
+    fr: El Akhouat
+    ar: الأخوات
+  aliases:
+  - lakhwat
+  - الخوات
+  lat: 36.25509
+  lon: 9.254956
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 351S
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 351S ; OSM node/7882921283 à 10 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-ELKRIB
+  kind: station
+  name:
+    fr: El Krib
+    ar: الكريب
+  lat: 36.253498
+  lon: 9.185131
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 352T
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 352T ; OSM node/7867580426 à 118 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-SIDIBOUROUIS
+  kind: station
+  name:
+    fr: Sidi Bou Rouis
+    ar: سيدي بو رويس
+  aliases:
+  - سيدي بورويس
+  lat: 36.175322
+  lon: 9.125094
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 353W
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 353W ; OSM node/8231384487 à 22 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-TRIKA
+  kind: station
+  name:
+    fr: Trika
+    ar: التريكة
+  lat: 36.132452
+  lon: 9.112909
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 354X
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 354X ; arrêt les dimanches et mercredis seulement ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-LESERS
+  kind: station
+  name:
+    fr: Le Sers
+    ar: السرس
+  lat: 36.07598
+  lon: 9.023233
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 355Y
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 355Y ; OSM node/8231384485 à 0 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-LESSALINES
+  kind: station
+  name:
+    fr: Les Salines
+    ar: الملاحة
+  lat: 36.077774
+  lon: 8.964017
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 401C
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 401C ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-LESZOUARINES
+  kind: station
+  name:
+    fr: Les Zouarines
+    ar: الزوارين
+  lat: 36.040354
+  lon: 8.914084
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 362F
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 362F ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-DAHMANI
+  kind: station
+  name:
+    fr: Dahmani
+    ar: الدهماني
+  lat: 35.945177
+  lon: 8.828704
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 363G
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 363G ; OSM node/8231384482 à 0 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-LEKEF
+  kind: station
+  name:
+    fr: Le Kef
+    ar: الكاف
+  lat: 36.166733
+  lon: 8.703682
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 404F
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 404F ; OSM node/8231384507 à 4 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-AINMESRIA
+  kind: station
+  name:
+    fr: Ain Mesria
+    ar: عين مسرية
+  lat: 35.912185
+  lon: 8.739317
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 364H
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 364H ; OSM node/2020814293 à 4 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-FEJETTAMEUR
+  kind: station
+  name:
+    fr: Fej et Tameur
+    ar: فج التمر
+  aliases:
+  - fej etameur
+  lat: 35.878165
+  lon: 8.707807
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 411N
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 411N ; OSM node/4547030230 à 47 m ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-GOURAIA
+  kind: station
+  name:
+    fr: Gouraia
+    ar: قراعية
+  lat: 35.85844
+  lon: 8.684628
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 371R
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 371R ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-OUEDSARRATH
+  kind: station
+  name:
+    fr: Oued Sarrath
+    ar: واد سرات
+  lat: 35.766355
+  lon: 8.618615
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 372S
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 372S ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-KALAAKHASBA
+  kind: station
+  name:
+    fr: Kalaa Khasba
+    ar: القلعة الخصبة
+  lat: 35.663673
+  lon: 8.592255
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 373T
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 373T ; Lignes : Tunis – Le Kef / Kalaa Khasba (6)'
+- id: TRN-FOUNDOUKJEDID
+  kind: station
+  name:
+    fr: Foundouk Jedid
+    ar: فندق الجديد
+  aliases:
+  - fondouk jedid
+  lat: 36.668917
+  lon: 10.446713
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 161R
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 161R ; OSM node/7831546092 à 4 m ; Lignes : Banlieue de Nabeul (BN)'
+- id: TRN-KHANGUET
+  kind: station
+  name:
+    fr: Khanguet
+    ar: شماس
+  lat: 36.624831
+  lon: 10.461347
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 162S
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 162S ; OSM node/7831546097 à 42 m ; nom arabe tel qu imprimé sur l affiche ; Lignes : Banlieue
+    de Nabeul (BN)'
+- id: TRN-TURKI
+  kind: station
+  name:
+    fr: Turki
+    ar: تركي
+  lat: 36.5755
+  lon: 10.513532
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 164W
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 164W ; OSM node/5227817773 à 6 m ; Lignes : Banlieue de Nabeul (BN)'
+- id: TRN-BELLI
+  kind: station
+  name:
+    fr: Belli
+    ar: بلي
+  lat: 36.560609
+  lon: 10.524965
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 165X
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 165X ; OSM node/7831856330 à 4 m ; Lignes : Banlieue de Nabeul (BN)'
+- id: TRN-HAMMAMET
+  kind: station
+  name:
+    fr: Hammamet
+    ar: الحمامات
+  lat: 36.40764
+  lon: 10.612458
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 222N
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 222N ; OSM node/8266107633 à 38 m ; Lignes : Banlieue de Nabeul (BN)'
+- id: TRN-OMARKHAYEM
+  kind: station
+  name:
+    fr: Omar Khayem
+    ar: عمر الخيام
+  lat: 36.423969
+  lon: 10.668925
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 223P
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 223P ; Lignes : Banlieue de Nabeul (BN)'
+- id: TRN-MRAZGA
+  kind: station
+  name:
+    fr: M'Razga
+    ar: مرازقة
+  aliases:
+  - m'razka
+  lat: 36.42924
+  lon: 10.684755
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 226T
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 226T ; « M''Razka » dans les données ; Lignes : Banlieue de Nabeul (BN)'
+- id: TRN-NABEUL
+  kind: station
+  name:
+    fr: Nabeul
+    ar: نابل
+  aliases:
+  - nabeul voyageurs
+  lat: 36.451032
+  lon: 10.735104
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'data.transport.tn, jeu « Position géographique des stations du réseau grandes lignes de la SNCFT », code SNCFT 224R
+      ; noms FR/AR : affiches SNCFT hiver 2026-2027'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Code SNCFT 224R ; OSM node/8266107634 à 18 m ; « Nabeul Voyageurs » dans les données ; Lignes : Banlieue
+    de Nabeul (BN)'

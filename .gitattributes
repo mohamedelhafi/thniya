@@ -1,0 +1,25 @@
+* text=auto
+
+# Fichiers exécutés ou lus dans des conteneurs Linux : toujours LF
+*.sh        text eol=lf
+*.conf      text eol=lf
+*.py        text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.json      text eol=lf
+*.csv       text eol=lf
+Dockerfile  text eol=lf
+mvnw        text eol=lf
+
+# Scripts Windows
+*.ps1       text eol=crlf
+*.cmd       text eol=crlf
+
+# Binaires
+*.pbf       binary
+*.pmtiles   binary
+*.zip       binary
+*.png       binary
+*.ttf       binary
+*.gif       binary
+*.jpg       binary

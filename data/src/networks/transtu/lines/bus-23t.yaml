@@ -1,0 +1,313 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-23T
+network: TRANSTU
+mode: BUS
+public_code: 23T
+name:
+  fr: Bus 23T
+  ar: حافلة 23ط
+long_name:
+  fr: Slimane Kahia – Tebeltech / Ksar Hdid
+  ar: محطة الترابط سليمان كاهية – طبلتش/قصر جديد
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Tebeltech / Ksar Hdid
+    ar: طبلتش/قصر جديد
+- id: RETOUR
+  headsign:
+    fr: Slimane Kahia
+    ar: محطة الترابط سليمان كاهية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-SLIMANE-KAHIA
+  - BUS-ABDELMOULA-ALLER
+  - BUS-PEPINIERE-ALLER
+  - BUS-GARDE-NATIONAL-AGBA-ALLER
+  - BUS-AGBA-SUPERIEUR-ALLER
+  - BUS-CANAL-AGBA-ALLER
+  - BUS-BEN-MAHMOUD-ALLER
+  - BUS-CITE-ELWAHA-ALLER
+  - BUS-SONEDE-AGBA-ALLER
+  - BUS-GHDIR-ELGOLLAH-ALLER
+  - BUS-CITE-JABRI-ALLER
+  - BUS-CROISEMENT-BEN-YEDDER-ALLER
+  - BUS-BIR-ED-DROUJ-ALLER
+  - BUS-HUILERIE-LOUKIL-ALLER
+  - BUS-LYCEE-CHEBI-ALLER
+  - BUS-MOSQUEE-MORNAGIAA-ALLER
+  - BUS-MORNAGIAA-ALLER
+  - BUS-20-MARS-ALLER-2
+  - BUS-LYCEE-20-MARS-ALLER
+  - BUS-FIRMA-ALLER
+  - BUS-GUITOUNI-ALLER
+  - BUS-CROISEMENT-SIDI-ALI-HATTAB-ALLER
+  - BUS-SIDI-AMARA-ALLER
+  - BUS-SIDI-ALI-HATTAB-ALLER
+  - BUS-ECOLE-HATTAB-ALLER
+  - BUS-JNAIEH-ALLER
+  - BUS-AVENION-ALLER
+  - BUS-KOCHBATI-ALLER
+  - BUS-ALI-BEN-MBAREK-ALLER
+  - BUS-ENTREE-BASSATINE-ALLER
+  - BUS-CITE-DES-IMMEUBLES-ALLER
+  - BUS-TEBALTECH-ALLER
+  - BUS-CITE-TEBALTECH-ALLER
+  - BUS-AHMED-LAOUINI-ALLER
+  - BUS-KSAR-HDID
+  run_times:
+    FLUIDE:
+    - 3
+    - 3
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    - 3
+    - 3
+    - 4
+    - 3
+    - 2
+    - 2
+    - 3
+    - 3
+    - 4
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 6
+    - 1
+    - 5
+    - 3
+    CHARGE:
+    - 5
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    - 4
+    - 6
+    - 4
+    - 3
+    - 2
+    - 5
+    - 4
+    - 5
+    - 4
+    - 3
+    - 2
+    - 4
+    - 5
+    - 4
+    - 2
+    - 3
+    - 1
+    - 3
+    - 8
+    - 2
+    - 7
+    - 5
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-KSAR-HDID
+  - BUS-AHMED-LAOUINI-RETOUR
+  - BUS-CITE-TEBALTECH-RETOUR
+  - BUS-TEBALTECH-RETOUR
+  - BUS-CITE-DES-IMMEUBLES-RETOUR
+  - BUS-ENTREE-BASSATINE-RETOUR
+  - BUS-ALI-BEN-MBAREK-RETOUR
+  - BUS-KOCHBATI-RETOUR
+  - BUS-AVENION-RETOUR
+  - BUS-JNAIEH-RETOUR
+  - BUS-ECOLE-HATTAB-RETOUR
+  - BUS-SIDI-ALI-HATTAB-RETOUR
+  - BUS-SIDI-AMARA-RETOUR
+  - BUS-CROISEMENT-SIDI-ALI-HATTAB-RETOUR
+  - BUS-GUITOUNI-RETOUR
+  - BUS-FIRMA-RETOUR
+  - BUS-LYCEE-20-MARS-RETOUR
+  - BUS-20-MARS-RETOUR-2
+  - BUS-MORNAGIAA-RETOUR
+  - BUS-MOSQUEE-MORNAGIAA-RETOUR
+  - BUS-LYCEE-CHEBI-RETOUR
+  - BUS-HUILERIE-LOUKIL-RETOUR
+  - BUS-BIR-ED-DROUJ-RETOUR
+  - BUS-CROISEMENT-BEN-YEDDER-RETOUR
+  - BUS-CITE-JABRI-RETOUR
+  - BUS-GHDIR-ELGOLLAH-RETOUR
+  - BUS-SONEDE-AGBA-RETOUR
+  - BUS-CITE-ELWAHA-RETOUR
+  - BUS-BEN-MAHMOUD-RETOUR
+  - BUS-CANAL-AGBA-RETOUR
+  - BUS-AGBA-SUPERIEUR-RETOUR
+  - BUS-GARDE-NATIONAL-AGBA-RETOUR
+  - BUS-PEPINIERE-RETOUR
+  - BUS-ABDELMOULA-RETOUR
+  - BUS-OUED-GUERIANA
+  - BUS-SLIMANE-KAHIA
+  run_times:
+    FLUIDE:
+    - 3
+    - 5
+    - 2
+    - 5
+    - 2
+    - 1
+    - 2
+    - 1
+    - 3
+    - 4
+    - 2
+    - 2
+    - 2
+    - 3
+    - 4
+    - 3
+    - 3
+    - 1
+    - 2
+    - 3
+    - 4
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 3
+    CHARGE:
+    - 5
+    - 6
+    - 3
+    - 8
+    - 2
+    - 2
+    - 3
+    - 1
+    - 5
+    - 5
+    - 3
+    - 3
+    - 3
+    - 3
+    - 6
+    - 4
+    - 4
+    - 2
+    - 3
+    - 5
+    - 6
+    - 4
+    - 4
+    - 2
+    - 4
+    - 3
+    - 3
+    - 3
+    - 3
+    - 1
+    - 2
+    - 3
+    - 3
+    - 3
+    - 4
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 04:40
+      last: '21:05'
+      by_direction:
+        ALLER:
+          first: 05:40
+          last: '21:05'
+        RETOUR:
+          first: 04:40
+          last: '20:00'
+    bands:
+      NUIT:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 40
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 40
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 50
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:10
+      last: '21:05'
+      by_direction:
+        ALLER:
+          first: 06:10
+          last: '21:05'
+        RETOUR:
+          first: 05:10
+          last: '20:00'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 55
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 05:40 → 21:05, terminus 04:40 → 20:00) et fréquence de pointe (40 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, SlimenKahiaH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 23T » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

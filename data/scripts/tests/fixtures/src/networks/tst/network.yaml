@@ -1,0 +1,13 @@
+id: TST
+name: { fr: "Réseau test", ar: "شبكة تجريبية" }
+url: "https://example.org"
+timezone: Africa/Tunis
+calendar:
+  day_type_scheme: { mon: OUVRABLE, tue: OUVRABLE, wed: OUVRABLE, thu: OUVRABLE, fri: OUVRABLE, sat: SAMEDI, sun: DIMANCHE }
+  holiday_day_type: DIMANCHE
+  periods: [RAMADAN, ETE, NORMAL]
+  fallback:
+    periods: { RAMADAN: NORMAL, ETE: NORMAL }
+    day_types: { DIMANCHE: SAMEDI, SAMEDI: OUVRABLE }
+status: active
+provenance: { source: TERRAIN, verified_at: "2030-01-01" }

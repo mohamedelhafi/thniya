@@ -1,0 +1,16 @@
+- id: TRAIN
+  name: { fr: "Train", ar: "قطار" }
+  gtfs_route_type: 2
+  schedule_kinds: [timetable]
+  shows_exact_times: true
+  icon: train
+  max_data_age_days: { timetable: 180 }
+  status: active
+- id: LOUAGE
+  name: { fr: "Louage", ar: "لواج" }
+  gtfs_route_type: 3
+  schedule_kinds: [frequency]
+  shows_exact_times: false
+  departs_when_full: true
+  icon: louage
+  status: active

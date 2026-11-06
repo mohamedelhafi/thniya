@@ -1,0 +1,1241 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-150
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-AIN-GUELLAL
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-AIN-SOBH
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-AOUANA
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-AOUANA
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-AOUANA
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-AOUANA
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-AOUANA
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 5300
+  - from: SNTRI-AOUANA
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-AOUANA
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-AOUANA
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-AOUANA
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-AOUANA
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-AOUANA
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-AOUANA
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AOUANA
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AOUANA
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-AOUANA
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-AOUANA
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-AOUANA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 8500
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-BEN-SAID
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 10900
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 9100
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-BOUTERFES
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 5300
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 8500
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-CHAOUAT
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-JAFNA
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-JAFNA
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-JAFNA
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-JAFNA
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-JAFNA
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-JAFNA
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-JAFNA
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 800
+  - from: SNTRI-JAFNA
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-JAFNA
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-JAFNA
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-JAFNA
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-JAFNA
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-JAFNA
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-JAFNA
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-JAFNA
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-JAFNA
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-JAFNA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-JALTA
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-JALTA
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-JALTA
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-JALTA
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-JALTA
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-JALTA
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-JALTA
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 800
+  - from: SNTRI-JALTA
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-JALTA
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-JALTA
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-JALTA
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-JALTA
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-JALTA
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-JALTA
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-JALTA
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-JALTA
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-JALTA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 8000
+  - from: SNTRI-JEDEIDA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-MATEUR
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-MATEUR
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-MATEUR
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-MATEUR
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-MATEUR
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-MATEUR
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-MATEUR
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-MATEUR
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-MATEUR
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-MATEUR
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-MATEUR
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-MATEUR
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-MATEUR
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-MATEUR
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-MATEUR
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-MATEUR
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-MATEUR
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-NEFZA
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-NEFZA
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-NEFZA
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-NEFZA
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-NEFZA
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-NEFZA
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-NEFZA
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-NEFZA
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-NEFZA
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-NEFZA
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-NEFZA
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-NEFZA
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-NEFZA
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-NEFZA
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-NEFZA
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-NEFZA
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-NEFZA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-OUECHTATA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-ROKOB
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-ROKOB
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-ROKOB
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-ROKOB
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-ROKOB
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-ROKOB
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-ROKOB
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-ROKOB
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-ROKOB
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-ROKOB
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-ROKOB
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-ROKOB
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-ROKOB
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-ROKOB
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-ROKOB
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-ROKOB
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-ROKOB
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-SEJNANE
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-SEJNANE
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-SEJNANE
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-SEJNANE
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-SEJNANE
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-SEJNANE
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-SEJNANE
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-SEJNANE
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-SEJNANE
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-SEJNANE
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-SEJNANE
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-SEJNANE
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-SEJNANE
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-SEJNANE
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-SEJNANE
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-SEJNANE
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-SEJNANE
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 9100
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-SIDI-OTHMAN
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-TABARKA
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-TABARKA
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-TABARKA
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-TABARKA
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-TABARKA
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-TABARKA
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-TABARKA
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-TABARKA
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-TABARKA
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-TABARKA
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-TABARKA
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-TABARKA
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-TABARKA
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-TABARKA
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-TABARKA
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-TABARKA
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-TABARKA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 12900
+  - from: SNTRI-TAMRA
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-TAMRA
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-TAMRA
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-TAMRA
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-TAMRA
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-TAMRA
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-TAMRA
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-TAMRA
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-TAMRA
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 8000
+  - from: SNTRI-TAMRA
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-TAMRA
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-TAMRA
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-TAMRA
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-TAMRA
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-TAMRA
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-TAMRA
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-TAMRA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-AIN-GUELLAL
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-AIN-SOBH
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-AOUANA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-BEN-SAID
+    price_millimes:
+      PLEIN: 10900
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-BOUTERFES
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-CHAOUAT
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-JAFNA
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-JALTA
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-JEDEIDA
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-MATEUR
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-NEFZA
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-OUECHTATA
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-ROKOB
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-SEJNANE
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-SIDI-OTHMAN
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-TABARKA
+    price_millimes:
+      PLEIN: 12900
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-TAMRA
+    price_millimes:
+      PLEIN: 9800
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 150 : plein tarif terminus–terminus
+    12,900 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

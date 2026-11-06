@@ -1,0 +1,96 @@
+# Généré par `python -m citydata import-doc` depuis doc/trains-grandes-lignes/donnees/horaires-grandes-lignes-hiver-2026-2027.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNCFT-GHARDIMAOU
+network: SNCFT
+mode: TRAIN
+public_code: TA
+name:
+  fr: Tunis – Ghardimaou
+  ar: تونس – غار الدماء
+long_name:
+  fr: Tunis – Tebourba – Béja – Bou Salem – Jendouba – Ghardimaou
+  ar: تونس – طبربة – باجة – بوسالم – جندوبة – غار الدماء
+color: '#283593'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: GHARDIMAOU
+  headsign:
+    fr: Ghardimaou
+    ar: غار الدماء
+- id: TUNIS
+  headsign:
+    fr: Tunis Ville
+    ar: تونس
+patterns:
+- id: GHARDIMAOU
+  direction: GHARDIMAOU
+  main: true
+  stops:
+  - TRN-TUNISVILLE
+  - TRN-MANOUBA
+  - TRN-JEDEIDA
+  - TRN-TEBOURBA
+  - TRN-BORJTOUM
+  - TRN-MEJEZELBAB
+  - TRN-OUEDZARGA
+  - TRN-SIDIMHIMECH
+  - TRN-BEJA
+  - TRN-MASTOUTA
+  - TRN-SIDISMAIL
+  - TRN-BOUSALEM
+  - TRN-BENBECHIR
+  - TRN-JENDOUBA
+  - TRN-OUEDMELIZ
+  - TRN-GHARDIMAOU
+  shape: auto
+- id: TUNIS
+  direction: TUNIS
+  main: true
+  stops:
+  - TRN-GHARDIMAOU
+  - TRN-OUEDMELIZ
+  - TRN-JENDOUBA
+  - TRN-BENBECHIR
+  - TRN-BOUSALEM
+  - TRN-SIDISMAIL
+  - TRN-MASTOUTA
+  - TRN-BEJA
+  - TRN-SIDIMHIMECH
+  - TRN-OUEDZARGA
+  - TRN-MEJEZELBAB
+  - TRN-BORJTOUM
+  - TRN-TEBOURBA
+  - TRN-JEDEIDA
+  - TRN-MANOUBA
+  - TRN-TUNISVILLE
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/tunis-ghardimaou
+  fallback: inherit
+  versions:
+  - id: HIVER-2026-2027
+    valid_from: '2026-09-01'
+    valid_to: '2027-06-30'
+    provenance:
+      source: OFFICIEL
+      ref: Affiche SNCFT « Horaires des trains Grandes Lignes » Tunis – Ghardimaou – Annaba, du 1er septembre 2026 au 30 juin
+        2027 sauf mois de Ramadan (https://www.sncft.com.tn/wp-content/uploads/2026/09/LTA-TUNIS-ANNABA-Hiver-2026.2027-1_page-0001-1-scaled.jpg),
+        page https://www.sncft.com.tn/voyageurs/horaires/ consultée le 2026-10-14 ; transcription doc/trains-grandes-lignes/donnees/horaires-grandes-lignes-hiver-2026-2027.csv
+      verified_at: '2026-10-14'
+      by: import-doc
+provenance:
+  source: OFFICIEL
+  ref: https://www.sncft.com.tn/voyageurs/horaires/ — affiche hiver 2026-2027 (https://www.sncft.com.tn/wp-content/uploads/2026/09/LTA-TUNIS-ANNABA-Hiver-2026.2027-1_page-0001-1-scaled.jpg)
+  verified_at: '2026-10-14'
+  by: import-doc

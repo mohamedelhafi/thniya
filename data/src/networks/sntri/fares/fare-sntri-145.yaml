@@ -1,0 +1,1537 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-145
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-ALEXANDRE
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-AMAIEM
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-AMAIEM
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-AMAIEM
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-AMAIEM
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 9200
+  - from: SNTRI-AMAIEM
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-AMAIEM
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-AMAIEM
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-AMAIEM
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-AMAIEM
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-AMAIEM
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-AMAIEM
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-AMAIEM
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-AMAIEM
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-AMAIEM
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-AMAIEM
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-AMAIEM
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-AMAIEM
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-AMAIEM
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AMAIEM
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 9200
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 12700
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 12500
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-B-HAMOUDA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 13600
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 10900
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 9200
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 13400
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 13200
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 7600
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-EL-ALAA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 14300
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 9200
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 9500
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-EL-HAMMALA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-ELALIA
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-ELALIA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-ELALIA
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-ELALIA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-ELALIA
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-ELALIA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-ELALIA
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-ELALIA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-ELALIA
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-ELALIA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-ELALIA
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-ELALIA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 11000
+  - from: SNTRI-ELALIA
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-ELALIA
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-ELALIA
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-ELALIA
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-ELALIA
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-ELALIA
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-ELALIA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 12100
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 12700
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 13400
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 11500
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 200
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 13100
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 5300
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 12000
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-HAFFOUZ
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 13100
+  - from: SNTRI-J-OUEST
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-J-OUEST
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-J-OUEST
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-J-OUEST
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-J-OUEST
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-J-OUEST
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-J-OUEST
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-J-OUEST
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-J-OUEST
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-J-OUEST
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-J-OUEST
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-J-OUEST
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-J-OUEST
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-J-OUEST
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 11400
+  - from: SNTRI-J-OUEST
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-J-OUEST
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-J-OUEST
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-J-OUEST
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-J-OUEST
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 11500
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 11300
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-KIT-EL-OUED
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 12400
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 12500
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 13200
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 11000
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 200
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 12000
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 11300
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 12900
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-MAAROUF
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-MAAROUF
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-MAAROUF
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-MAAROUF
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-MAAROUF
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-MAAROUF
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-MAAROUF
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-MAAROUF
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-MAAROUF
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-MAAROUF
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-MAAROUF
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-MAAROUF
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-MAAROUF
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-MAAROUF
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-MAAROUF
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-MAAROUF
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-MAAROUF
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-MAAROUF
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-MAAROUF
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 10900
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 9500
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 13100
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 11400
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 12900
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-O-JEBBAS
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 13900
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-O-LAKSAB
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-OUESLATIA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 7600
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-OUM-LEBOUAB
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 5300
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 6900
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-S-AOUIDET
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-ALEXANDRE
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-B-HAMOUDA
+    price_millimes:
+      PLEIN: 13600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-EL-ALAA
+    price_millimes:
+      PLEIN: 14300
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-EL-HAMMALA
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-ELALIA
+    price_millimes:
+      PLEIN: 12100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-HAFFOUZ
+    price_millimes:
+      PLEIN: 13100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-KIT-EL-OUED
+    price_millimes:
+      PLEIN: 12400
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-MAAROUF
+    price_millimes:
+      PLEIN: 7300
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-O-JEBBAS
+    price_millimes:
+      PLEIN: 13900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-O-LAKSAB
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-OUESLATIA
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-OUM-LEBOUAB
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-S-AOUIDET
+    price_millimes:
+      PLEIN: 6100
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 145 : plein tarif terminus–terminus
+    14,300 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

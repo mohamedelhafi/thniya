@@ -1,0 +1,304 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-94
+network: TRANSTU
+mode: BUS
+public_code: '94'
+name:
+  fr: Bus 94
+  ar: حافلة 94
+long_name:
+  fr: Slimane Kahia – Tebourba / Borj El Amri
+  ar: محطة الترابط سليمان كاهية – طبربة / برج العامري
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Tebourba / Borj El Amri
+    ar: طبربة / برج العامري
+- id: RETOUR
+  headsign:
+    fr: Slimane Kahia
+    ar: محطة الترابط سليمان كاهية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-SLIMANE-KAHIA
+  - BUS-OUED-GUERIANA
+  - BUS-ABDELMOULA-ALLER
+  - BUS-PEPINIERE-ALLER
+  - BUS-GARDE-NATIONAL-AGBA-ALLER
+  - BUS-AGBA-SUPERIEUR-ALLER
+  - BUS-CANAL-AGBA-ALLER
+  - BUS-BEN-MAHMOUD-ALLER
+  - BUS-CITE-ELWAHA-ALLER
+  - BUS-SONEDE-AGBA-ALLER
+  - BUS-GHDIR-ELGOLLAH-ALLER
+  - BUS-CITE-JABRI-ALLER
+  - BUS-CROISEMENT-BEN-YEDDER-ALLER
+  - BUS-CITE-ENNACER-ALLER
+  - BUS-MARCHE-MORNAGIAA-ALLER
+  - BUS-GUITOUNI-ALLER
+  - BUS-CROISEMENT-SIDI-ALI-HATTAB-ALLER
+  - BUS-AEROPORT-BORJ-EL-AMRI-ALLER
+  - BUS-BORJ-KHALSI-ALLER
+  - BUS-RELAIS-BORJ-EL-AMRI-ALLER
+  - BUS-CITE-AOUINE-5
+  - BUS-CITE-AOUINE-6
+  - BUS-CITE-AOUINE-7
+  - BUS-RAISIN
+  - BUS-DOKEN-BEN-TARCHA
+  - BUS-EL-KALATOUS
+  - BUS-CITE-ELMHERINE
+  - BUS-CITE-ENNOUR
+  - BUS-PONT-RACHED
+  - BUS-CITE-AKACHA
+  - BUS-LYCEE-EL-BATTAN
+  - BUS-EL-BATTAN
+  - BUS-CITE-ERRIMEL
+  - BUS-TEBOURBA
+  run_times:
+    FLUIDE:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 9
+    - 4
+    - 10
+    - 3
+    - 13
+    - 3
+    - 10
+    - 4
+    - 1
+    - 2
+    - 5
+    - 3
+    - 4
+    - 2
+    - 6
+    - 4
+    - 2
+    - 4
+    - 2
+    - 6
+    - 3
+    CHARGE:
+    - 4
+    - 3
+    - 4
+    - 2
+    - 2
+    - 1
+    - 3
+    - 3
+    - 3
+    - 4
+    - 3
+    - 2
+    - 12
+    - 7
+    - 14
+    - 4
+    - 18
+    - 5
+    - 14
+    - 6
+    - 2
+    - 2
+    - 6
+    - 6
+    - 5
+    - 3
+    - 8
+    - 6
+    - 3
+    - 5
+    - 4
+    - 7
+    - 5
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TEBOURBA
+  - BUS-CITE-ERRIMEL
+  - BUS-EL-BATTAN
+  - BUS-LYCEE-EL-BATTAN
+  - BUS-CITE-AKACHA
+  - BUS-PONT-RACHED
+  - BUS-CITE-ENNOUR
+  - BUS-CITE-ELMHERINE
+  - BUS-EL-KALATOUS
+  - BUS-DOKEN-BEN-TARCHA
+  - BUS-RAISIN
+  - BUS-CITE-AOUINE-7
+  - BUS-CITE-AOUINE-6
+  - BUS-CITE-AOUINE-5
+  - BUS-RELAIS-BORJ-EL-AMRI-ALLER
+  - BUS-BORJ-KHALSI-ALLER
+  - BUS-AEROPORT-BORJ-EL-AMRI-ALLER
+  - BUS-CROISEMENT-SIDI-ALI-HATTAB-ALLER
+  - BUS-GUITOUNI-ALLER
+  - BUS-MARCHE-MORNAGIAA-ALLER
+  - BUS-CITE-ENNACER-ALLER
+  - BUS-CROISEMENT-BEN-YEDDER-ALLER
+  - BUS-CITE-JABRI-ALLER
+  - BUS-GHDIR-ELGOLLAH-ALLER
+  - BUS-SONEDE-AGBA-ALLER
+  - BUS-CITE-ELWAHA-ALLER
+  - BUS-BEN-MAHMOUD-ALLER
+  - BUS-CANAL-AGBA-ALLER
+  - BUS-AGBA-SUPERIEUR-ALLER
+  - BUS-GARDE-NATIONAL-AGBA-ALLER
+  - BUS-PEPINIERE-ALLER
+  - BUS-ABDELMOULA-ALLER
+  - BUS-OUED-GUERIANA
+  - BUS-SLIMANE-KAHIA
+  run_times:
+    FLUIDE:
+    - 3
+    - 5
+    - 3
+    - 3
+    - 3
+    - 3
+    - 6
+    - 2
+    - 4
+    - 4
+    - 4
+    - 2
+    - 1
+    - 5
+    - 10
+    - 3
+    - 13
+    - 2
+    - 10
+    - 5
+    - 9
+    - 1
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 3
+    - 2
+    - 3
+    CHARGE:
+    - 4
+    - 8
+    - 4
+    - 4
+    - 4
+    - 5
+    - 8
+    - 3
+    - 6
+    - 5
+    - 6
+    - 3
+    - 2
+    - 6
+    - 14
+    - 4
+    - 19
+    - 3
+    - 14
+    - 7
+    - 12
+    - 3
+    - 3
+    - 3
+    - 3
+    - 4
+    - 2
+    - 2
+    - 2
+    - 2
+    - 4
+    - 2
+    - 5
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 07:00
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 07:00
+          last: '19:00'
+        RETOUR:
+          first: 07:45
+          last: '17:30'
+    bands:
+      NUIT:
+        headway_min: 90
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 90
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 90
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 90
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 115
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 07:30
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 07:30
+          last: '19:00'
+        RETOUR:
+          first: 08:15
+          last: '17:30'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 120
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 07:00 → 19:00, terminus 07:45 → 17:30) et fréquence de pointe (90 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, SlimenKahiaH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 94 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

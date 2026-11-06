@@ -1,0 +1,7 @@
+{
+  "name": "thniya-mapstyle",
+  "private": true,
+  "description": "Génère les styles de carte Thniya (assets/map) à partir de @protomaps/basemaps",
+  "scripts": { "generate": "node generate.js ../../assets/map" },
+  "dependencies": { "@protomaps/basemaps": "5.7.2" }
+}

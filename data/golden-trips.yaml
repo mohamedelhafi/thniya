@@ -1,0 +1,131 @@
+# Trajets de référence (specs/10-tests-qualite.md §2).
+# Lancer : docker compose --profile tasks run --rm tools golden
+# departAt : « lundi 07:30 » (prochain lundi), ou date ISO « 2026-12-17T07:30 ». Hors fenêtre de données = ignoré.
+
+- id: HL-TUNIS-SEMAINE
+  description: "Hammam Lif → Tunis un mardi matin : train de la banlieue sud, moins d'une heure"
+  line: SNCFT-BS
+  from: { lat: 36.7290, lon: 10.3370, label: "Hammam Lif centre" }
+  to: { lat: 36.7957, lon: 10.1810, label: "Place Barcelone" }
+  departAt: "mardi 07:30"
+  expect:
+    first_modes_include: [RAIL]
+    uses_line: SNCFT-BS
+    first_trip_short_name: "134"
+    max_duration_min: 60
+
+- id: HL-TUNIS-DIMANCHE
+  description: "Le dimanche, seul le train 136 (code B) part vers 07:49"
+  line: SNCFT-BS
+  from: { lat: 36.7300, lon: 10.3350, label: "Gare de Hammam Lif" }
+  to: { lat: 36.7957, lon: 10.1810, label: "Place Barcelone" }
+  departAt: "dimanche 07:30"
+  expect:
+    first_trip_short_name: "136"
+
+- id: HL-TUNIS-FERIE-REVOLUTION
+  description: "Le 17 décembre (férié, un jeudi), les horaires du dimanche s'appliquent"
+  line: SNCFT-BS
+  from: { lat: 36.7300, lon: 10.3350, label: "Gare de Hammam Lif" }
+  to: { lat: 36.7957, lon: 10.1810, label: "Place Barcelone" }
+  departAt: "2026-12-17T07:30"
+  expect:
+    first_trip_short_name: "136"
+
+- id: TUNIS-ERRIADH-SOIR
+  description: "Dernier départs du soir vers Erriadh (train 239 à 21:00, arrivée 21:50)"
+  line: SNCFT-BS
+  from: { lat: 36.7957, lon: 10.1810, label: "Place Barcelone" }
+  to: { lat: 36.6995, lon: 10.4148, label: "Erriadh" }
+  departAt: "mercredi 20:50"
+  expect:
+    first_trip_short_name: "239"
+
+- id: RAMADAN-REPLI-GRILLE-NORMALE
+  description: "Pendant le Ramadan 2027 (pas encore de grille Ramadan), la grille normale est utilisée"
+  line: SNCFT-BS
+  from: { lat: 36.7300, lon: 10.3350, label: "Gare de Hammam Lif" }
+  to: { lat: 36.7957, lon: 10.1810, label: "Place Barcelone" }
+  departAt: "2027-02-09T07:30"
+  expect:
+    first_trip_short_name: "134"
+
+- id: HORS-ZONE-MORNAG
+  description: "Sans aucune ligne à distance de marche (Mornag, à l'intérieur des terres) : pas de transport proposé, pas d'erreur"
+  from: { lat: 36.6840, lon: 10.2880, label: "Mornag" }
+  to: { lat: 36.6900, lon: 10.2990, label: "Mornag est" }
+  departAt: "lundi 10:00"
+  expect:
+    no_transit: true
+
+# --- Trajets multimodaux de bout en bout (réponse de l'API, réseau du Grand Tunis) --------------------------
+
+- id: BOUMHEL-LAC-MULTIMODAL
+  description: "Boumhel → Les Berges du Lac un mercredi 08:00 : marche jusqu'à la banlieue sud, train A puis bus 20B"
+  from: { lat: 36.72442, lon: 10.30105, label: "Boumhel" }
+  to: { lat: 36.83509, lon: 10.23884, label: "Les Berges du Lac" }
+  departAt: "mercredi 08:00"
+  api_expect:
+    sections_include: [SUGGESTED, TRAIN]
+    some_itinerary_uses_lines:
+      - [SNCFT-BS, TRANSTU-BUS-20B]
+    # Sans louage (aucune ligne de louage fiable dans les sources) : ~2 h 15 avec le bus 20B aux fréquences estimées
+    max_duration_min: 150
+    prices_known: true
+
+- id: HAMMAMLIF-PLAGE-MARSA
+  description: "Hammam Lif (plage) → La Marsa un mercredi 08:00 : train A puis TGM (un toutes les 45 min)"
+  from: { lat: 36.7330, lon: 10.3400, label: "Hammam Lif plage" }
+  to: { lat: 36.8791, lon: 10.3277, label: "La Marsa" }
+  departAt: "mercredi 08:00"
+  api_expect:
+    sections_include: [SUGGESTED]
+    some_itinerary_uses_lines:
+      - [SNCFT-BS, TRANSTU-TGM]
+    max_duration_min: 160
+    prices_known: true
+
+- id: NUIT-PREMIERS-DEPARTS
+  description: "Borj Cédria → Les Berges du Lac à 00:05 : plus rien ne circule, l'API propose les premiers départs du matin (train A dès 04:35) au lieu de « aucun itinéraire »"
+  from: { lat: 36.703617, lon: 10.397580, label: "Borj Cédria" }
+  to: { lat: 36.837798, lon: 10.232563, label: "Les Berges du Lac" }
+  departAt: "mercredi 00:05"
+  api_expect:
+    notice: FIRST_DEPARTURES
+    sections_include: [SUGGESTED]
+    some_itinerary_uses_lines:
+      - [SNCFT-BS, TRANSTU-BUS-20B]
+
+# --- Tunisie entière (grandes lignes SNCFT, autocars SNTRI, bus de l'aéroport ; import doc/ du 2026-10-14) ------
+
+- id: TUNIS-SOUSSE-TRAIN
+  description: "Place Barcelone → Sousse un mercredi 07:00 : train de la ligne 5 (grandes lignes SNCFT)"
+  from: { lat: 36.7957, lon: 10.1810, label: "Place Barcelone" }
+  to: { lat: 35.8256, lon: 10.6411, label: "Sousse centre" }
+  departAt: "mercredi 07:00"
+  api_expect:
+    some_itinerary_uses_lines:
+      - [SNCFT-L5]
+    max_duration_min: 200
+
+- id: TUNIS-KAIROUAN-AUTOCAR
+  description: "Bab Alioua → Kairouan un mercredi 15:30 : autocar SNTRI 128 (départ 16:00 de Tunis Sud), prix du site"
+  from: { lat: 36.7858, lon: 10.1810, label: "Bab Alioua" }
+  to: { lat: 35.6781, lon: 10.0963, label: "Kairouan" }
+  departAt: "mercredi 15:30"
+  api_expect:
+    some_itinerary_uses_lines:
+      - [SNTRI-128]
+    max_duration_min: 240
+    prices_known: true
+
+- id: TUNIS-MARINE-AEROPORT
+  description: "Tunis Marine → aéroport Tunis-Carthage un mardi 09:00 : bus de l'aéroport (1,000 DT)"
+  from: { lat: 36.8007, lon: 10.1921, label: "Tunis Marine" }
+  to: { lat: 36.8475, lon: 10.2172, label: "Aéroport Tunis-Carthage" }
+  departAt: "mardi 09:00"
+  api_expect:
+    some_itinerary_uses_lines:
+      - [TRANSTU-BUS-AEROPORT]
+    max_duration_min: 60
+    prices_known: true

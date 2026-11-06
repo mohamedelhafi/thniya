@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=../../schemas/feed.schema.json
+# Informations d'éditeur écrites dans feed_info.txt
+publisher_name: "Thniya"
+publisher_url: "https://thniya.tn"   # domaine à confirmer (lot 7)
+default_lang: fr
+contact_email: null

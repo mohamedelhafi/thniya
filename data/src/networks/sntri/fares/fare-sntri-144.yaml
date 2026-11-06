@@ -1,0 +1,457 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-144
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 15600
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 10200
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 13300
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-B-EL-HAFFEY
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 19900
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 15600
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 16200
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 25800
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 20200
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 25600
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 23000
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 16200
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 13900
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-BEN-AOUN
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 20500
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 10200
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 25800
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 14700
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 23500
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 19500
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 200
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-DEGUECHE
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 30100
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 14700
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-EL-HAJEB
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 15400
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 13300
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 13900
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 23500
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 17900
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 23300
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 20700
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-GAFSA
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-GAFSA
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 20200
+  - from: SNTRI-GAFSA
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-GAFSA
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-GAFSA
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-GAFSA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 17900
+  - from: SNTRI-GAFSA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 13900
+  - from: SNTRI-GAFSA
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-GAFSA
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-GAFSA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 24500
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 19500
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 13900
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 19300
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 16700
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-KRIZ
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-KRIZ
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 25600
+  - from: SNTRI-KRIZ
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-KRIZ
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 200
+  - from: SNTRI-KRIZ
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-KRIZ
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 23300
+  - from: SNTRI-KRIZ
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-KRIZ
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 19300
+  - from: SNTRI-KRIZ
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-KRIZ
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 29900
+  - from: SNTRI-METLAOUI
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-METLAOUI
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 23000
+  - from: SNTRI-METLAOUI
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-METLAOUI
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-METLAOUI
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-METLAOUI
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 20700
+  - from: SNTRI-METLAOUI
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-METLAOUI
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 16700
+  - from: SNTRI-METLAOUI
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-METLAOUI
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 27300
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-B-EL-HAFFEY
+    price_millimes:
+      PLEIN: 19900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-BEN-AOUN
+    price_millimes:
+      PLEIN: 20500
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-DEGUECHE
+    price_millimes:
+      PLEIN: 30100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-EL-HAJEB
+    price_millimes:
+      PLEIN: 15400
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 24500
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-KRIZ
+    price_millimes:
+      PLEIN: 29900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 27300
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 144 : plein tarif terminus–terminus
+    30,100 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

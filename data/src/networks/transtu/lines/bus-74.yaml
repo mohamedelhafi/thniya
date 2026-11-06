@@ -1,0 +1,228 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-74
+network: TRANSTU
+mode: BUS
+public_code: '74'
+name:
+  fr: Bus 74
+  ar: حافلة 74
+long_name:
+  fr: Mourouj 5 – Tunis Marine
+  ar: مروج 5 – تونس البحرية
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Tunis Marine
+    ar: تونس البحرية
+- id: RETOUR
+  headsign:
+    fr: Mourouj 5
+    ar: مروج 5
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-MOUROUJ-5
+  - BUS-AV-EL-BORHENE
+  - BUS-CITE-AFH
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-5
+  - BUS-CITE-EL-FAOUEZ
+  - BUS-14-JANVIER
+  - BUS-CENTRE-CHALLAKH-EL-MOUROUJ-4
+  - BUS-FOYER-UNIVERSITAIRE-MOUROUJ-3
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-3
+  - BUS-MOUROUJ-3
+  - BUS-MEUBLATEX
+  - BUS-IMMEUBLE-OASIS
+  - BUS-BATAM
+  - BUS-LES-ROSES-MOUROUJ-1
+  - BUS-CROISEMENT-MOUROUJ-2
+  - BUS-PONT-MOUROUJ-2
+  - BUS-HAMMAM-LACAGNA
+  - BUS-LA-CAGNA
+  - BUS-LYCEE-OUARDIA
+  - BUS-MONOPOLES
+  - BUS-CIMETIERE-JALLEZ
+  - BUS-MONCEF-BEY-RETOUR
+  - BUS-ALI-DERGHOUTH
+  - BUS-TUNIS-MARINE
+  run_times:
+    FLUIDE:
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 4
+    - 6
+    - 2
+    - 1
+    - 1
+    - 1
+    - 2
+    - 11
+    - 1
+    - 2
+    - 2
+    - 3
+    - 3
+    - 2
+    - 2
+    CHARGE:
+    - 1
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    - 2
+    - 5
+    - 8
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    - 16
+    - 2
+    - 3
+    - 3
+    - 3
+    - 5
+    - 2
+    - 3
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TUNIS-MARINE
+  - BUS-RUE-DE-LA-TURQUIE-ALLER
+  - BUS-MONCEF-BEY-ALLER
+  - BUS-CIMETIERE-JALLEZ
+  - BUS-MONOPOLES
+  - BUS-LYCEE-OUARDIA
+  - BUS-LA-CAGNA
+  - BUS-HAMMAM-LACAGNA
+  - BUS-PONT-MOUROUJ-2
+  - BUS-CROISEMENT-MOUROUJ-2
+  - BUS-LES-ROSES-MOUROUJ-1
+  - BUS-BATAM
+  - BUS-IMMEUBLE-OASIS
+  - BUS-MEUBLATEX
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-3
+  - BUS-FOYER-UNIVERSITAIRE-MOUROUJ-3
+  - BUS-CENTRE-CHALLAKH-EL-MOUROUJ-4
+  - BUS-14-JANVIER
+  - BUS-CITE-EL-FAOUEZ
+  - BUS-JARDIN-D-ENFANTS-MOUROUJ-5
+  - BUS-CITE-AFH
+  - BUS-MOUROUJ-5
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 3
+    - 3
+    - 2
+    - 2
+    - 1
+    - 11
+    - 2
+    - 1
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    - 2
+    - 1
+    - 3
+    - 1
+    - 1
+    CHARGE:
+    - 2
+    - 4
+    - 4
+    - 4
+    - 2
+    - 3
+    - 3
+    - 15
+    - 3
+    - 1
+    - 2
+    - 2
+    - 3
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 06:00
+      last: '18:50'
+      by_direction:
+        ALLER:
+          first: 06:00
+          last: '17:40'
+        RETOUR:
+          first: 06:50
+          last: '18:50'
+    bands:
+      NUIT:
+        headway_min: 85
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 85
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 85
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 85
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 110
+        run_time: FLUIDE
+  no_service:
+  - periods:
+    - NORMAL
+    - ETE
+    - RAMADAN
+    day_types:
+    - DIMANCHE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 06:00 → 17:40, terminus 06:50 → 18:50) et fréquence de pointe (85 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, ResteLigneH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 74 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; dimanche : aucun départ
+    dans l''open data du dépôt de Ben Arous ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et 0.4 min par
+    arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

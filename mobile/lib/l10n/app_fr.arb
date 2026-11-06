@@ -1,0 +1,322 @@
+{
+  "@@locale": "fr",
+  "appName": "Thniya",
+  "whereTo": "Où allez-vous ?",
+  "home": "Maison",
+  "work": "Travail",
+  "setHome": "Définir",
+  "lines": "Lignes",
+  "nearby": "À proximité",
+  "all": "Tout",
+  "myLocation": "Ma position",
+  "from": "Départ",
+  "to": "Arrivée",
+  "searchHint": "Gare, arrêt, adresse, lieu…",
+  "stopsAndStations": "Arrêts et stations",
+  "addressesAndPlaces": "Adresses et lieux",
+  "recent": "Récents",
+  "chooseOnMap": "Choisir sur la carte",
+  "leaveNow": "Partir maintenant",
+  "departAt": "Partir à {time}",
+  "@departAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "arriveBy": "Arriver avant {time}",
+  "@arriveBy": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "minutesShort": "{n} min",
+  "@minutesShort": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursMinutes": "{h} h {m}",
+  "@hoursMinutes": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "String"
+      }
+    }
+  },
+  "inMinutes": "dans {n} min",
+  "@inMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "now": "maintenant",
+  "arrival": "Arrivée {time}",
+  "@arrival": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "walkMinutes": "{n} min à pied",
+  "@walkMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "priceUnknown": "Prix inconnu",
+  "price": "{amount} DT",
+  "@price": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "everyMinutes": "~toutes les {n} min",
+  "@everyMinutes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "departsWhenFull": "Part quand il est plein",
+  "transfers": "{n, plural, =0{Direct} =1{1 correspondance} other{{n} correspondances}}",
+  "@transfers": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "stopsCount": "{n, plural, =0{Sans arrêt} =1{1 arrêt} other{{n} arrêts}}",
+  "@stopsCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "walkTo": "Marchez jusqu'à {place}",
+  "@walkTo": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "walkDistance": "{min} min · {meters} m",
+  "@walkDistance": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "meters": {
+        "type": "int"
+      }
+    }
+  },
+  "towards": "vers {place}",
+  "@towards": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "getOffAt": "Descendez à {place}",
+  "@getOffAt": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "board": "Montez",
+  "otherDepartures": "Autres départs",
+  "arriveAt": "Arrivée à {place}",
+  "@arriveAt": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "save": "Enregistrer",
+  "share": "Partager",
+  "reportProblem": "Signaler",
+  "noTransitHere": "Pas encore de transports ici",
+  "noTransitHereBody": "Thniya couvre pour l'instant la banlieue sud de Tunis. Voici l'itinéraire à pied.",
+  "loadingError": "Impossible de charger",
+  "retry": "Réessayer",
+  "offline": "Pas de connexion",
+  "tooManyRequests": "Trop de demandes, réessayez dans un instant",
+  "serviceUnavailable": "Service momentanément indisponible",
+  "noRoute": "Aucun itinéraire trouvé",
+  "direction": "Direction",
+  "stops": "Arrêts",
+  "timetable": "Horaires",
+  "today": "Aujourd'hui",
+  "tomorrow": "Demain",
+  "saturday": "Samedi",
+  "sunday": "Dimanche",
+  "departuresCount": "{n} départs",
+  "@departuresCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "firstLast": "Premier {first} · Dernier {last}",
+  "@firstLast": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      }
+    }
+  },
+  "noServiceToday": "Pas de départ aujourd'hui",
+  "nextService": "Prochain : {when}",
+  "@nextService": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "nextDepartures": "Prochains départs",
+  "usualTimetableNotice": "Horaires de {period} non publiés : horaires habituels affichés",
+  "@usualTimetableNotice": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      }
+    }
+  },
+  "settings": "Réglages",
+  "language": "Langue",
+  "theme": "Thème",
+  "themeSystem": "Système",
+  "themeLight": "Clair",
+  "themeDark": "Sombre",
+  "aboutData": "À propos des données",
+  "dataVersion": "Version des données : {v}",
+  "@dataVersion": {
+    "placeholders": {
+      "v": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSources": "Sources : data.transport.tn (Transtu, SNTRI, ministère du Transport), sites de la SNCFT, de la Transtu et de la SNTRI, OpenStreetMap (ODbL), Protomaps. Les horaires Transtu sont estimés. Application indépendante et non officielle : en cas de doute, vérifiez auprès de l'opérateur.",
+  "officialTimes": "Horaires officiels",
+  "estimatedTimes": "Horaires estimés",
+  "suggestions": "Suggestions",
+  "seeLine": "Voir la ligne",
+  "seeStop": "Voir l'arrêt",
+  "allLines": "Toutes les lignes",
+  "noNearby": "Aucun arrêt à distance de marche",
+  "locating": "Recherche de votre position…",
+  "goHome": "Rentrer",
+  "holiday": "Jour férié : {name}",
+  "@holiday": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackSent": "Merci ! Votre signalement a été envoyé.",
+  "feedbackPrompt": "Qu'est-ce qui ne va pas ?",
+  "send": "Envoyer",
+  "cancel": "Annuler",
+  "swap": "Inverser",
+  "earlier": "Plus tôt",
+  "later": "Plus tard",
+  "walk": "Marche",
+  "change": "Changement",
+  "routeHere": "Itinéraire vers ici",
+  "platform": "Voie {code}",
+  "@platform": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "minUnit": "min",
+  "hourUnit": "h",
+  "noResults": "Aucun résultat",
+  "boardAt": "Montez à {place}",
+  "@boardAt": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "stepOf": "Étape {n} sur {total}",
+  "@stepOf": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "overview": "Vue d'ensemble",
+  "tapLegHint": "Touchez une étape pour la voir sur la carte",
+  "boarding": "Montée",
+  "alighting": "Descente",
+  "routeFromHere": "Partir d'ici",
+  "pointOnMap": "Point sur la carte",
+  "details": "Détails",
+  "showList": "Liste",
+  "youArrive": "Vous êtes arrivé",
+  "departures": "Départs",
+  "goThere": "Y aller",
+  "nearStop": "Près de {name} · {min} min à pied",
+  "@nearStop": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "noRouteBody": "Essayez une autre heure, ou un départ plus proche d'une gare ou d'un arrêt.",
+  "noServiceNow": "Plus de transport à cette heure-ci.",
+  "firstDeparturesFrom": "Plus de transport à cette heure-ci : voici les premiers départs, dès {time}.",
+  "@firstDeparturesFrom": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "previousStep": "Étape précédente",
+  "nextStep": "Étape suivante",
+  "louagesFromHere": "Louages au départ d'ici"
+}

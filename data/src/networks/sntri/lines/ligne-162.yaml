@@ -1,0 +1,86 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-162
+network: SNTRI
+mode: BUS
+public_code: '162'
+name:
+  fr: Sousse – Midoune
+  ar: سوسة – ميدون
+long_name:
+  fr: Sousse – Midoune par Sfax et Djerba (Houmt Souk)
+  ar: سوسة – ميدون عبر صفاقس، جربة
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Midoune
+    ar: ميدون
+- id: RETOUR
+  headsign:
+    fr: Sousse
+    ar: سوسة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-SOUSSE
+  - SNTRI-EL-JEM
+  - SNTRI-EL-HANCHA
+  - SNTRI-SFAX
+  - SNTRI-MAHARES
+  - SNTRI-SKHIRA
+  - SNTRI-GABES
+  - SNTRI-MARETH
+  - SNTRI-AJIM
+  - SNTRI-JERBA
+  - SNTRI-MIDOUNE
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-MIDOUNE
+  - SNTRI-JERBA
+  - SNTRI-AJIM
+  - SNTRI-MARETH
+  - SNTRI-GABES
+  - SNTRI-SKHIRA
+  - SNTRI-MAHARES
+  - SNTRI-SFAX
+  - SNTRI-EL-HANCHA
+  - SNTRI-EL-JEM
+  - SNTRI-SOUSSE
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/162
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 162 « SOUSSE - MIDOUNE » (397
+        km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-162
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 162 « SOUSSE - MIDOUNE » (397 km)
+  verified_at: '2026-10-14'
+  by: import-doc

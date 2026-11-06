@@ -1,0 +1,92 @@
+# Généré par `python -m citydata import-doc` depuis doc/trains-banlieue/donnees/horaires-banlieue-hiver-2026-2027.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNCFT-E
+network: SNCFT
+mode: TRAIN
+public_code: E
+name:
+  fr: Ligne E
+  ar: الخط E
+long_name:
+  fr: Tunis – Bougatfa
+  ar: تونس – بوقطفة
+color: '#00796B'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: BOUGATFA
+  headsign:
+    fr: Bougatfa
+    ar: بوقطفة
+- id: TUNIS
+  headsign:
+    fr: Tunis Ville
+    ar: تونس
+patterns:
+- id: BOUGATFA
+  direction: BOUGATFA
+  main: true
+  stops:
+  - TRN-TUNISVILLE
+  - TRN-SAIDAMANOUBIA
+  - TRN-ENNAJAH
+  - TRN-ETTAYARANE
+  - TRN-EZZOUHOUR
+  - TRN-ELHRAIRIA
+  - TRN-BOUGATFA
+  shape: auto
+- id: TUNIS
+  direction: TUNIS
+  main: true
+  stops:
+  - TRN-BOUGATFA
+  - TRN-ELHRAIRIA
+  - TRN-EZZOUHOUR
+  - TRN-ETTAYARANE
+  - TRN-ENNAJAH
+  - TRN-SAIDAMANOUBIA
+  - TRN-TUNISVILLE
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+  A:
+    days:
+    - OUVRABLE
+    - SAMEDI
+    label:
+      fr: Sauf dimanches et fêtes
+      ar: ما عدى الآحاد و الأعياد
+  B:
+    days:
+    - DIMANCHE
+    label:
+      fr: Dimanches et fêtes seulement
+      ar: أيام الآحاد و الأعياد
+schedule:
+  kind: timetable
+  source_dir: timetables/rfr-e
+  fallback: inherit
+  versions:
+  - id: HIVER-2026-2027
+    valid_from: '2026-09-01'
+    valid_to: '2027-06-30'
+    provenance:
+      source: OFFICIEL
+      ref: Affiche SNCFT « Horaires des trains banlieue de Tunis » hiver 2026-2027, Tunis – Bougatfa, valable du 1er septembre
+        2026 au 30 juin 2027 (https://www.sncft.com.tn/wp-content/uploads/2026/09/Horaire-Bougatfa-Tunis-hiver-26-27-_1_-_1_-1-scaled.webp),
+        page https://www.sncft.com.tn/voyageurs/banlieue-tunis/ consultée le 2026-10-14 ; transcription doc/trains-banlieue/donnees/horaires-banlieue-hiver-2026-2027.csv
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNCFT-E
+provenance:
+  source: OFFICIEL
+  ref: https://www.sncft.com.tn/voyageurs/banlieue-tunis/ — affiche hiver 2026-2027 (https://www.sncft.com.tn/wp-content/uploads/2026/09/Horaire-Bougatfa-Tunis-hiver-26-27-_1_-_1_-1-scaled.webp)
+  verified_at: '2026-10-14'
+  by: import-doc

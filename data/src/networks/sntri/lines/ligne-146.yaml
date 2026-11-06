@@ -1,0 +1,117 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-146
+network: SNTRI
+mode: BUS
+public_code: '146'
+name:
+  fr: Tunis Sud – El Hamma
+  ar: تونس الجنوبية – الحامة
+long_name:
+  fr: Tunis Sud – El Hamma par Sousse et Sfax
+  ar: تونس الجنوبية – الحامة عبر سوسة، صفاقس
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: El Hamma
+    ar: الحامة
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-F-JEDID
+  - SNTRI-GROMBALIA
+  - SNTRI-B-SAHEL
+  - SNTRI-BOUFICHA
+  - SNTRI-ENFIDHA
+  - SNTRI-S-BOU-ALI
+  - SNTRI-SOUSSE
+  - SNTRI-BANNANE
+  - SNTRI-KSAR-HELAL
+  - SNTRI-MOKNINE
+  - SNTRI-KSOUR-ESSAF
+  - SNTRI-LA-CHEBBA
+  - SNTRI-MELLOULECHE
+  - SNTRI-JEBENIANA
+  - SNTRI-EL-AMRA
+  - SNTRI-SFAX
+  - SNTRI-MAHARES
+  - SNTRI-HECHICHINA
+  - SNTRI-SKHIRA
+  - SNTRI-AKARIT
+  - SNTRI-OUEDREF
+  - SNTRI-METOUIA
+  - SNTRI-GABES
+  - SNTRI-EL-HAMMA-2
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-EL-HAMMA-2
+  - SNTRI-GABES
+  - SNTRI-METOUIA
+  - SNTRI-OUEDREF
+  - SNTRI-AKARIT
+  - SNTRI-SKHIRA
+  - SNTRI-HECHICHINA
+  - SNTRI-MAHARES
+  - SNTRI-SFAX
+  - SNTRI-EL-AMRA
+  - SNTRI-JEBENIANA
+  - SNTRI-MELLOULECHE
+  - SNTRI-LA-CHEBBA
+  - SNTRI-KSOUR-ESSAF
+  - SNTRI-MOKNINE
+  - SNTRI-KSAR-HELAL
+  - SNTRI-BANNANE
+  - SNTRI-SOUSSE
+  - SNTRI-S-BOU-ALI
+  - SNTRI-ENFIDHA
+  - SNTRI-BOUFICHA
+  - SNTRI-B-SAHEL
+  - SNTRI-GROMBALIA
+  - SNTRI-F-JEDID
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/146
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 146 « TUNIS SUD - EL HAMMA » (471
+        km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-146
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 146 « TUNIS SUD - EL HAMMA » (471
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

@@ -1,0 +1,31 @@
+# yaml-language-server: $schema=../../schemas/time-bands.schema.json
+# Tranches horaires par régime, utilisées par les lignes à fréquence (specs/04b §5).
+# Chaque groupe doit couvrir 00:00 → 26:00 sans trou ni chevauchement.
+
+- applies_to: { periods: [NORMAL, AID], day_types: [OUVRABLE, SAMEDI] }
+  bands:
+    - { id: NUIT,         from: "00:00", to: "06:00" }
+    - { id: POINTE_MATIN, from: "06:00", to: "09:00" }
+    - { id: JOURNEE,      from: "09:00", to: "16:00" }
+    - { id: POINTE_SOIR,  from: "16:00", to: "19:00" }
+    - { id: SOIREE,       from: "19:00", to: "26:00" }
+
+- applies_to: { periods: [ETE], day_types: [OUVRABLE, SAMEDI] }
+  bands:
+    - { id: NUIT,         from: "00:00", to: "06:00" }
+    - { id: POINTE_MATIN, from: "06:00", to: "08:30" }
+    - { id: JOURNEE,      from: "08:30", to: "13:00" }
+    - { id: POINTE_SOIR,  from: "13:00", to: "15:30" }
+    - { id: SOIREE,       from: "15:30", to: "26:00" }
+
+- applies_to: { periods: [RAMADAN], day_types: [OUVRABLE, SAMEDI] }
+  bands:
+    - { id: NUIT,         from: "00:00", to: "06:30" }
+    - { id: MATIN,        from: "06:30", to: "14:00" }
+    - { id: AVANT_FTOUR,  from: "14:00", to: "18:00" }
+    - { id: FTOUR,        from: "18:00", to: "19:15" }
+    - { id: SOIREE,       from: "19:15", to: "26:00" }
+
+- applies_to: { periods: [NORMAL, ETE, RAMADAN, AID], day_types: [DIMANCHE] }
+  bands:
+    - { id: TOUTE_LA_JOURNEE, from: "00:00", to: "26:00" }

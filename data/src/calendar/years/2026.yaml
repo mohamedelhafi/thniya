@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../../schemas/calendar-year.schema.json
+# Événements 2026 (specs/04b §3). Fêtes religieuses : dates mobiles, à confirmer.
+year: 2026
+events:
+  # --- Fêtes civiles
+  - { id: NOUVEL_AN,     kind: holiday, date: 2026-01-01, status: confirmed, name: { fr: "Jour de l'an", ar: "رأس السنة الإدارية" } }
+  - { id: INDEPENDANCE,  kind: holiday, date: 2026-03-20, status: confirmed, name: { fr: "Fête de l'indépendance", ar: "عيد الاستقلال" } }
+  - { id: MARTYRS,       kind: holiday, date: 2026-04-09, status: confirmed, name: { fr: "Journée des martyrs", ar: "عيد الشهداء" } }
+  - { id: TRAVAIL,       kind: holiday, date: 2026-05-01, status: confirmed, name: { fr: "Fête du travail", ar: "عيد الشغل" } }
+  - { id: REPUBLIQUE,    kind: holiday, date: 2026-07-25, status: confirmed, name: { fr: "Fête de la République", ar: "عيد الجمهورية" } }
+  - { id: FEMME,         kind: holiday, date: 2026-08-13, status: confirmed, name: { fr: "Fête de la femme", ar: "عيد المرأة" } }
+  - { id: EVACUATION,    kind: holiday, date: 2026-10-15, status: confirmed, name: { fr: "Fête de l'évacuation", ar: "عيد الجلاء" } }
+  - { id: REVOLUTION,    kind: holiday, date: 2026-12-17, status: confirmed, name: { fr: "Fête de la révolution", ar: "عيد الثورة" } }
+
+  # --- Fêtes religieuses
+  - { id: RAMADAN,       kind: period_event, from: 2026-02-18, to: 2026-03-19, status: estimated, name: { fr: "Ramadan", ar: "رمضان" } }
+  - { id: AID_FITR,      kind: holiday, from: 2026-03-20, to: 2026-03-22, status: estimated, name: { fr: "Aïd el-Fitr", ar: "عيد الفطر" } }
+  - { id: AID_ADHA,      kind: holiday, from: 2026-05-27, to: 2026-05-28, status: estimated, name: { fr: "Aïd el-Adha", ar: "عيد الأضحى" } }
+  - { id: HIJRI,         kind: holiday, date: 2026-06-16, status: estimated, name: { fr: "Ras el Am el Hijri", ar: "رأس السنة الهجرية" } }
+  - { id: MOULED,        kind: holiday, date: 2026-08-25, status: confirmed, name: { fr: "Mouled", ar: "المولد النبوي" } }
+
+  # --- Saisons
+  - id: ETE
+    kind: period_event
+    from: 2026-07-01
+    to: 2026-08-31
+    status: confirmed
+    name: { fr: "Horaires d'été", ar: "التوقيت الصيفي" }
+    source: "SNCFT, horaires de la banlieue 1er juillet – 31 août 2026 (La Presse, 29/06/2026)"

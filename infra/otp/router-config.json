@@ -1,0 +1,12 @@
+{
+  "configVersion": "thniya-1",
+  "server": {
+    "apiProcessingTimeout": "8s"
+  },
+  "routingDefaults": {
+    "numItineraries": 5,
+    "walk": {
+      "speed": 1.3
+    }
+  }
+}

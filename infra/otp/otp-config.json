@@ -1,0 +1,8 @@
+{
+  "configVersion": "thniya-1",
+  "otpFeatures": {
+    "ActuatorAPI": true,
+    "DebugUi": true,
+    "GtfsGraphQlApi": true
+  }
+}

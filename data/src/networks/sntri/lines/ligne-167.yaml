@@ -1,0 +1,113 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-167
+network: SNTRI
+mode: BUS
+public_code: '167'
+name:
+  fr: Tunis Sud – Kasserine
+  ar: تونس الجنوبية – القصرين
+long_name:
+  fr: Tunis Sud – Kasserine par Siliana, Makthar et Sbiba
+  ar: تونس الجنوبية – القصرين عبر سليانة، مكثر، سبيبة
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Kasserine
+    ar: القصرين
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-FOUCHANA
+  - SNTRI-M-HAMEDIA
+  - SNTRI-J-OUEST
+  - SNTRI-B-M-CHERGUA
+  - SNTRI-EL-FAHS
+  - SNTRI-AMAIEM
+  - SNTRI-S-AOUIDET
+  - SNTRI-SIDI-SAID
+  - SNTRI-ROBAA
+  - SNTRI-SILIANA
+  - SNTRI-S-MANSOUR
+  - SNTRI-AIN-DISSA
+  - SNTRI-MAKTHAR
+  - SNTRI-NADI
+  - SNTRI-BOUKHRIS
+  - SNTRI-EMB-DEHMANI
+  - SNTRI-ROUHIA
+  - SNTRI-JEDLIANE
+  - SNTRI-SBIBA
+  - SNTRI-EL-GUIB
+  - SNTRI-EL-GOUSSA
+  - SNTRI-SBEITLA
+  - SNTRI-KASSERINE
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-KASSERINE
+  - SNTRI-SBEITLA
+  - SNTRI-EL-GOUSSA
+  - SNTRI-EL-GUIB
+  - SNTRI-SBIBA
+  - SNTRI-JEDLIANE
+  - SNTRI-ROUHIA
+  - SNTRI-EMB-DEHMANI
+  - SNTRI-BOUKHRIS
+  - SNTRI-NADI
+  - SNTRI-MAKTHAR
+  - SNTRI-AIN-DISSA
+  - SNTRI-S-MANSOUR
+  - SNTRI-SILIANA
+  - SNTRI-ROBAA
+  - SNTRI-SIDI-SAID
+  - SNTRI-S-AOUIDET
+  - SNTRI-AMAIEM
+  - SNTRI-EL-FAHS
+  - SNTRI-B-M-CHERGUA
+  - SNTRI-J-OUEST
+  - SNTRI-M-HAMEDIA
+  - SNTRI-FOUCHANA
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/167
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 167 « TUNIS SUD - KASSERINE »
+        (286 km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-167
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 167 « TUNIS SUD - KASSERINE » (286
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

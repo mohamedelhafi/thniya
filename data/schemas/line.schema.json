@@ -1,0 +1,432 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ligne (networks/<reseau>/lines/*.yaml)",
+  "type": "object",
+  "$defs": {
+    "patternStop": {
+      "oneOf": [
+        {
+          "$ref": "common.schema.json#/$defs/id"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "stop": {
+              "$ref": "common.schema.json#/$defs/id"
+            },
+            "pickup": {
+              "enum": [
+                "regular",
+                "none",
+                "on_request",
+                "phone"
+              ]
+            },
+            "dropoff": {
+              "enum": [
+                "regular",
+                "none",
+                "on_request",
+                "phone"
+              ]
+            },
+            "continuous": {
+              "type": "boolean",
+              "description": "On peut héler le véhicule entre cet arrêt et le suivant (louage)."
+            }
+          },
+          "required": [
+            "stop"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "selector": {
+      "type": "object",
+      "properties": {
+        "periods": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/periodId"
+          },
+          "minItems": 1
+        },
+        "day_types": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/dayType"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "periods",
+        "day_types"
+      ]
+    },
+    "band": {
+      "type": "object",
+      "properties": {
+        "headway_min": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "null = pas de service dans cette tranche"
+        },
+        "run_time": {
+          "type": "string",
+          "description": "Profil de durées défini dans run_times"
+        }
+      },
+      "required": [
+        "headway_min"
+      ],
+      "additionalProperties": false
+    },
+    "correction": {
+      "type": "object",
+      "properties": {
+        "direction": {
+          "type": "string"
+        },
+        "train": {
+          "type": "string"
+        },
+        "stop": {
+          "$ref": "common.schema.json#/$defs/id"
+        },
+        "printed": {
+          "type": "string"
+        },
+        "corrected": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "direction",
+        "train",
+        "stop",
+        "printed",
+        "corrected",
+        "reason"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "properties": {
+    "id": {
+      "$ref": "common.schema.json#/$defs/id"
+    },
+    "network": {
+      "$ref": "common.schema.json#/$defs/id"
+    },
+    "mode": {
+      "type": "string",
+      "pattern": "^[A-Z_]+$"
+    },
+    "public_code": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12
+    },
+    "name": {
+      "$ref": "common.schema.json#/$defs/i18n"
+    },
+    "long_name": {
+      "$ref": "common.schema.json#/$defs/i18n"
+    },
+    "color": {
+      "$ref": "common.schema.json#/$defs/color"
+    },
+    "text_color": {
+      "$ref": "common.schema.json#/$defs/color"
+    },
+    "status": {
+      "$ref": "common.schema.json#/$defs/status"
+    },
+    "directions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z_]+$"
+          },
+          "headsign": {
+            "$ref": "common.schema.json#/$defs/i18n"
+          }
+        },
+        "required": [
+          "id",
+          "headsign"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "patterns": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z0-9_-]+$"
+          },
+          "direction": {
+            "type": "string"
+          },
+          "main": {
+            "type": "boolean"
+          },
+          "stops": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/patternStop"
+            },
+            "minItems": 2
+          },
+          "shape": {
+            "type": "string",
+            "pattern": "^(auto|osm_relation:[0-9]+|file:.+)$"
+          },
+          "run_times": {
+            "type": "object",
+            "description": "Durées (min) entre arrêts propres à ce parcours, par profil de trafic. Prioritaires sur run_times de la ligne.",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "minItems": 1
+            }
+          }
+        },
+        "required": [
+          "id",
+          "direction",
+          "stops"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "notes": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "common.schema.json#/$defs/i18n"
+      }
+    },
+    "day_codes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "days": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/$defs/dayType"
+            },
+            "minItems": 1
+          },
+          "label": {
+            "$ref": "common.schema.json#/$defs/i18n"
+          }
+        },
+        "required": [
+          "days",
+          "label"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "run_times": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "minItems": 1
+      }
+    },
+    "schedule": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "timetable",
+            "frequency",
+            "mixed"
+          ]
+        },
+        "source_dir": {
+          "type": "string"
+        },
+        "fallback": {
+          "oneOf": [
+            {
+              "const": "inherit"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "periods": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                },
+                "day_types": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "versions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Z0-9_-]+$"
+              },
+              "valid_from": {
+                "$ref": "common.schema.json#/$defs/date"
+              },
+              "valid_to": {
+                "$ref": "common.schema.json#/$defs/date"
+              },
+              "provenance": {
+                "$ref": "common.schema.json#/$defs/provenance"
+              },
+              "corrections": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/correction"
+                }
+              }
+            },
+            "required": [
+              "id",
+              "valid_from",
+              "valid_to"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "regimes": {
+          "type": "array",
+          "items": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/selector"
+              }
+            ],
+            "type": "object",
+            "properties": {
+              "periods": true,
+              "day_types": true,
+              "kind": {
+                "enum": [
+                  "timetable",
+                  "frequency"
+                ]
+              },
+              "service_hours": {
+                "type": "object",
+                "properties": {
+                  "first": {
+                    "$ref": "common.schema.json#/$defs/time"
+                  },
+                  "last": {
+                    "$ref": "common.schema.json#/$defs/time"
+                  },
+                  "by_direction": {
+                    "type": "object",
+                    "description": "Premier et dernier départ propres à une direction (clé = id de direction), prioritaires sur first/last.",
+                    "additionalProperties": {
+                      "type": "object",
+                      "properties": {
+                        "first": {
+                          "$ref": "common.schema.json#/$defs/time"
+                        },
+                        "last": {
+                          "$ref": "common.schema.json#/$defs/time"
+                        }
+                      },
+                      "required": [
+                        "first",
+                        "last"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "first",
+                  "last"
+                ],
+                "additionalProperties": false
+              },
+              "bands": {
+                "type": "object",
+                "additionalProperties": {
+                  "$ref": "#/$defs/band"
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "no_service": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/selector"
+          }
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "additionalProperties": false
+    },
+    "fare": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "provenance": {
+      "$ref": "common.schema.json#/$defs/provenance"
+    }
+  },
+  "required": [
+    "id",
+    "network",
+    "mode",
+    "public_code",
+    "name",
+    "status",
+    "directions",
+    "patterns",
+    "schedule",
+    "provenance"
+  ],
+  "additionalProperties": false
+}

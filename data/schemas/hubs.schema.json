@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pôles d'échange (places/hubs.yaml)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "common.schema.json#/$defs/id" },
+      "name": { "$ref": "common.schema.json#/$defs/i18n" },
+      "aliases": { "type": "array", "items": { "type": "string" } },
+      "members": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" }, "minItems": 2 },
+      "default_min_transfer_min": { "type": "integer", "minimum": 0 },
+      "status": { "$ref": "common.schema.json#/$defs/status" }
+    },
+    "required": ["id", "name", "members", "status"],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,38 @@
+query Plan($from: PlanLabeledLocationInput!, $to: PlanLabeledLocationInput!, $dateTime: PlanDateTimeInput,
+           $modes: PlanModesInput, $preferences: PlanPreferencesInput, $first: Int, $searchWindow: Duration) {
+  planConnection(origin: $from, destination: $to, dateTime: $dateTime, modes: $modes,
+                 preferences: $preferences, first: $first, searchWindow: $searchWindow) {
+    routingErrors { code inputField description }
+    edges {
+      node {
+        start
+        end
+        duration
+        numberOfTransfers
+        walkDistance
+        legs {
+          mode
+          distance
+          duration
+          transitLeg
+          serviceDate
+          headsign
+          start { scheduledTime }
+          end { scheduledTime }
+          from { name lat lon stop { gtfsId name platformCode } }
+          to { name lat lon stop { gtfsId name platformCode } }
+          route { gtfsId shortName longName }
+          trip { gtfsId tripShortName tripHeadsign }
+          legGeometry { points }
+          intermediatePlaces { name stop { gtfsId name } arrival { scheduledTime } }
+          steps { distance relativeDirection absoluteDirection streetName bogusName }
+          nextLegs(numberOfLegs: 3) {
+            start { scheduledTime }
+            end { scheduledTime }
+            trip { gtfsId tripShortName }
+          }
+        }
+      }
+    }
+  }
+}

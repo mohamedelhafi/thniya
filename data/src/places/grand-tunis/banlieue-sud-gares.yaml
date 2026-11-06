@@ -1,0 +1,186 @@
+# yaml-language-server: $schema=../../../schemas/places.schema.json
+# Gares de la ligne SNCFT banlieue sud Tunis – Erriadh (18 gares).
+# Positions et noms arabes : OpenStreetMap (extrait Geofabrik du 2026-10-13), noms français de l'affiche SNCFT.
+# À vérifier sur le terrain : positions des entrées et des quais.
+
+- id: TRN-TUNISVILLE
+  kind: station
+  name: { fr: "Tunis Ville", ar: "تونس" }
+  aliases: ["tunis", "gare de tunis", "barcelone", "place barcelone", "تونس المدينة"]
+  area: { fr: "Tunis", ar: "تونس" }
+  # Placée sur le parvis (voie de service reliée à l'avenue de Carthage) : les quais et l'intérieur de la gare
+  # forment dans OSM un îlot piéton non relié aux rues, OTP ne pourrait pas y accéder à pied.
+  lat: 36.795650
+  lon: 10.180850
+  status: active
+  provenance: { source: OSM, ref: "parvis de la gare de Tunis (way/29993446, way/1432281144)", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-JEBELJELLOUD
+  kind: station
+  name: { fr: "Jebel Jelloud", ar: "جبل الجلود" }
+  aliases: ["djebel jelloud", "jbal jloud", "jebel jloud"]
+  area: { fr: "Jebel Jelloud", ar: "جبل الجلود" }
+  lat: 36.772450
+  lon: 10.209590
+  status: active
+  provenance: { source: OSM, ref: "node/2008352690", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-MEGRINERIADH
+  kind: station
+  name: { fr: "Mégrine Riadh", ar: "مقرين الرياض" }
+  aliases: ["megrine riadh", "megrine ryadh", "mgrine riadh"]
+  area: { fr: "Mégrine", ar: "مقرين" }
+  lat: 36.770324
+  lon: 10.223144
+  status: active
+  provenance: { source: OSM, ref: "node/5227817808", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-MEGRINE
+  kind: station
+  name: { fr: "Mégrine", ar: "مقرين" }
+  aliases: ["megrine", "mgrine"]
+  area: { fr: "Mégrine", ar: "مقرين" }
+  lat: 36.768480
+  lon: 10.233580
+  status: active
+  provenance: { source: OSM, ref: "node/2008351993", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-SIDIREZIG
+  kind: station
+  name: { fr: "Sidi Rezig", ar: "سيدي رزيق" }
+  aliases: ["sidi rzig", "sidi rezik"]
+  area: { fr: "Mégrine", ar: "مقرين" }
+  lat: 36.767334
+  lon: 10.244545
+  status: active
+  provenance: { source: OSM, ref: "node/8231384555 (nom arabe : affiche SNCFT)", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-LYCEERADES
+  kind: station
+  name: { fr: "Lycée Radès", ar: "معهد رادس" }
+  aliases: ["lycee technique rades", "lycee rades", "maahad rades"]
+  area: { fr: "Radès", ar: "رادس" }
+  lat: 36.766795
+  lon: 10.260877
+  status: active
+  provenance: { source: OSM, ref: "node/5227817795", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-RADES
+  kind: station
+  name: { fr: "Radès", ar: "رادس" }
+  aliases: ["rades", "radès ville"]
+  area: { fr: "Radès", ar: "رادس" }
+  lat: 36.768595
+  lon: 10.270484
+  status: active
+  provenance: { source: OSM, ref: "node/1195329123", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-RADESMELIANE
+  kind: station
+  name: { fr: "Radès Méliane", ar: "رادس مليان" }
+  aliases: ["rades meliane", "meliane"]
+  area: { fr: "Radès", ar: "رادس" }
+  lat: 36.763128
+  lon: 10.284173
+  status: active
+  provenance: { source: OSM, ref: "node/5227817793", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-EZZAHRA
+  kind: station
+  name: { fr: "Ezzahra", ar: "الزهراء" }
+  aliases: ["ez-zahra", "ez zahra", "zahra"]
+  area: { fr: "Ezzahra", ar: "الزهراء" }
+  lat: 36.746879
+  lon: 10.307032
+  status: active
+  provenance: { source: OSM, ref: "node/9951183310", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-LYCEEEZZAHRA
+  kind: station
+  name: { fr: "Lycée Ezzahra", ar: "معهد الزهراء" }
+  aliases: ["lycee ezzahra", "lycee ez-zahra", "maahad zahra"]
+  area: { fr: "Ezzahra", ar: "الزهراء" }
+  lat: 36.739148
+  lon: 10.317923
+  status: active
+  provenance: { source: OSM, ref: "node/5227817812", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-BOUKORNINE
+  kind: station
+  name: { fr: "Boukornine", ar: "بوقرنين" }
+  aliases: ["bou kornine", "bouguernine", "bou korneine"]
+  area: { fr: "Hammam Lif", ar: "حمام الأنف" }
+  lat: 36.734863
+  lon: 10.323892
+  status: active
+  provenance: { source: OSM, ref: "node/7830836236", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-HAMMAMLIF
+  kind: station
+  name: { fr: "Hammam Lif", ar: "حمام الأنف" }
+  aliases: ["hammam-lif", "hammem lif", "7ammam lif", "hamam lif"]
+  area: { fr: "Hammam Lif", ar: "حمام الأنف" }
+  lat: 36.729381
+  lon: 10.334551
+  status: active
+  provenance: { source: OSM, ref: "node/7830836244", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-STADE
+  kind: station
+  name: { fr: "Arrêt du Stade", ar: "محطة الملعب" }
+  aliases: ["stade", "stade hammam lif", "mal3ab"]
+  area: { fr: "Hammam Lif", ar: "حمام الأنف" }
+  lat: 36.723605
+  lon: 10.348342
+  status: active
+  provenance: { source: OSM, ref: "node/5227817789", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-TAHARSFAR
+  kind: station
+  name: { fr: "Tahar Sfar", ar: "الطاهر صفر" }
+  aliases: ["tahar sfar", "taher sfar"]
+  area: { fr: "Hammam Lif", ar: "حمام الأنف" }
+  lat: 36.717652
+  lon: 10.359607
+  status: active
+  provenance: { source: OSM, ref: "node/5227817788", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-HAMMAMCHATT
+  kind: station
+  name: { fr: "Hammam Chatt", ar: "حمام الشط" }
+  aliases: ["hammam chott", "hammam echatt", "hammem chatt", "7ammam chatt"]
+  area: { fr: "Hammam Chatt", ar: "حمام الشط" }
+  lat: 36.713666
+  lon: 10.369368
+  status: active
+  provenance: { source: OSM, ref: "node/5227817787", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-BIRELBEY
+  kind: station
+  name: { fr: "Bir El Bey", ar: "بئر الباي" }
+  aliases: ["bir el bey", "bir lbey"]
+  area: { fr: "Hammam Chatt", ar: "حمام الشط" }
+  lat: 36.710343
+  lon: 10.378494
+  status: active
+  provenance: { source: OSM, ref: "node/5227817776", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-BORJCEDRIA
+  kind: station
+  name: { fr: "Borj Cédria", ar: "برج السدرية" }
+  aliases: ["borj cedria", "borj sedria", "bordj cedria"]
+  area: { fr: "Borj Cédria", ar: "برج السدرية" }
+  lat: 36.703617
+  lon: 10.397580
+  status: active
+  provenance: { source: OSM, ref: "node/1316642624", verified_at: 2026-10-13, by: import-osm }
+
+- id: TRN-ERRIADH
+  kind: station
+  name: { fr: "Erriadh", ar: "الرياض" }
+  aliases: ["cite erriadh", "riadh", "hay riadh", "cité erriadh"]
+  area: { fr: "Borj Cédria", ar: "برج السدرية" }
+  lat: 36.699536
+  lon: 10.414800
+  status: active
+  provenance: { source: OSM, ref: "node/5227817780", verified_at: 2026-10-13, by: import-osm }

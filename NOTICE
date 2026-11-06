@@ -1,0 +1,16 @@
+Thniya
+Copyright 2026 les contributrices et contributeurs de Thniya
+
+Le code de ce projet est distribué sous licence Apache 2.0 (voir LICENSE).
+Les données de data/src sont distribuées sous licence ODbL 1.0 (voir data/LICENSE.md).
+
+Composants tiers inclus dans ce dépôt :
+
+- mobile/third_party/executor_lib et mobile/third_party/vector_map_tiles
+  Copyright David Green, licence BSD à 3 clauses, modifiés localement
+  (voir mobile/third_party/README.md et le fichier LICENSE de chaque dossier).
+- mobile/assets/fonts/ReadexPro-Variable.ttf
+  Copyright The Readex Pro Project Authors, SIL Open Font License 1.1
+  (voir mobile/assets/fonts/OFL.txt).
+
+Données cartographiques : © les contributeurs d'OpenStreetMap (ODbL), Protomaps.

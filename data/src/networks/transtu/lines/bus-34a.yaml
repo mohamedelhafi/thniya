@@ -1,0 +1,337 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-34A
+network: TRANSTU
+mode: BUS
+public_code: 34A
+name:
+  fr: Bus 34A
+  ar: حافلة 34أ
+long_name:
+  fr: Jardin Thameur – Prison civile de Mornaguia
+  ar: محطة حديقة ثامر – السجن المدني المرناقية
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Prison civile de Mornaguia
+    ar: السجن المدني المرناقية
+- id: RETOUR
+  headsign:
+    fr: Jardin Thameur
+    ar: محطة حديقة ثامر
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-JARDIN-THAMEUR
+  - BUS-MECHTEL
+  - BUS-BAB-ABDESLEM-ALLER
+  - BUS-CHARLE-NICOLE-ALLER
+  - BUS-DARGHOUTH-BACHA-ALLER
+  - BUS-STADE-MELLASSINE-ALLER
+  - BUS-SOUK-MELLASSINE-ALLER
+  - BUS-CENTRE-DE-FORMATION-ZOUHOUR-ALLER
+  - BUS-KHAROUBA-ALLER
+  - BUS-OFFICE-DE-L-HUILE-ALLER
+  - BUS-MIZANETTA-ALLER
+  - BUS-ECOLE-ZOUHOUR4-ALLER
+  - BUS-IMMEUBLES-HRAIRIA-ALLER
+  - BUS-CITE-ESSALAMA
+  - BUS-BEN-DAHA-ALLER
+  - BUS-SIDI-HSIN-ALLER
+  - BUS-ROND-POINT-SIDI-HSIN-ALLER
+  - BUS-POSTE-POLICE-ATTAR-ALLER
+  - BUS-SALLE-NILE-ALLER
+  - BUS-LYCEE-EMTIEZ-ALLER
+  - BUS-CITE-BERHOUMA-ALLER
+  - BUS-BOUNAOUIRA-ALLER
+  - BUS-ENTREE-ATTAR-ALLER
+  - BUS-ATTAR-ALLER
+  - BUS-ECOLE-ATTAR-ALLER
+  - BUS-CROISEMENT-MORNAGIAA-ALLER
+  - BUS-ROUTE-MORNAGIAA-ALLER
+  - BUS-BOURAGBA-ALLER
+  - BUS-MOSQUEE-BOURAGBA-ALLER
+  - BUS-LE-MOULIN-ALLER
+  - BUS-CITE-GHALLAMA-ALLER
+  - BUS-LYCEE-MORNAGIAA-ALLER
+  - BUS-MORNAGIAA-ALLER
+  - BUS-20-MARS-ALLER-2
+  - BUS-LYCEE-20-MARS-ALLER
+  - BUS-FIRMA-ALLER
+  - BUS-GUITOUNI-ALLER
+  - BUS-CROISEMENT-SIDI-ALI-HATTAB-ALLER
+  - BUS-PRISON-CIVILE-MORNAGIAA
+  run_times:
+    FLUIDE:
+    - 4
+    - 4
+    - 3
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 5
+    - 4
+    - 1
+    - 3
+    - 4
+    - 4
+    - 2
+    - 2
+    - 3
+    - 4
+    - 2
+    - 1
+    - 3
+    - 3
+    - 4
+    - 3
+    - 3
+    CHARGE:
+    - 6
+    - 5
+    - 4
+    - 3
+    - 5
+    - 1
+    - 3
+    - 2
+    - 2
+    - 4
+    - 3
+    - 3
+    - 3
+    - 3
+    - 5
+    - 2
+    - 3
+    - 3
+    - 3
+    - 5
+    - 3
+    - 7
+    - 6
+    - 2
+    - 3
+    - 7
+    - 5
+    - 2
+    - 4
+    - 4
+    - 5
+    - 3
+    - 2
+    - 5
+    - 4
+    - 5
+    - 4
+    - 5
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-PRISON-CIVILE-MORNAGIAA
+  - BUS-CROISEMENT-SIDI-ALI-HATTAB-RETOUR
+  - BUS-GUITOUNI-RETOUR
+  - BUS-FIRMA-RETOUR
+  - BUS-LYCEE-20-MARS-RETOUR
+  - BUS-20-MARS-RETOUR-2
+  - BUS-MORNAGIAA-RETOUR
+  - BUS-LYCEE-MORNAGIAA-RETOUR
+  - BUS-CITE-GHALLAMA-RETOUR
+  - BUS-LE-MOULIN-RETOUR
+  - BUS-MOSQUEE-BOURAGBA-RETOUR
+  - BUS-BOURAGBA-RETOUR
+  - BUS-ROUTE-MORNAGIAA-RETOUR
+  - BUS-CROISEMENT-MORNAGIAA-RETOUR
+  - BUS-ECOLE-ATTAR-RETOUR
+  - BUS-ATTAR-RETOUR
+  - BUS-ENTREE-ATTAR-RETOUR
+  - BUS-BOUNAOUIRA-RETOUR
+  - BUS-CITE-BERHOUMA-RETOUR
+  - BUS-LYCEE-EMTIEZ-RETOUR
+  - BUS-SALLE-NILE-RETOUR
+  - BUS-POSTE-POLICE-ATTAR-RETOUR
+  - BUS-ROND-POINT-SIDI-HSIN-RETOUR
+  - BUS-SIDI-HSIN-RETOUR
+  - BUS-BEN-DAHA-RETOUR
+  - BUS-DEPOT-SNT-SIJOUMI
+  - BUS-IMMEUBLES-HRAIRIA-RETOUR
+  - BUS-ECOLE-ZOUHOUR4-RETOUR
+  - BUS-MIZANETTA-RETOUR
+  - BUS-OFFICE-DE-L-HUILE-RETOUR
+  - BUS-KHAROUBA-RETOUR
+  - BUS-CENTRE-DE-FORMATION-ZOUHOUR-RETOUR
+  - BUS-SOUK-MELLASSINE-RETOUR
+  - BUS-STADE-MELLASSINE-RETOUR
+  - BUS-RABTA
+  - BUS-CHARLE-NICOLE-RETOUR
+  - BUS-BAB-ABDESLEM-RETOUR
+  - BUS-MOSQUEE-ELBORJ
+  - BUS-AVENUE-MADRID
+  - BUS-JARDIN-THAMEUR
+  run_times:
+    FLUIDE:
+    - 4
+    - 2
+    - 4
+    - 3
+    - 3
+    - 1
+    - 2
+    - 4
+    - 3
+    - 3
+    - 1
+    - 4
+    - 4
+    - 3
+    - 1
+    - 4
+    - 5
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    - 2
+    CHARGE:
+    - 5
+    - 4
+    - 5
+    - 4
+    - 5
+    - 2
+    - 3
+    - 5
+    - 4
+    - 4
+    - 2
+    - 5
+    - 7
+    - 3
+    - 2
+    - 6
+    - 7
+    - 4
+    - 5
+    - 2
+    - 4
+    - 2
+    - 3
+    - 4
+    - 3
+    - 4
+    - 3
+    - 2
+    - 4
+    - 3
+    - 1
+    - 2
+    - 3
+    - 2
+    - 3
+    - 4
+    - 3
+    - 4
+    - 4
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:00
+      last: '20:30'
+      by_direction:
+        ALLER:
+          first: 06:00
+          last: '20:30'
+        RETOUR:
+          first: 05:00
+          last: '19:20'
+    bands:
+      NUIT:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 30
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 30
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 40
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:30
+      last: '20:30'
+      by_direction:
+        ALLER:
+          first: 06:30
+          last: '20:30'
+        RETOUR:
+          first: 05:30
+          last: '19:20'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 06:00 → 20:30, terminus 05:00 → 19:20) et fréquence de pointe (30 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, JThameurH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 34A » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

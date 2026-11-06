@@ -1,0 +1,18 @@
+# Station de louage de Hammam-Lif : position OpenStreetMap, absente de doc/louage (places/louages/stations.yaml).
+# Saisie conservée à la main : import-doc ne réécrit pas ce fichier.
+- id: LOU-HAMMAM-LIF
+  kind: louage_station
+  name:
+    fr: Hammam Lif
+    ar: حمام الأنف
+  area:
+    fr: Hammam-Lif
+    ar: حمام الأنف
+  lat: 36.728892
+  lon: 10.334222
+  status: active
+  provenance:
+    source: OSM
+    ref: OpenStreetMap, extrait Geofabrik du 2026-10-13 (node (Station de taxis collectifs à Hammam-Lif))
+    verified_at: '2026-10-13'
+    by: seed-network

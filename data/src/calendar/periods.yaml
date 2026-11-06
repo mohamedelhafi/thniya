@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../../schemas/periods.schema.json
+# Périodes horaires, définies à partir des événements des fichiers years/*.yaml (specs/04b §4)
+
+- id: NORMAL
+  name: { fr: "Horaires normaux", ar: "التوقيت العادي" }
+  default: true
+  show_banner: false
+
+- id: ETE
+  name: { fr: "Horaires d'été", ar: "التوقيت الصيفي" }
+  from_events: [ETE]
+  show_banner: true
+
+- id: RAMADAN
+  name: { fr: "Horaires de Ramadan", ar: "توقيت رمضان" }
+  from_events: [RAMADAN]
+  show_banner: true
+
+- id: AID
+  name: { fr: "Horaires de l'Aïd", ar: "توقيت العيد" }
+  from_events: [AID_FITR, AID_ADHA]
+  extend: { before_days: 0, after_days: 0 }
+  show_banner: true

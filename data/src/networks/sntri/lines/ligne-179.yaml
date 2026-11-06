@@ -1,0 +1,107 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-179
+network: SNTRI
+mode: BUS
+public_code: '179'
+name:
+  fr: Bizerte – Djerba (Houmt Souk)
+  ar: بنزرت – جربة
+long_name:
+  fr: Bizerte – Djerba (Houmt Souk) par Kairouan, Médenine et Zarzis
+  ar: بنزرت – جربة عبر القيروان، مدنين، جرجيس
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Djerba (Houmt Souk)
+    ar: جربة
+- id: RETOUR
+  headsign:
+    fr: Bizerte
+    ar: بنزرت
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-BIZERTE
+  - SNTRI-M-BOURGUIBA
+  - SNTRI-MATEUR
+  - SNTRI-TUNIS-SUD
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-GROMBALIA
+  - SNTRI-B-SAHEL
+  - SNTRI-BOUFICHA
+  - SNTRI-ENFIDHA
+  - SNTRI-KAIROUAN
+  - SNTRI-BOUHAJLA
+  - SNTRI-CHARARDA
+  - SNTRI-BIR-ALI
+  - SNTRI-SKHIRA
+  - SNTRI-GABES
+  - SNTRI-MARETH
+  - SNTRI-MEDENINE
+  - SNTRI-ZARZIS
+  - SNTRI-EL-MAY
+  - SNTRI-MIDOUNE
+  - SNTRI-JERBA
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-JERBA
+  - SNTRI-MIDOUNE
+  - SNTRI-EL-MAY
+  - SNTRI-ZARZIS
+  - SNTRI-MEDENINE
+  - SNTRI-MARETH
+  - SNTRI-GABES
+  - SNTRI-SKHIRA
+  - SNTRI-BIR-ALI
+  - SNTRI-CHARARDA
+  - SNTRI-BOUHAJLA
+  - SNTRI-KAIROUAN
+  - SNTRI-ENFIDHA
+  - SNTRI-BOUFICHA
+  - SNTRI-B-SAHEL
+  - SNTRI-GROMBALIA
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-TUNIS-SUD
+  - SNTRI-MATEUR
+  - SNTRI-M-BOURGUIBA
+  - SNTRI-BIZERTE
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/179
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 179 « BIZERTE - HOUMT SOUK » (696
+        km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-179
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 179 « BIZERTE - HOUMT SOUK » (696
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

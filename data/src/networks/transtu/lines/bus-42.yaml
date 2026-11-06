@@ -1,0 +1,376 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-42
+network: TRANSTU
+mode: BUS
+public_code: '42'
+name:
+  fr: Bus 42
+  ar: حافلة 42
+long_name:
+  fr: Ali Belhouane – Tebourba
+  ar: محطة علي بلهوان – طبربة
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Tebourba
+    ar: طبربة
+- id: RETOUR
+  headsign:
+    fr: Ali Belhouane
+    ar: محطة علي بلهوان
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-ALI-BELHOUANE
+  - BUS-SIDI-ALOUI
+  - BUS-IMMEUBLE-CHEFIA
+  - BUS-BOUCHOUCHA-ALLER
+  - BUS-20-MARS-ALLER
+  - BUS-BARDO-ALLER
+  - BUS-CHEBBI-ALLER
+  - BUS-BORTAL-ALLER
+  - BUS-CHAMP-DE-COURSE-KSAR-SAID-ALLER
+  - BUS-INEPS
+  - BUS-BOUDREYA
+  - BUS-GAALOUL
+  - BUS-INOPLAST
+  - BUS-MANOUBA
+  - BUS-CASERNE-OUED-ELIL-1
+  - BUS-CASERNE-OUED-ELIL-2
+  - BUS-CITE-MILITAIRE
+  - BUS-MOEZEYA-2
+  - BUS-GARDE-NATIONAL-OUED-ELLIL
+  - BUS-MOSQUEE-OUED-ELLIL
+  - BUS-CHOCO-TOM
+  - BUS-CITE-EL-BOSTANE
+  - BUS-ECOLE-PRIMAIRE-2
+  - BUS-BEJAWA-2-2
+  - BUS-POMPAGE
+  - BUS-ERRIADH
+  - BUS-ZONE-F
+  - BUS-SAIDA
+  - BUS-OUED-CHAFROU
+  - BUS-STIL
+  - BUS-SIDI-TALEB-2
+  - BUS-CITE-ENAJET1
+  - BUS-SOUASSI
+  - BUS-CITE-OMDA
+  - BUS-MOSQUEE-BEN-SASSI
+  - BUS-ZEHRA-1
+  - BUS-ZEHRA-2
+  - BUS-CITE-NEJIBA
+  - BUS-MAASRA
+  - BUS-EL-HATHERMINE
+  - BUS-CITE-BEN-GHENIA
+  - BUS-EL-BATTAN
+  - BUS-CITE-ERRIMEL
+  - BUS-PISCINE
+  - BUS-TEBOURBA
+  run_times:
+    FLUIDE:
+    - 2
+    - 5
+    - 2
+    - 2
+    - 1
+    - 3
+    - 4
+    - 2
+    - 4
+    - 4
+    - 1
+    - 3
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    - 7
+    - 2
+    - 1
+    - 5
+    - 2
+    - 2
+    - 3
+    - 4
+    - 2
+    - 4
+    - 5
+    - 2
+    - 2
+    - 1
+    - 1
+    - 7
+    - 1
+    - 3
+    - 3
+    - 2
+    - 3
+    - 5
+    - 2
+    - 5
+    - 5
+    - 2
+    - 2
+    CHARGE:
+    - 3
+    - 7
+    - 3
+    - 3
+    - 1
+    - 4
+    - 6
+    - 3
+    - 5
+    - 6
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    - 4
+    - 4
+    - 10
+    - 2
+    - 2
+    - 6
+    - 4
+    - 2
+    - 5
+    - 6
+    - 3
+    - 4
+    - 8
+    - 3
+    - 2
+    - 2
+    - 1
+    - 10
+    - 2
+    - 4
+    - 5
+    - 2
+    - 5
+    - 7
+    - 3
+    - 7
+    - 7
+    - 3
+    - 2
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TEBOURBA
+  - BUS-PISCINE
+  - BUS-CITE-ERRIMEL
+  - BUS-EL-BATTAN
+  - BUS-CITE-BEN-GHENIA
+  - BUS-EL-HATHERMINE
+  - BUS-MAASRA
+  - BUS-CITE-NEJIBA
+  - BUS-ZEHRA-2
+  - BUS-ZEHRA-1
+  - BUS-MOSQUEE-BEN-SASSI
+  - BUS-CITE-OMDA
+  - BUS-SOUASSI
+  - BUS-CITE-ENAJET1
+  - BUS-SIDI-TALEB-2
+  - BUS-STIL
+  - BUS-OUED-CHAFROU
+  - BUS-SAIDA
+  - BUS-ZONE-F
+  - BUS-ERRIADH
+  - BUS-POMPAGE
+  - BUS-BEJAWA-2-2
+  - BUS-ECOLE-PRIMAIRE-2
+  - BUS-CITE-EL-BOSTANE
+  - BUS-CHOCO-TOM
+  - BUS-MOSQUEE-OUED-ELLIL
+  - BUS-GARDE-NATIONAL-OUED-ELLIL
+  - BUS-MOEZEYA-2
+  - BUS-CITE-MILITAIRE
+  - BUS-CASERNE-OUED-ELIL-2
+  - BUS-CASERNE-OUED-ELIL-1
+  - BUS-MANOUBA
+  - BUS-INOPLAST
+  - BUS-GAALOUL
+  - BUS-BOUDREYA
+  - BUS-INEPS
+  - BUS-CHAMP-DE-COURSE-KSAR-SAID-RETOUR
+  - BUS-BORTAL-RETOUR
+  - BUS-CHEBBI-RETOUR
+  - BUS-RELAIS-BARDO
+  - BUS-20-MARS-RETOUR
+  - BUS-BOUCHOUCHA-RETOUR
+  - BUS-IMMEUBLE-CHEFIA
+  - BUS-BAB-SAADOUN-RETOUR
+  - BUS-BAB-ABDESLEM-RETOUR
+  - BUS-BAB-LAASSAL
+  - BUS-ALI-BELHOUANE
+  run_times:
+    FLUIDE:
+    - 1
+    - 2
+    - 6
+    - 4
+    - 3
+    - 5
+    - 3
+    - 2
+    - 3
+    - 3
+    - 1
+    - 7
+    - 1
+    - 1
+    - 2
+    - 2
+    - 5
+    - 3
+    - 3
+    - 4
+    - 3
+    - 2
+    - 2
+    - 4
+    - 2
+    - 1
+    - 8
+    - 2
+    - 3
+    - 2
+    - 2
+    - 1
+    - 3
+    - 1
+    - 4
+    - 4
+    - 2
+    - 4
+    - 1
+    - 3
+    - 3
+    - 1
+    - 2
+    - 1
+    - 3
+    - 3
+    CHARGE:
+    - 2
+    - 3
+    - 7
+    - 7
+    - 3
+    - 7
+    - 5
+    - 3
+    - 4
+    - 4
+    - 2
+    - 10
+    - 2
+    - 1
+    - 3
+    - 2
+    - 8
+    - 4
+    - 4
+    - 5
+    - 5
+    - 2
+    - 4
+    - 6
+    - 2
+    - 2
+    - 11
+    - 3
+    - 4
+    - 4
+    - 1
+    - 2
+    - 4
+    - 2
+    - 6
+    - 6
+    - 3
+    - 5
+    - 2
+    - 4
+    - 3
+    - 2
+    - 3
+    - 2
+    - 4
+    - 4
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 02:20
+      last: '24:30'
+      by_direction:
+        ALLER:
+          first: 03:20
+          last: '24:30'
+        RETOUR:
+          first: 02:20
+          last: '23:30'
+    bands:
+      NUIT:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 40
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 40
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 50
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 02:50
+      last: '24:30'
+      by_direction:
+        ALLER:
+          first: 03:50
+          last: '24:30'
+        RETOUR:
+          first: 02:50
+          last: '23:30'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 55
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 03:20 → 00:30, terminus 02:20 → 23:30) et fréquence de pointe (40 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, belehouenH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 42 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

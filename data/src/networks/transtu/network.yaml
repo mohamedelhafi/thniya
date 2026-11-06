@@ -1,0 +1,37 @@
+# Réseau Transtu (transtu.tn) : saisi à la main ; ses lignes et tarifs viennent d'import-doc (specs/04e).
+id: TRANSTU
+name:
+  fr: Transtu
+  ar: شركة نقل تونس
+long_name:
+  fr: Société des transports de Tunis
+  ar: شركة نقل تونس
+url: https://www.transtu.tn
+timezone: Africa/Tunis
+calendar:
+  day_type_scheme:
+    mon: OUVRABLE
+    tue: OUVRABLE
+    wed: OUVRABLE
+    thu: OUVRABLE
+    fri: OUVRABLE
+    sat: SAMEDI
+    sun: DIMANCHE
+  holiday_day_type: DIMANCHE
+  periods:
+  - RAMADAN
+  - ETE
+  - NORMAL
+  fallback:
+    periods:
+      RAMADAN: NORMAL
+      ETE: NORMAL
+    day_types:
+      DIMANCHE: SAMEDI
+      SAMEDI: OUVRABLE
+status: active
+provenance:
+  source: OFFICIEL
+  ref: https://www.transtu.tn
+  verified_at: '2026-10-13'
+  by: seed-network

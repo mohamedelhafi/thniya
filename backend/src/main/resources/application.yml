@@ -1,0 +1,83 @@
+spring:
+  application:
+    name: thniya-api
+  threads:
+    virtual:
+      enabled: true
+  mvc:
+    problemdetails:
+      enabled: true
+
+server:
+  port: 8080
+  shutdown: graceful
+  forward-headers-strategy: framework
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+springdoc:
+  api-docs:
+    path: /api/v1/openapi.json
+  swagger-ui:
+    path: /api/v1/docs
+
+app:
+  otp-base-url: http://otp:8080
+  photon-base-url: http://photon:2322
+  meta-path: /data/app-meta.json
+  feedback-path: /data/feedback
+  default-language: fr
+  cors-allowed-origins: []
+  otp-timeout: 8s
+  # Cloison vers OTP : requêtes simultanées max, attente max d'une place (specs/06 §5)
+  otp-max-concurrent: 32
+  otp-queue-timeout: 3s
+  photon-timeout: 2s
+  itineraries:
+    max-per-section: 3
+    parallel-timeout: 6s
+
+logging:
+  pattern:
+    correlation: "[%X{requestId:-}] "
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+app:
+  otp-base-url: http://localhost:8080
+  meta-path: ../data/build/app-meta.json
+  feedback-path: ../data/feedback
+  cors-allowed-origins:
+    - "http://localhost:*"
+    - "http://127.0.0.1:*"
+server:
+  port: 8081
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+app:
+  cors-allowed-origins:
+    - "http://localhost:*"
+    - "http://127.0.0.1:*"
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false

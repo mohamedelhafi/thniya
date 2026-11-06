@@ -1,0 +1,394 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-77
+network: TRANSTU
+mode: BUS
+public_code: '77'
+name:
+  fr: Bus 77
+  ar: حافلة 77
+long_name:
+  fr: Tunis Marine – Kalâat el-Andalous
+  ar: محطة تونس البحرية – قلعة الأندلس
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Kalâat el-Andalous
+    ar: قلعة الأندلس
+- id: RETOUR
+  headsign:
+    fr: Tunis Marine
+    ar: محطة تونس البحرية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-TUNIS-MARINE
+  - BUS-CHARGUIA1
+  - BUS-FOIRE-LA-CHARGUIA
+  - BUS-CHARGUIA
+  - BUS-CHARGUIA-2-2
+  - BUS-ARIANA
+  - BUS-PLACE-SALA-CENTRE
+  - BUS-ARRET-BAB-HADID
+  - BUS-MAGRO
+  - BUS-CITE-ELLIL
+  - BUS-HOPITAL-MAHMOUD-MATRI
+  - BUS-TOUBEN-2
+  - BUS-CROISEMENT-RIADH-ANDALOUS
+  - BUS-MARBRERIE
+  - BUS-CITE-EL-GHAZELA
+  - BUS-USINE-DE-CARRELAGE
+  - BUS-CITE-POPULAIRE-ENNAHLI
+  - BUS-CARRIERE-NAHLI
+  - BUS-NAHLI
+  - BUS-NAHLI-2
+  - BUS-NAHLI-3
+  - BUS-GEANT
+  - BUS-GUICHET-GEANT
+  - BUS-KIOSQUE-AGILE
+  - BUS-SABALET-BEN-AMAR
+  - BUS-EL-MACHTA
+  - BUS-PEAGE
+  - BUS-ARRET-USINE
+  - BUS-OUED-ELMELAH
+  - BUS-ARRET-EL-KAABI
+  - BUS-PONT-BIZERTE-GLASSE-RETOUR
+  - BUS-TOBYAS
+  - BUS-METHALI
+  - BUS-OUED-MAJERDA
+  - BUS-GESSIR-1
+  - BUS-GESSIR-2
+  - BUS-HUILERIE-ENTREE-GALAAT
+  - BUS-RESERVOIR-D-EAU
+  - BUS-EJJBAL
+  - BUS-EL-FAJJA
+  - BUS-EJJBAL-2
+  - BUS-EJJBAL-3
+  - BUS-MUNICIPALE
+  - BUS-BEN-NICHA
+  - BUS-KAMBOUZA
+  - BUS-ERRMILA
+  - BUS-ROUTE-LYCEE
+  - BUS-ECOLE-PRIMAIRE
+  - BUS-TERMINUS-44-44A-77
+  run_times:
+    FLUIDE:
+    - 11
+    - 3
+    - 1
+    - 6
+    - 3
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    - 2
+    - 2
+    - 3
+    - 4
+    - 3
+    - 3
+    - 3
+    - 1
+    - 3
+    - 4
+    - 3
+    - 5
+    - 17
+    - 3
+    - 4
+    - 3
+    - 4
+    - 4
+    - 4
+    - 5
+    - 2
+    - 4
+    - 1
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    CHARGE:
+    - 15
+    - 4
+    - 3
+    - 8
+    - 4
+    - 3
+    - 2
+    - 3
+    - 3
+    - 1
+    - 3
+    - 4
+    - 1
+    - 2
+    - 3
+    - 3
+    - 4
+    - 5
+    - 4
+    - 4
+    - 5
+    - 2
+    - 4
+    - 5
+    - 4
+    - 7
+    - 24
+    - 5
+    - 5
+    - 4
+    - 6
+    - 7
+    - 5
+    - 7
+    - 2
+    - 7
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 3
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-44-44A-77
+  - BUS-ECOLE-PRIMAIRE
+  - BUS-ROUTE-LYCEE
+  - BUS-ERRMILA
+  - BUS-KAMBOUZA
+  - BUS-BEN-NICHA
+  - BUS-MUNICIPALE
+  - BUS-EJJBAL-3
+  - BUS-EJJBAL-2
+  - BUS-EL-FAJJA
+  - BUS-EJJBAL
+  - BUS-RESERVOIR-D-EAU
+  - BUS-HUILERIE-ENTREE-GALAAT
+  - BUS-GESSIR-2
+  - BUS-GESSIR-1
+  - BUS-OUED-MAJERDA
+  - BUS-METHALI
+  - BUS-TOBYAS
+  - BUS-PONT-BIZERTE-GLASSE-RETOUR
+  - BUS-ARRET-EL-KAABI
+  - BUS-OUED-ELMELAH
+  - BUS-ARRET-USINE
+  - BUS-PEAGE
+  - BUS-EL-MACHTA
+  - BUS-SABALET-BEN-AMAR
+  - BUS-KIOSQUE-AGILE
+  - BUS-GUICHET-GEANT
+  - BUS-GEANT
+  - BUS-NAHLI-3
+  - BUS-NAHLI-2
+  - BUS-NAHLI
+  - BUS-CARRIERE-NAHLI
+  - BUS-CITE-POPULAIRE-ENNAHLI
+  - BUS-USINE-DE-CARRELAGE
+  - BUS-CITE-EL-GHAZELA
+  - BUS-MARBRERIE
+  - BUS-CROISEMENT-RIADH-ANDALOUS
+  - BUS-TOUBEN-2
+  - BUS-HOPITAL-MAHMOUD-MATRI
+  - BUS-CITE-ELLIL
+  - BUS-MAGRO
+  - BUS-ARRET-BAB-HADID
+  - BUS-PLACE-SALA-CENTRE
+  - BUS-ARIANA
+  - BUS-CHARGUIA-2-2
+  - BUS-CHARGUIA
+  - BUS-FOIRE-LA-CHARGUIA
+  - BUS-CHARGUIA1
+  - BUS-TUNIS-MARINE
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    - 4
+    - 2
+    - 5
+    - 3
+    - 5
+    - 4
+    - 3
+    - 4
+    - 3
+    - 17
+    - 5
+    - 3
+    - 4
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 4
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    - 3
+    - 3
+    - 5
+    - 2
+    - 3
+    - 11
+    CHARGE:
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 6
+    - 2
+    - 7
+    - 5
+    - 7
+    - 6
+    - 4
+    - 5
+    - 5
+    - 24
+    - 7
+    - 4
+    - 6
+    - 3
+    - 2
+    - 5
+    - 4
+    - 4
+    - 6
+    - 4
+    - 2
+    - 3
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 4
+    - 8
+    - 3
+    - 4
+    - 15
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:45
+      last: '18:30'
+      by_direction:
+        ALLER:
+          first: 07:00
+          last: '18:30'
+        RETOUR:
+          first: 05:45
+          last: '17:15'
+    bands:
+      NUIT:
+        headway_min: 50
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 50
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 50
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 50
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 65
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 06:15
+      last: '18:30'
+      by_direction:
+        ALLER:
+          first: 07:30
+          last: '18:30'
+        RETOUR:
+          first: 06:15
+          last: '17:15'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 65
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 07:00 → 18:30, terminus 05:45 → 17:15) et fréquence de pointe (50 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, TunisMarineH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 77 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

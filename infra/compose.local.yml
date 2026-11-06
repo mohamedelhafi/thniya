@@ -1,0 +1,23 @@
+# Surcharges pour le poste de développement : ports de débogage sur 127.0.0.1 uniquement.
+services:
+  db:
+    ports:
+      - "127.0.0.1:5433:5432"   # 5433 : évite le conflit avec un PostgreSQL local
+  directus:
+    ports:
+      - "127.0.0.1:8055:8055"
+  otp:
+    ports:
+      - "127.0.0.1:8080:8080"
+  photon:
+    ports:
+      - "127.0.0.1:2322:2322"
+  api:
+    ports:
+      - "127.0.0.1:8082:8080"
+  gateway:
+    ports:
+      - "127.0.0.1:8090:8090"
+    volumes:
+      - ./nginx/dev.d:/etc/nginx/dev.d:ro
+      - ../mobile/build/web:/srv/web:ro

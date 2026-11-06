@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Correspondances (transfers.yaml)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "from": { "$ref": "common.schema.json#/$defs/id" },
+      "to": { "$ref": "common.schema.json#/$defs/id" },
+      "from_hub": { "$ref": "common.schema.json#/$defs/id" },
+      "min_transfer_min": { "type": "integer", "minimum": 0 },
+      "default_min_transfer_min": { "type": "integer", "minimum": 0 },
+      "type": { "enum": ["recommended", "timed", "min_time", "forbidden"] }
+    },
+    "oneOf": [
+      { "required": ["from", "to", "type"] },
+      { "required": ["from_hub", "default_min_transfer_min"] }
+    ],
+    "additionalProperties": false
+  }
+}

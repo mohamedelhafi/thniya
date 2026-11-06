@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lieux : stations, quais, arrêts (places/**/*.yaml)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "common.schema.json#/$defs/id" },
+      "kind": { "enum": ["station", "platform", "stop", "louage_station", "louage_bay", "entrance", "hail_point"] },
+      "parent": { "$ref": "common.schema.json#/$defs/id" },
+      "name": { "$ref": "common.schema.json#/$defs/i18n" },
+      "aliases": { "type": "array", "items": { "type": "string" } },
+      "area": { "$ref": "common.schema.json#/$defs/i18n" },
+      "code": { "type": "string", "description": "Code public affiché sur l'arrêt (numéro d'arrêt)" },
+      "platform_code": { "type": "string" },
+      "lat": { "type": "number", "minimum": 30, "maximum": 38 },
+      "lon": { "type": "number", "minimum": 7, "maximum": 12 },
+      "wheelchair": { "enum": ["yes", "no", "unknown"] },
+      "status": { "$ref": "common.schema.json#/$defs/status" },
+      "provenance": { "$ref": "common.schema.json#/$defs/provenance" },
+      "notes_internes": { "type": "string" }
+    },
+    "required": ["id", "kind", "name", "lat", "lon", "status", "provenance"],
+    "allOf": [
+      { "if": { "properties": { "kind": { "enum": ["platform", "louage_bay", "entrance"] } } },
+        "then": { "required": ["parent"] } }
+    ],
+    "additionalProperties": false
+  }
+}

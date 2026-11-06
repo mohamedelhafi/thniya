@@ -1,0 +1,92 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-164
+network: SNTRI
+mode: BUS
+public_code: '164'
+name:
+  fr: Sfax – Djerba (Houmt Souk)
+  ar: صفاقس – جربة
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Djerba (Houmt Souk)
+    ar: جربة
+- id: RETOUR
+  headsign:
+    fr: Sfax
+    ar: صفاقس
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-SFAX
+  - SNTRI-GARGOUR
+  - SNTRI-CHAFFAR
+  - SNTRI-MAHARES
+  - SNTRI-EMB-CHAAL
+  - SNTRI-HECHICHINA
+  - SNTRI-SKHIRA
+  - SNTRI-BOU-SAID
+  - SNTRI-AKARIT
+  - SNTRI-AOUINET
+  - SNTRI-GABES
+  - SNTRI-KETTANA
+  - SNTRI-MARETH
+  - SNTRI-TEDINA
+  - SNTRI-AJIM
+  - SNTRI-JERBA
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-JERBA
+  - SNTRI-AJIM
+  - SNTRI-TEDINA
+  - SNTRI-MARETH
+  - SNTRI-KETTANA
+  - SNTRI-GABES
+  - SNTRI-AOUINET
+  - SNTRI-AKARIT
+  - SNTRI-BOU-SAID
+  - SNTRI-SKHIRA
+  - SNTRI-HECHICHINA
+  - SNTRI-EMB-CHAAL
+  - SNTRI-MAHARES
+  - SNTRI-CHAFFAR
+  - SNTRI-GARGOUR
+  - SNTRI-SFAX
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/164
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 164 « SFAX - JERBA » (246 km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-164
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 164 « SFAX - JERBA » (246 km)
+  verified_at: '2026-10-14'
+  by: import-doc

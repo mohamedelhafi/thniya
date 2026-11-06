@@ -1,0 +1,101 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-107
+network: SNTRI
+mode: BUS
+public_code: '107'
+name:
+  fr: Tunis Sud – Kasserine
+  ar: تونس الجنوبية – القصرين
+long_name:
+  fr: Tunis Sud – Kasserine par Kairouan
+  ar: تونس الجنوبية – القصرين عبر القيروان
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Kasserine
+    ar: القصرين
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-F-JEDID
+  - SNTRI-GROMBALIA
+  - SNTRI-B-SAHEL
+  - SNTRI-B-CASERNE
+  - SNTRI-BOUFICHA
+  - SNTRI-ENFIDHA
+  - SNTRI-KAIROUAN
+  - SNTRI-EMB-HAFFOUZ
+  - SNTRI-EL-HOUAREB
+  - SNTRI-F-LOUSSIF
+  - SNTRI-RHIMA
+  - SNTRI-EL-HAJEB
+  - SNTRI-CHASTEL
+  - SNTRI-EMB-JELMA
+  - SNTRI-SBEITLA
+  - SNTRI-KASSERINE
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-KASSERINE
+  - SNTRI-SBEITLA
+  - SNTRI-EMB-JELMA
+  - SNTRI-CHASTEL
+  - SNTRI-EL-HAJEB
+  - SNTRI-RHIMA
+  - SNTRI-F-LOUSSIF
+  - SNTRI-EL-HOUAREB
+  - SNTRI-EMB-HAFFOUZ
+  - SNTRI-KAIROUAN
+  - SNTRI-ENFIDHA
+  - SNTRI-BOUFICHA
+  - SNTRI-B-CASERNE
+  - SNTRI-B-SAHEL
+  - SNTRI-GROMBALIA
+  - SNTRI-F-JEDID
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/107
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 107 « TUNIS SUD - KASSERINE »
+        (310 km, base modifiée le 2022-03-11)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-107
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 107 « TUNIS SUD - KASSERINE » (310
+    km, base modifiée le 2022-03-11)
+  verified_at: '2026-10-14'
+  by: import-doc

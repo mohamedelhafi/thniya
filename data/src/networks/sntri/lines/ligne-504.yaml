@@ -1,0 +1,105 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-504
+network: SNTRI
+mode: BUS
+public_code: '504'
+name:
+  fr: Tunis Sud – Tataouine
+  ar: تونس الجنوبية – تطاوين
+long_name:
+  fr: Tunis Sud – Tataouine par Sousse, Sfax et Médenine
+  ar: تونس الجنوبية – تطاوين عبر سوسة، صفاقس، مدنين
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Tataouine
+    ar: تطاوين
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-F-JEDID
+  - SNTRI-GROMBALIA
+  - SNTRI-B-SAHEL
+  - SNTRI-BOUFICHA
+  - SNTRI-ENFIDHA
+  - SNTRI-S-BOU-ALI
+  - SNTRI-SOUSSE
+  - SNTRI-EL-JEM
+  - SNTRI-EL-HANCHA
+  - SNTRI-SFAX
+  - SNTRI-MAHARES
+  - SNTRI-SKHIRA
+  - SNTRI-GABES
+  - SNTRI-MARETH
+  - SNTRI-MEDENINE
+  - SNTRI-BIR-LAHMER
+  - SNTRI-GHOMRASSEN
+  - SNTRI-TATAOUINE
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-TATAOUINE
+  - SNTRI-GHOMRASSEN
+  - SNTRI-BIR-LAHMER
+  - SNTRI-MEDENINE
+  - SNTRI-MARETH
+  - SNTRI-GABES
+  - SNTRI-SKHIRA
+  - SNTRI-MAHARES
+  - SNTRI-SFAX
+  - SNTRI-EL-HANCHA
+  - SNTRI-EL-JEM
+  - SNTRI-SOUSSE
+  - SNTRI-S-BOU-ALI
+  - SNTRI-ENFIDHA
+  - SNTRI-BOUFICHA
+  - SNTRI-B-SAHEL
+  - SNTRI-GROMBALIA
+  - SNTRI-F-JEDID
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/504
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 504 « TUNIS SUD - TATAOUINE »
+        (551 km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-504
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 504 « TUNIS SUD - TATAOUINE » (551
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

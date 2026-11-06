@@ -1,0 +1,169 @@
+# Services communs aux environnements local et VPS.
+# Voir specs/02-infra-docker.md
+name: ${COMPOSE_PROJECT_NAME:-thniya}
+
+services:
+  # --- Tâches ponctuelles (profil "tasks", ne démarrent pas avec "up") ---
+
+  tools:
+    build:
+      context: ./tools
+      args:
+        PYTHON_VERSION: ${PYTHON_VERSION}
+    image: thniya/tools:dev
+    profiles: [tasks]
+    volumes:
+      - ..:/work
+    environment:
+      OSM_SOURCE_URL: ${OSM_SOURCE_URL}
+      OSM_CLIP_BBOX: ${OSM_CLIP_BBOX}
+      OTP_REGION: ${OTP_REGION:-tunisie}
+      DATA_VERSION: ${DATA_VERSION}
+      OTP_URL: http://otp:8080/otp/gtfs/v1
+      API_URL: http://api:8080
+      DATABASE_URL: postgresql://thniya:${POSTGRES_PASSWORD}@db:5432/thniya
+      DIRECTUS_URL: http://directus:8055
+      DIRECTUS_ADMIN_EMAIL: ${DIRECTUS_ADMIN_EMAIL}
+      DIRECTUS_ADMIN_PASSWORD: ${DIRECTUS_ADMIN_PASSWORD}
+    networks: [internal]
+
+  gtfs-validator:
+    build:
+      context: ./gtfs-validator
+      args:
+        VALIDATOR_VERSION: ${GTFS_VALIDATOR_VERSION}
+    image: thniya/gtfs-validator:${GTFS_VALIDATOR_VERSION}
+    profiles: [tasks]
+    volumes:
+      - ../data:/data
+
+  pmtiles:
+    image: protomaps/go-pmtiles:${PMTILES_VERSION}
+    profiles: [tasks]
+    volumes:
+      - ../data/build/tiles:/tiles
+
+  otp-build:
+    image: opentripplanner/opentripplanner:${OTP_VERSION}
+    profiles: [tasks]
+    command: ["--build", "--save"]
+    environment:
+      JAVA_TOOL_OPTIONS: -Xmx${OTP_BUILD_XMX}
+    volumes:
+      - ../data/build/otp:/var/opentripplanner
+
+  # --- Services permanents ---
+
+  # Base de saisie (source de vérité éditée dans le back-office), hors du chemin des requêtes voyageurs :
+  # l'API ne la lit jamais, elle sert app-meta.json et OTP (specs/04d, ADR-007).
+  db:
+    image: postgis/postgis:${POSTGIS_VERSION}
+    environment:
+      POSTGRES_DB: thniya
+      POSTGRES_USER: thniya
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?définir POSTGRES_PASSWORD dans infra/.env}
+    command: ["postgres", "-c", "shared_buffers=256MB", "-c", "max_connections=60"]
+    shm_size: 256mb
+    volumes:
+      - db-data:/var/lib/postgresql
+    networks: [internal]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U thniya -d thniya"]
+      interval: 10s
+      timeout: 3s
+      retries: 12
+
+  # Back-office de saisie (interface d'administration sur la base, rôles, historique des modifications)
+  directus:
+    image: directus/directus:${DIRECTUS_VERSION}
+    environment:
+      KEY: ${DIRECTUS_KEY:?définir DIRECTUS_KEY dans infra/.env}
+      SECRET: ${DIRECTUS_SECRET:?définir DIRECTUS_SECRET dans infra/.env}
+      PUBLIC_URL: ${DIRECTUS_PUBLIC_URL}
+      DB_CLIENT: pg
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: thniya
+      DB_USER: thniya
+      DB_PASSWORD: ${POSTGRES_PASSWORD}
+      ADMIN_EMAIL: ${DIRECTUS_ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${DIRECTUS_ADMIN_PASSWORD}
+      TELEMETRY: "false"
+      WEBSOCKETS_ENABLED: "false"
+      CACHE_ENABLED: "false"
+      RATE_LIMITER_ENABLED: "true"
+      RATE_LIMITER_POINTS: 50
+      RATE_LIMITER_DURATION: 1
+    volumes:
+      - directus-uploads:/directus/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+    networks: [internal]
+    restart: unless-stopped
+
+  otp:
+    image: opentripplanner/opentripplanner:${OTP_VERSION}
+    command: ["--load", "--serve"]
+    environment:
+      JAVA_TOOL_OPTIONS: -Xmx${OTP_SERVE_XMX}
+    volumes:
+      - ../data/build/otp:/var/opentripplanner
+    networks: [internal]
+    restart: unless-stopped
+
+  # Recherche d'adresses et de lieux (index Tunisie : scripts/photon-import.sh), interrogée par l'API seulement
+  photon:
+    build:
+      context: ./photon
+      args:
+        PHOTON_VERSION: ${PHOTON_VERSION}
+    image: thniya/photon:${PHOTON_VERSION}
+    environment:
+      JAVA_TOOL_OPTIONS: -Xmx${PHOTON_XMX:-1g}
+    volumes:
+      - ../data/build/photon:/photon
+    networks: [internal]
+    restart: unless-stopped
+
+  api:
+    build: ../backend
+    image: thniya/api:dev
+    environment:
+      SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE:-docker}
+      APP_OTP_BASE_URL: http://otp:8080
+      APP_PHOTON_BASE_URL: http://photon:2322
+      APP_META_PATH: /data/build/app-meta.json
+      APP_FEEDBACK_PATH: /data/feedback
+    volumes:
+      - ../data/build:/data/build:ro
+      - ../data/feedback:/data/feedback
+    depends_on: [otp]
+    networks: [internal]
+    restart: unless-stopped
+
+  gateway:
+    image: nginx:${NGINX_VERSION}
+    ports:
+      - "${HTTP_PORT:-80}:8080"
+      - "${HTTPS_PORT:-443}:8443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./nginx/certs:/etc/nginx/certs:ro
+      - ../data/build/tiles:/srv/tiles:ro
+    depends_on: [api]
+    networks: [internal]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8080/healthz"]
+      interval: 15s
+      timeout: 3s
+
+networks:
+  internal: {}
+
+volumes:
+  db-data: {}
+  directus-uploads: {}

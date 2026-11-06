@@ -1,0 +1,641 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-117
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 16900
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 21900
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 18600
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 24700
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 26800
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 28000
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 29800
+  - from: SNTRI-B-SAHEL
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 14600
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 19600
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 16300
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 22400
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 24500
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 25700
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 27500
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-FERIANA
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 16900
+  - from: SNTRI-FERIANA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 14600
+  - from: SNTRI-FERIANA
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-FERIANA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-FERIANA
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-FERIANA
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-FERIANA
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-FERIANA
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-FERIANA
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-FERIANA
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-FERIANA
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 12900
+  - from: SNTRI-FERIANA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 21200
+  - from: SNTRI-GAFSA
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 21900
+  - from: SNTRI-GAFSA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 19600
+  - from: SNTRI-GAFSA
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-GAFSA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 15700
+  - from: SNTRI-GAFSA
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-GAFSA
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-GAFSA
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-GAFSA
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-GAFSA
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-GAFSA
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-GAFSA
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-GAFSA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 26200
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 15700
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 8300
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 18400
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 20600
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 21800
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 23600
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-KASSERINE
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-KASSERINE
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-KASSERINE
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-KASSERINE
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 7400
+  - from: SNTRI-KASSERINE
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 8300
+  - from: SNTRI-KASSERINE
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-KASSERINE
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 10200
+  - from: SNTRI-KASSERINE
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-KASSERINE
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 13500
+  - from: SNTRI-KASSERINE
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-KASSERINE
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 15300
+  - from: SNTRI-KASSERINE
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 18800
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 18600
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 16300
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 8300
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 11300
+  - from: SNTRI-M-BEL-ABBES
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 22800
+  - from: SNTRI-METLAOUI
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 24700
+  - from: SNTRI-METLAOUI
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 22400
+  - from: SNTRI-METLAOUI
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-METLAOUI
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-METLAOUI
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 18400
+  - from: SNTRI-METLAOUI
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 10200
+  - from: SNTRI-METLAOUI
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-METLAOUI
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-METLAOUI
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-METLAOUI
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-METLAOUI
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-METLAOUI
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 28900
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 26800
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 24500
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 20600
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 8300
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 3000
+  - from: SNTRI-OUM-LARAIES
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 31100
+  - from: SNTRI-REDEYEF
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 28000
+  - from: SNTRI-REDEYEF
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 25700
+  - from: SNTRI-REDEYEF
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-REDEYEF
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-REDEYEF
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 21800
+  - from: SNTRI-REDEYEF
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 13500
+  - from: SNTRI-REDEYEF
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-REDEYEF
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-REDEYEF
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-REDEYEF
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 15700
+  - from: SNTRI-REDEYEF
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-REDEYEF
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 32300
+  - from: SNTRI-SBEITLA
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-SBEITLA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-SBEITLA
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-SBEITLA
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-SBEITLA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-SBEITLA
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-SBEITLA
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-SBEITLA
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-SBEITLA
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-SBEITLA
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 15700
+  - from: SNTRI-SBEITLA
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 17500
+  - from: SNTRI-SBEITLA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 16600
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 29800
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 27500
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 12900
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 23600
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 15300
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 11300
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 3000
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 17500
+  - from: SNTRI-TAMEGHZA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 34100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-B-SAHEL
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 21200
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-GAFSA
+    price_millimes:
+      PLEIN: 26200
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 18800
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-M-BEL-ABBES
+    price_millimes:
+      PLEIN: 22800
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-METLAOUI
+    price_millimes:
+      PLEIN: 28900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-OUM-LARAIES
+    price_millimes:
+      PLEIN: 31100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-REDEYEF
+    price_millimes:
+      PLEIN: 32300
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-SBEITLA
+    price_millimes:
+      PLEIN: 16600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-TAMEGHZA
+    price_millimes:
+      PLEIN: 34100
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 117 : plein tarif terminus–terminus
+    34,100 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

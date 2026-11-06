@@ -1,0 +1,1625 @@
+{
+ "dataVersion": "dev-2026-10-13",
+ "generatedAt": "2026-10-13T12:41:50+01:00",
+ "window": {
+  "from": "2026-10-06",
+  "to": "2027-02-10"
+ },
+ "modes": {
+  "TRAIN": {
+   "name": {
+    "fr": "Train",
+    "ar": "قطار"
+   },
+   "icon": "train",
+   "color": "#1565C0",
+   "showsExactTimes": true,
+   "departsWhenFull": false,
+   "seats": null
+  },
+  "METRO": {
+   "name": {
+    "fr": "Métro léger",
+    "ar": "المترو الخفيف"
+   },
+   "icon": "metro",
+   "color": "#2E7D32",
+   "showsExactTimes": true,
+   "departsWhenFull": false,
+   "seats": null
+  },
+  "BUS": {
+   "name": {
+    "fr": "Bus",
+    "ar": "حافلة"
+   },
+   "icon": "bus",
+   "color": "#C62828",
+   "showsExactTimes": true,
+   "departsWhenFull": false,
+   "seats": null
+  },
+  "LOUAGE": {
+   "name": {
+    "fr": "Louage",
+    "ar": "لواج"
+   },
+   "icon": "louage",
+   "color": "#E8A317",
+   "showsExactTimes": false,
+   "departsWhenFull": true,
+   "seats": 8
+  }
+ },
+ "networks": {
+  "SNCFT": {
+   "name": {
+    "fr": "SNCFT",
+    "ar": "الشركة الوطنية للسكك الحديدية التونسية"
+   },
+   "longName": {
+    "fr": "Société nationale des chemins de fer tunisiens",
+    "ar": "الشركة الوطنية للسكك الحديدية التونسية"
+   },
+   "url": "https://www.sncft.com.tn",
+   "phone": "+216 71 345 511"
+  }
+ },
+ "lines": {
+  "SNCFT-BS": {
+   "network": "SNCFT",
+   "mode": "TRAIN",
+   "publicCode": "BS",
+   "name": {
+    "fr": "Banlieue Sud",
+    "ar": "الضاحية الجنوبية"
+   },
+   "longName": {
+    "fr": "Tunis Ville – Erriadh",
+    "ar": "تونس – الرياض"
+   },
+   "color": "#1565C0",
+   "textColor": "#FFFFFF",
+   "status": "active",
+   "scheduleKind": "timetable",
+   "directions": [
+    {
+     "id": "NORD",
+     "headsign": {
+      "fr": "Tunis Ville",
+      "ar": "تونس"
+     }
+    },
+    {
+     "id": "SUD",
+     "headsign": {
+      "fr": "Erriadh",
+      "ar": "الرياض"
+     }
+    }
+   ],
+   "diagram": {
+    "NORD": [
+     {
+      "stop": "TRN-ERRIADH",
+      "branch": 0,
+      "isTerminus": true,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-BORJCEDRIA",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-BIRELBEY",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-HAMMAMCHATT",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-TAHARSFAR",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-STADE",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-HAMMAMLIF",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-BOUKORNINE",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-LYCEEEZZAHRA",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-EZZAHRA",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-RADESMELIANE",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-RADES",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-LYCEERADES",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-SIDIREZIG",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-MEGRINE",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-MEGRINERIADH",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-JEBELJELLOUD",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-TUNISVILLE",
+      "branch": 0,
+      "isTerminus": true,
+      "interchanges": []
+     }
+    ],
+    "SUD": [
+     {
+      "stop": "TRN-TUNISVILLE",
+      "branch": 0,
+      "isTerminus": true,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-JEBELJELLOUD",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-MEGRINERIADH",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-MEGRINE",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-SIDIREZIG",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-LYCEERADES",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-RADES",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-RADESMELIANE",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-EZZAHRA",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-LYCEEEZZAHRA",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-BOUKORNINE",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-HAMMAMLIF",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-STADE",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-TAHARSFAR",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-HAMMAMCHATT",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-BIRELBEY",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-BORJCEDRIA",
+      "branch": 0,
+      "isTerminus": false,
+      "interchanges": []
+     },
+     {
+      "stop": "TRN-ERRIADH",
+      "branch": 0,
+      "isTerminus": true,
+      "interchanges": []
+     }
+    ]
+   },
+   "notes": {},
+   "dayCodes": {
+    "A": {
+     "days": [
+      "OUVRABLE",
+      "SAMEDI"
+     ],
+     "label": {
+      "fr": "Sauf dimanches et fêtes",
+      "ar": "ما عدى الآحاد و الأعياد"
+     }
+    },
+    "B": {
+     "days": [
+      "DIMANCHE"
+     ],
+     "label": {
+      "fr": "Dimanches et fêtes seulement",
+      "ar": "أيام الآحاد و الأعياد"
+     }
+    },
+    "C": {
+     "days": [
+      "OUVRABLE"
+     ],
+     "label": {
+      "fr": "Sauf samedis, dimanches et fêtes",
+      "ar": "ما عدى السبت و الأحد و الأعياد"
+     }
+    },
+    "D": {
+     "days": [
+      "OUVRABLE",
+      "DIMANCHE"
+     ],
+     "label": {
+      "fr": "Sauf samedi",
+      "ar": "ما عدى السبت"
+     }
+    },
+    "-": {
+     "days": [
+      "OUVRABLE",
+      "SAMEDI",
+      "DIMANCHE"
+     ],
+     "label": {
+      "fr": "Tous les jours",
+      "ar": "كامل أيام الأسبوع"
+     }
+    }
+   },
+   "fare": null,
+   "confidence": "OFFICIEL",
+   "verifiedAt": "2026-10-13",
+   "timetableVersions": [
+    {
+     "id": "HIVER-2026-2027",
+     "validFrom": "2026-09-01",
+     "validTo": "2027-06-30",
+     "source": "https://www.sncft.com.tn/voyageurs/banlieue-tunis/ — Horaire Erriadh-Tunis hiver 26-27 (valable du 1er septembre 2026 au 30 juin 2027, sauf Ramadan)",
+     "corrections": 11
+    }
+   ]
+  }
+ },
+ "stops": {
+  "TRN-BIRELBEY": {
+   "kind": "station",
+   "name": {
+    "fr": "Bir El Bey",
+    "ar": "بئر الباي"
+   },
+   "aliases": [
+    "bir el bey",
+    "bir lbey"
+   ],
+   "area": {
+    "fr": "Hammam Chatt",
+    "ar": "حمام الشط"
+   },
+   "lat": 36.710343,
+   "lon": 10.378494,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-BORJCEDRIA": {
+   "kind": "station",
+   "name": {
+    "fr": "Borj Cédria",
+    "ar": "برج السدرية"
+   },
+   "aliases": [
+    "borj cedria",
+    "borj sedria",
+    "bordj cedria"
+   ],
+   "area": {
+    "fr": "Borj Cédria",
+    "ar": "برج السدرية"
+   },
+   "lat": 36.703617,
+   "lon": 10.39758,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-BOUKORNINE": {
+   "kind": "station",
+   "name": {
+    "fr": "Boukornine",
+    "ar": "بوقرنين"
+   },
+   "aliases": [
+    "bou kornine",
+    "bouguernine",
+    "bou korneine"
+   ],
+   "area": {
+    "fr": "Hammam Lif",
+    "ar": "حمام الأنف"
+   },
+   "lat": 36.734863,
+   "lon": 10.323892,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-ERRIADH": {
+   "kind": "station",
+   "name": {
+    "fr": "Erriadh",
+    "ar": "الرياض"
+   },
+   "aliases": [
+    "cite erriadh",
+    "riadh",
+    "hay riadh",
+    "cité erriadh"
+   ],
+   "area": {
+    "fr": "Borj Cédria",
+    "ar": "برج السدرية"
+   },
+   "lat": 36.699536,
+   "lon": 10.4148,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-EZZAHRA": {
+   "kind": "station",
+   "name": {
+    "fr": "Ezzahra",
+    "ar": "الزهراء"
+   },
+   "aliases": [
+    "ez-zahra",
+    "ez zahra",
+    "zahra"
+   ],
+   "area": {
+    "fr": "Ezzahra",
+    "ar": "الزهراء"
+   },
+   "lat": 36.746879,
+   "lon": 10.307032,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-HAMMAMCHATT": {
+   "kind": "station",
+   "name": {
+    "fr": "Hammam Chatt",
+    "ar": "حمام الشط"
+   },
+   "aliases": [
+    "hammam chott",
+    "hammam echatt",
+    "hammem chatt",
+    "7ammam chatt"
+   ],
+   "area": {
+    "fr": "Hammam Chatt",
+    "ar": "حمام الشط"
+   },
+   "lat": 36.713666,
+   "lon": 10.369368,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-HAMMAMLIF": {
+   "kind": "station",
+   "name": {
+    "fr": "Hammam Lif",
+    "ar": "حمام الأنف"
+   },
+   "aliases": [
+    "hammam-lif",
+    "hammem lif",
+    "7ammam lif",
+    "hamam lif"
+   ],
+   "area": {
+    "fr": "Hammam Lif",
+    "ar": "حمام الأنف"
+   },
+   "lat": 36.729381,
+   "lon": 10.334551,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-JEBELJELLOUD": {
+   "kind": "station",
+   "name": {
+    "fr": "Jebel Jelloud",
+    "ar": "جبل الجلود"
+   },
+   "aliases": [
+    "djebel jelloud",
+    "jbal jloud",
+    "jebel jloud"
+   ],
+   "area": {
+    "fr": "Jebel Jelloud",
+    "ar": "جبل الجلود"
+   },
+   "lat": 36.77245,
+   "lon": 10.20959,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-LYCEEEZZAHRA": {
+   "kind": "station",
+   "name": {
+    "fr": "Lycée Ezzahra",
+    "ar": "معهد الزهراء"
+   },
+   "aliases": [
+    "lycee ezzahra",
+    "lycee ez-zahra",
+    "maahad zahra"
+   ],
+   "area": {
+    "fr": "Ezzahra",
+    "ar": "الزهراء"
+   },
+   "lat": 36.739148,
+   "lon": 10.317923,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-LYCEERADES": {
+   "kind": "station",
+   "name": {
+    "fr": "Lycée Radès",
+    "ar": "معهد رادس"
+   },
+   "aliases": [
+    "lycee technique rades",
+    "lycee rades",
+    "maahad rades"
+   ],
+   "area": {
+    "fr": "Radès",
+    "ar": "رادس"
+   },
+   "lat": 36.766795,
+   "lon": 10.260877,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-MEGRINE": {
+   "kind": "station",
+   "name": {
+    "fr": "Mégrine",
+    "ar": "مقرين"
+   },
+   "aliases": [
+    "megrine",
+    "mgrine"
+   ],
+   "area": {
+    "fr": "Mégrine",
+    "ar": "مقرين"
+   },
+   "lat": 36.76848,
+   "lon": 10.23358,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-MEGRINERIADH": {
+   "kind": "station",
+   "name": {
+    "fr": "Mégrine Riadh",
+    "ar": "مقرين الرياض"
+   },
+   "aliases": [
+    "megrine riadh",
+    "megrine ryadh",
+    "mgrine riadh"
+   ],
+   "area": {
+    "fr": "Mégrine",
+    "ar": "مقرين"
+   },
+   "lat": 36.770324,
+   "lon": 10.223144,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-RADES": {
+   "kind": "station",
+   "name": {
+    "fr": "Radès",
+    "ar": "رادس"
+   },
+   "aliases": [
+    "rades",
+    "radès ville"
+   ],
+   "area": {
+    "fr": "Radès",
+    "ar": "رادس"
+   },
+   "lat": 36.768595,
+   "lon": 10.270484,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-RADESMELIANE": {
+   "kind": "station",
+   "name": {
+    "fr": "Radès Méliane",
+    "ar": "رادس مليان"
+   },
+   "aliases": [
+    "rades meliane",
+    "meliane"
+   ],
+   "area": {
+    "fr": "Radès",
+    "ar": "رادس"
+   },
+   "lat": 36.763128,
+   "lon": 10.284173,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-SIDIREZIG": {
+   "kind": "station",
+   "name": {
+    "fr": "Sidi Rezig",
+    "ar": "سيدي رزيق"
+   },
+   "aliases": [
+    "sidi rzig",
+    "sidi rezik"
+   ],
+   "area": {
+    "fr": "Mégrine",
+    "ar": "مقرين"
+   },
+   "lat": 36.767334,
+   "lon": 10.244545,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-STADE": {
+   "kind": "station",
+   "name": {
+    "fr": "Arrêt du Stade",
+    "ar": "محطة الملعب"
+   },
+   "aliases": [
+    "stade",
+    "stade hammam lif",
+    "mal3ab"
+   ],
+   "area": {
+    "fr": "Hammam Lif",
+    "ar": "حمام الأنف"
+   },
+   "lat": 36.723605,
+   "lon": 10.348342,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-TAHARSFAR": {
+   "kind": "station",
+   "name": {
+    "fr": "Tahar Sfar",
+    "ar": "الطاهر صفر"
+   },
+   "aliases": [
+    "tahar sfar",
+    "taher sfar"
+   ],
+   "area": {
+    "fr": "Hammam Lif",
+    "ar": "حمام الأنف"
+   },
+   "lat": 36.717652,
+   "lon": 10.359607,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  },
+  "TRN-TUNISVILLE": {
+   "kind": "station",
+   "name": {
+    "fr": "Tunis Ville",
+    "ar": "تونس"
+   },
+   "aliases": [
+    "tunis",
+    "gare de tunis",
+    "barcelone",
+    "place barcelone",
+    "تونس المدينة"
+   ],
+   "area": {
+    "fr": "Tunis",
+    "ar": "تونس"
+   },
+   "lat": 36.79565,
+   "lon": 10.18085,
+   "parent": null,
+   "hub": null,
+   "lines": [
+    "SNCFT-BS"
+   ],
+   "platformCode": null,
+   "code": null,
+   "confidence": "OSM"
+  }
+ },
+ "hubs": {},
+ "fares": {},
+ "periods": {
+  "NORMAL": {
+   "name": {
+    "fr": "Horaires normaux",
+    "ar": "التوقيت العادي"
+   },
+   "showBanner": false
+  },
+  "ETE": {
+   "name": {
+    "fr": "Horaires d'été",
+    "ar": "التوقيت الصيفي"
+   },
+   "showBanner": true
+  },
+  "RAMADAN": {
+   "name": {
+    "fr": "Horaires de Ramadan",
+    "ar": "توقيت رمضان"
+   },
+   "showBanner": true
+  },
+  "AID": {
+   "name": {
+    "fr": "Horaires de l'Aïd",
+    "ar": "توقيت العيد"
+   },
+   "showBanner": true
+  }
+ },
+ "calendar": {
+  "SNCFT": {
+   "2026-10-06": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-07": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-08": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-09": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-10": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-10-11": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-10-12": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-13": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-14": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-15": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": [
+     {
+      "id": "EVACUATION",
+      "name": {
+       "fr": "Fête de l'évacuation",
+       "ar": "عيد الجلاء"
+      },
+      "estimated": false
+     }
+    ]
+   },
+   "2026-10-16": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-17": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-10-18": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-10-19": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-20": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-21": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-22": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-23": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-24": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-10-25": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-10-26": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-27": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-28": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-29": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-30": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-10-31": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-11-01": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-11-02": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-03": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-04": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-05": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-06": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-07": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-11-08": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-11-09": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-10": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-11": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-12": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-13": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-14": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-11-15": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-11-16": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-17": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-18": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-19": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-20": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-21": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-11-22": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-11-23": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-24": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-25": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-26": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-27": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-11-28": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-11-29": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-11-30": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-01": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-02": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-03": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-04": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-05": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-12-06": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-12-07": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-08": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-09": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-10": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-11": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-12": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-12-13": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-12-14": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-15": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-16": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-17": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": [
+     {
+      "id": "REVOLUTION",
+      "name": {
+       "fr": "Fête de la révolution",
+       "ar": "عيد الثورة"
+      },
+      "estimated": false
+     }
+    ]
+   },
+   "2026-12-18": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-19": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-12-20": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-12-21": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-22": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-23": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-24": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-25": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-26": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2026-12-27": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2026-12-28": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-29": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-30": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2026-12-31": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-01": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": [
+     {
+      "id": "NOUVEL_AN",
+      "name": {
+       "fr": "Jour de l'an",
+       "ar": "رأس السنة الإدارية"
+      },
+      "estimated": false
+     }
+    ]
+   },
+   "2027-01-02": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2027-01-03": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2027-01-04": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-05": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-06": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-07": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-08": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-09": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2027-01-10": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2027-01-11": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-12": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-13": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-14": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-15": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-16": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2027-01-17": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2027-01-18": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-19": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-20": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-21": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-22": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-23": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2027-01-24": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2027-01-25": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-26": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-27": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-28": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-29": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-01-30": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2027-01-31": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2027-02-01": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-02-02": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-02-03": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-02-04": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-02-05": {
+    "period": "NORMAL",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-02-06": {
+    "period": "NORMAL",
+    "dayType": "SAMEDI",
+    "holidays": []
+   },
+   "2027-02-07": {
+    "period": "NORMAL",
+    "dayType": "DIMANCHE",
+    "holidays": []
+   },
+   "2027-02-08": {
+    "period": "RAMADAN",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-02-09": {
+    "period": "RAMADAN",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   },
+   "2027-02-10": {
+    "period": "RAMADAN",
+    "dayType": "OUVRABLE",
+    "holidays": []
+   }
+  }
+ },
+ "alerts": [],
+ "coverage": [
+  {
+   "id": "COUV-BANLIEUE-SUD",
+   "name": {
+    "fr": "Couloir banlieue sud (Tunis – Erriadh)",
+    "ar": "رواق الضاحية الجنوبية (تونس – الرياض)"
+   },
+   "level": "partial",
+   "modes": [
+    "TRAIN"
+   ],
+   "polygon": [
+    [
+     10.165,
+     36.805
+    ],
+    [
+     10.215,
+     36.79
+    ],
+    [
+     10.29,
+     36.78
+    ],
+    [
+     10.335,
+     36.745
+    ],
+    [
+     10.43,
+     36.71
+    ],
+    [
+     10.43,
+     36.685
+    ],
+    [
+     10.39,
+     36.69
+    ],
+    [
+     10.32,
+     36.715
+    ],
+    [
+     10.27,
+     36.745
+    ],
+    [
+     10.2,
+     36.76
+    ],
+    [
+     10.165,
+     36.78
+    ],
+    [
+     10.165,
+     36.805
+    ]
+   ]
+  }
+ ]
+}

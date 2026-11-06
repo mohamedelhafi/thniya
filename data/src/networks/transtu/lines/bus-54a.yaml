@@ -1,0 +1,393 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-54A
+network: TRANSTU
+mode: BUS
+public_code: 54A
+name:
+  fr: Bus 54A
+  ar: حافلة 54أ
+long_name:
+  fr: Cebalet Cheikh – Cité Essaada
+  ar: سبالة الشيخ – حي السعادة
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Cité Essaada
+    ar: حي السعادة
+- id: RETOUR
+  headsign:
+    fr: Cebalet Cheikh
+    ar: سبالة الشيخ
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-CEBALET-CHEIKH
+  - BUS-CITE-TRABELSI
+  - BUS-CITE-TAYARI
+  - BUS-LYCEE-SECONDAIRE-MHAMDIA
+  - BUS-CITE-ESSAADA-MHAMDIA
+  - BUS-MHAMDIA-CENTRE
+  - BUS-SIEGE-DELEGATION-MHAMDIA
+  - BUS-TERMINUS-CITE-ENNASSIM
+  - BUS-DISPENSAIRE
+  - BUS-CITE-ZITOUN
+  - BUS-GARDE-NATIONAL-FOUCHANA
+  - BUS-CITE-EL-OUIFAK-GN
+  - BUS-MGHIRA
+  - BUS-CITE-EL-HIDHAB
+  - BUS-AMEN-BANQUE
+  - BUS-ZONE-INDUSTRIELLE
+  - BUS-FERME-LOUKIL
+  - BUS-FERAILLE-2
+  - BUS-FERAILLE-1
+  - BUS-CROISEMENT-MOUROUJ-2-3
+  - BUS-MIAMI-MOUROUJ
+  - BUS-DELEGATION-MOUROUJ-1
+  - BUS-INSTITUT-ENNOUR
+  - BUS-CELLULOSE-SILOS
+  - BUS-MUNICIPALITE-BEN-AROUS
+  - BUS-ARRET-JARDIN-D-ENFANTS
+  - BUS-CENTRE-BEN-AROUS
+  - BUS-BNA-BEN-AROUS
+  - BUS-JARDIN-D-ENFANTS-BEN-AROUS
+  - BUS-SNTRI
+  - BUS-AV-DE-FRANCE
+  - BUS-SIEFCOL
+  - BUS-CENTRE-DE-FORMATION-SNT
+  - BUS-SOCIETE-NOUR
+  - BUS-LUSTRERIES
+  - BUS-CHOUCHET-RADES
+  - BUS-IMPRIMERIE-OFFICIELLE
+  - BUS-CROISEMENT-SIDI-REZIG
+  - BUS-LYCEE-SIDI-REZIG
+  - BUS-SIDI-REZIG-ALLER
+  - BUS-JARDIN-D-ENFANTS
+  - BUS-SILOS-MEGRINE-COTEAUX
+  - BUS-CITE-COMMERCIALE
+  - BUS-2EME-ARRET-IBN-JAZZAR
+  - BUS-CITE-JAOUHARA
+  - BUS-CAFE-AYED
+  - BUS-TERMINUS-CITE-CHAKER
+  run_times:
+    FLUIDE:
+    - 7
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    - 3
+    - 1
+    - 4
+    - 2
+    - 2
+    - 2
+    - 4
+    - 1
+    - 2
+    - 1
+    - 1
+    - 6
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    CHARGE:
+    - 10
+    - 2
+    - 1
+    - 2
+    - 3
+    - 3
+    - 1
+    - 3
+    - 4
+    - 3
+    - 5
+    - 3
+    - 2
+    - 4
+    - 5
+    - 2
+    - 2
+    - 2
+    - 2
+    - 8
+    - 2
+    - 4
+    - 4
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    - 2
+    - 1
+    - 5
+    - 2
+    - 3
+    - 2
+    - 2
+    - 1
+    - 3
+    - 3
+    - 2
+    - 1
+    - 3
+    - 3
+    - 2
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-CITE-CHAKER
+  - BUS-CAFE-AYED
+  - BUS-CITE-JAOUHARA
+  - BUS-2EME-ARRET-IBN-JAZZAR
+  - BUS-CITE-COMMERCIALE
+  - BUS-SILOS-MEGRINE-COTEAUX
+  - BUS-JARDIN-D-ENFANTS
+  - BUS-SIDI-REZIG-ALLER
+  - BUS-USINE-DE-CARTON
+  - BUS-LUSTRERIES
+  - BUS-SOCIETE-NOUR
+  - BUS-CENTRE-DE-FORMATION-SNT
+  - BUS-SIEFCOL
+  - BUS-AV-DE-FRANCE
+  - BUS-SNTRI
+  - BUS-JARDIN-D-ENFANTS-BEN-AROUS
+  - BUS-BEN-YEDDER-BEN-AROUS
+  - BUS-CENTRE-BEN-AROUS
+  - BUS-MUNICIPALITE-BEN-AROUS
+  - BUS-CENTRE-DES-HANDICAPES
+  - BUS-CELLULOSE-SILOS
+  - BUS-INSTITUT-ENNOUR
+  - BUS-DELEGATION-MOUROUJ-1
+  - BUS-MIAMI-MOUROUJ
+  - BUS-IMMEUBLE-OASIS
+  - BUS-BATAM
+  - BUS-LES-ROSES-MOUROUJ-1
+  - BUS-CROISEMENT-MOUROUJ-2-2
+  - BUS-SOMMET-EL-MOUROUJ-2
+  - BUS-CROISEMENT-MOUROUJ-2-3
+  - BUS-FERAILLE-1
+  - BUS-FERAILLE-2
+  - BUS-FERME-LOUKIL
+  - BUS-ZONE-INDUSTRIELLE
+  - BUS-AMEN-BANQUE
+  - BUS-CITE-EL-HIDHAB
+  - BUS-MGHIRA
+  - BUS-CITE-EL-OUIFAK-GN
+  - BUS-FOUCHANA-CENTRE
+  - BUS-GARDE-NATIONAL-FOUCHANA
+  - BUS-CITE-ZITOUN
+  - BUS-DISPENSAIRE
+  - BUS-TERMINUS-CITE-ENNASSIM
+  - BUS-SIEGE-DELEGATION-MHAMDIA
+  - BUS-MHAMDIA-CENTRE
+  - BUS-CITE-ESSAADA-MHAMDIA
+  - BUS-LYCEE-SECONDAIRE-MHAMDIA
+  - BUS-CITE-TAYARI
+  - BUS-CITE-TRABELSI
+  - BUS-CEBALET-CHEIKH
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 1
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 3
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 4
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 1
+    - 1
+    - 3
+    - 1
+    - 1
+    - 2
+    - 6
+    CHARGE:
+    - 2
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 4
+    - 3
+    - 4
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 4
+    - 1
+    - 1
+    - 4
+    - 4
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 4
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 5
+    - 4
+    - 2
+    - 3
+    - 3
+    - 3
+    - 2
+    - 4
+    - 4
+    - 1
+    - 2
+    - 4
+    - 1
+    - 1
+    - 3
+    - 10
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 04:50
+      last: '17:15'
+      by_direction:
+        ALLER:
+          first: 05:30
+          last: '17:15'
+        RETOUR:
+          first: 04:50
+          last: '15:45'
+    bands:
+      NUIT:
+        headway_min: 70
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 70
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 70
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 70
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 90
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 05:20
+      last: '17:15'
+      by_direction:
+        ALLER:
+          first: 06:00
+          last: '17:15'
+        RETOUR:
+          first: 05:20
+          last: '15:45'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 95
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : sens indéterminé : l''affiche ne donne pas le point de départ et son terminus n''est pas repérable dans
+    l''itinéraire open data ; Premiers et derniers départs (pôle 05:30 → 17:15, terminus 04:50 → 15:45) et fréquence de pointe
+    (70 min) : affiche Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, ResteLigneH26-27.jpg) [officiel]
+    ; arrêts : open data Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions
+    géographiques des stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date
+    de relevé non publiée (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 54A » ; heures creuses et dimanche
+    estimés : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ
+    30 min plus tard (rapports médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable)
+    ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min
+    en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

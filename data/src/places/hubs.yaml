@@ -1,0 +1,346 @@
+# Généré par `python -m citydata import-doc` depuis doc/tous les lieux importés (pôles calculés : 250 m, 450 m autour des gares routières et louages).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+- id: HUB-10-DECEMBRE
+  name:
+    fr: 10 Décembre
+    ar: 10 ديسمبر
+  members:
+  - BUS-10-DECEMBRE
+  - BUS-TOUTA-10-DECEMBRE
+  - MET-10-DECEMBRE-1948
+  status: active
+- id: HUB-20-MARS
+  name:
+    fr: 20 Mars
+    ar: 20 مارس
+  members:
+  - BUS-20-MARS-ALLER
+  - BUS-20-MARS-RETOUR
+  - MET-BOULEVARD-20-MARS
+  status: active
+- id: HUB-ARIANA
+  name:
+    fr: Ariana
+    ar: أريانة
+  members:
+  - BUS-ARIANA
+  - MET-ARIANA
+  status: active
+- id: HUB-BAB-ALIOUA
+  name:
+    fr: Bab Alioua
+    ar: باب عليوة
+  members:
+  - LOU-BAB-ALIOUA
+  - MET-BAB-ALIOUA
+  - SNTRI-TUNIS-SUD
+  status: active
+- id: HUB-BAB-LAASSAL
+  name:
+    fr: Bab Laassal
+    ar: باب العسل
+  members:
+  - BUS-BAB-LAASSAL
+  - BUS-MOSQUEE-ELBORJ
+  - MET-BAB-EL-ASSEL
+  status: active
+- id: HUB-BAB-SAADOUN
+  name:
+    fr: Bab Saadoun
+    ar: باب سعدون
+  members:
+  - BUS-BAB-ABDESLEM-ALLER
+  - BUS-BAB-ABDESLEM-RETOUR
+  - MET-BAB-SAADOUN
+  status: active
+- id: HUB-BARCELONE
+  name:
+    fr: Barcelone – Tunis Ville
+    ar: برشلونة – محطة تونس
+  members:
+  - BUS-PLACE-DE-BARCELONE
+  - MET-PLACE-DE-BARCELONE
+  - TRN-TUNISVILLE
+  status: active
+- id: HUB-BEJA
+  name:
+    fr: Béja
+    ar: باجة
+  members:
+  - SNTRI-BEJA
+  - TRN-BEJA
+  status: active
+- id: HUB-BEN-AROUS
+  name:
+    fr: Ben Arous
+    ar: بن عروس
+  members:
+  - BUS-BNA-BEN-AROUS
+  - BUS-KIOSQUE-MOBIL-BEN-AROUS
+  - MET-BEN-AROUS
+  status: active
+- id: HUB-CITE-EL-INTILAKA
+  name:
+    fr: Cité El Intilaka
+    ar: حي الانطلاقة
+  members:
+  - BUS-EL-INTILAKA
+  - MET-INTILAKA
+  status: active
+- id: HUB-DJERBA-HOUMT-SOUK
+  name:
+    fr: Djerba – Houmt Souk
+    ar: جربة
+  members:
+  - LOU-HOUMT-SOUK
+  - SNTRI-JERBA
+  status: active
+- id: HUB-EL-BORTAL
+  name:
+    fr: El Bortal
+    ar: البرطال
+  members:
+  - BUS-BORTAL-ALLER
+  - BUS-CHAMP-DE-COURSE-KSAR-SAID-ALLER
+  - BUS-CHAMP-DE-COURSE-KSAR-SAID-RETOUR
+  - TRN-ELBORTAL
+  status: active
+- id: HUB-EL-HAMMA
+  name:
+    fr: El Hamma
+    ar: الحامة
+  members:
+  - LOU-EL-HAMMA
+  - SNTRI-EL-HAMMA-2
+  status: active
+- id: HUB-EL-MONTAZAH
+  name:
+    fr: El Montazah
+    ar: المنتزه
+  members:
+  - BUS-EL-MONTAZAH
+  - MET-EL-MONTAZAH
+  status: active
+- id: HUB-GARE-ROUTIERE-TUNIS-NORD-BAB-SAADOUN
+  name:
+    fr: Gare routière Tunis Nord (Bab Saadoun)
+    ar: محطة النقل البري للشمال
+  members:
+  - BUS-BOUCHOUCHA-ALLER
+  - BUS-BOUCHOUCHA-RETOUR
+  - LOU-BAB-SAADOUN
+  - MET-BOUCHOUCHA
+  - SNTRI-TUNIS-NORD
+  status: active
+- id: HUB-HAMMAM-LIF
+  name:
+    fr: Hammam Lif
+    ar: حمام الأنف
+  members:
+  - LOU-HAMMAM-LIF
+  - TRN-HAMMAMLIF
+  status: active
+- id: HUB-JEBEL-JELLOUD
+  name:
+    fr: Jebel Jelloud
+    ar: جبل الجلود
+  members:
+  - BUS-GARE-DJEBEL-JELLOUD
+  - TRN-JEBELJELLOUD
+  status: active
+- id: HUB-KAIROUAN
+  name:
+    fr: Kairouan
+    ar: القيروان
+  members:
+  - LOU-KAIROUAN
+  - SNTRI-KAIROUAN
+  status: active
+- id: HUB-KASSERINE
+  name:
+    fr: Kasserine
+    ar: القصرين
+  members:
+  - LOU-KASSERINE
+  - SNTRI-KASSERINE
+  status: active
+- id: HUB-KEBILI
+  name:
+    fr: Kebili
+    ar: قبلي
+  members:
+  - LOU-KEBILI
+  - SNTRI-KEBILI
+  status: active
+- id: HUB-KHEIREDDINE
+  name:
+    fr: Kheireddine
+    ar: خير الدين
+  members:
+  - BUS-KHAIREDDINE
+  - MET-KHEIREDDINE
+  status: active
+- id: HUB-LA-CHEBBA
+  name:
+    fr: La Chebba
+    ar: الشابة
+  members:
+  - LOU-CHEBBA
+  - SNTRI-LA-CHEBBA
+  status: active
+- id: HUB-LE-BARDO
+  name:
+    fr: Le Bardo
+    ar: باردو
+  members:
+  - BUS-RELAIS-BARDO
+  - MET-LE-BARDO
+  - TRN-LEBARDO
+  status: active
+- id: HUB-LES-ORANGERS
+  name:
+    fr: Les Orangers
+    ar: حي البرتقال
+  members:
+  - BUS-BOUDREYA
+  - BUS-GAALOUL
+  - TRN-LESORANGERS
+  status: active
+- id: HUB-MANOUBA
+  name:
+    fr: Manouba
+    ar: منوبة
+  members:
+  - BUS-INEPS
+  - TRN-MANOUBA
+  status: active
+- id: HUB-MARETH
+  name:
+    fr: Mareth
+    ar: مارث
+  members:
+  - LOU-MARETH
+  - SNTRI-MARETH
+  status: active
+- id: HUB-MELLASSINE
+  name:
+    fr: Mellassine
+    ar: الملاسين
+  members:
+  - BUS-STADE-MELLASSINE-RETOUR
+  - TRN-MELLASSINE
+  status: active
+- id: HUB-MOHAMED-V
+  name:
+    fr: Mohamed V
+    ar: محمد الخامس
+  members:
+  - BUS-MOHAMED-V
+  - MET-MOHAMED-V
+  status: active
+- id: HUB-MONCEF-BEY
+  name:
+    fr: Moncef Bey
+    ar: المنصف باي
+  members:
+  - BUS-AVENUE-DE-CARTHAGE
+  - LOU-MONCEF-BEY
+  status: active
+- id: HUB-NELSON-MANDELA
+  name:
+    fr: Nelson Mandela
+    ar: نيلسون مانديلا
+  members:
+  - BUS-LA-FAYETTE-ALLER
+  - MET-NELSON-MANDELA
+  status: active
+- id: HUB-PLACE-DE-LA-REPUBLIQUE
+  name:
+    fr: Place de la République
+    ar: ساحة الجمهورية
+  members:
+  - BUS-PASSAGE-JEANS-JAURES-ALLER
+  - BUS-STEG-JEANS-JAURES-ALLER
+  - MET-PLACE-DE-LA-REPUBLIQUE
+  status: active
+- id: HUB-PONT-DU-FAHS
+  name:
+    fr: Pont du Fahs
+    ar: الفحص
+  members:
+  - LOU-EL-FAHS-2
+  - TRN-PONTDUFAHS
+  status: active
+- id: HUB-REDEYEF
+  name:
+    fr: Redeyef
+    ar: الرديف
+  members:
+  - LOU-REDEYEF
+  - TRN-REDEYEF
+  status: active
+- id: HUB-SENED
+  name:
+    fr: Sened
+    ar: السند
+  members:
+  - LOU-SENED
+  - TRN-SENED
+  status: active
+- id: HUB-SIDI-AYED
+  name:
+    fr: Sidi Ayed
+    ar: سيدي عياد
+  members:
+  - SNTRI-SIDI-AYED
+  - TRN-SIDIAYED
+  status: active
+- id: HUB-SLIMANE-KAHIA
+  name:
+    fr: Slimane Kahia
+    ar: سليمان الكاهية
+  members:
+  - BUS-SLIMANE-KAHIA
+  - MET-SLIMANE-KAHIA
+  status: active
+- id: HUB-TEBOURBA
+  name:
+    fr: Tebourba
+    ar: طبربة
+  members:
+  - BUS-TEBOURBA
+  - TRN-TEBOURBA
+  status: active
+- id: HUB-THALA
+  name:
+    fr: Thala
+    ar: تالة
+  members:
+  - LOU-THALA
+  - SNTRI-THALA
+  status: active
+- id: HUB-TOZEUR
+  name:
+    fr: Tozeur
+    ar: توزر
+  members:
+  - LOU-TOZEUR
+  - SNTRI-TOZEUR
+  status: active
+- id: HUB-TUNIS-MARINE
+  name:
+    fr: Tunis Marine
+    ar: تونس البحرية
+  members:
+  - BUS-TUNIS-MARINE
+  - MET-TUNIS-MARINE
+  - TGM-TUNIS-MARINE
+  status: active
+- id: HUB-ZARZIS
+  name:
+    fr: Zarzis
+    ar: جرجيس
+  members:
+  - LOU-ZARZIS
+  - SNTRI-ZARZIS
+  status: active

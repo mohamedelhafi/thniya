@@ -1,0 +1,49 @@
+# Généré par `python -m citydata import-doc` depuis doc/sources-open-data/raw (référentiel national, OSM) et fiche SNTRI.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+- id: SNTRI-TUNIS-NORD
+  kind: station
+  name:
+    fr: Gare routière Tunis Nord (Bab Saadoun)
+    ar: محطة النقل البري للشمال
+  aliases:
+  - Tunis Nord
+  - Bab Saadoun
+  - Gare routière Nord
+  - باب سعدون
+  - تونس الشمالية
+  lat: 36.810697
+  lon: 10.153175
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « GARE ROUTIERE B.SAADOUN
+      », code 1161GR000. Nom arabe : OpenStreetMap.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TUNIS NORD. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 121, 122, 123, 124, 125,
+    133, 138, 139, 141, 150, 151, 152, 153, 169, 170, 173, 174, 175, 176, 181, 206, 271, 307, 308, 508. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, OSM, REF.'
+- id: SNTRI-TUNIS-SUD
+  kind: station
+  name:
+    fr: Gare routière Tunis Sud (Bab Alioua)
+    ar: المحطة الجنوبية للنقل البري باب عليوة
+  aliases:
+  - Tunis Sud
+  - Bab Alioua
+  - Gare routière Sud
+  - باب عليوة
+  - تونس الجنوبية
+  lat: 36.787363
+  lon: 10.179342
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Beb-Alioua », code 1165GR001.
+      Nom arabe : OpenStreetMap.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TUNIS SUD. Lignes : 100, 101, 102, 104, 105, 107, 117, 118, 120, 128, 129, 130, 131,
+    132, 134, 135, 142, 143, 144, 145, 146, 147, 149, 167, 168, 179, 182, 183, 189, 194, 204, 209, 226, 294, 304, 305, 406,
+    500, 501, 502, 503, 504, 506, 507, 509, 512, 517, 518, 527, 700. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    OSM, REF.'

@@ -1,0 +1,224 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-4A
+network: TRANSTU
+mode: BUS
+public_code: 4A
+name:
+  fr: Bus 4A
+  ar: حافلة 4أ
+long_name:
+  fr: Jardin Thameur – Cité Sprols
+  ar: محطة حديقة ثامر – حي سبرولس
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Cité Sprols
+    ar: حي سبرولس
+- id: RETOUR
+  headsign:
+    fr: Jardin Thameur
+    ar: محطة حديقة ثامر
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-JARDIN-THAMEUR
+  - BUS-SIDI-ALOUI
+  - BUS-IMMEUBLE-CHEFIA
+  - BUS-BOUCHOUCHA-ALLER
+  - BUS-20-MARS-ALLER
+  - BUS-CHEBBI-ALLER
+  - BUS-SAINT-CLEMENT-ALLER
+  - BUS-BORTAL-ALLER
+  - BUS-CHAMP-DE-COURSE-KSAR-SAID-ALLER
+  - BUS-HOPITAL-KASSAB-ALLER
+  - BUS-EL-FARABI-MANNOUBA-ALLER
+  - BUS-TELECOM-MANOUBA-ALLER
+  - BUS-STEG-MANNOUBA-ALLER
+  - BUS-L-ENVIRONNEMENT-MANNOUBA
+  - BUS-LYCEE-IBN-ABI-DHIEF-MANNOUBA
+  - BUS-CNSS-MANNOUBA-ALLER
+  - BUS-RUE-DE-KEBILLI-ALLER
+  - BUS-AVENUE-DE-L-ENVIRONNEMENT-MANNOUBA-ALLER
+  - BUS-MONOPRIX-MANNOUBA-ALLER
+  - BUS-TERMINUS-CITE-EL-AMAL-MANNOUBA
+  run_times:
+    FLUIDE:
+    - 3
+    - 5
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    - 2
+    - 4
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 1
+    CHARGE:
+    - 4
+    - 8
+    - 2
+    - 3
+    - 5
+    - 3
+    - 4
+    - 2
+    - 6
+    - 3
+    - 2
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 3
+    - 2
+    - 1
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-CITE-EL-AMAL-MANNOUBA
+  - BUS-MONOPRIX-MANNOUBA-RETOUR
+  - BUS-AVENUE-DE-L-ENVIRONNEMENT-MANNOUBA-RETOUR
+  - BUS-RUE-DE-KEBILLI-RETOUR
+  - BUS-CNSS-MANNOUBA-RETOUR
+  - BUS-RUE-INB-RACHIK-RETOUR
+  - BUS-STEG-MANNOUBA-RETOUR
+  - BUS-TELECOM-MANOUBA-RETOUR
+  - BUS-EL-FARABI-MANNOUBA-RETOUR
+  - BUS-HOPITAL-KASSAB-RETOUR
+  - BUS-CHAMP-DE-COURSE-KSAR-SAID-RETOUR
+  - BUS-BORTAL-RETOUR
+  - BUS-CHEBBI-RETOUR
+  - BUS-RELAIS-BARDO
+  - BUS-20-MARS-RETOUR
+  - BUS-BOUCHOUCHA-RETOUR
+  - BUS-BAB-SAADOUN-RETOUR
+  - BUS-BAB-ABDESLEM-RETOUR
+  - BUS-MOSQUEE-ELBORJ
+  - BUS-AVENUE-MADRID
+  - BUS-JARDIN-THAMEUR
+  run_times:
+    FLUIDE:
+    - 1
+    - 1
+    - 2
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 2
+    - 4
+    - 2
+    - 4
+    - 1
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    CHARGE:
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    - 3
+    - 6
+    - 2
+    - 6
+    - 2
+    - 3
+    - 4
+    - 4
+    - 3
+    - 2
+    - 5
+    - 3
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 04:10
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 04:40
+          last: '19:00'
+        RETOUR:
+          first: 04:10
+          last: '18:10'
+    bands:
+      NUIT:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 40
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 40
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 50
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 04:40
+      last: '19:00'
+      by_direction:
+        ALLER:
+          first: 05:10
+          last: '19:00'
+        RETOUR:
+          first: 04:40
+          last: '18:10'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 55
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : itinéraire open data « à vérifier » (open data : terminus Cité El Amal (Manouba)) ; Premiers et derniers
+    départs (pôle 04:40 → 19:00, terminus 04:10 → 18:10) et fréquence de pointe (40 min) : affiche Transtu « marche horaire
+    hiver 2026-2027 » (transtu.tn, page 0143, JThameurH26-27.jpg) [officiel] ; arrêts : open data Transtu (catalogue-data.transport.tn),
+    jeux « itinéraires des lignes du réseau bus » et « positions géographiques des stations » publiés le 2026-01-25 ; réseau
+    décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée (doc/bus/grand-tunis-transtu/donnees-ouvertes.md),
+    ligne open data « 4A » ; heures creuses et dimanche estimés : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après
+    19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports médians des départs détaillés de l''open
+    data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et
+    0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

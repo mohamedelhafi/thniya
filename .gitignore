@@ -1,0 +1,41 @@
+# Base de connaissances privée (sources brutes, droits non vérifiés) : jamais publiée
+doc/
+
+# Données lourdes ou générées
+data/osm/
+data/build/
+data/feedback/
+
+# Secrets et certificats
+infra/.env
+infra/nginx/certs/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Java / Maven
+backend/target/
+*.class
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+
+# Outils locaux
+.claude/
+
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

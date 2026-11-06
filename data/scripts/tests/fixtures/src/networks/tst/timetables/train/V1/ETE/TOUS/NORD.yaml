@@ -1,0 +1,5 @@
+inherits: NORMAL/TOUS/NORD
+remove: ["2"]
+shift:
+  - { trains: ["1"], minutes: 10 }
+add_file: ete-ajouts.csv

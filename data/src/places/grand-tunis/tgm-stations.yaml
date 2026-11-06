@@ -1,0 +1,290 @@
+# Généré par `python -m citydata import-doc` depuis doc/metro-tramway/donnees/stations_tgm.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+- id: TGM-TUNIS-MARINE
+  kind: station
+  name:
+    fr: Tunis Marine
+    ar: تونس البحرية
+  area:
+    fr: Tunis
+    ar: تونس
+  lat: 36.800688
+  lon: 10.192075
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603921 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-LE-BAC
+  kind: station
+  name:
+    fr: Le Bac
+    ar: البطاح
+  area:
+    fr: La Goulette
+    ar: حلق الوادي
+  lat: 36.814225
+  lon: 10.292375
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603920 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-LA-GOULETTE
+  kind: station
+  name:
+    fr: La Goulette (Vieille)
+    ar: حلق الوادي
+  area:
+    fr: La Goulette
+    ar: حلق الوادي
+  lat: 36.818033
+  lon: 10.301965
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/7701748630 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-LA-GOULETTE-NEUVE
+  kind: station
+  name:
+    fr: La Goulette Neuve
+    ar: حلق الوادي الجديدة
+  area:
+    fr: La Goulette
+    ar: حلق الوادي
+  lat: 36.819937
+  lon: 10.305636
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603915 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-LA-GOULETTE-CASINO
+  kind: station
+  name:
+    fr: La Goulette Casino
+    ar: حلق الوادي كازينو
+  area:
+    fr: La Goulette
+    ar: حلق الوادي
+  lat: 36.824239
+  lon: 10.308713
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603916 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-KHEREDDINE
+  kind: station
+  name:
+    fr: Kheireddine
+    ar: خير الدين
+  area:
+    fr: Le Kram
+    ar: الكرم
+  lat: 36.828935
+  lon: 10.311603
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603914 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-L-AEROPORT
+  kind: station
+  name:
+    fr: L'Aéroport
+    ar: المرسى الجوية
+  area:
+    fr: Le Kram
+    ar: الكرم
+  lat: 36.83204
+  lon: 10.313869
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603913 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-LE-KRAM
+  kind: station
+  name:
+    fr: Le Kram
+    ar: الكرم
+  area:
+    fr: Le Kram
+    ar: الكرم
+  lat: 36.836342
+  lon: 10.316655
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603912 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-CARTHAGE-SALAMMBO
+  kind: station
+  name:
+    fr: Carthage Salammbô
+    ar: قرطاج صلامبو
+  area:
+    fr: Le Kram
+    ar: الكرم
+  lat: 36.841695
+  lon: 10.31914
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603911 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-CARTHAGE-BYRSA
+  kind: station
+  name:
+    fr: Carthage Byrsa
+    ar: قرطاج بيرصة
+  area:
+    fr: Carthage
+    ar: قرطاج
+  lat: 36.846231
+  lon: 10.32184
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/9162088821 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-CARTHAGE-DERMECH
+  kind: station
+  name:
+    fr: Carthage Dermech
+    ar: قرطاج درمش
+  area:
+    fr: Carthage
+    ar: قرطاج
+  lat: 36.850197
+  lon: 10.325696
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603909 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-CARTHAGE-HANNIBAL
+  kind: station
+  name:
+    fr: Carthage Hannibal
+    ar: قرطاج حنبعل
+  area:
+    fr: Carthage
+    ar: قرطاج
+  lat: 36.853547
+  lon: 10.328997
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603908 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-CARTHAGE-PRESIDENCE
+  kind: station
+  name:
+    fr: Carthage Présidence
+    ar: قرطاج الرئاسة
+  area:
+    fr: Carthage
+    ar: قرطاج
+  lat: 36.861665
+  lon: 10.335025
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603907 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-CARTHAGE-AMILCAR
+  kind: station
+  name:
+    fr: Carthage Amilcar
+    ar: قرطاج أميلكار
+  area:
+    fr: Amilcar
+    ar: أميلكار
+  lat: 36.866615
+  lon: 10.337514
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603906 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-SIDI-BOU-SAID
+  kind: station
+  name:
+    fr: Sidi Bou Saïd
+    ar: سيدي بوسعيد
+  area:
+    fr: Amilcar
+    ar: أميلكار
+  lat: 36.870615
+  lon: 10.342087
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603905 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-SIDI-DHRIF
+  kind: station
+  name:
+    fr: Sidi Dhrif
+    ar: سيدي الظريف
+  area:
+    fr: Sidi Dhrif
+    ar: سيدي الظريف
+  lat: 36.875759
+  lon: 10.339745
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603904 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-LA-CORNICHE
+  kind: station
+  name:
+    fr: La Corniche
+    ar: الكورنيش
+  area:
+    fr: Marsa Corniche
+    ar: كرنيش المرسى
+  lat: 36.879702
+  lon: 10.339304
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603903 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: TGM-LA-MARSA-PLAGE
+  kind: station
+  name:
+    fr: La Marsa Plage
+    ar: المرسى الشاطئ
+  area:
+    fr: Saf Saf
+    ar: الصفصاف
+  lat: 36.882861
+  lon: 10.333654
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814603919 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc

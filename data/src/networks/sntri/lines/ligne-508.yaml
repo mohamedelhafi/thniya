@@ -1,0 +1,87 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-508
+network: SNTRI
+mode: BUS
+public_code: '508'
+name:
+  fr: Tunis Nord – Feriana
+  ar: تونس الشمالية – فريانة
+long_name:
+  fr: Tunis Nord – Feriana par Le Kef, Thala et Kasserine
+  ar: تونس الشمالية – فريانة عبر الكاف، تالة، القصرين
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Feriana
+    ar: فريانة
+- id: RETOUR
+  headsign:
+    fr: Tunis Nord
+    ar: تونس الشمالية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-NORD
+  - SNTRI-MEJEZ
+  - SNTRI-TESTOUR
+  - SNTRI-TEBOURSOUK
+  - SNTRI-LE-KRIB
+  - SNTRI-LE-KEF
+  - SNTRI-TEJEROUINE
+  - SNTRI-KT-KHESBA
+  - SNTRI-THALA
+  - SNTRI-KASSERINE
+  - SNTRI-FERIANA
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-FERIANA
+  - SNTRI-KASSERINE
+  - SNTRI-THALA
+  - SNTRI-KT-KHESBA
+  - SNTRI-TEJEROUINE
+  - SNTRI-LE-KEF
+  - SNTRI-LE-KRIB
+  - SNTRI-TEBOURSOUK
+  - SNTRI-TESTOUR
+  - SNTRI-MEJEZ
+  - SNTRI-TUNIS-NORD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/508
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 508 « TUNIS NORD - FERIANA » (333
+        km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-508
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 508 « TUNIS NORD - FERIANA » (333
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

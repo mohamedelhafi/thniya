@@ -1,0 +1,201 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-84
+network: TRANSTU
+mode: BUS
+public_code: '84'
+name:
+  fr: Bus 84
+  ar: حافلة 84
+long_name:
+  fr: Cité Trabelsi – El Mghira
+  ar: حي الطرابلسي – مغيرة
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: El Mghira
+    ar: مغيرة
+- id: RETOUR
+  headsign:
+    fr: Cité Trabelsi
+    ar: حي الطرابلسي
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-CITE-TRABELSI
+  - BUS-CITE-TAYARI
+  - BUS-LYCEE-SECONDAIRE-MHAMDIA
+  - BUS-CITE-ESSAADA-MHAMDIA
+  - BUS-MHAMDIA-CENTRE
+  - BUS-SIEGE-DELEGATION-MHAMDIA
+  - BUS-TERMINUS-CITE-ENNASSIM
+  - BUS-DISPENSAIRE
+  - BUS-CITE-ZITOUN
+  - BUS-GARDE-NATIONAL-FOUCHANA
+  - BUS-CITE-EL-OUIFAK-GN
+  - BUS-GARTEX-RETOUR
+  - BUS-ABATTOIR-RETOUR
+  - BUS-CENTRE-DE-FORMATION-MGHIRA
+  - BUS-PROMED-TECH
+  - BUS-GARDE-NATIONAL-Z-I-MGHIRA
+  - BUS-CITROEN
+  - BUS-MECAPROTEC-AEROLIA
+  - BUS-AEROLIA-1
+  run_times:
+    FLUIDE:
+    - 2
+    - 1
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    - 4
+    - 2
+    - 1
+    - 3
+    - 1
+    - 2
+    - 1
+    - 1
+    - 2
+    CHARGE:
+    - 3
+    - 1
+    - 1
+    - 4
+    - 2
+    - 1
+    - 4
+    - 4
+    - 2
+    - 5
+    - 3
+    - 2
+    - 3
+    - 3
+    - 1
+    - 2
+    - 2
+    - 3
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-AEROLIA-1
+  - BUS-MECAPROTEC-AEROLIA
+  - BUS-CITROEN
+  - BUS-CENTRE-DE-FORMATION-MGHIRA
+  - BUS-ABATTOIR-ALLER
+  - BUS-GARTEX-ALLER
+  - BUS-CITE-EL-OUIFAK-GN
+  - BUS-FOUCHANA-CENTRE
+  - BUS-GARDE-NATIONAL-FOUCHANA
+  - BUS-CITE-ZITOUN
+  - BUS-DISPENSAIRE
+  - BUS-TERMINUS-CITE-ENNASSIM
+  - BUS-SIEGE-DELEGATION-MHAMDIA
+  - BUS-MHAMDIA-CENTRE
+  - BUS-CITE-ESSAADA-MHAMDIA
+  - BUS-LYCEE-SECONDAIRE-MHAMDIA
+  - BUS-CITE-TAYARI
+  - BUS-CITE-TRABELSI
+  run_times:
+    FLUIDE:
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    - 1
+    CHARGE:
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    - 3
+    - 3
+    - 2
+    - 4
+    - 3
+    - 2
+    - 2
+    - 4
+    - 1
+    - 1
+    - 3
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 05:20
+      last: '17:20'
+      by_direction:
+        ALLER:
+          first: 05:20
+          last: '17:20'
+        RETOUR:
+          first: 06:20
+          last: '16:40'
+    bands:
+      NUIT:
+        headway_min: 70
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 70
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 70
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 70
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 90
+        run_time: FLUIDE
+  no_service:
+  - periods:
+    - NORMAL
+    - ETE
+    - RAMADAN
+    day_types:
+    - DIMANCHE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 05:20 → 17:20, terminus 06:20 → 16:40) et fréquence de pointe (70 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, ResteLigneH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 84 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; dimanche : aucun départ
+    dans l''open data du dépôt de Ben Arous ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et 0.4 min par
+    arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Définitions communes Thniya",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]+(-[A-Z0-9]+)*$",
+      "description": "Identifiant stable : MAJUSCULES, chiffres, tirets. Jamais renommé une fois publié."
+    },
+    "i18n": {
+      "type": "object",
+      "properties": {
+        "fr": { "type": "string", "minLength": 1 },
+        "ar": { "type": "string", "minLength": 1 }
+      },
+      "required": ["fr"],
+      "additionalProperties": false,
+      "description": "Texte en français (obligatoire) et en arabe (obligatoire pour une entité active)."
+    },
+    "status": {
+      "enum": ["draft", "active", "suspended", "archived"],
+      "description": "draft = non publié ; active ; suspended = publié sans service ; archived."
+    },
+    "confidence": { "enum": ["OFFICIEL", "TERRAIN", "ESTIMATION", "SIGNALEMENT", "OSM"] },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "source": { "$ref": "#/$defs/confidence" },
+        "ref": { "type": "string" },
+        "verified_at": { "type": "string", "format": "date" },
+        "by": { "type": "string" }
+      },
+      "required": ["source", "verified_at"],
+      "additionalProperties": false
+    },
+    "time": {
+      "type": "string",
+      "pattern": "^([0-3][0-9]|4[0-7]):[0-5][0-9]$",
+      "description": "HH:MM ; au-delà de 24:00 pour un service après minuit (ex. 25:10)."
+    },
+    "date": { "type": "string", "format": "date" },
+    "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+    "dayType": { "type": "string", "pattern": "^[A-Z_]+$", "description": "Type de jour : OUVRABLE, SAMEDI, DIMANCHE…" },
+    "periodId": { "type": "string", "pattern": "^[A-Z_]+$" },
+    "lonLat": {
+      "type": "array",
+      "prefixItems": [
+        { "type": "number", "minimum": 7, "maximum": 12 },
+        { "type": "number", "minimum": 30, "maximum": 38 }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    }
+  }
+}

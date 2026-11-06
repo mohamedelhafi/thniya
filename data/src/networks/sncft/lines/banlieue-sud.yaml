@@ -1,0 +1,103 @@
+# yaml-language-server: $schema=../../../../schemas/line.schema.json
+id: SNCFT-BS
+network: SNCFT
+mode: TRAIN
+public_code: "A"
+name: { fr: "Banlieue Sud", ar: "الضاحية الجنوبية" }
+long_name: { fr: "Tunis Ville – Erriadh", ar: "تونس – الرياض" }
+color: "#1565C0"
+text_color: "#FFFFFF"
+status: active
+
+directions:
+  - id: NORD
+    headsign: { fr: "Tunis Ville", ar: "تونس" }
+  - id: SUD
+    headsign: { fr: "Erriadh", ar: "الرياض" }
+
+# Parcours de référence (omnibus). Les trains semi-directs sont déduits des grilles (cases « | »).
+patterns:
+  - id: OMNIBUS-NORD
+    direction: NORD
+    main: true
+    stops:
+      - TRN-ERRIADH
+      - TRN-BORJCEDRIA
+      - TRN-BIRELBEY
+      - TRN-HAMMAMCHATT
+      - TRN-TAHARSFAR
+      - TRN-STADE
+      - TRN-HAMMAMLIF
+      - TRN-BOUKORNINE
+      - TRN-LYCEEEZZAHRA
+      - TRN-EZZAHRA
+      - TRN-RADESMELIANE
+      - TRN-RADES
+      - TRN-LYCEERADES
+      - TRN-SIDIREZIG
+      - TRN-MEGRINE
+      - TRN-MEGRINERIADH
+      - TRN-JEBELJELLOUD
+      - TRN-TUNISVILLE
+    shape: auto
+  - id: OMNIBUS-SUD
+    direction: SUD
+    main: true
+    stops:
+      - TRN-TUNISVILLE
+      - TRN-JEBELJELLOUD
+      - TRN-MEGRINERIADH
+      - TRN-MEGRINE
+      - TRN-SIDIREZIG
+      - TRN-LYCEERADES
+      - TRN-RADES
+      - TRN-RADESMELIANE
+      - TRN-EZZAHRA
+      - TRN-LYCEEEZZAHRA
+      - TRN-BOUKORNINE
+      - TRN-HAMMAMLIF
+      - TRN-STADE
+      - TRN-TAHARSFAR
+      - TRN-HAMMAMCHATT
+      - TRN-BIRELBEY
+      - TRN-BORJCEDRIA
+      - TRN-ERRIADH
+    shape: auto
+
+# Codes « jours de circulation » de l'affiche officielle
+day_codes:
+  "A": { days: [OUVRABLE, SAMEDI],           label: { fr: "Sauf dimanches et fêtes", ar: "ما عدى الآحاد و الأعياد" } }
+  "B": { days: [DIMANCHE],                   label: { fr: "Dimanches et fêtes seulement", ar: "أيام الآحاد و الأعياد" } }
+  "C": { days: [OUVRABLE],                   label: { fr: "Sauf samedis, dimanches et fêtes", ar: "ما عدى السبت و الأحد و الأعياد" } }
+  "D": { days: [OUVRABLE, DIMANCHE],         label: { fr: "Sauf samedi", ar: "ما عدى السبت" } }
+  "-": { days: [OUVRABLE, SAMEDI, DIMANCHE], label: { fr: "Tous les jours", ar: "كامل أيام الأسبوع" } }
+
+schedule:
+  kind: timetable
+  source_dir: timetables/banlieue-sud
+  fallback: inherit
+  versions:
+    - id: HIVER-2026-2027
+      valid_from: 2026-09-01
+      valid_to: 2027-06-30
+      provenance:
+        source: OFFICIEL
+        ref: "https://www.sncft.com.tn/voyageurs/banlieue-tunis/ — Horaire Erriadh-Tunis hiver 26-27 (valable du 1er septembre 2026 au 30 juin 2027, sauf Ramadan)"
+        verified_at: 2026-10-13
+        by: import-web
+      # Coquilles de l'affiche officielle, corrigées dans les grilles CSV.
+      corrections:
+        - { direction: NORD, train: "110", stop: TRN-MEGRINE,      printed: "16:12", corrected: "06:12", reason: "Entre 06:09 (Sidi Rezig) et 06:14 (Mégrine Riadh)" }
+        - { direction: NORD, train: "146", stop: TRN-RADES,        printed: "09:39", corrected: "09:29", reason: "Entre 09:26 (Radès Méliane) et 09:32 (Lycée Radès)" }
+        - { direction: NORD, train: "172", stop: TRN-HAMMAMLIF,    printed: "10:19", corrected: "11:19", reason: "Entre 11:16 (Arrêt du Stade) et 11:21 (Boukornine)" }
+        - { direction: NORD, train: "174", stop: TRN-HAMMAMLIF,    printed: "10:35", corrected: "11:35", reason: "Entre 11:32 (Arrêt du Stade) et 11:38 (Boukornine)" }
+        - { direction: NORD, train: "204", stop: TRN-MEGRINERIADH, printed: "15:25", corrected: "14:25", reason: "Entre 14:23 (Mégrine) et 14:28 (Jebel Jelloud)" }
+        - { direction: SUD,  train: "125", stop: TRN-RADES,        printed: "17:55", corrected: "07:55", reason: "Entre 07:53 (Lycée Radès) et 07:58 (Radès Méliane)" }
+        - { direction: SUD,  train: "139", stop: TRN-TUNISVILLE,   printed: "07:40", corrected: "08:40", reason: "Arrivée à Jebel Jelloud à 08:51" }
+        - { direction: SUD,  train: "159", stop: TRN-LYCEERADES,   printed: "10:20", corrected: "11:20", reason: "Entre 11:18 (Sidi Rezig) et 11:23 (Radès)" }
+        - { direction: SUD,  train: "213", stop: TRN-BIRELBEY,     printed: "15:51", corrected: "17:51", reason: "Entre 17:49 (Hammam Chatt) et 17:56 (Borj Cédria)" }
+        - { direction: SUD,  train: "225", stop: TRN-HAMMAMCHATT,  printed: "18:10", corrected: "19:10", reason: "Entre 19:08 (Tahar Sfar) et 19:12 (Bir El Bey)" }
+        - { direction: SUD,  train: "241", stop: TRN-STADE,        printed: "21:05", corrected: "22:05", reason: "Entre 22:03 (Hammam Lif) et 22:08 (Tahar Sfar)" }
+
+fare: FARE-SNCFT-A   # tarif de test (ESTIMATION) : tarif officiel à relever
+provenance: { source: OFFICIEL, ref: "sncft.com.tn", verified_at: 2026-10-13, by: import-web }

@@ -1,0 +1,105 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-36B
+network: TRANSTU
+mode: BUS
+public_code: 36B
+name:
+  fr: Bus 36B
+  ar: حافلة 36ب
+long_name:
+  fr: Tunis Marine – Ministère des Affaires étrangères
+  ar: محطة تونس البحرية – وزارة الخارجية
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Ministère des Affaires étrangères
+    ar: وزارة الخارجية
+- id: RETOUR
+  headsign:
+    fr: Tunis Marine
+    ar: محطة تونس البحرية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-TERMINUS-MINISTERE-DES-AFFAIRES-ETRANGERES
+  - BUS-CLINIQUE-TAOUFIK-RETOUR
+  - BUS-CAMPUS-RETOUR
+  - BUS-14-JANVIER-2011-RETOUR
+  - BUS-FOYER-BARDO-2-RETOUR
+  - BUS-FOYER-BARDO-1-RETOUR
+  - BUS-CAFE-EL-HAJ-RETOUR
+  - BUS-TOUTA-BARDO
+  run_times:
+    FLUIDE:
+    - 2
+    - 4
+    - 1
+    - 3
+    - 2
+    - 1
+    - 3
+    CHARGE:
+    - 3
+    - 6
+    - 1
+    - 4
+    - 3
+    - 1
+    - 4
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TOUTA-BARDO
+  - BUS-CAFE-EL-HAJ-ALLER
+  - BUS-FOYER-BARDO-1-ALLER
+  - BUS-FOYER-BARDO-2-ALLER
+  - BUS-CENTER-DE-FORMATION-RAS-TABIA-ALLER
+  - BUS-14-JANVIER-2011-ALLER
+  - BUS-CAMPUS-ALLER
+  - BUS-CLINIQUE-TAOUFIK-ALLER
+  - BUS-TERMINUS-MINISTERE-DES-AFFAIRES-ETRANGERES
+  run_times:
+    FLUIDE:
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 1
+    - 4
+    - 2
+    CHARGE:
+    - 4
+    - 1
+    - 4
+    - 1
+    - 3
+    - 2
+    - 6
+    - 2
+schedule:
+  kind: frequency
+  regimes: []
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : aucun sens de l''itinéraire open data ne part du pôle de l''affiche ; itinéraire open data « à vérifier
+    » (open data : Ministère des Affaires étrangères – Touta Bardo) ; horaires incomplets sur l''affiche (manque : dernier
+    départ du pôle, premier départ du terminus) ; Premiers et derniers départs (pôle 08:30 → –, terminus – → 17:25) et fréquence
+    de pointe (60 min) : affiche Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, TunisMarineH26-27.jpg)
+    [officiel] ; arrêts : open data Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et
+    « positions géographiques des stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel,
+    date de relevé non publiée (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 36B » ; heures creuses
+    et dimanche estimés : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée,
+    premier départ 30 min plus tard (rapports médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026
+    probable) ; durées estimées depuis les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h
+    et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

@@ -1,0 +1,9 @@
+id: GREVE-TEST
+active_periods:
+  - { from: "2030-01-08T00:00", to: "2030-01-08T23:59" }
+scope: { lines: [TST-T] }
+effect: NO_SERVICE
+severity: severe
+title: { fr: "Grève", ar: "إضراب" }
+status: active
+provenance: { source: OFFICIEL, verified_at: "2030-01-01" }

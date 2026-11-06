@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Périodes horaires (calendar/periods.yaml)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "common.schema.json#/$defs/periodId" },
+      "name": { "$ref": "common.schema.json#/$defs/i18n" },
+      "default": { "type": "boolean" },
+      "from_events": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+      "from_events_all": { "type": "array", "items": { "type": "string" }, "minItems": 2,
+        "description": "Période combinée : active seulement quand tous ces événements le sont (ex. RAMADAN + ETE)." },
+      "extend": {
+        "type": "object",
+        "properties": {
+          "before_days": { "type": "integer", "minimum": 0 },
+          "after_days": { "type": "integer", "minimum": 0 }
+        },
+        "additionalProperties": false
+      },
+      "show_banner": { "type": "boolean" }
+    },
+    "required": ["id", "name"],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,5 @@
+query StopsNearby($lat: Float!, $lon: Float!, $radius: Int!) {
+  stopsByRadius(lat: $lat, lon: $lon, radius: $radius, first: 50) {
+    edges { node { distance stop { gtfsId name } } }
+  }
+}

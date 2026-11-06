@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Éditeur du flux (reference/feed.yaml)",
+  "type": "object",
+  "properties": {
+    "publisher_name": { "type": "string" },
+    "publisher_url": { "type": "string", "format": "uri" },
+    "default_lang": { "enum": ["fr", "ar"] },
+    "contact_email": { "type": ["string", "null"] }
+  },
+  "required": ["publisher_name", "publisher_url", "default_lang"],
+  "additionalProperties": false
+}

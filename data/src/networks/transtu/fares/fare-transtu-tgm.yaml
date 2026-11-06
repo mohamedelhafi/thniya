@@ -1,0 +1,18 @@
+# Généré par `python -m citydata import-doc` depuis doc/metro-tramway/tarifs.md.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-TRANSTU-TGM
+model: flat
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2021-06-01'
+  price_millimes:
+    PLEIN: 800
+provenance:
+  source: ESTIMATION
+  ref: 'Grille Transtu « nouvelle tarification » en vigueur depuis le 2021-06-01 (transtu.tn, pages 0067 et 0068 ; doc/metro-tramway/tarifs.md)
+    : TGM 2e classe 0,500 DT (1 section) ou 0,800 DT (2 sections), 1re classe 0,900 / 1,250 DT ; limites des sections non
+    publiées : 2 sections (prix relevé pour un aller, Wikivoyage Tunis, 2025).'
+  verified_at: '2026-10-14'
+  by: import-doc

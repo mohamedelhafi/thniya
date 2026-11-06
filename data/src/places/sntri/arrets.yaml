@@ -1,0 +1,4602 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+- id: SNTRI-AIEN-ZAKKAR
+  kind: stop
+  name:
+    fr: Aien Zakkar
+    ar: عين زكار
+  aliases:
+  - Ain Zakkar
+  lat: 36.027
+  lon: 9.53939
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 205 « Ain Zakkar ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AIEN ZAKKAR. Lignes : 132. Sources concordantes à moins de 1.5 km : CARTO. Autres
+    points de même nom non retenus : CARTO « Ain Zakkar » à 17.2 km.'
+- id: SNTRI-AIN-DISSA
+  kind: stop
+  name:
+    fr: Ain Dissa
+    ar: عين ديسة
+  aliases:
+  - Ain Eddissa
+  lat: 35.953463
+  lon: 9.24267
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ain dissa », code 2451SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AIN DISSA. Lignes : 129, 130, 134, 135, 147, 167, 168. Sources concordantes à moins
+    de 1.5 km : CARTO, REF. Autres points de même nom non retenus : REFX « Ain dissa » à 3.2 km.'
+- id: SNTRI-AIN-DRAHAM
+  kind: stop
+  name:
+    fr: Aïn Draham
+    ar: عين دراهم
+  aliases:
+  - Ain Drahem
+  lat: 36.779007
+  lon: 8.68857
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ain Draham », code
+      2255SB001. Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AIN DRAHAM. Lignes : 121, 122, 123, 169, 174. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF.'
+- id: SNTRI-AIN-GUELLAL
+  kind: stop
+  name:
+    fr: Ain Guellal
+    ar: عين غلال
+  aliases:
+  - Ain guelal
+  lat: 37.023742
+  lon: 9.83274
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ain guelal », code
+      1760AB000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AIN GUELLAL. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de
+    1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-AIN-JEMMALA
+  kind: stop
+  name:
+    fr: Ain Jemmala
+    ar: عين جمالة
+  aliases:
+  - Ain Jemmela
+  lat: 36.495073
+  lon: 9.314825
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ain jemmala », code 2155SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AIN JEMMALA. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 175,
+    176, 271, 307. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF. Autres points de même nom non retenus : REFX
+    « Ain.jamel » à 66.0 km; REFX « Ain jmal » à 225.7 km.'
+- id: SNTRI-AIN-SOBH
+  kind: stop
+  name:
+    fr: Ain Sobh
+    ar: عين صبح
+  aliases:
+  - Ain Essobeh
+  - Ain sobah
+  lat: 36.957793
+  lon: 8.918822
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ain sobh », code
+      2254AB010. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AIN SOBH. Lignes : 124, 125, 133, 150, 151, 152, 153, 181, 206. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : REFX « Ain sobeh » à 4.1 km.'
+- id: SNTRI-AIN-SOLTANE
+  kind: stop
+  name:
+    fr: Ain Soltane
+    ar: عين سلطان
+  lat: 36.763442
+  lon: 9.195278
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ain soltane », code
+      2151AB002. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AIN SOLTANE. Lignes : 124, 133, 151. Sources concordantes à moins de 1.5 km : REF.
+    Autres points de même nom non retenus : CARTO « Ain Soltane » à 1.8 km; GTFS « ain soltane » à 135.5 km; REFX « Ain saltnia
+    » à 263.1 km.'
+- id: SNTRI-AIN-TONGUA
+  kind: stop
+  name:
+    fr: Ain Tongua
+    ar: عين تونقة
+  aliases:
+  - Ain tonga
+  lat: 36.524348
+  lon: 9.358578
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ain tonga », code
+      2157AB002. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AIN TONGUA. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 175, 176,
+    271, 307. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-AJIM
+  kind: stop
+  name:
+    fr: Ajim
+    ar: أجيم
+  aliases:
+  - اجيم
+  lat: 33.724899
+  lon: 10.7483
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 120 « Ajim ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AJIM. Lignes : 162, 164. Sources concordantes à moins de 1.5 km : CARTO, REFX, SRTM.'
+- id: SNTRI-AKARIT
+  kind: stop
+  name:
+    fr: Akarit
+    ar: عكريت
+  aliases:
+  - العكاريت
+  lat: 34.106201
+  lon: 9.98313
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Akarit », code 5155AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AKARIT. Lignes : 146, 164. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF,
+    REFX, SRTM. Autres points de même nom non retenus : REFX « AKARIT » à 156.6 km; REFX « EL AKROUT » à 107.0 km; REFX «
+    Aakrout » à 91.9 km; REFX « Aakrout » à 90.7 km.'
+- id: SNTRI-ALEXANDRE
+  kind: stop
+  name:
+    fr: Alexandre
+    ar: اسكندر
+  lat: 35.944599
+  lon: 9.67785
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 207 « Alexandre ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ALEXANDRE. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-AMAIEM
+  kind: stop
+  name:
+    fr: Amaiem
+    ar: العمايم
+  aliases:
+  - Elamayem
+  lat: 36.331202
+  lon: 9.844802
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Amaiem », code 1654SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AMAIEM. Lignes : 129, 130, 131, 132, 134, 135, 145, 147, 167, 168, 204. Sources concordantes
+    à moins de 1.5 km : CARTO, REF, REFX. Autres points de même nom non retenus : REFX « Al Amaem » à 12.5 km.'
+- id: SNTRI-AOUANA
+  kind: stop
+  name:
+    fr: Aouana
+    ar: عوانة
+  lat: 37.03485
+  lon: 9.357805
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Aouana », code 1757AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AOUANA. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de 1.5
+    km : GTFS, REF. Autres points de même nom non retenus : CARTO « Aouana » à 2.2 km.'
+- id: SNTRI-AOUINET
+  kind: stop
+  name:
+    fr: Aouinet
+    ar: العوينات
+  lat: 33.988499
+  lon: 10.0028
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 209 « Aouinet ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : AOUINET. Lignes : 164. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-B-BOUREGBA
+  kind: stop
+  name:
+    fr: Bir Bouregba
+    ar: بئر بورقبة
+  aliases:
+  - B. BOUREGBA
+  - B.boureguba
+  - Bir Bouragba
+  - Bir bouragba 1
+  - Bir bouragba 2
+  lat: 36.431818
+  lon: 10.571052
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « B.boureguba », code 1566AB004.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B. BOUREGBA. Lignes : 100, 101, 102, 105, 128, 142, 143, 149, 183, 226, 501, 509,
+    518. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-B-CASERNE
+  kind: stop
+  name:
+    fr: Bouficha Caserne
+    ar: بوفيشة ثكنة
+  aliases:
+  - B. CASERNE
+  - Caserne Bouficha
+  lat: 36.3279
+  lon: 10.5007
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 24 « Caserne Bouficha ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B. CASERNE. Lignes : 100, 101, 102, 105, 107, 128, 142, 143, 149, 182, 183, 226, 294,
+    406, 501, 509, 518. Sources concordantes à moins de 1.5 km : CARTO, GTFS. Autres points de même nom non retenus : REF
+    « B.caserne » à 3.9 km.'
+- id: SNTRI-B-EL-HAFFEY
+  kind: stop
+  name:
+    fr: Bir El Haffey
+    ar: بئر الحفي
+  aliases:
+  - B.EL.HAFFEY
+  - Bir El Hafey
+  lat: 34.932322
+  lon: 9.196365
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Bir el haffey », code
+      4355AB000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B.EL.HAFFEY. Lignes : 100, 101, 102, 142, 143, 144, 149, 183, 294, 406, 501. Sources
+    concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-B-EL-IFFA
+  kind: stop
+  name:
+    fr: Borj El Iffa
+    ar: برج العيفي
+  aliases:
+  - B.EL.IFFA
+  - Borj iffa
+  - Borj El Aifa
+  - Bourj Aifa
+  lat: 36.218768
+  lon: 8.852838
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018), arrêt SNTRI « Borj iffa », code 2352AB006.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B.EL.IFFA. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 175, 176,
+    271. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-B-ELAMRI
+  kind: stop
+  name:
+    fr: Borj El Amri
+    ar: برج العامري
+  aliases:
+  - B. ELAMRI
+  - B.EL AMRI
+  lat: 36.713163
+  lon: 9.883358
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « B.EL AMRI », code
+      1454SB000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B. ELAMRI. Lignes : 108, 109, 111, 112, 113, 114, 115, 118, 119, 120, 121, 122, 123,
+    124, 133, 138, 139, 141, 151, 169, 170, 173, 174, 175, 176, 271, 304, 305, 307, 308. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF.'
+- id: SNTRI-B-GUARDEN
+  kind: station
+  name:
+    fr: Ben Guerdane
+    ar: بن قردان
+  aliases:
+  - B. GUARDEN
+  - Ben Guerdene
+  - Gare routière de Ben Guerdane
+  lat: 33.155288
+  lon: 11.213747
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ben guerdane », code 5254GR000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B. GUARDEN. Lignes : 104, 503, 700. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, OSM, REF.'
+- id: SNTRI-B-HAMOUDA
+  kind: stop
+  name:
+    fr: Ben Hamouda
+    ar: بن حمودة
+  aliases:
+  - B. HAMOUDA
+  lat: 35.662998
+  lon: 9.61898
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 210 « B.Hamouda ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B. HAMOUDA. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO. Autres
+    points de même nom non retenus : REFX « BEN HAMED » à 315.6 km; REFX « BEN HAMOUDA » à 239.0 km; REFX « BENI HAMED 2 »
+    à 320.4 km; REFX « BIR HAMODA » à 245.4 km.'
+- id: SNTRI-B-M-CHERGUA
+  kind: stop
+  name:
+    fr: Bir M'Chergua
+    ar: بئر مشارقة
+  aliases:
+  - B.M'CHERGUA
+  - Bir mchergua
+  - Bir Mechergua
+  - Bir El Mchergua
+  - BIR MCHERKA
+  - Bir mcharga
+  lat: 36.51724
+  lon: 9.962715
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Bir mchergua », code 1653SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B.M''CHERGUA. Lignes : 129, 130, 131, 132, 134, 135, 145, 147, 167, 168, 204. Sources
+    concordantes à moins de 1.5 km : CARTO, REF, REFX.'
+- id: SNTRI-B-MESSAOUDI
+  kind: stop
+  name:
+    fr: Borj Messaoudi
+    ar: برج مسعودي
+  aliases:
+  - B.MESSAOUDI
+  - Borj El Messoudi
+  - Borj Massoud
+  lat: 36.289857
+  lon: 9.060595
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Borj messaoudi »,
+      code 2455AB009. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B.MESSAOUDI. Lignes : 108, 109, 111, 112, 113, 114, 115, 118, 119, 120, 138, 139,
+    141, 175, 176, 271. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus
+    : REFX « Bir masouda » à 167.9 km.'
+- id: SNTRI-B-SAHEL
+  kind: station
+  name:
+    fr: Barraket Sahel
+    ar: براكة الساحل
+  aliases:
+  - B. SAHEL
+  - Bareket Essahel
+  - Barraket essahel
+  - B. Essahel
+  lat: 36.404099
+  lon: 10.56
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « B.sahel », code 1566AA001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : B. SAHEL. Lignes : 100, 101, 102, 105, 107, 117, 128, 142, 143, 144, 146, 149, 179,
+    182, 183, 189, 209, 226, 294, 406, 501, 504, 509, 518. Sources concordantes à moins de 1.5 km : CARTO, GTFS, OSM, REF,
+    REFX.'
+- id: SNTRI-BABBOUCHE
+  kind: stop
+  name:
+    fr: Babouch
+    ar: بابوش
+  aliases:
+  - BABBOUCHE
+  - Babouche
+  - ببوش
+  lat: 36.801918
+  lon: 8.677587
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Babouche », code
+      2255AB009. Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BABBOUCHE. Lignes : 123, 174. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF, REFX.'
+- id: SNTRI-BANNANE
+  kind: stop
+  name:
+    fr: Bannane
+    ar: بنان
+  aliases:
+  - Banane
+  lat: 35.676601
+  lon: 10.8332
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Banane », code 3262AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BANNANE. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-BEJA
+  kind: station
+  name:
+    fr: Beja
+    ar: باجة
+  lat: 36.726287
+  lon: 9.190515
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Beja », code 2152GR001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BEJA. Lignes : 121, 122, 123, 124, 133, 151, 169, 170, 173, 174. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : REFX « El Baji » à 54.6 km; REFX «
+    El beji » à 56.8 km.'
+- id: SNTRI-BEN-ABROUG
+  kind: stop
+  name:
+    fr: Ben Abroug
+    ar: بن عبروق
+  aliases:
+  - Benabroug
+  lat: 36.232278
+  lon: 9.28072
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Benabroug », code 2454AB004.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BEN ABROUG. Lignes : 131. Sources concordantes à moins de 1.5 km : REF. Autres points
+    de même nom non retenus : REFX « BENI BARKA » à 386.6 km.'
+- id: SNTRI-BEN-AOUN
+  kind: stop
+  name:
+    fr: Ben Aoun
+    ar: بن عون
+  aliases:
+  - Ben oun
+  lat: 34.853482
+  lon: 9.144825
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ben oun », code 4356AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BEN AOUN. Lignes : 100, 101, 102, 142, 143, 144, 149, 183, 294, 406, 501. Sources
+    concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-BEN-SAID
+  kind: stop
+  name:
+    fr: Ben Said
+    ar: بن سعيد
+  lat: 36.966812
+  lon: 9.045753
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ben said », code
+      2154AB002. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BEN SAID. Lignes : 124, 125, 133, 150, 151, 152, 153, 181, 206. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF. Autres points de même nom non retenus : REFX « BEN SAID » à 386.4 km; REFX « Ben
+    said » à 290.7 km.'
+- id: SNTRI-BENI-KHDACHE
+  kind: stop
+  name:
+    fr: Beni Khedache
+    ar: بني خداش
+  aliases:
+  - BENI KHDACHE
+  - BENI KHEDECH
+  lat: 33.237859
+  lon: 10.207668
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, stations de la SRT Médenine (jeu publié le 2026-01-25, année non indiquée), station
+      KD122 « BENI KHEDECH ». Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BENI KHDACHE. Lignes : 226. Sources concordantes à moins de 1.5 km : SRTM.'
+- id: SNTRI-BIR-ALI
+  kind: stop
+  name:
+    fr: Bir Ali
+    ar: بئر علي
+  aliases:
+  - Bir Ali ben khlifa
+  - Bir Ali Ben Khelifa
+  lat: 34.734699
+  lon: 10.0944
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Bir Ali ben khlifa
+      », code 3463AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BIR ALI. Lignes : 179, 209, 226, 500, 506, 509, 512. Sources concordantes à moins
+    de 1.5 km : CARTO, REF, REFX. Autres points de même nom non retenus : GTFS « bir ali ben khelifa » à 2.8 km.'
+- id: SNTRI-BIR-JEDID
+  kind: stop
+  name:
+    fr: Bir Jedid
+    ar: بئر جديد
+  aliases:
+  - Bir Jdid
+  lat: 35.853227
+  lon: 10.197547
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Bir jedid », code 3163AB004.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BIR JEDID. Lignes : 100, 101, 102, 105, 128, 142, 143, 149, 183, 226, 501, 509, 518.
+    Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-BIR-LAHMER
+  kind: stop
+  name:
+    fr: Bir Lahmer
+    ar: بئر لحمر
+  aliases:
+  - Bir Lahmar
+  - البئر الاحمر
+  lat: 33.179001
+  lon: 10.4418
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 125 « Bir Lahmar ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BIR LAHMER. Lignes : 189, 504, 518. Sources concordantes à moins de 1.5 km : CARTO,
+    SRTM.'
+- id: SNTRI-BIR-TRENTE
+  kind: stop
+  name:
+    fr: Bir Trente
+    ar: بئر ترانت
+  lat: 32.694173
+  lon: 10.331167
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Bir trente », code 5452SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BIR TRENTE. Lignes : 518. Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-BIZERTE
+  kind: station
+  name:
+    fr: Bizerte
+    ar: بنزرت
+  lat: 37.269501
+  lon: 9.87057
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 14 « Bizerte ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BIZERTE. Lignes : 179, 517, 527. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REFX.'
+- id: SNTRI-BORJ-BRAHIM
+  kind: stop
+  name:
+    fr: Borj Brahim
+    ar: برج ابراهيم
+  lat: 36.3996
+  lon: 9.240855
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Borj brahim », code
+      2455AB008. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BORJ BRAHIM. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 175,
+    176, 271. Sources concordantes à moins de 1.5 km : GTFS, REF. Autres points de même nom non retenus : CARTO « Borj Brahim
+    » à 2.3 km.'
+- id: SNTRI-BORJ-MOUROU
+  kind: stop
+  name:
+    fr: Borj Mourou
+    ar: برج مورو
+  lat: 36.044997
+  lon: 8.760627
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Borj mourou », code
+      2360AB001. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BORJ MOUROU. Lignes : 115. Sources concordantes à moins de 1.5 km : GTFS, REF. Autres
+    points de même nom non retenus : REFX « BORJ MOUROU » à 1.9 km; REFX « Borj moro » à 5.2 km.'
+- id: SNTRI-BORJ-TORKI
+  kind: stop
+  name:
+    fr: Borj Torki
+    ar: برج التركي
+  lat: 36.089068
+  lon: 8.730367
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Borj torki », code
+      2360AB002. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BORJ TORKI. Lignes : 115. Sources concordantes à moins de 1.5 km : GTFS, REF. Autres
+    points de même nom non retenus : CARTO « Borj Torki » à 10.9 km; REFX « Borj Torki » à 5.7 km.'
+- id: SNTRI-BOU-SAID
+  kind: stop
+  name:
+    fr: Bou Said
+    ar: بو سعيد
+  aliases:
+  - BOUSAID
+  lat: 34.216
+  lon: 9.99643
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 218 « Bou Said ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOU SAID. Lignes : 164. Sources concordantes à moins de 1.5 km : CARTO, REFX, SRTM.'
+- id: SNTRI-BOUARADA
+  kind: station
+  name:
+    fr: Bouarada
+    ar: بوعرادة
+  lat: 36.351101
+  lon: 9.62311
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 16 « Bouarada ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUARADA. Lignes : 118, 120, 131, 304, 305. Sources concordantes à moins de 1.5 km
+    : CARTO, REFX. Autres points de même nom non retenus : REFX « BAROUDI » à 356.4 km; REFX « BAROUDIYA » à 393.6 km; REFX
+    « EL BAROUDI » à 348.8 km; REFX « Bou Arada » à 16.9 km.'
+- id: SNTRI-BOUARGOUB
+  kind: stop
+  name:
+    fr: Bouargoub
+    ar: بوعرقوب
+  lat: 36.531678
+  lon: 10.551572
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Bouargoub », code 1565AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUARGOUB. Lignes : 100, 101, 102, 105, 128, 142, 143, 149, 183, 226, 501, 509, 518.
+    Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-BOUFICHA
+  kind: stop
+  name:
+    fr: Bouficha
+    ar: بوفيشة
+  lat: 36.299392
+  lon: 10.460463
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Bouficha », code 3161AB008.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUFICHA. Lignes : 100, 101, 102, 105, 107, 128, 142, 143, 146, 149, 179, 182, 183,
+    209, 226, 294, 501, 504, 509, 518. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-BOUHAJLA
+  kind: stop
+  name:
+    fr: Bouhajla
+    ar: بوحجلة
+  aliases:
+  - SIDI AMOR
+  lat: 35.398032
+  lon: 10.05069
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Bouhajla », code 4161AB006.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUHAJLA, SIDI AMOR. Lignes : 179, 182, 209, 226, 500, 506, 509, 512, 518. Sources
+    concordantes à moins de 1.5 km : CARTO, REF, REFX. Autres points de même nom non retenus : GTFS « bouhajla » à 2.6 km.'
+- id: SNTRI-BOUKHRIS
+  kind: stop
+  name:
+    fr: Boukhris
+    ar: بو خريس
+  lat: 35.815701
+  lon: 9.06926
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Boukhris », code
+      2457AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUKHRIS. Lignes : 134, 135, 147, 167, 168. Sources concordantes à moins de 1.5 km
+    : CARTO, REF. Autres points de même nom non retenus : REFX « BOUGARES » à 286.3 km; REFX « Boukhris » à 189.2 km; REFX
+    « Boukhris » à 187.2 km.'
+- id: SNTRI-BOUREBIA
+  kind: stop
+  name:
+    fr: Bourebia
+    ar: بو ربيع
+  lat: 36.5989
+  lon: 10.119
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 220 « Bourebia ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUREBIA. Lignes : 132, 145, 204. Sources concordantes à moins de 1.5 km : CARTO.
+    Autres points de même nom non retenus : REFX « Bourbiia » à 40.8 km.'
+- id: SNTRI-BOUROUIG
+  kind: stop
+  name:
+    fr: Bourouig
+    ar: بو رويق
+  aliases:
+  - Berouig
+  lat: 36.535801
+  lon: 9.72464
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 124 « Berouig ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUROUIG. Lignes : 304, 305. Sources concordantes à moins de 1.5 km : CARTO. Autres
+    points de même nom non retenus : CARTO « Bargou » à 51.1 km; SRTM « BRIGUE » à 459.3 km; REFX « Le Barage » à 50.5 km;
+    REFX « BARROUKA » à 231.6 km.'
+- id: SNTRI-BOUSALEM
+  kind: stop
+  name:
+    fr: Bousalem
+    ar: بو سالم
+  aliases:
+  - Boussalem
+  - Bousselem
+  lat: 36.609812
+  lon: 8.973142
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Bousalem », code
+      2253AB002. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUSALEM. Lignes : 121, 122, 123, 169, 170, 173, 174. Sources concordantes à moins
+    de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : REFX « Bouslime » à 120.0 km.'
+- id: SNTRI-BOUTERFES
+  kind: stop
+  name:
+    fr: Bouterfes
+    ar: بوترفاس
+  aliases:
+  - Bouterfess
+  - Bouterfass
+  lat: 36.952348
+  lon: 8.873148
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Bouterfes », code
+      2254AB011. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : BOUTERFES. Lignes : 124, 125, 133, 150, 151, 152, 153, 181, 206. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-C-SABOUNE
+  kind: stop
+  name:
+    fr: C. Saboune
+    ar: شركة الصابون
+  lat: 36.067101
+  lon: 8.75366
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « C saboune », code
+      2360AB003. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : C. SABOUNE. Lignes : 115. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.
+    Autres points de même nom non retenus : REFX « CHAR SABOUN » à 2.7 km.'
+- id: SNTRI-CHAFFAR
+  kind: stop
+  name:
+    fr: Chaffar
+    ar: الشفار
+  lat: 34.560799
+  lon: 10.5609
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 222 « Chaffar ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : CHAFFAR. Lignes : 164. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-CHAOUAT
+  kind: stop
+  name:
+    fr: Chaouat
+    ar: شواط
+  lat: 36.889498
+  lon: 9.942942
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Chaouat », code 1456AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : CHAOUAT. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF. Autres points de même nom non retenus : REFX « Cité » à 265.4 km.'
+- id: SNTRI-CHARARDA
+  kind: stop
+  name:
+    fr: Chararda
+    ar: الشراردة
+  aliases:
+  - Chrardaa
+  - Cherarda
+  lat: 35.117652
+  lon: 10.033588
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Chrardaa », code 4160AB005.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : CHARARDA. Lignes : 179, 182, 209, 226, 500, 506, 509, 512, 518. Sources concordantes
+    à moins de 1.5 km : CARTO, REF, REFX. Autres points de même nom non retenus : GTFS « chararda » à 9.9 km; REFX « CHARAD
+    » à 249.1 km; REFX « CRDA » à 215.4 km; REFX « CRDA » à 202.0 km.'
+- id: SNTRI-CHARCHARA
+  kind: stop
+  name:
+    fr: Charchara
+    ar: الشرشارة
+  lat: 36.879962
+  lon: 9.1987
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018), arrêt SNTRI « Charchara », code 2151AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : CHARCHARA. Lignes : 124, 133, 151. Sources concordantes à moins de 1.5 km : REF, REFX.
+    Autres points de même nom non retenus : REFX « CHARCHARA » à 471.4 km; REFX « Cherichir » à 150.3 km.'
+- id: SNTRI-CHASTEL
+  kind: stop
+  name:
+    fr: Chastel
+    ar: شاستال
+  lat: 35.361948
+  lon: 9.454563
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Chastel », code 4353AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : CHASTEL. Lignes : 107, 149. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF. Autres points de même nom non retenus : REFX « CHASTEL » à 3.8 km.'
+- id: SNTRI-DEGUECHE
+  kind: stop
+  name:
+    fr: Degache
+    ar: دقاش
+  aliases:
+  - DEGUECHE
+  - Dguech
+  lat: 33.985833
+  lon: 8.218688
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Degueche », code 6252SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : DEGUECHE. Lignes : 102, 142, 143, 144, 183, 406, 501. Sources concordantes à moins
+    de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-DEHMANI
+  kind: stop
+  name:
+    fr: Dahmani
+    ar: الدهماني
+  aliases:
+  - DEHMANI
+  - Eddahmani
+  lat: 35.94642
+  lon: 8.830333
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Dehmani », code 2360AB004.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : DEHMANI. Lignes : 115, 120. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF, REFX. Autres points de même nom non retenus : REFX « DEHMANI » à 381.7 km; REFX « DEHMANI » à 325.6 km; REFX « Dahmanin
+    » à 254.1 km.'
+- id: SNTRI-DHIBA
+  kind: stop
+  name:
+    fr: Dhiba
+    ar: ذهيبة
+  aliases:
+  - الذهيبة
+  lat: 32.010498
+  lon: 10.699965
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Dhiba », code 5456SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : DHIBA. Lignes : 518. Sources concordantes à moins de 1.5 km : REF.'
+- id: SNTRI-DOUZ
+  kind: stop
+  name:
+    fr: Douz
+    ar: دوز
+  aliases:
+  - Douze
+  lat: 33.458142
+  lon: 9.022592
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Douze », code 6354SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : DOUZ. Lignes : 194, 502. Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-EL-AJABNA
+  kind: stop
+  name:
+    fr: El Ajabna
+    ar: العجابنة
+  lat: 35.247202
+  lon: 9.858997
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « El ajabna », code 4159AB002.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL AJABNA. Lignes : 101, 105, 294. Sources concordantes à moins de 1.5 km : REF. Autres
+    points de même nom non retenus : CARTO « EL Ajabna » à 3.1 km.'
+- id: SNTRI-EL-ALAA
+  kind: stop
+  name:
+    fr: El Alaa
+    ar: العلا
+  aliases:
+  - El Ala
+  - العلاء
+  lat: 35.615799
+  lon: 9.56252
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 28 « El Ala ». Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL ALAA. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO, REFX.
+    Autres points de même nom non retenus : CARTO « El Alia » à 15.6 km; REFX « Alya » à 136.5 km; REFX « Alia » à 13.3 km;
+    REFX « El alia » à 152.8 km.'
+- id: SNTRI-EL-AMRA
+  kind: stop
+  name:
+    fr: El Amra
+    ar: العامرة
+  lat: 34.985298
+  lon: 10.8961
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « El amra », code 3459AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL AMRA. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.
+    Autres points de même nom non retenus : SRTM « AMRA » à 179.2 km; REFX « AMMRI » à 211.3 km; REFX « EL AMRI » à 129.4
+    km; REFX « Elamra » à 171.1 km.'
+- id: SNTRI-EL-FAHS
+  kind: stop
+  name:
+    fr: El Fahs
+    ar: الفحص
+  aliases:
+  - Elfahesse
+  - Fahs
+  lat: 36.375755
+  lon: 9.902605
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Elfahesse », code 1654SB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL FAHS. Lignes : 129, 130, 131, 132, 134, 135, 145, 147, 167, 168, 204. Sources concordantes
+    à moins de 1.5 km : CARTO, REF, REFX.'
+- id: SNTRI-EL-FAIEDH
+  kind: stop
+  name:
+    fr: El Faiedh
+    ar: الفايض
+  aliases:
+  - Elfaiedh
+  - Fayedh
+  - El Fayedh
+  - Faidh
+  lat: 35.057012
+  lon: 9.65341
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Elfaiedh », code 4352AB002.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL FAIEDH. Lignes : 101, 105, 182, 294. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, REF, REFX.'
+- id: SNTRI-EL-GOUSSA
+  kind: stop
+  name:
+    fr: El Goussa
+    ar: القوصة
+  aliases:
+  - Elgoussa
+  lat: 35.445099
+  lon: 9.12056
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Elgoussa », code
+      4255AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL GOUSSA. Lignes : 134, 135, 167, 168. Sources concordantes à moins de 1.5 km : CARTO,
+    REF. Autres points de même nom non retenus : REFX « El gossa » à 147.4 km.'
+- id: SNTRI-EL-GUETTAR
+  kind: stop
+  name:
+    fr: El Guettar
+    ar: القطار
+  aliases:
+  - Elguetar
+  lat: 34.339537
+  lon: 8.949667
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Elguetar », code 6159AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL GUETTAR. Lignes : 294. Sources concordantes à moins de 1.5 km : REF, REFX. Autres
+    points de même nom non retenus : REFX « GATAR 1 » à 218.4 km; REFX « GATAR 1 » à 185.8 km; REFX « GATAR 2 » à 217.3 km;
+    REFX « GATTAR » à 167.2 km.'
+- id: SNTRI-EL-GUIB
+  kind: stop
+  name:
+    fr: El Guib
+    ar: الغيب
+  aliases:
+  - Elguibe
+  lat: 35.510201
+  lon: 9.099
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Elguibe », code 4256AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL GUIB. Lignes : 134, 135, 167, 168. Sources concordantes à moins de 1.5 km : CARTO,
+    REF.'
+- id: SNTRI-EL-HAJEB
+  kind: stop
+  name:
+    fr: El Hajeb
+    ar: الحاجب
+  lat: 35.39549
+  lon: 9.542313
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « El hajeb », code 4158AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL HAJEB. Lignes : 100, 102, 107, 142, 143, 144, 149, 183, 406, 501. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF. Autres points de même nom non retenus : REFX « EL HAJEB » à 2.4 km; REFX « El Hajeb
+    » à 36.2 km.'
+- id: SNTRI-EL-HAMMA
+  kind: stop
+  name:
+    fr: El Hamma
+    ar: الحامة
+  aliases:
+  - Hamet el jerid
+  - El Hamma (Ejjerid)
+  lat: 33.99737
+  lon: 8.170868
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Hamet el jerid », code
+      6252SB001. Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL HAMMA. Lignes : 102, 142, 143, 183, 406, 501. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF. Autres points de même nom non retenus : REF « El hamma » à 150.7 km. Homonyme : le libellé désigne
+    plusieurs lieux selon la ligne.'
+- id: SNTRI-EL-HAMMA-2
+  kind: station
+  name:
+    fr: El Hamma
+    ar: الحامة
+  aliases:
+  - El Hammah Bus Station
+  lat: 33.889583
+  lon: 9.79965
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « El hamma », code 5157SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL HAMMA. Lignes : 146, 194, 502, 507. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, OSM, REF. Autres points de même nom non retenus : REF « Hamet el jerid » à 150.7 km. Homonyme : le libellé désigne
+    plusieurs lieux selon la ligne.'
+- id: SNTRI-EL-HAMMALA
+  kind: stop
+  name:
+    fr: El Hammala
+    ar: الحمالة
+  lat: 35.973
+  lon: 9.6885
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 230 « El Hammala ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL HAMMALA. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO. Autres
+    points de même nom non retenus : REFX « Hamala » à 161.1 km.'
+- id: SNTRI-EL-HANCHA
+  kind: stop
+  name:
+    fr: El Hancha
+    ar: الحنشة
+  aliases:
+  - Elhancha
+  - Hencha
+  lat: 35.122799
+  lon: 10.7414
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Elhancha », code
+      3460AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL HANCHA. Lignes : 103, 162, 189, 504, 517, 527. Sources concordantes à moins de
+    1.5 km : CARTO, REF. Autres points de même nom non retenus : REFX « HENCHA 1 » à 236.9 km.'
+- id: SNTRI-EL-HOUAREB
+  kind: stop
+  name:
+    fr: El Houareb
+    ar: الهوارب
+  lat: 35.568383
+  lon: 9.770325
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « El houareb », code 4156AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL HOUAREB. Lignes : 100, 102, 107, 142, 143, 149, 183, 406, 501. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : SRTM « harboub » à 261.6 km; REFX
+    « EL HARABI » à 301.6 km; REFX « HARABI 1 » à 255.3 km; REFX « HARABI » à 252.2 km.'
+- id: SNTRI-EL-JEM
+  kind: stop
+  name:
+    fr: El Jem
+    ar: الجم
+  aliases:
+  - Eljem
+  lat: 35.293098
+  lon: 10.7094
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Eljem », code 3357AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL JEM. Lignes : 103, 104, 162, 189, 194, 502, 503, 504, 507, 517, 527. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-EL-KARMA
+  kind: stop
+  name:
+    fr: El Karma
+    ar: الكرمة
+  aliases:
+  - Le karma
+  lat: 36.121912
+  lon: 8.463817
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Le karma », code
+      2354AB000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL KARMA. Lignes : 111, 176. Sources concordantes à moins de 1.5 km : REF. Autres
+    points de même nom non retenus : GTFS « el karma » à 1.9 km; REFX « KRAIEM 1 » à 413.2 km; REFX « Karma » à 256.1 km.'
+- id: SNTRI-EL-KHADRA
+  kind: stop
+  name:
+    fr: El Khadra
+    ar: الخضراء
+  lat: 35.485278
+  lon: 9.951742
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « El khadra », code 4152AB046.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL KHADRA. Lignes : 101, 105, 294. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, REF. Autres points de même nom non retenus : REFX « El Khadhra » à 77.1 km; REFX « Elkedheria » à 190.3 km; REFX
+    « EL KHODER » à 56.4 km; REFX « EL KHDRAOUI » à 28.6 km.'
+- id: SNTRI-EL-MAAOUNA
+  kind: stop
+  name:
+    fr: El Maaouna
+    ar: المعونة
+  aliases:
+  - EL MAOUNA
+  - EL MAOUNA 1
+  - EL MAOUNA 2
+  - EL MAOUNA 3
+  lat: 33.025222
+  lon: 10.697811
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, stations de la SRT Médenine (jeu publié le 2026-01-25, année non indiquée), station
+      SM014 « EL MAOUNA ». Libellé : sntri.com.tn, nom arabe : stations SRT Médenine.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL MAAOUNA. Lignes : 189. Sources concordantes à moins de 1.5 km : REFX, SRTM. Autres
+    points de même nom non retenus : REFX « EL MAOUNA 4 » à 3.3 km.'
+- id: SNTRI-EL-MAY
+  kind: stop
+  name:
+    fr: El May
+    ar: الماي
+  lat: 33.801498
+  lon: 10.8831
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 232 « EL May ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL MAY. Lignes : 179. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REFX,
+    SRTM. Autres points de même nom non retenus : REFX « elmaya » à 82.1 km.'
+- id: SNTRI-EL-METBASSTA
+  kind: stop
+  name:
+    fr: El Metbassta
+    ar: المتبسطة
+  aliases:
+  - Metbassta
+  - METBASTA
+  lat: 35.791425
+  lon: 10.145038
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « El metbassta », code 4151SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EL METBASSTA. Lignes : 100, 101, 102, 105, 128, 142, 143, 149, 183, 226, 501, 509,
+    518. Sources concordantes à moins de 1.5 km : CARTO, REF, REFX.'
+- id: SNTRI-ELALIA
+  kind: stop
+  name:
+    fr: El Alia
+    ar: العالية
+  aliases:
+  - ELALIA
+  lat: 35.754601
+  lon: 9.58664
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 227 « El Alia ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ELALIA. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO. Autres
+    points de même nom non retenus : CARTO « El Ala » à 15.6 km; REFX « Alya » à 138.6 km; REFX « Alia » à 3.4 km; REFX «
+    El alia » à 140.4 km.'
+- id: SNTRI-ELFAOUAR
+  kind: stop
+  name:
+    fr: El Faouar
+    ar: الفوار
+  aliases:
+  - ELFAOUAR
+  lat: 33.355402
+  lon: 8.67497
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « El faouar », code 6356SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ELFAOUAR. Lignes : 194. Sources concordantes à moins de 1.5 km : CARTO, REF. Autres
+    points de même nom non retenus : REFX « El faouara » à 382.4 km; REFX « Le foire » à 391.7 km.'
+- id: SNTRI-ELLESSE
+  kind: stop
+  name:
+    fr: Ellès
+    ar: اللاس
+  aliases:
+  - ELLESSE
+  - Elless
+  lat: 35.949305
+  lon: 9.097088
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ellesse », code 2457AB000.
+      Nom : fiche doc SNTRI (destinations), nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ELLESSE. Lignes : 118. Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-EMB-CHAAL
+  kind: stop
+  name:
+    fr: Embranchement Chaal
+    ar: مفترق الشعال
+  aliases:
+  - EMB. CHAAL
+  lat: 34.4669
+  lon: 10.3323
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 234 « Emb.Chaal ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EMB. CHAAL. Lignes : 164. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-EMB-DEHMANI
+  kind: stop
+  name:
+    fr: Embranchement Dehmani
+    ar: مفترق الدهماني
+  aliases:
+  - EMB.DEHMANI
+  lat: 35.762313
+  lon: 9.017902
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Emb.dehmani », code 2457SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EMB.DEHMANI. Lignes : 134, 135, 147, 167, 168. Sources concordantes à moins de 1.5
+    km : CARTO, REF.'
+- id: SNTRI-EMB-HAFFOUZ
+  kind: stop
+  name:
+    fr: Embranchement Haffouz
+    ar: مفترق حفوز
+  aliases:
+  - EMB.HAFFOUZ
+  - Emb.haffouze
+  - Carrefour Haffouz
+  lat: 35.59661
+  lon: 9.858587
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Emb.haffouze », code 4153AB008.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EMB.HAFFOUZ. Lignes : 107, 149. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF. Autres points de même nom non retenus : CARTO « EMB.HAFFOUZ » à 9.9 km.'
+- id: SNTRI-EMB-JELMA
+  kind: stop
+  name:
+    fr: Embranchement Jelma
+    ar: مفترق جلمة
+  aliases:
+  - EMB. JELMA
+  lat: 35.3325
+  lon: 9.40054
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 236 « Emb.Jelma ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EMB. JELMA. Lignes : 107. Sources concordantes à moins de 1.5 km : CARTO. Autres points
+    de même nom non retenus : CARTO « EMB.JELMA » à 7.5 km.'
+- id: SNTRI-EMB-SAKIET
+  kind: stop
+  name:
+    fr: Embranchement Sakiet
+    ar: مفترق الساقية
+  aliases:
+  - EMB.SAKIET
+  lat: 36.113738
+  lon: 8.629845
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018), arrêt SNTRI « Emb sakiet », code 2351AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EMB.SAKIET. Lignes : 108, 112, 113, 114, 138, 141. Sources concordantes à moins de
+    1.5 km : REF. Autres points de même nom non retenus : CARTO « EMB.SAKIET » à 27.3 km; GTFS « emb.sakiet » à 2.2 km.'
+- id: SNTRI-EMB-SBEITLA
+  kind: stop
+  name:
+    fr: Embranchement Sbeitla
+    ar: مفترق سبيطلة
+  aliases:
+  - EMB.SBEITLA
+  - Carrfour Sebitla
+  lat: 35.14755
+  lon: 9.362052
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Emb.sbeitla », code 4351AB002.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EMB.SBEITLA. Lignes : 100, 102, 142, 143, 149, 183, 406, 501. Sources concordantes
+    à moins de 1.5 km : CARTO, REF. Autres points de même nom non retenus : CARTO « EMB.SBEITLA » à 23.3 km; GTFS « emb.sbeitla
+    » à 19.0 km.'
+- id: SNTRI-EMB-SEMENJA
+  kind: stop
+  name:
+    fr: Embranchement Semenja
+    ar: مفترق سمنجة
+  aliases:
+  - EMB.SEMENJA
+  lat: 36.452821
+  lon: 10.023308
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 307 « EMB.SEMENJA ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : EMB.SEMENJA. Lignes : 132. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-ENFIDHA
+  kind: stop
+  name:
+    fr: Enfidha
+    ar: النفيضة
+  lat: 36.135843
+  lon: 10.381518
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Enfidha », code 3160AB007.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ENFIDHA. Lignes : 100, 101, 102, 104, 105, 107, 117, 128, 142, 143, 144, 146, 149,
+    179, 182, 183, 194, 209, 226, 294, 406, 500, 501, 502, 503, 504, 506, 507, 509, 512, 517, 518, 527. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-ENNAIMA
+  kind: stop
+  name:
+    fr: Ennaima
+    ar: النعيمة
+  lat: 36.110143
+  lon: 8.600667
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ennaima », code 2351AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ENNAIMA. Lignes : 111, 176. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF.'
+- id: SNTRI-ESSABRIA
+  kind: stop
+  name:
+    fr: Essabria
+    ar: الصبرية
+  lat: 33.367802
+  lon: 8.72814
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 237 « Essabria ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ESSABRIA. Lignes : 194. Sources concordantes à moins de 1.5 km : CARTO. Autres points
+    de même nom non retenus : REFX « Sabara » à 235.7 km.'
+- id: SNTRI-ET-TEJEROUIN
+  kind: stop
+  name:
+    fr: Entrée Tejerouin
+    ar: مدخل تاجروين
+  aliases:
+  - ET.TEJEROUIN
+  - Et tejrouine
+  lat: 36.11583
+  lon: 8.637112
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, GTFS SNTRI 2020, arrêt sid-270 « Et tejrouine ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ET.TEJEROUIN. Lignes : 111, 176. Sources concordantes à moins de 1.5 km : GTFS.'
+- id: SNTRI-F-JEDID
+  kind: stop
+  name:
+    fr: Fondouk Jedid
+    ar: فندق الجديد
+  aliases:
+  - F. JEDID
+  - Fondok jdid
+  lat: 36.667637
+  lon: 10.447598
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « F.Jedid », code 1564SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : F. JEDID. Lignes : 100, 101, 102, 104, 105, 107, 128, 142, 143, 146, 149, 182, 183,
+    194, 209, 226, 294, 406, 500, 501, 502, 503, 504, 506, 507, 509, 512, 518. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, REF, REFX.'
+- id: SNTRI-F-LOUSSIF
+  kind: stop
+  name:
+    fr: Fondouk Loussif
+    ar: فندق لوصيف
+  aliases:
+  - F. LOUSSIF
+  lat: 35.519012
+  lon: 9.725927
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « F.loussif », code 4156AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : F. LOUSSIF. Lignes : 100, 102, 107, 142, 143, 149, 183, 406, 501. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-FERIANA
+  kind: stop
+  name:
+    fr: Feriana
+    ar: فريانة
+  aliases:
+  - FRIANA
+  lat: 34.947498
+  lon: 8.56884
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 39 « Feriana ». Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : FERIANA. Lignes : 117, 134, 508. Sources concordantes à moins de 1.5 km : CARTO, REFX.
+    Autres points de même nom non retenus : REF « Fernana » à 190.3 km; REF « FURNA » à 225.1 km; GTFS « feriana » à 4.5 km;
+    REFX « Frina » à 221.5 km.'
+- id: SNTRI-FERNANA
+  kind: stop
+  name:
+    fr: Fernana
+    ar: فرنانة
+  lat: 36.656177
+  lon: 8.696997
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Fernana », code 2256AB005.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : FERNANA. Lignes : 121, 122, 123, 169, 174. Sources concordantes à moins de 1.5 km
+    : GTFS, REF, REFX. Autres points de même nom non retenus : REF « FURNA » à 101.3 km; CARTO « Feriana » à 190.3 km; GTFS
+    « feriana » à 186.5 km; REFX « Frina » à 216.7 km.'
+- id: SNTRI-FOUCHANA
+  kind: stop
+  name:
+    fr: Fouchana
+    ar: فوشانة
+  lat: 36.69876
+  lon: 10.16912
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Fouchana », code 1361AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : FOUCHANA. Lignes : 129, 130, 131, 132, 134, 135, 145, 147, 167, 168, 204. Sources
+    concordantes à moins de 1.5 km : CARTO, REF, REFX.'
+- id: SNTRI-FOUSSANA
+  kind: stop
+  name:
+    fr: Foussana
+    ar: فوسانة
+  lat: 35.34815
+  lon: 8.626657
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Foussana », code
+      4261AB000. Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : FOUSSANA. Lignes : 113. Sources concordantes à moins de 1.5 km : GTFS, REF.'
+- id: SNTRI-FURNA
+  kind: stop
+  name:
+    fr: Furna
+    ar: فرنة
+  lat: 36.693638
+  lon: 9.832065
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « FURNA », code 1455AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : FURNA. Lignes : 108, 109, 111, 112, 113, 114, 115, 118, 119, 120, 121, 122, 123, 124,
+    133, 138, 139, 141, 151, 169, 170, 173, 174, 175, 176, 271, 304, 305, 307, 308. Sources concordantes à moins de 1.5 km
+    : CARTO, GTFS, REF. Autres points de même nom non retenus : REF « Fernana » à 101.3 km; CARTO « Feriana » à 225.1 km;
+    GTFS « feriana » à 220.6 km; REFX « Frina » à 139.4 km.'
+- id: SNTRI-GAAFOUR
+  kind: station
+  name:
+    fr: Gaafour
+    ar: قعفور
+  lat: 36.32401
+  lon: 9.321538
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Gaafour », code 2454AB005.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GAAFOUR. Lignes : 118, 120, 131, 304, 305. Sources concordantes à moins de 1.5 km
+    : CARTO, REF, REFX.'
+- id: SNTRI-GABES
+  kind: station
+  name:
+    fr: Gabes
+    ar: قابس
+  aliases:
+  - Gare routière de Gabés
+  lat: 33.882025
+  lon: 10.08634
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Gabes », code 5152GR000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GABES. Lignes : 103, 104, 146, 162, 164, 179, 189, 194, 209, 226, 500, 502, 503, 504,
+    506, 507, 509, 512, 517, 518, 527, 700. Sources concordantes à moins de 1.5 km : CARTO, OSM, REF, REFX, SRTM. Autres points
+    de même nom non retenus : GTFS « gabes » à 6.2 km.'
+- id: SNTRI-GAFSA
+  kind: station
+  name:
+    fr: Gafsa
+    ar: قفصة
+  lat: 34.41642
+  lon: 8.790215
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Gafsa », code 6153GR000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GAFSA. Lignes : 100, 101, 102, 117, 142, 143, 144, 149, 183, 294, 406, 501. Sources
+    concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : REFX « Gafsia » à 314.9
+    km.'
+- id: SNTRI-GARGOUR
+  kind: stop
+  name:
+    fr: Gargour
+    ar: قرقور
+  lat: 34.6222
+  lon: 10.6305
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 241 « Gargour ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GARGOUR. Lignes : 164. Sources concordantes à moins de 1.5 km : CARTO. Autres points
+    de même nom non retenus : SRTM « GRAGUER » à 168.0 km; SRTM « GARGOUR » à 2.8 km; SRTM « GHARGHAR » à 182.8 km; REFX «
+    GHORGHAR » à 190.5 km.'
+- id: SNTRI-GHOMRASSEN
+  kind: stop
+  name:
+    fr: Ghomrassen
+    ar: غمراسن
+  lat: 33.059967
+  lon: 10.338783
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ghomrassen », code 5455SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GHOMRASSEN. Lignes : 189, 504, 518. Sources concordantes à moins de 1.5 km : REF,
+    REFX, SRTM. Autres points de même nom non retenus : REFX « GHOUMRASSEN » à 328.4 km.'
+- id: SNTRI-GHOMRASSI
+  kind: stop
+  name:
+    fr: Ghomrassi
+    ar: غمراسي
+  lat: 35.817903
+  lon: 8.986184
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SRT Kef « Ghomrassi », code 2359AB003.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GHOMRASSI. Lignes : 115. Sources concordantes à moins de 1.5 km : REFX.'
+- id: SNTRI-GOUBELLAT
+  kind: stop
+  name:
+    fr: Goubellat
+    ar: قبلاط
+  aliases:
+  - Guebellat
+  - Gboulaat
+  lat: 36.54018
+  lon: 9.663477
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Guebellat », code 2158AB002.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GOUBELLAT. Lignes : 118, 120, 304, 305. Sources concordantes à moins de 1.5 km : CARTO,
+    REF, REFX.'
+- id: SNTRI-GROMBALIA
+  kind: stop
+  name:
+    fr: Grombalia
+    ar: قرمبالية
+  lat: 36.601552
+  lon: 10.496595
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Grombalia », code 1564AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GROMBALIA. Lignes : 100, 101, 102, 104, 105, 107, 128, 142, 143, 146, 149, 179, 182,
+    183, 194, 209, 226, 294, 406, 500, 501, 502, 503, 504, 506, 507, 509, 512, 517, 518, 527. Sources concordantes à moins
+    de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-GUEDIMA
+  kind: stop
+  name:
+    fr: Guedima
+    ar: غيدمة
+  lat: 33.429798
+  lon: 8.81228
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 242 « Guedima ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : GUEDIMA. Lignes : 194. Sources concordantes à moins de 1.5 km : CARTO. Autres points
+    de même nom non retenus : REFX « GDAYMA » à 210.2 km.'
+- id: SNTRI-H-BOURGUIBA
+  kind: stop
+  name:
+    fr: Hammam Bourguiba
+    ar: حمام بورقيبة
+  aliases:
+  - H.BOURGUIBA
+  lat: 36.770762
+  lon: 8.580215
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « H bourguiba », code
+      2255AB010. Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : H.BOURGUIBA. Lignes : 174. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.
+    Autres points de même nom non retenus : OSM « Habib Bourguiba » à 143.1 km; REFX « Hey bourguiba » à 299.7 km.'
+- id: SNTRI-H-ENNOFS
+  kind: stop
+  name:
+    fr: Hajret Ennofs
+    ar: حجرة النصف
+  aliases:
+  - H. ENNOFS
+  lat: 36.002775
+  lon: 8.584297
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018), arrêt SNTRI « H ennofs », code 2354AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : H. ENNOFS. Lignes : 108, 112, 113, 114, 138, 141. Sources concordantes à moins de
+    1.5 km : REF.'
+- id: SNTRI-HAFFOUZ
+  kind: stop
+  name:
+    fr: Haffouz
+    ar: حفوز
+  lat: 35.6353
+  lon: 9.67362
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 53 « Haffouz ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : HAFFOUZ. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO, REFX.
+    Autres points de même nom non retenus : REF « Haffouze » à 64.0 km; REFX « HAFFOUZ » à 8.4 km. Homonyme : le libellé désigne
+    plusieurs lieux selon la ligne.'
+- id: SNTRI-HAFFOUZ-2
+  kind: stop
+  name:
+    fr: Haffouz
+    ar: حفوز
+  aliases:
+  - Haffouze
+  lat: 35.081642
+  lon: 9.867915
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Haffouze », code 4362AB004.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : HAFFOUZ. Lignes : 182. Sources concordantes à moins de 1.5 km : REF. Autres points
+    de même nom non retenus : CARTO « Haffouz » à 64.0 km; REFX « HAFFOUZ » à 72.1 km. Homonyme : le libellé désigne plusieurs
+    lieux selon la ligne.'
+- id: SNTRI-HAMMAM-LIF
+  kind: stop
+  name:
+    fr: Hammam-Lif
+    ar: حمام الانف
+  aliases:
+  - Hamam-lif
+  lat: 36.727023
+  lon: 10.336667
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Hamam-lif », code 1354SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : HAMMAM-LIF. Lignes : 100, 101, 102, 105, 107, 128, 142, 143, 146, 149, 179, 182, 183,
+    226, 294, 406, 501, 504, 509, 517, 518, 527. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-HAZOUA
+  kind: stop
+  name:
+    fr: Hazoua
+    ar: حزوة
+  lat: 33.734067
+  lon: 7.58949
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Hazoua », code 6255SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : HAZOUA. Lignes : 406. Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-HECHICHINA
+  kind: stop
+  name:
+    fr: Hechichina
+    ar: حشيشينة
+  aliases:
+  - الحشيشينة
+  lat: 34.4212
+  lon: 10.1841
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Hechichina », code
+      3462AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : HECHICHINA. Lignes : 146, 164. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF, REFX, SRTM. Autres points de même nom non retenus : REFX « EL HACHENA 1 » à 178.8 km; REFX « EL HACHENA 2 » à 180.9
+    km; REFX « HACHANA » à 133.9 km; REFX « hachen » à 87.2 km.'
+- id: SNTRI-J-OUEST
+  kind: stop
+  name:
+    fr: Jebel Ouest
+    ar: جبل الوسط
+  aliases:
+  - J. OUEST
+  - Jebal Ouest
+  - DJEBAL OUST
+  lat: 36.557327
+  lon: 10.059392
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Jebel ouest », code 1653SB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : J. OUEST. Lignes : 129, 130, 131, 132, 134, 135, 145, 147, 167, 168, 204. Sources
+    concordantes à moins de 1.5 km : CARTO, REF, REFX.'
+- id: SNTRI-JAFNA
+  kind: stop
+  name:
+    fr: Jafna
+    ar: جافنة
+  aliases:
+  - Jefna
+  lat: 37.04451
+  lon: 9.442862
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Jafna », code 1757AB002.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JAFNA. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : CARTO « Jefna » à 2.9 km.'
+- id: SNTRI-JALTA
+  kind: stop
+  name:
+    fr: Jalta
+    ar: جالطة
+  lat: 37.08341
+  lon: 9.534617
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Jalta », code 1757AB003.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JALTA. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF. Autres points de même nom non retenus : REFX « Jalta » à 6.3 km; REFX « Jelalta » à 166.2 km; REFX
+    « JELITI » à 461.4 km; REFX « JELITI » à 419.0 km.'
+- id: SNTRI-JEBENIANA
+  kind: stop
+  name:
+    fr: Jebeniana
+    ar: جبنيانة
+  lat: 35.031799
+  lon: 10.9085
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Jebeniana », code
+      3458AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JEBENIANA. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.
+    Autres points de même nom non retenus : REFX « JABANA » à 171.8 km.'
+- id: SNTRI-JEDEIDA
+  kind: stop
+  name:
+    fr: Jedeida
+    ar: جديدة
+  lat: 36.836102
+  lon: 9.94147
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 153 « Jedeida ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JEDEIDA. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS.'
+- id: SNTRI-JEDLIANE
+  kind: stop
+  name:
+    fr: Jedliane
+    ar: جدليان
+  aliases:
+  - Jdeliana
+  - Jedelien
+  - JEDELIANE
+  lat: 35.593287
+  lon: 9.055603
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Jdeliana », code 4257AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JEDLIANE. Lignes : 134, 135, 147, 167, 168. Sources concordantes à moins de 1.5 km
+    : CARTO, REF, REFX.'
+- id: SNTRI-JELIDA
+  kind: station
+  name:
+    fr: Jelida
+    ar: جليدة
+  aliases:
+  - Jlida
+  lat: 36.371262
+  lon: 9.556397
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Jelida », code 2461AB002.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JELIDA. Lignes : 118, 120. Sources concordantes à moins de 1.5 km : CARTO, REF, REFX.
+    Autres points de même nom non retenus : REFX « EL JLIDI » à 345.4 km.'
+- id: SNTRI-JELMA
+  kind: stop
+  name:
+    fr: Jelma
+    ar: جلمة
+  lat: 35.27187
+  lon: 9.41886
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Jelma », code 4353AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JELMA. Lignes : 100, 102, 142, 143, 149, 183, 406, 501. Sources concordantes à moins
+    de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-JEMNA
+  kind: stop
+  name:
+    fr: Jemna
+    ar: جمنة
+  lat: 33.57004
+  lon: 9.013568
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Jemna », code 6351AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JEMNA. Lignes : 194, 502. Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-JENDOUBA
+  kind: station
+  name:
+    fr: Jendouba
+    ar: جندوبة
+  lat: 36.495088
+  lon: 8.776443
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Jendouba », code 2252GR001.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JENDOUBA. Lignes : 121, 122, 123, 169, 170, 173, 174. Sources concordantes à moins
+    de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : REFX « Eljandoubi » à 160.5 km.'
+- id: SNTRI-JERADOU
+  kind: stop
+  name:
+    fr: Jeradou
+    ar: جرادو
+  aliases:
+  - Jradou
+  lat: 36.277699
+  lon: 8.44952
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Jradou », code 2354AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JERADOU. Lignes : 271. Sources concordantes à moins de 1.5 km : CARTO, REF. Autres
+    points de même nom non retenus : REFX « JARDA » à 375.8 km; REFX « Jradou » à 168.0 km; REFX « Jrad » à 301.8 km.'
+- id: SNTRI-JERBA
+  kind: station
+  name:
+    fr: Djerba – Houmt Souk
+    ar: جربة
+  aliases:
+  - JERBA
+  - HOUMT SOUK
+  - حومة السوق
+  - Gare routière de Houmt Souk
+  - HOUMET SOUK
+  lat: 33.871955
+  lon: 10.858335
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Jerba », code 5256GR001.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JERBA, HOUMT SOUK. Lignes : 162, 164, 179, 209, 500, 512, 517, 527. Sources concordantes
+    à moins de 1.5 km : GTFS, REF. Autres points de même nom non retenus : REFX « JERBI » à 89.4 km; REFX « Jerbi » à 302.6
+    km; REFX « Jerbi » à 95.0 km.'
+- id: SNTRI-JERISSA
+  kind: stop
+  name:
+    fr: Jérissa
+    ar: الجريصة
+  aliases:
+  - جربيصة
+  lat: 35.8447
+  lon: 8.632
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Jerissa », code 2358AA000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JERISSA. Lignes : 112. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-JORF
+  kind: stop
+  name:
+    fr: Jorf
+    ar: الجرف
+  aliases:
+  - JOREF
+  lat: 33.697597
+  lon: 10.73566
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Jorf », code 5259SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : JORF. Lignes : 209, 500, 512, 517, 527. Sources concordantes à moins de 1.5 km : CARTO,
+    REF, REFX, SRTM. Autres points de même nom non retenus : GTFS « jorf » à 10.0 km.'
+- id: SNTRI-K-SENAN
+  kind: stop
+  name:
+    fr: Kalaat Senan
+    ar: قلعة سنان
+  aliases:
+  - K. SENAN
+  - Kalaat Senen
+  lat: 35.769045
+  lon: 8.341997
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Kalaat senan », code
+      2356SB000. Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : K. SENAN. Lignes : 141. Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-KABBARA
+  kind: stop
+  name:
+    fr: Kabbara
+    ar: كبارة
+  aliases:
+  - Kabbarra
+  - El Kabbara
+  lat: 35.184855
+  lon: 9.818248
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Kabbarra », code 4159AB003.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KABBARA. Lignes : 101, 105, 294. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF.'
+- id: SNTRI-KAIROUAN
+  kind: station
+  name:
+    fr: Kairouan
+    ar: القيروان
+  aliases:
+  - Gare routière de Kairouan
+  - Kairaouen
+  lat: 35.681125
+  lon: 10.086778
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Kairouan », code 4152GR002.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KAIROUAN. Lignes : 100, 101, 102, 105, 107, 117, 128, 142, 143, 144, 149, 179, 182,
+    183, 209, 226, 294, 406, 500, 501, 506, 509, 512, 518. Sources concordantes à moins de 1.5 km : CARTO, GTFS, OSM, REF,
+    REFX. Autres points de même nom non retenus : REFX « KRAYNI » à 240.2 km; REFX « KROUNA » à 226.2 km.'
+- id: SNTRI-KASSERINE
+  kind: station
+  name:
+    fr: Kasserine
+    ar: القصرين
+  lat: 35.177445
+  lon: 8.847915
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Kasserine », code 4253GR000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KASSERINE. Lignes : 107, 117, 134, 135, 167, 168, 508. Sources concordantes à moins
+    de 1.5 km : CARTO, REF, REFX. Autres points de même nom non retenus : GTFS « kasserine » à 9.1 km.'
+- id: SNTRI-KEBILI
+  kind: station
+  name:
+    fr: Kebili
+    ar: قبلي
+  lat: 33.726097
+  lon: 8.979822
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Kebili », code 6352GR000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KEBILI. Lignes : 194, 294, 502, 507. Sources concordantes à moins de 1.5 km : CARTO,
+    REF.'
+- id: SNTRI-KETTANA
+  kind: stop
+  name:
+    fr: Kettana
+    ar: كتانة
+  aliases:
+  - Kattana
+  - kathena
+  - kattana 1
+  lat: 33.757702
+  lon: 10.2055
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 252 « Kattana ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KETTANA. Lignes : 164. Sources concordantes à moins de 1.5 km : CARTO, REFX, SRTM.
+    Autres points de même nom non retenus : CARTO « Koutine » à 39.3 km; SRTM « KOUTINE 1 » à 36.6 km.'
+- id: SNTRI-KHANGUET
+  kind: stop
+  name:
+    fr: Khanguet
+    ar: الخنقة
+  lat: 36.951302
+  lon: 9.09509
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « khanguet », code
+      2154AA002. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KHANGUET. Lignes : 124, 133, 151. Sources concordantes à moins de 1.5 km : CARTO,
+    REF.'
+- id: SNTRI-KHARROUBA
+  kind: stop
+  name:
+    fr: Kharrouba
+    ar: الخروبة
+  lat: 35.9776
+  lon: 9.49384
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 254 « Kharrouba ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KHARROUBA. Lignes : 132. Sources concordantes à moins de 1.5 km : CARTO. Autres points
+    de même nom non retenus : REF « Le krib » à 50.5 km; CARTO « El Kharroub » à 11.5 km; REFX « EL KHAROUBA » à 274.8 km;
+    REFX « KARRAB » à 287.2 km.'
+- id: SNTRI-KHARROUBET
+  kind: stop
+  name:
+    fr: Kharroubet
+    ar: الخروبات
+  lat: 36.179501
+  lon: 8.93255
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 255 « Kharroubet ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KHARROUBET. Lignes : 118, 120. Sources concordantes à moins de 1.5 km : CARTO. Autres
+    points de même nom non retenus : REF « Kharoubat » à 11.2 km; REFX « Kharroubat » à 5.3 km.'
+- id: SNTRI-KIRCHAW
+  kind: stop
+  name:
+    fr: Kirchaw
+    ar: كرشاو
+  aliases:
+  - KERCHAW
+  lat: 33.03216
+  lon: 10.797274
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, stations de la SRT Médenine (jeu publié le 2026-01-25, année non indiquée), station
+      SM013 « KERCHAW ». Libellé : sntri.com.tn, nom arabe : stations SRT Médenine.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KIRCHAW. Lignes : 189. Sources concordantes à moins de 1.5 km : REFX, SRTM. Autres
+    points de même nom non retenus : REFX « KERCHAWI » à 53.3 km; REFX « KERECHWA » à 82.7 km.'
+- id: SNTRI-KIT-EL-OUED
+  kind: stop
+  name:
+    fr: Kit El Oued
+    ar: خيط الواد
+  aliases:
+  - Khit El Oued
+  lat: 35.707901
+  lon: 9.63295
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 158 « Khit El Oued ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KIT.EL.OUED. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-KM102
+  kind: stop
+  name:
+    fr: Km 102
+    ar: كلم 102
+  aliases:
+  - KM102
+  - K.M.102
+  lat: 35.0724
+  lon: 9.777003
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Km102 », code 4362AB005.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KM102. Lignes : 182. Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-KM44
+  kind: stop
+  name:
+    fr: Km 44
+    ar: كلم 44
+  aliases:
+  - KM44
+  lat: 36.657807
+  lon: 9.784595
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « KM44 », code 2159AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KM44. Lignes : 108, 109, 111, 112, 113, 114, 115, 118, 119, 120, 121, 122, 123, 124,
+    133, 138, 139, 151, 169, 170, 173, 174, 175, 176, 271, 304, 305, 307, 308. Sources concordantes à moins de 1.5 km : GTFS,
+    REF. Autres points de même nom non retenus : CARTO « Km 44 » à 5.1 km. Position départagée par la source : CARTO « Km
+    44 » à 5.1 km était aussi compatible avec les lignes.'
+- id: SNTRI-KM74
+  kind: stop
+  name:
+    fr: Km 74
+  aliases:
+  - KM74
+  lat: 35.044998
+  lon: 10.0526
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 160 « Km 74 ». Libellé : sntri.com.tn (pas de nom arabe sourcé).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KM74. Lignes : 182. Sources concordantes à moins de 1.5 km : CARTO, REFX. Brouillon
+    : le nom arabe du site ne reprend pas le numéro du libellé (nom d''un autre lieu).'
+- id: SNTRI-KM80
+  kind: stop
+  name:
+    fr: Km 80
+  aliases:
+  - KM80
+  - K.M.80
+  lat: 35.057999
+  lon: 9.98125
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 250 « K.M.80 ». Libellé : sntri.com.tn (pas de nom arabe sourcé).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KM80. Lignes : 182. Sources concordantes à moins de 1.5 km : CARTO, REFX. Brouillon
+    : le nom arabe du site ne reprend pas le numéro du libellé (nom d''un autre lieu).'
+- id: SNTRI-KM87
+  kind: stop
+  name:
+    fr: Km 87
+    ar: كلم 87
+  aliases:
+  - KM87
+  - K.M.87
+  lat: 35.090698
+  lon: 9.94342
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 251 « K.M.87 ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KM87. Lignes : 182. Sources concordantes à moins de 1.5 km : CARTO, REFX.'
+- id: SNTRI-KONDAR
+  kind: stop
+  name:
+    fr: Kondar
+    ar: كندار
+  aliases:
+  - Kandaar
+  - Koundar
+  - Kandar
+  lat: 35.933465
+  lon: 10.300397
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Kondar », code 31-5AB002.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KONDAR. Lignes : 100, 101, 102, 105, 128, 142, 143, 149, 183, 226, 501, 509, 518.
+    Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-KRIZ
+  kind: stop
+  name:
+    fr: Kriz
+    ar: كريز
+  aliases:
+  - Krize
+  lat: 34.008633
+  lon: 8.247302
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Krize », code 6252SB002.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KRIZ. Lignes : 102, 142, 143, 144, 183, 406, 501. Sources concordantes à moins de
+    1.5 km : CARTO, GTFS, REF. Autres points de même nom non retenus : REFX « El kharrez » à 374.3 km.'
+- id: SNTRI-KSAR-HELAL
+  kind: stop
+  name:
+    fr: Ksar Helal
+    ar: قصر هلال
+  aliases:
+  - Ksar Hellal
+  lat: 35.641602
+  lon: 10.892
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ksar helal », code
+      3258AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KSAR HELAL. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-KSAR-JEDID
+  kind: stop
+  name:
+    fr: Ksar Jedid
+    ar: قصر جديد
+  aliases:
+  - KASSER JDID
+  - قصر الجديد
+  lat: 33.299874
+  lon: 10.294856
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, stations de la SRT Médenine (jeu publié le 2026-01-25, année non indiquée), station
+      KD078 « KASSER JDID ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KSAR JEDID. Lignes : 226. Sources concordantes à moins de 1.5 km : SRTM.'
+- id: SNTRI-KSOUR-ESSAF
+  kind: stop
+  name:
+    fr: Ksour Essaf
+    ar: قصور الساف
+  aliases:
+  - Ksour Essef
+  lat: 35.422901
+  lon: 10.9975
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 162 « Ksour Essef ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KSOUR ESSAF. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REFX.'
+- id: SNTRI-KT-KHESBA
+  kind: stop
+  name:
+    fr: Kalaa Khesba
+    ar: القلعة الخصبة
+  aliases:
+  - KT.KHESBA
+  lat: 35.663132
+  lon: 8.585813
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Kt khesba », code
+      2357AB000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : KT.KHESBA. Lignes : 108, 113, 114, 138, 508. Sources concordantes à moins de 1.5 km
+    : REF.'
+- id: SNTRI-LA-CHEBBA
+  kind: station
+  name:
+    fr: La Chebba
+    ar: الشابة
+  aliases:
+  - Chebba
+  - Gare Routière de Chebba
+  lat: 35.236301
+  lon: 11.1126
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Chebba », code 3358AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LA CHEBBA. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, OSM,
+    REF. Autres points de même nom non retenus : REFX « CHAAYBA1 » à 238.6 km; REFX « Chaabia » à 188.2 km; REFX « Chooba
+    » à 57.8 km.'
+- id: SNTRI-LAAYOUNE
+  kind: stop
+  name:
+    fr: Laâyoun
+    ar: العيون
+  aliases:
+  - LAAYOUNE
+  lat: 35.53846
+  lon: 8.8852
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018), arrêt SNTRI « Laayoune », code 4258SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LAAYOUNE. Lignes : 108. Sources concordantes à moins de 1.5 km : REF. Autres points
+    de même nom non retenus : GTFS « laayoune » à 13.1 km.'
+- id: SNTRI-LAKHOUET
+  kind: stop
+  name:
+    fr: Lakhouet
+    ar: الأخوات
+  aliases:
+  - Lakhaouet
+  - Lakouat
+  lat: 36.258692
+  lon: 9.255527
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Lakhaouet », code 2454AB006.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LAKHOUET. Lignes : 131, 304, 305. Sources concordantes à moins de 1.5 km : CARTO,
+    REF, REFX. Autres points de même nom non retenus : REFX « LOKHAYET » à 345.4 km.'
+- id: SNTRI-LAKSAB
+  kind: stop
+  name:
+    fr: Laksab
+    ar: الأقصاب
+  aliases:
+  - Lagsab
+  lat: 36.194
+  lon: 9.30776
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Lagsab », code 2454AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LAKSAB. Lignes : 304, 305. Sources concordantes à moins de 1.5 km : CARTO, REF, REFX.'
+- id: SNTRI-LAROUSSA
+  kind: stop
+  name:
+    fr: Laroussa
+    ar: العروسة
+  aliases:
+  - Laaroussa
+  lat: 36.380567
+  lon: 9.45548
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Laroussa », code 2461AB003.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LAROUSSA. Lignes : 118, 120, 131, 304, 305. Sources concordantes à moins de 1.5 km
+    : CARTO, REF, REFX.'
+- id: SNTRI-LASSOUDA
+  kind: stop
+  name:
+    fr: Lassouda
+    ar: لسودة
+  aliases:
+  - Lessouda
+  lat: 35.099975
+  lon: 9.534638
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Lassouda », code 4352AB003.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LASSOUDA. Lignes : 101, 105, 182, 294. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, REF, REFX.'
+- id: SNTRI-LE-KEF
+  kind: stop
+  name:
+    fr: Le Kef
+    ar: الكاف
+  aliases:
+  - El Kef
+  lat: 36.162899
+  lon: 8.7032
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 70 « Le Kef ». Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LE KEF. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 176, 508.
+    Sources concordantes à moins de 1.5 km : CARTO, GTFS, REFX.'
+- id: SNTRI-LE-KRIB
+  kind: stop
+  name:
+    fr: Le Krib
+    ar: الكريب
+  aliases:
+  - El Krib
+  - Krib
+  lat: 36.32594
+  lon: 9.13373
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Le krib », code 2455SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LE KRIB. Lignes : 108, 109, 111, 112, 113, 114, 115, 118, 119, 120, 138, 139, 141,
+    175, 176, 271, 508. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus
+    : CARTO « El Kharroub » à 59.3 km; CARTO « Kharrouba » à 50.5 km; REFX « EL KHAROUBA » à 323.9 km; REFX « KARRAB » à 335.7
+    km.'
+- id: SNTRI-LE-KSOUR
+  kind: stop
+  name:
+    fr: Le Ksour
+    ar: القصور
+  aliases:
+  - Ksour
+  - El Ksour
+  - Elksour
+  - EL KSSOUR
+  - Kssour
+  lat: 35.895642
+  lon: 8.883547
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ksour », code 2359SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LE KSOUR. Lignes : 115, 120. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF, REFX. Autres points de même nom non retenus : REFX « EL KSSIR » à 369.0 km; REFX « Kesra » à 43.9 km; REFX « Kasar
+    » à 207.9 km; REFX « Kasara » à 246.1 km.'
+- id: SNTRI-LES-CHENES
+  kind: stop
+  name:
+    fr: Les Chenes
+    ar: لي شان
+  aliases:
+  - Les Chaines
+  lat: 36.730292
+  lon: 8.680122
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Les chenes », code
+      2255AB011. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LES CHENES. Lignes : 121, 122, 123, 169, 174. Sources concordantes à moins de 1.5
+    km : CARTO, REF. Autres points de même nom non retenus : GTFS « les chenes » à 1.5 km; REFX « CNSS » à 375.2 km.'
+- id: SNTRI-LIMAGUEZ
+  kind: stop
+  name:
+    fr: Limaguez
+    ar: ليماقاز
+  aliases:
+  - Limagueze
+  lat: 33.766663
+  lon: 9.080592
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Limagueze », code 6352SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LIMAGUEZ. Lignes : 194, 502, 507. Sources concordantes à moins de 1.5 km : CARTO,
+    REF.'
+- id: SNTRI-LORBOS
+  kind: stop
+  name:
+    fr: Lorbos
+    ar: الأربص
+  aliases:
+  - Lorbus
+  lat: 36.100399
+  lon: 8.93661
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 167 « Lorbos ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : LORBOS. Lignes : 118, 120. Sources concordantes à moins de 1.5 km : CARTO, REFX. Autres
+    points de même nom non retenus : REF « Lorbosse » à 8.8 km.'
+- id: SNTRI-M-BEL-ABBES
+  kind: stop
+  name:
+    fr: Majel Bel Abbes
+    ar: ماجل بلعباس
+  aliases:
+  - M.BEL ABBES
+  - Mejel Bel Abbes
+  lat: 34.749901
+  lon: 8.52304
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 171 « Mejel Bel Abbes ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : M.BEL ABBES. Lignes : 117. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-M-BOURGUIBA
+  kind: station
+  name:
+    fr: Menzel Bourguiba
+    ar: منزل بورقيبة
+  aliases:
+  - M.BOURGUIBA
+  - Gare Routière de Menzel Bourguiba
+  - M.Bourghiba
+  lat: 37.146901
+  lon: 9.77964
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 311 « M.BOURGUIBA ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : M.BOURGUIBA. Lignes : 179. Sources concordantes à moins de 1.5 km : CARTO, GTFS, OSM,
+    REFX.'
+- id: SNTRI-M-HAMEDIA
+  kind: stop
+  name:
+    fr: M'Hamedia
+    ar: المحمدية
+  aliases:
+  - Mhamedia
+  - Mhamdia
+  lat: 36.669088
+  lon: 10.153957
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Mhamedia », code 1360AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : M''HAMEDIA. Lignes : 129, 130, 131, 132, 134, 135, 145, 147, 167, 168, 204. Sources
+    concordantes à moins de 1.5 km : CARTO, REF, REFX. Autres points de même nom non retenus : SRTM « MHAMID » à 337.6 km.'
+- id: SNTRI-M-MHIRI
+  kind: stop
+  name:
+    fr: Menzel Mhiri
+    ar: منزل مهيري
+  aliases:
+  - M. MHIRI
+  - Menzel m'hiri
+  - Menzel Mehiri
+  lat: 35.425968
+  lon: 9.852077
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Menzel m''hiri », code
+      4159AB004. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : M. MHIRI. Lignes : 101, 105, 294. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, REF, REFX.'
+- id: SNTRI-MAAROUF
+  kind: stop
+  name:
+    fr: Maarouf
+    ar: معروف
+  lat: 36.107601
+  lon: 9.7853
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 258 « Maarouf ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MAAROUF. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-MAHARES
+  kind: stop
+  name:
+    fr: Mahares
+    ar: المحرس
+  aliases:
+  - Mahres
+  - المحرص
+  lat: 34.5233
+  lon: 10.5014
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « mahares », code 3465AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MAHARES. Lignes : 103, 104, 146, 162, 164, 194, 502, 503, 504, 507, 517, 527. Sources
+    concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX, SRTM. Autres points de même nom non retenus : REFX « Mhiris »
+    à 239.2 km; REFX « Mahersi » à 213.6 km.'
+- id: SNTRI-MAISONNETTE
+  kind: stop
+  name:
+    fr: Maisonnette
+    ar: مزنة
+  aliases:
+  - Misonnetta
+  lat: 36.291887
+  lon: 9.254835
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Maisonnette », code 2454AB007.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MAISONNETTE. Lignes : 118, 120. Sources concordantes à moins de 1.5 km : REF, REFX.
+    Autres points de même nom non retenus : CARTO « Maisonetta » à 41.1 km.'
+- id: SNTRI-MAKTHAR
+  kind: station
+  name:
+    fr: Makthar
+    ar: مكثر
+  aliases:
+  - Makther2
+  - Makther
+  lat: 35.857462
+  lon: 9.203118
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Makthar », code 2457SB001.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MAKTHAR. Lignes : 129, 130, 134, 135, 147, 167, 168. Sources concordantes à moins
+    de 1.5 km : CARTO, REF, REFX. Autres points de même nom non retenus : REFX « Makther1 » à 2.1 km.'
+- id: SNTRI-MARETH
+  kind: station
+  name:
+    fr: Mareth
+    ar: مارث
+  aliases:
+  - Station routière
+  - Méarth
+  - mareth 1
+  lat: 33.617893
+  lon: 10.28576
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Mareth », code 5160SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MARETH. Lignes : 103, 104, 162, 164, 179, 189, 209, 226, 500, 503, 504, 506, 509,
+    512, 517, 518, 527. Sources concordantes à moins de 1.5 km : CARTO, OSM, REF, REFX, SRTM. Autres points de même nom non
+    retenus : GTFS « mareth » à 9.8 km; REFX « MRATHIA2 » à 66.0 km.'
+- id: SNTRI-MATEUR
+  kind: station
+  name:
+    fr: Mateur
+    ar: ماطر
+  lat: 37.036465
+  lon: 9.666895
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Mateur », code 1756GR001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MATEUR. Lignes : 125, 150, 152, 153, 179, 181, 206. Sources concordantes à moins de
+    1.5 km : CARTO, GTFS, OSM, REF, REFX. Autres points de même nom non retenus : OSM « محطة ماطر الحافلات » à 30.8 km; SRTM
+    « MEITHER » à 416.7 km; REFX « MITER » à 438.0 km.'
+- id: SNTRI-MEDENINE
+  kind: stop
+  name:
+    fr: Médenine
+    ar: مدنين
+  aliases:
+  - Mednine
+  lat: 33.361198
+  lon: 10.4694
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Mednine », code 5252AA000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MEDENINE. Lignes : 103, 104, 179, 189, 226, 503, 504, 506, 509, 518. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF. Autres points de même nom non retenus : CARTO « Midoun » à 69.0 km; OSM « Medina
+    » à 155.3 km; REFX « MADINA » à 72.4 km; REFX « MEDNINI » à 9.4 km.'
+- id: SNTRI-MEJEZ
+  kind: station
+  name:
+    fr: Mejez
+    ar: المجاز
+  lat: 36.640032
+  lon: 9.614452
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « MEJEZ », code 2159GR001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MEJEZ. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 121, 122, 123, 124, 133, 138,
+    139, 141, 151, 169, 170, 173, 174, 175, 176, 271, 307, 308, 508. Sources concordantes à moins de 1.5 km : GTFS, REF.'
+- id: SNTRI-MELLOULECHE
+  kind: stop
+  name:
+    fr: Mellouleche
+    ar: ملولش
+  aliases:
+  - Melloulech
+  lat: 35.165798
+  lon: 11.0357
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Mellouleche », code
+      3359AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MELLOULECHE. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF,
+    REFX.'
+- id: SNTRI-MENZEL
+  kind: stop
+  name:
+    fr: Menzel
+    ar: منزل
+  lat: 36.041401
+  lon: 10.3267
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 260 « Menzel ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MENZEL. Lignes : 100, 101, 102, 105, 128, 142, 143, 149, 183, 226, 501, 509, 518.
+    Sources concordantes à moins de 1.5 km : CARTO. Autres points de même nom non retenus : REFX « MANZLA » à 302.8 km.'
+- id: SNTRI-METLAOUI
+  kind: stop
+  name:
+    fr: Metlaoui
+    ar: متلوي
+  lat: 34.314508
+  lon: 8.4116
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Metlaoui », code 6157SB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : METLAOUI. Lignes : 102, 117, 142, 143, 144, 149, 183, 406, 501. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : REFX « Mutul » à 236.5 km; REFX «
+    MTHILA 2 » à 227.4 km.'
+- id: SNTRI-METOUIA
+  kind: stop
+  name:
+    fr: Metouia
+    ar: مطوية
+  aliases:
+  - ELMETOUIA
+  lat: 33.960637
+  lon: 9.996158
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Metouia », code 5155SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : METOUIA. Lignes : 146, 226, 506, 509. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, REF, REFX. Autres points de même nom non retenus : REFX « maayta » à 12.1 km.'
+- id: SNTRI-MIDOUNE
+  kind: stop
+  name:
+    fr: Midoune
+    ar: ميدون
+  aliases:
+  - Midoun
+  lat: 33.805199
+  lon: 10.9905
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 78 « Midoun ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MIDOUNE. Lignes : 162, 179. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REFX, SRTM. Autres points de même nom non retenus : REF « Mednine » à 69.0 km; OSM « Medina » à 105.8 km; REFX « MADINA
+    » à 5.8 km; REFX « MEDNINI » à 61.3 km.'
+- id: SNTRI-MOKNINE
+  kind: stop
+  name:
+    fr: Moknine
+    ar: مكنين
+  lat: 35.627499
+  lon: 10.9002
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Moknine », code 3258AA001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MOKNINE. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.
+    Autres points de même nom non retenus : SRTM « EL MAKINA » à 288.0 km; REFX « El makina » à 91.8 km; REFX « El makina
+    » à 94.2 km; REFX « Makina » à 88.8 km.'
+- id: SNTRI-MORNAGUIA
+  kind: stop
+  name:
+    fr: Mornaguia
+    ar: المرناقية
+  lat: 36.76354
+  lon: 10.009617
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « MORNAGUIA », code
+      1454SB001. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MORNAGUIA. Lignes : 108, 109, 111, 112, 113, 114, 115, 118, 119, 120, 121, 122, 123,
+    124, 133, 138, 139, 141, 151, 169, 170, 173, 174, 175, 176, 271, 304, 305, 307, 308. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : OSM « Station des bus Mornag » à 26.6 km; REFX «
+    Elmornaguia » à 57.8 km.'
+- id: SNTRI-MUNCHAR
+  kind: stop
+  name:
+    fr: Munchar
+    ar: المنشار
+  aliases:
+  - Monchar
+  - El munchar
+  lat: 36.704601
+  lon: 9.33128
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 177 « Monchar ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : MUNCHAR. Lignes : 121, 122, 123, 124, 133, 151, 169, 170, 173, 174, 308. Sources concordantes
+    à moins de 1.5 km : CARTO, REFX. Autres points de même nom non retenus : REF « Munchar » à 5.0 km; REFX « EL MANCHER »
+    à 402.2 km; REFX « Elmonchar » à 107.4 km.'
+- id: SNTRI-NADI
+  kind: stop
+  name:
+    fr: Nadi
+    ar: نادي
+  lat: 35.839802
+  lon: 9.11153
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Nadi », code 2457AA001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : NADI. Lignes : 134, 135, 147, 167, 168. Sources concordantes à moins de 1.5 km : CARTO,
+    REF. Autres points de même nom non retenus : REFX « Elnadi » à 192.8 km; REFX « Elnadi » à 192.3 km.'
+- id: SNTRI-NEBEUR
+  kind: stop
+  name:
+    fr: Nebeur
+    ar: نبر
+  lat: 36.294732
+  lon: 8.766952
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Nebeur », code 2353SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : NEBEUR. Lignes : 175, 271. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF,
+    REFX.'
+- id: SNTRI-NEFTA
+  kind: stop
+  name:
+    fr: Nefta
+    ar: نفطة
+  aliases:
+  - Nafta
+  lat: 33.87251
+  lon: 7.888257
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Nafta », code 6254SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : NEFTA. Lignes : 102, 406, 501. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF. Autres points de même nom non retenus : SRTM « NAFATIYA » à 285.2 km; REFX « NAFTI » à 289.8 km.'
+- id: SNTRI-NEFZA
+  kind: station
+  name:
+    fr: Nefza
+    ar: نفزة
+  lat: 36.975102
+  lon: 9.081112
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Nefza », code 2154SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : NEFZA. Lignes : 124, 125, 133, 150, 151, 152, 153, 181, 206. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-NEMEMCHA
+  kind: stop
+  name:
+    fr: Nememcha
+    ar: نمامشة
+  lat: 35.839677
+  lon: 10.177885
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Nememcha », code 3163AB005.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : NEMEMCHA. Lignes : 100, 101, 102, 105, 128, 142, 143, 149, 183, 226, 501, 509, 518.
+    Sources concordantes à moins de 1.5 km : GTFS, REF.'
+- id: SNTRI-O-JEBBAS
+  kind: stop
+  name:
+    fr: Oued Jebbas
+    ar: واد جباس
+  aliases:
+  - O. JEBBAS
+  lat: 35.647499
+  lon: 9.56946
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 263 « O.Jebbas ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : O. JEBBAS. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-O-LAKSAB
+  kind: stop
+  name:
+    fr: Oued Laksab
+    ar: واد القصاب
+  aliases:
+  - O. LAKSAB
+  - Oued El Ksab
+  lat: 36.055
+  lon: 9.73756
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 181 « Oued El Ksab ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : O. LAKSAB. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-O-MELLEGUE
+  kind: stop
+  name:
+    fr: Oued Mellegue
+    ar: واد ملاق
+  aliases:
+  - O.MELLEGUE
+  lat: 36.332558
+  lon: 8.786234
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, GTFS SNTRI 2020, arrêt sid-273 « oued.mellegue ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : O.MELLEGUE. Lignes : 175, 271. Sources concordantes à moins de 1.5 km : GTFS. Autres
+    points de même nom non retenus : REF « O mellague » à 35.4 km; CARTO « Oued Mellag » à 36.6 km; GTFS « O mellague » à
+    33.5 km. Homonyme : le libellé désigne plusieurs lieux selon la ligne.'
+- id: SNTRI-O-MELLEGUE-2
+  kind: stop
+  name:
+    fr: Oued Mellegue
+    ar: واد ملاق
+  aliases:
+  - O.MELLEGUE
+  - O mellague
+  lat: 36.116038
+  lon: 8.49667
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « O mellague », code
+      2354AB002. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : O.MELLEGUE. Lignes : 111, 176. Sources concordantes à moins de 1.5 km : REF. Autres
+    points de même nom non retenus : CARTO « Oued Mellag » à 2.0 km; GTFS « O mellague » à 2.5 km; GTFS « oued.mellegue »
+    à 35.4 km. Homonyme : le libellé désigne plusieurs lieux selon la ligne.'
+- id: SNTRI-O-TESSA
+  kind: stop
+  name:
+    fr: Oued Tessa
+    ar: واد تاسة
+  aliases:
+  - O.TESSA
+  lat: 36.291592
+  lon: 8.998145
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Oued tessa », code
+      2455AB010. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : O.TESSA. Lignes : 108, 109, 111, 112, 113, 114, 115, 118, 119, 120, 138, 139, 141,
+    175, 176, 271. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF. Autres points de même nom non retenus : REFX
+    « Oued Tessa » à 3.3 km.'
+- id: SNTRI-O-ZERGUA
+  kind: stop
+  name:
+    fr: Oued Zergua
+    ar: واد الزرقة
+  aliases:
+  - O.ZERGUA
+  - Oued Ezzarka
+  - Oued Zarga
+  lat: 36.664233
+  lon: 9.440277
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Oued zergua », code
+      2157SB000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : O.ZERGUA. Lignes : 121, 122, 123, 124, 133, 151, 169, 170, 173, 174, 308. Sources
+    concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-OUECHTATA
+  kind: stop
+  name:
+    fr: Ouechtata
+    ar: وشتاتة
+  aliases:
+  - Ouechteta
+  lat: 36.961557
+  lon: 9.003103
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ouechtata », code
+      2154AB003. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUECHTATA. Lignes : 124, 125, 133, 150, 151, 152, 153, 181, 206. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-OUED-EL-GHARE
+  kind: stop
+  name:
+    fr: Oued El Ghare
+    ar: وادي الغار
+  aliases:
+  - OUED GHAR
+  lat: 32.98602
+  lon: 10.547451
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, stations de la SRT Médenine (jeu publié le 2026-01-25, année non indiquée), station
+      TN007 « OUED GHAR ». Libellé : sntri.com.tn, nom arabe : stations SRT Médenine.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUED EL GHARE. Lignes : 189. Sources concordantes à moins de 1.5 km : SRTM.'
+- id: SNTRI-OUED-KHEDIM
+  kind: stop
+  name:
+    fr: Oued Khedim
+    ar: واد خديم
+  aliases:
+  - Oued kadim
+  lat: 36.248122
+  lon: 8.911175
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018), arrêt SNTRI « Oued kadim », code 2352SB003.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUED KHEDIM. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 175,
+    176, 271. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-OUED-MELLAH
+  kind: stop
+  name:
+    fr: Oued Mellah
+    ar: واد ملاح
+  aliases:
+  - Oued el Maleh
+  lat: 36.612638
+  lon: 8.686807
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Oued mellah », code
+      2256AB006. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUED MELLAH. Lignes : 121, 122, 123, 169, 174. Sources concordantes à moins de 1.5
+    km : CARTO, REF. Autres points de même nom non retenus : GTFS « Oued mellah » à 4.4 km.'
+- id: SNTRI-OUED-SERRAT
+  kind: stop
+  name:
+    fr: Oued Serrat
+    ar: واد سرات
+  aliases:
+  - Oued Sarrat
+  lat: 35.810135
+  lon: 8.566157
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Oued serrat », code
+      2357AB001. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUED SERRAT. Lignes : 108, 113, 114, 138. Sources concordantes à moins de 1.5 km :
+    CARTO, GTFS, REF.'
+- id: SNTRI-OUEDREF
+  kind: stop
+  name:
+    fr: Ouedref
+    ar: وذرف
+  aliases:
+  - Ouedhref
+  lat: 33.982372
+  lon: 9.975083
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ouedref », code 5155SB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUEDREF. Lignes : 146. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.
+    Autres points de même nom non retenus : REFX « OUDREF » à 1.6 km.'
+- id: SNTRI-OUESLATIA
+  kind: stop
+  name:
+    fr: Oueslatia
+    ar: الوسلاتية
+  aliases:
+  - Ouslatia
+  - El Oueslatia
+  - OUSSELTIA
+  lat: 35.848499
+  lon: 9.59002
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Ouslatia », code
+      4155AA001. Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUESLATIA. Lignes : 132, 145, 204. Sources concordantes à moins de 1.5 km : CARTO,
+    REF, REFX.'
+- id: SNTRI-OULED-DABEB
+  kind: stop
+  name:
+    fr: Ouled Dabeb
+    ar: قصر اولاد دباب
+  aliases:
+  - Ouled debab
+  lat: 32.873855
+  lon: 10.38216
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Ouled debab », code 5452AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OULED DABEB. Lignes : 518. Sources concordantes à moins de 1.5 km : REF.'
+- id: SNTRI-OUM-LARAIES
+  kind: stop
+  name:
+    fr: Oum Laraies
+    ar: ام العرائس
+  aliases:
+  - Oum Larayes
+  lat: 34.491501
+  lon: 8.27114
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 113 « Oum Larayes ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUM.LARAIES. Lignes : 117, 149. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-OUM-LEBOUAB
+  kind: stop
+  name:
+    fr: Oum Lebouab
+    ar: أم الأبواب
+  aliases:
+  - Oum Labouab
+  lat: 36.168999
+  lon: 9.77139
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 88 « Oum Labouab ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : OUM.LEBOUAB. Lignes : 145, 204. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-PT-MELLEGUE
+  kind: stop
+  name:
+    fr: Pont Mellegue
+    ar: قنطرة ملاق
+  aliases:
+  - PT.MELLEGUE
+  - PT mellague
+  lat: 36.40664
+  lon: 8.747887
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « PT mellague », code
+      2353AB003. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : PT.MELLEGUE. Lignes : 175, 271. Sources concordantes à moins de 1.5 km : REF. Autres
+    points de même nom non retenus : GTFS « pt.mellegue » à 3.4 km.'
+- id: SNTRI-REBIBA
+  kind: stop
+  name:
+    fr: Rebiba
+    ar: ربيبة
+  lat: 35.802015
+  lon: 8.378243
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Rebiba », code 2356AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : REBIBA. Lignes : 141. Sources concordantes à moins de 1.5 km : CARTO, REF. Autres
+    points de même nom non retenus : REFX « Rabeba1 » à 240.9 km; REFX « Rabeba4 » à 240.4 km.'
+- id: SNTRI-REDEYEF
+  kind: station
+  name:
+    fr: Redeyef
+    ar: الرديف
+  aliases:
+  - gare routière Redeyef
+  lat: 34.381135
+  lon: 8.150738
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Redeyef », code 6156SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : REDEYEF. Lignes : 117, 149. Sources concordantes à moins de 1.5 km : CARTO, OSM, REF.'
+- id: SNTRI-REG-MAATOUG
+  kind: stop
+  name:
+    fr: Regim Maatoug
+    ar: رجيم معتوق
+  aliases:
+  - REG.MAATOUG
+  lat: 33.387787
+  lon: 8.032792
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 312 « REG.MAATOUG ». Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : REG.MAATOUG. Lignes : 194. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-REGGUEDA
+  kind: stop
+  name:
+    fr: Reggueda
+    ar: رقادة
+  aliases:
+  - Reguedda
+  lat: 35.617265
+  lon: 10.070852
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Reguedda », code 4152AB047.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : REGGUEDA. Lignes : 101, 105, 294. Sources concordantes à moins de 1.5 km : REF. Autres
+    points de même nom non retenus : CARTO « Reggueda » à 2.0 km; REFX « RAGGED » à 296.9 km; REFX « RGOUD 7 » à 301.0 km.'
+- id: SNTRI-REMADA
+  kind: stop
+  name:
+    fr: Remada
+    ar: رمادة
+  lat: 32.315347
+  lon: 10.398467
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Remada », code 5457SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : REMADA. Lignes : 518. Sources concordantes à moins de 1.5 km : CARTO, REF, SRTM.'
+- id: SNTRI-RHIMA
+  kind: stop
+  name:
+    fr: Rhima
+    ar: رحيمة
+  aliases:
+  - Errhima
+  lat: 35.478335
+  lon: 9.66119
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Rhima », code 4158AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : RHIMA. Lignes : 100, 102, 107, 142, 143, 149, 183, 406, 501. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF. Autres points de même nom non retenus : REFX « RHIMA » à 1.9 km; REFX « RHAIM »
+    à 234.9 km; REFX « Errahma » à 167.7 km; REFX « Errehaymia » à 70.2 km.'
+- id: SNTRI-ROBAA
+  kind: stop
+  name:
+    fr: Robaa
+    ar: الربع
+  lat: 36.093357
+  lon: 9.569052
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Robaa », code 2460SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ROBAA. Lignes : 129, 130, 132, 134, 135, 147, 167, 168. Sources concordantes à moins
+    de 1.5 km : REF.'
+- id: SNTRI-ROKOB
+  kind: stop
+  name:
+    fr: Rokob
+    ar: الركب
+  aliases:
+  - Errokb
+  lat: 37.051002
+  lon: 9.476748
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Rokob », code 1757AB004.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ROKOB. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : REFX « ROGBA 1 » à 468.8 km; REFX « Erragouba » à
+    406.0 km.'
+- id: SNTRI-ROUHIA
+  kind: stop
+  name:
+    fr: Rouhia
+    ar: الروحية
+  aliases:
+  - Errouhia
+  - Rohia
+  lat: 35.653183
+  lon: 9.055867
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Rouhia », code 2458AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ROUHIA. Lignes : 134, 135, 147, 167, 168. Sources concordantes à moins de 1.5 km :
+    CARTO, REF, REFX. Autres points de même nom non retenus : CARTO « ROUHIA » à 9.3 km; REFX « Rouhia » à 1.9 km.'
+- id: SNTRI-S-AOUIDET
+  kind: stop
+  name:
+    fr: Sidi Aouidet
+    ar: سيدي عويدات
+  aliases:
+  - S. AOUIDET
+  - SIDI AOUDET
+  lat: 36.221663
+  lon: 9.744217
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « S.aouidet », code 1654AB004.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : S. AOUIDET, SIDI AOUDET. Lignes : 129, 130, 132, 134, 135, 145, 147, 167, 168, 204.
+    Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-S-BOU-ALI
+  kind: stop
+  name:
+    fr: Sidi Bou Ali
+    ar: سيدي بوعلي
+  aliases:
+  - S.BOU ALI
+  lat: 35.955299
+  lon: 10.4717
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 196 « Sidi Bou Ali ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : S.BOU ALI. Lignes : 146, 504. Sources concordantes à moins de 1.5 km : CARTO, GTFS.'
+- id: SNTRI-S-MANSOUR
+  kind: stop
+  name:
+    fr: Sidi Mansour
+    ar: سيدي منصور
+  aliases:
+  - S. MANSOUR
+  lat: 36.019501
+  lon: 9.28982
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 269 « S.Mansour ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : S. MANSOUR. Lignes : 129, 130, 134, 135, 147, 167, 168. Sources concordantes à moins
+    de 1.5 km : CARTO. Autres points de même nom non retenus : REF « Sidi Mansour » à 4.1 km; REFX « SIDI MANSOUR » à 320.3
+    km.'
+- id: SNTRI-SAKIET
+  kind: stop
+  name:
+    fr: Sakiet Sidi Youssef
+    ar: ساقية سيدي يوسف
+  aliases:
+  - SAKIET
+  - الساقية
+  lat: 36.22069
+  lon: 8.355007
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Sakiet », code 2354SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SAKIET. Lignes : 111, 176, 271. Sources concordantes à moins de 1.5 km : GTFS, REF.
+    Autres points de même nom non retenus : REFX « EL SOKAT » à 402.2 km; REFX « SOUKET » à 370.8 km.'
+- id: SNTRI-SBEITLA
+  kind: stop
+  name:
+    fr: Sbeitla
+    ar: سبيطلة
+  aliases:
+  - Sbitla
+  lat: 35.227055
+  lon: 9.126748
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Sbeitla », code 4255SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SBEITLA. Lignes : 107, 117, 134, 135, 167, 168. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-SBIBA
+  kind: stop
+  name:
+    fr: Sbiba
+    ar: سبيبة
+  aliases:
+  - Sebiba
+  lat: 35.542255
+  lon: 9.075182
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Sbiba », code 4256AB004.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SBIBA. Lignes : 134, 135, 147, 167, 168. Sources concordantes à moins de 1.5 km :
+    CARTO, REF, REFX.'
+- id: SNTRI-SEJNANE
+  kind: stop
+  name:
+    fr: Sejnane
+    ar: سجنان
+  aliases:
+  - Sejnene
+  - Sajnen
+  lat: 37.057433
+  lon: 9.239765
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Sejnane », code 1754AB003.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SEJNANE. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-SERS
+  kind: stop
+  name:
+    fr: Sers
+    ar: السرس
+  lat: 36.073333
+  lon: 9.01891
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Sers », code 2361AB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SERS. Lignes : 118, 120. Sources concordantes à moins de 1.5 km : CARTO, REF, REFX.
+    Autres points de même nom non retenus : CARTO « Sers » à 71.8 km; REFX « Seris » à 185.8 km.'
+- id: SNTRI-SFAX
+  kind: station
+  name:
+    fr: Sfax
+    ar: صفاقس
+  lat: 34.7234
+  lon: 10.7578
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Sfax », code 3451AA000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SFAX. Lignes : 103, 104, 146, 162, 164, 189, 194, 502, 503, 504, 507, 517, 527, 700.
+    Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX, SRTM. Autres points de même nom non retenus : REFX «
+    Syphax » à 1.9 km.'
+- id: SNTRI-SIDI-AHMED
+  kind: stop
+  name:
+    fr: Sidi Ahmed
+    ar: سيدي احمد
+  aliases:
+  - Sidi ahmed jedidi
+  - sidi ahmed jedid
+  lat: 36.661598
+  lon: 9.51452
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Sidi ahmed jedidi
+      », code 2157SB001. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI AHMED. Lignes : 121, 122, 123, 124, 133, 151, 169, 170, 173, 174, 308. Sources
+    concordantes à moins de 1.5 km : CARTO, GTFS, REF. Autres points de même nom non retenus : CARTO « Sidi Hamada » à 87.3
+    km; CARTO « Sidi Hamada » à 77.9 km; REFX « Sidi hammed 2 » à 93.5 km; REFX « Sidi ahmed » à 72.5 km.'
+- id: SNTRI-SIDI-ALI
+  kind: stop
+  name:
+    fr: Sidi Ali
+    ar: سيدي علي
+  lat: 35.347615
+  lon: 9.838477
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Sidi Ali », code
+      4159AA000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI ALI. Lignes : 101, 105, 294. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, REF. Autres points de même nom non retenus : REFX « Sidi Ali » à 98.4 km.'
+- id: SNTRI-SIDI-AMARA
+  kind: stop
+  name:
+    fr: Sidi Amara
+    ar: سيدي عمارة
+  lat: 35.856499
+  lon: 9.51666
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 194 « Sidi Amara ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI AMARA. Lignes : 132. Sources concordantes à moins de 1.5 km : CARTO, REFX. Autres
+    points de même nom non retenus : REFX « Sidi Amara » à 3.4 km.'
+- id: SNTRI-SIDI-AMEUR
+  kind: stop
+  name:
+    fr: Sidi Ameur
+    ar: سيدي عامر
+  lat: 35.924
+  lon: 9.47301
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 274 « Sidi Ameur ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI AMEUR. Lignes : 132. Sources concordantes à moins de 1.5 km : CARTO, REFX. Autres
+    points de même nom non retenus : REF « Sidi amor » à 89.9 km; GTFS « sidi amor » à 78.5 km; REFX « Sidi Amor » à 61.7
+    km.'
+- id: SNTRI-SIDI-AYED
+  kind: station
+  name:
+    fr: Sidi Ayed
+    ar: سيدي عياد
+  lat: 36.35446
+  lon: 9.389887
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Sidi ayed », code 2454AB008.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI AYED. Lignes : 118, 120. Sources concordantes à moins de 1.5 km : CARTO, REF,
+    REFX.'
+- id: SNTRI-SIDI-BOUZID
+  kind: station
+  name:
+    fr: Sidi Bouzid
+    ar: سيدي بوزيد
+  lat: 35.043952
+  lon: 9.497422
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Sidi bouzid », code 4352GR000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI BOUZID. Lignes : 101, 105, 182, 294. Sources concordantes à moins de 1.5 km :
+    CARTO, GTFS, REF.'
+- id: SNTRI-SIDI-HAMADA
+  kind: stop
+  name:
+    fr: Sidi Hamada
+    ar: سيدي حمادة
+  lat: 35.961102
+  lon: 9.54663
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 276 « Sidi Hamada ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI HAMADA. Lignes : 132. Sources concordantes à moins de 1.5 km : CARTO. Autres
+    points de même nom non retenus : CARTO « Sidi Hamada » à 10.7 km; REFX « Sidi hammed 2 » à 100.7 km; REFX « Sidi ahmed
+    » à 146.8 km.'
+- id: SNTRI-SIDI-KHAIER
+  kind: stop
+  name:
+    fr: Sidi Khaier
+    ar: سيدي خيار
+  aliases:
+  - Sidi Khiar
+  lat: 36.354599
+  lon: 8.79179
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 95 « Sidi Khiar ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI KHAIER. Lignes : 175, 271. Sources concordantes à moins de 1.5 km : CARTO, REFX.
+    Autres points de même nom non retenus : REF « Sidi khiar » à 13.1 km; GTFS « sidi khiar » à 6.1 km; REFX « Sidi khiar
+    » à 3.6 km.'
+- id: SNTRI-SIDI-MTIR
+  kind: stop
+  name:
+    fr: Sidi Mtir
+    ar: سيدي مطير
+  aliases:
+  - Sidi Metir
+  lat: 36.050762
+  lon: 8.604193
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Sidi mtir », code
+      2354AB004. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI MTIR. Lignes : 108, 112, 113, 114, 138, 141. Sources concordantes à moins de
+    1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-SIDI-OTHMAN
+  kind: stop
+  name:
+    fr: Sidi Othman
+    ar: سيدي عثمان
+  aliases:
+  - Sidi othmen
+  lat: 36.9675
+  lon: 9.919432
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Sidi othmen », code
+      1760AB001. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI OTHMAN. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de
+    1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-SIDI-SAID
+  kind: stop
+  name:
+    fr: Sidi Said
+    ar: سيدي سعيد
+  lat: 36.16826
+  lon: 9.653723
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Sidi said », code 2460SB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SIDI SAID. Lignes : 129, 130, 134, 135, 147, 167, 168. Sources concordantes à moins
+    de 1.5 km : CARTO, REF.'
+- id: SNTRI-SILIANA
+  kind: station
+  name:
+    fr: Siliana
+    ar: سليانة
+  aliases:
+  - Seliana
+  lat: 36.086601
+  lon: 9.37046
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Siliana », code 2451AA000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SILIANA. Lignes : 129, 130, 131, 134, 135, 147, 167, 168, 304, 305. Sources concordantes
+    à moins de 1.5 km : CARTO, REF, REFX. Autres points de même nom non retenus : REFX « Saline » à 34.6 km.'
+- id: SNTRI-SKHIRA
+  kind: stop
+  name:
+    fr: Skhira
+    ar: الصخيرة
+  aliases:
+  - SEKHIRA
+  lat: 34.291518
+  lon: 10.064893
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Skhira », code 3464SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SKHIRA. Lignes : 103, 104, 146, 162, 164, 179, 189, 194, 209, 226, 500, 502, 503,
+    504, 506, 507, 509, 512, 517, 518, 527. Sources concordantes à moins de 1.5 km : CARTO, REF, REFX, SRTM. Autres points
+    de même nom non retenus : GTFS « skhira » à 4.8 km; REFX « Sghar2 » à 69.7 km; REFX « Sokra » à 76.7 km.'
+- id: SNTRI-SLOUGIA
+  kind: stop
+  name:
+    fr: Slougia
+    ar: سلوقية
+  aliases:
+  - Slouguia
+  lat: 36.581225
+  lon: 9.511238
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Slouguia », code
+      2157AB003. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SLOUGIA. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 175, 176,
+    271, 307. Sources concordantes à moins de 1.5 km : GTFS, REF.'
+- id: SNTRI-SMAR
+  kind: stop
+  name:
+    fr: Smar / Essommar
+    ar: الصمار
+  aliases:
+  - SMAR
+  lat: 32.995044
+  lon: 10.821754
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, stations de la SRT Médenine (jeu publié le 2026-01-25, année non indiquée), station
+      SM000 « SMAR ». Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SMAR. Lignes : 189. Sources concordantes à moins de 1.5 km : REFX, SRTM. Autres points
+    de même nom non retenus : REFX « SMAR 1 » à 50.7 km.'
+- id: SNTRI-SOUK-LAHAD
+  kind: stop
+  name:
+    fr: Souk Lahad
+    ar: سوق الأحد
+  aliases:
+  - Souklahad
+  - سوق الاحد
+  lat: 33.778293
+  lon: 8.851225
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Souklahad », code 6353SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SOUK LAHAD. Lignes : 294, 507. Sources concordantes à moins de 1.5 km : CARTO, REF.
+    Autres points de même nom non retenus : REFX « Souk Lahad » à 278.6 km.'
+- id: SNTRI-SOUSSE
+  kind: station
+  name:
+    fr: Sousse
+    ar: سوسة
+  aliases:
+  - Gare Routiere de Sousse
+  lat: 35.814098
+  lon: 10.6304
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 98 « Sousse ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : SOUSSE. Lignes : 103, 104, 146, 162, 189, 194, 502, 503, 504, 507, 517, 527, 700.
+    Sources concordantes à moins de 1.5 km : CARTO, GTFS, OSM, REFX.'
+- id: SNTRI-TABARKA
+  kind: station
+  name:
+    fr: Tabarka
+    ar: طبرقة
+  lat: 36.955635
+  lon: 8.755625
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Tabarka », code 2254GR000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TABARKA. Lignes : 124, 125, 133, 150, 151, 152, 153, 181, 206. Sources concordantes
+    à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-TAMEGHZA
+  kind: stop
+  name:
+    fr: Tameghza
+    ar: تمغزة
+  aliases:
+  - Tamaghza
+  lat: 34.387123
+  lon: 7.936223
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Tamaghza », code 6253SB000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TAMEGHZA. Lignes : 117, 149. Sources concordantes à moins de 1.5 km : CARTO, REF.'
+- id: SNTRI-TAMRA
+  kind: stop
+  name:
+    fr: Tamra
+    ar: تمرة
+  lat: 37.058337
+  lon: 9.1215
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Tamra », code 1754AB004.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TAMRA. Lignes : 125, 150, 152, 153, 181, 206. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : REFX « THAMER 1 » à 439.2 km.'
+- id: SNTRI-TATAOUINE
+  kind: station
+  name:
+    fr: Tataouine
+    ar: تطاوين
+  lat: 32.947795
+  lon: 10.45714
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Tataouine », code 5451GR000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TATAOUINE. Lignes : 189, 504, 518. Sources concordantes à moins de 1.5 km : CARTO,
+    OSM, REF. Autres points de même nom non retenus : SRTM « TATOUINE » à 2.2 km.'
+- id: SNTRI-TEBOURSOUK
+  kind: stop
+  name:
+    fr: Teboursouk
+    ar: تبرسق
+  lat: 36.457865
+  lon: 9.249798
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Teboursouk », code
+      2155SB001. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TEBOURSOUK. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 175, 176,
+    271, 307, 508. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-TEDINA
+  kind: stop
+  name:
+    fr: Tedina
+    ar: تدينة
+  lat: 33.655602
+  lon: 10.6209
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 279 « Tedina ». Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TEDINA. Lignes : 164. Sources concordantes à moins de 1.5 km : CARTO.'
+- id: SNTRI-TEJER-GARE
+  kind: stop
+  name:
+    fr: Tajerouine Gare
+    ar: تاجروين المحطة
+  aliases:
+  - TEJER.GARE
+  - Tejerouine gare
+  - TAJER GARE
+  lat: 35.852152
+  lon: 8.544943
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Tejerouine gare »,
+      code 2358AB000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TEJER.GARE. Lignes : 108, 112, 113, 114, 138, 141. Sources concordantes à moins de
+    1.5 km : CARTO, GTFS, REF, REFX.'
+- id: SNTRI-TEJEROUINE
+  kind: stop
+  name:
+    fr: Tejerouine
+    ar: تاجروين
+  aliases:
+  - Tajerouine
+  lat: 35.890773
+  lon: 8.552845
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Tejerouine », code
+      2355SB000. Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TEJEROUINE. Lignes : 108, 112, 113, 114, 138, 141, 508. Sources concordantes à moins
+    de 1.5 km : CARTO, GTFS, REF, REFX. Autres points de même nom non retenus : GTFS « Et tejrouine » à 26.1 km.'
+- id: SNTRI-TESTOUR
+  kind: stop
+  name:
+    fr: Testour
+    ar: تستور
+  lat: 36.551853
+  lon: 9.438845
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Testour », code 2157AB004.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TESTOUR. Lignes : 108, 109, 111, 112, 113, 114, 115, 119, 138, 139, 141, 175, 176,
+    271, 307, 508. Sources concordantes à moins de 1.5 km : CARTO, GTFS, REF.'
+- id: SNTRI-THALA
+  kind: station
+  name:
+    fr: Thala
+    ar: تالة
+  aliases:
+  - محطة الحافلات تالة
+  lat: 35.572701
+  lon: 8.67023
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 106 « Thala ». Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : THALA. Lignes : 108, 113, 114, 138, 508. Sources concordantes à moins de 1.5 km :
+    CARTO, OSM, REFX. Autres points de même nom non retenus : GTFS « Thala » à 6.5 km; REFX « TOUILA 1 » à 313.4 km; REFX
+    « Ettalla 1 » à 181.4 km.'
+- id: SNTRI-THIBAR
+  kind: stop
+  name:
+    fr: Thibar
+    ar: تيبار
+  lat: 36.546285
+  lon: 9.098411
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, cartographie des stations SNTRI (jeu publié le 2026-01-25, année des relevés non indiquée),
+      point 314 « THIBAR ». Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : THIBAR. Lignes : 307, 308. Sources concordantes à moins de 1.5 km : CARTO. Autres
+    points de même nom non retenus : REFX « Tibar » à 2.4 km.'
+- id: SNTRI-TOUIREF
+  kind: stop
+  name:
+    fr: Touiref
+    ar: الطويرف
+  lat: 36.33929
+  lon: 8.582235
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2018-2021), arrêt SNTRI « Touiref », code 2353SB001.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TOUIREF. Lignes : 175, 271. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    REF.'
+- id: SNTRI-TOZEUR
+  kind: station
+  name:
+    fr: Tozeur
+    ar: توزر
+  aliases:
+  - Touzeur
+  - Station Tozeur
+  lat: 33.92162
+  lon: 8.131017
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Touzeur », code 6251GR000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : TOZEUR. Lignes : 102, 142, 143, 183, 406, 501. Sources concordantes à moins de 1.5
+    km : CARTO, GTFS, OSM, REF.'
+- id: SNTRI-VIEUX-SERS
+  kind: stop
+  name:
+    fr: Vieux Sers
+    ar: سرس القديمة
+  lat: 36.028532
+  lon: 9.078163
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Vieux-sers », code 2361SB000.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : VIEUX SERS. Lignes : 118. Sources concordantes à moins de 1.5 km : CARTO, REF, REFX.'
+- id: SNTRI-ZAAFRANA
+  kind: stop
+  name:
+    fr: Zaafrana
+    ar: زعفرانة
+  lat: 35.532538
+  lon: 10.056718
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Zaafrana », code 4152AB048.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ZAAFRANA. Lignes : 101, 105, 294. Sources concordantes à moins de 1.5 km : CARTO,
+    GTFS, REF, REFX. Autres points de même nom non retenus : REF « Zafrana douz » à 254.4 km; REFX « Zaafrane » à 133.5 km;
+    REFX « Zaafrana » à 112.2 km. Homonyme : le libellé désigne plusieurs lieux selon la ligne.'
+- id: SNTRI-ZAAFRANA-2
+  kind: stop
+  name:
+    fr: Zaafrana
+    ar: زعفرانة
+  aliases:
+  - Zafrana douz
+  lat: 33.444023
+  lon: 8.922318
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Zafrana douz », code 6355AB001.
+      Libellé et nom arabe : sntri.com.tn.'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ZAAFRANA. Lignes : 194. Sources concordantes à moins de 1.5 km : REF. Autres points
+    de même nom non retenus : REF « Zaafrana » à 254.4 km; REFX « Zaafrane » à 305.1 km; REFX « Zaafrana » à 366.7 km. Homonyme
+    : le libellé désigne plusieurs lieux selon la ligne.'
+- id: SNTRI-ZARZIS
+  kind: station
+  name:
+    fr: Zarzis
+    ar: جرجيس
+  aliases:
+  - Gare routière de Zarzis
+  lat: 33.499382
+  lon: 11.114627
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn, référentiel national d''arrêts (relevé 2020), arrêt SNTRI « Zarzis », code 5255GR000.
+      Nom : fiche doc SNTRI (destinations).'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Libellé(s) du site : ZARZIS. Lignes : 103, 179, 506. Sources concordantes à moins de 1.5 km : CARTO, GTFS,
+    OSM, REF, SRTM.'

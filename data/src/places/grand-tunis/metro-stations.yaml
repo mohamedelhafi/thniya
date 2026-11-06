@@ -1,0 +1,1154 @@
+# Généré par `python -m citydata import-doc` depuis doc/metro-tramway/donnees/stations_metro.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+- id: MET-10-DECEMBRE-1948
+  kind: station
+  name:
+    fr: 10 Décembre
+    ar: 10 ديسمبر
+  aliases:
+  - 10 Décembre 1948 (data.transport.tn
+  - 10-Décembre-1984 (Wikipédia
+  - OSM name)
+  - OSM name:fr)
+  area:
+    fr: El Menzah 1
+    ar: المنزه 1
+  lat: 36.844254
+  lon: 10.184039
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5815305346 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-13-AOUT
+  kind: station
+  name:
+    fr: 13 Août
+    ar: 13 أوت
+  area:
+    fr: Sayda El Manoubia
+    ar: السيدة المنوبية
+  lat: 36.774998
+  lon: 10.179246
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-14-JANVIER-2011
+  kind: station
+  name:
+    fr: 14 Janvier 2011
+    ar: 14 جانفي 2011
+  aliases:
+  - 14 Janvier
+  - 14 يناير 2011 (OSM)
+  area:
+    fr: Hached
+    ar: حشاد
+  lat: 36.822859
+  lon: 10.139972
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814938955 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ABOU-EL-KACEM-ECHEBBI
+  kind: station
+  name:
+    fr: Abou El Kacem Echebbi
+    ar: أبو القاسم الشابي
+  aliases:
+  - Abou Kacem Chebbi
+  area:
+    fr: حي المستوصف
+    ar: حي المستوصف
+  lat: 36.752452
+  lon: 10.214749
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/13591363929 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ABOUBAKER-ERRAZI
+  kind: station
+  name:
+    fr: Aboubaker Errazi
+    ar: أبو بكر الرازي
+  aliases:
+  - Errazi
+  - Razi
+  area:
+    fr: La Manouba
+    ar: منوبة
+  lat: 36.807405
+  lon: 10.082453
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5806301472 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ARIANA
+  kind: station
+  name:
+    fr: Ariana
+    ar: أريانة
+  area:
+    fr: Ettaamir II
+    ar: التعمير 2
+  lat: 36.859761
+  lon: 10.197479
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5815305352 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-BAB-ALIOUA
+  kind: station
+  name:
+    fr: Bab Alioua
+    ar: باب عليوة
+  area:
+    fr: Bab El Fella
+    ar: باب الفلة
+  lat: 36.785769
+  lon: 10.179798
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-BAB-EL-ASSEL
+  kind: station
+  name:
+    fr: Bab Laassal
+    ar: باب العسل
+  aliases:
+  - Bab El Assel
+  - Bab Lasaal (باب لعسل)
+  area:
+    fr: Bab Laassal
+    ar: باب العسل
+  lat: 36.813293
+  lon: 10.16817
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/1095146798 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-BAB-EL-KHADRA
+  kind: station
+  name:
+    fr: Bab El Khadra
+    ar: باب الخضراء
+  aliases:
+  - Bab El Khadhra
+  area:
+    fr: Bab Laassal
+    ar: باب العسل
+  lat: 36.810239
+  lon: 10.172475
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318586 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-BAB-SAADOUN
+  kind: station
+  name:
+    fr: Bab Saadoun
+    ar: باب سعدون
+  aliases:
+  - Bab Sâadoun
+  area:
+    fr: Halfaouine
+    ar: الحلفاوين
+  lat: 36.809794
+  lon: 10.161979
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318617 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-BEN-AROUS
+  kind: station
+  name:
+    fr: Ben Arous
+    ar: بن عروس
+  area:
+    fr: حي المستوصف
+    ar: حي المستوصف
+  lat: 36.755396
+  lon: 10.220314
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/13591363928 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-BOUCHOUCHA
+  kind: station
+  name:
+    fr: Bouchoucha
+    ar: بوشوشة
+  area:
+    fr: Bouchoucha
+    ar: بوشوشة
+  lat: 36.80924
+  lon: 10.149018
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318670 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-BOULEVARD-20-MARS
+  kind: station
+  name:
+    fr: 20 Mars
+    ar: 20 مارس
+  aliases:
+  - Boulevard 20 Mars (شارع 20 مارس)
+  area:
+    fr: Bouchoucha
+    ar: بوشوشة
+  lat: 36.808287
+  lon: 10.142884
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318671 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-CAMPUS
+  kind: station
+  name:
+    fr: Campus Universitaire El Manar
+    ar: المركب الجامعي
+  aliases:
+  - Campus (حرم الجامعة)
+  area:
+    fr: Cité Ibn Khaldoun
+    ar: حي ابن خلدون
+  lat: 36.826015
+  lon: 10.143991
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814938967 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-CAMPUS-UNIVERSITAIRE
+  kind: station
+  name:
+    fr: Campus Universitaire de la Manouba
+    ar: المركب الجامعي منوبة
+  aliases:
+  - Campus Manouba
+  - Campus Universitaire
+  - Le Campus
+  area:
+    fr: La Manouba
+    ar: منوبة
+  lat: 36.812939
+  lon: 10.0619
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5806301475 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-CITE-DES-SCIENCES
+  kind: station
+  name:
+    fr: Cité des Sciences
+    ar: مدينة العلوم
+  aliases:
+  - ex-El Fell (الفل)
+  area:
+    fr: El Menzah 1
+    ar: المنزه 1
+  lat: 36.846989
+  lon: 10.192362
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5815305348 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-CITE-EL-KHADRA
+  kind: station
+  name:
+    fr: Cité El Khadra
+    ar: حي الخضراء
+  aliases:
+  - Cité Khadra
+  area:
+    fr: Cité El Khadra
+    ar: حي الخضراء
+  lat: 36.829188
+  lon: 10.190369
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/661316493 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-CITE-ENNOUR
+  kind: station
+  name:
+    fr: Cité Ennour
+    ar: حي النور
+  area:
+    fr: حي البانكة
+    ar: حي البانكة
+  lat: 36.751484
+  lon: 10.204736
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807446756 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-CITE-MUNICIPALE
+  kind: station
+  name:
+    fr: Cité Municipale
+    ar: الحي البلدي
+  area:
+    fr: Avicenne
+    ar: ابن سينا
+  lat: 36.748533
+  lon: 10.188649
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-CITE-SPORTIVE
+  kind: station
+  name:
+    fr: Cité Sportive
+    ar: الحي الرياضي
+  aliases:
+  - Cité Olympique (plan Transtu)
+  area:
+    fr: El Menzah 4
+    ar: المنزه 4
+  lat: 36.83851
+  lon: 10.181961
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5815305343 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-DEN-DEN
+  kind: station
+  name:
+    fr: Den Den
+    ar: الدندان
+  aliases:
+  - DenDen (دندان)
+  area:
+    fr: La Manouba
+    ar: منوبة
+  lat: 36.802212
+  lon: 10.11077
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318673 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-EL-KABARIA
+  kind: station
+  name:
+    fr: El Kabaria
+    ar: الكبارية
+  aliases:
+  - Kabaria
+  - Kabbaria
+  area:
+    fr: Avicenne
+    ar: ابن سينا
+  lat: 36.759877
+  lon: 10.190544
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807446776 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-EL-MONTAZAH
+  kind: station
+  name:
+    fr: El Montazah
+    ar: المنتزه
+  aliases:
+  - Monatazah (plan Transtu)
+  area:
+    fr: El Mourouj 2
+    ar: المروج 2
+  lat: 36.742856
+  lon: 10.193552
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-EL-MOUROUJ-1
+  kind: station
+  name:
+    fr: El Mourouj 1
+    ar: المروج 1
+  area:
+    fr: حي البانكة
+    ar: حي البانكة
+  lat: 36.738513
+  lon: 10.206541
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-EL-MOUROUJ-2
+  kind: station
+  name:
+    fr: El Mourouj 2
+    ar: المروج 2
+  area:
+    fr: El Mourouj 2
+    ar: المروج 2
+  lat: 36.742112
+  lon: 10.197684
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-EL-MOUROUJ-3
+  kind: station
+  name:
+    fr: El Mourouj 3
+    ar: المروج 3
+  area:
+    fr: Mourouj 5
+    ar: المروج 5
+  lat: 36.728681
+  lon: 10.210744
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-EL-MOUROUJ-4
+  kind: station
+  name:
+    fr: El Mourouj 4
+    ar: المروج 4
+  area:
+    fr: Mourouj 5
+    ar: المروج 5
+  lat: 36.719808
+  lon: 10.216398
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-EL-OUARDIA-6
+  kind: station
+  name:
+    fr: El Ouardia 6
+    ar: الوردية 6
+  aliases:
+  - El Ouardia VI
+  - Ouardia 6
+  - Ouerdia 6
+  area:
+    fr: El Mourouj 2
+    ar: المروج 2
+  lat: 36.754211
+  lon: 10.199072
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/6416450569 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ENNESRI
+  kind: station
+  name:
+    fr: Ennesri
+    ar: النسري
+  area:
+    fr: El Mourouj 2
+    ar: المروج 2
+  lat: 36.745138
+  lon: 10.190362
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ENVIRONNEMENT
+  kind: station
+  name:
+    fr: L'Environnement
+    ar: البيئة
+  aliases:
+  - Environnement
+  area:
+    fr: حي البانكة
+    ar: حي البانكة
+  lat: 36.733072
+  lon: 10.210393
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ESSAIDA
+  kind: station
+  name:
+    fr: Essaïdia
+    ar: السعيدية
+  aliases:
+  - Essaida
+  - Saïdia
+  area:
+    fr: Ezzouhour 3
+    ar: الزهور 3
+  lat: 36.805412
+  lon: 10.126706
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318001 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ETTADHAMEN
+  kind: station
+  name:
+    fr: Ettadhamen
+    ar: التضامن
+  area:
+    fr: Jardin d'El Menzah 1
+    ar: حدائق المنزه 1
+  lat: 36.835726
+  lon: 10.117663
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/3843956271 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ETTAHRIR
+  kind: station
+  name:
+    fr: Ettahrir
+    ar: التحرير
+  area:
+    fr: Cité Ettahrir
+    ar: حي التحرير
+  lat: 36.829079
+  lon: 10.128664
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5814938606 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-FARHAT-HACHED
+  kind: station
+  name:
+    fr: Farhat Hached
+    ar: فرحات حشاد
+  area:
+    fr: Tunis
+    ar: تونس
+  lat: 36.797892
+  lon: 10.186098
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807445623 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-GHAZELI
+  kind: station
+  name:
+    fr: El Ghazali
+    ar: الغزالي
+  aliases:
+  - El Ghazeli
+  - Ghazeli
+  area:
+    fr: Avicenne
+    ar: ابن سينا
+  lat: 36.754753
+  lon: 10.187593
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-HABIB-THAMEUR
+  kind: station
+  name:
+    fr: Habib Thameur
+    ar: حبيب ثامر
+  area:
+    fr: Tunis
+    ar: تونس
+  lat: 36.801969
+  lon: 10.178911
+  status: archived
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/1095145955 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-IBN-KHALDOUN
+  kind: station
+  name:
+    fr: Ibn Khaldoun
+    ar: ابن خلدون
+  area:
+    fr: Cité Ibn Khaldoun
+    ar: حي ابن خلدون
+  lat: 36.830734
+  lon: 10.134162
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5815161181 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-IBN-RACHIQ
+  kind: station
+  name:
+    fr: Ibn Rachiq
+    ar: ابن رشيق
+  area:
+    fr: Tunis
+    ar: تونس
+  lat: 36.8008
+  lon: 10.181198
+  status: archived
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/1094476493 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-IBN-SINA
+  kind: station
+  name:
+    fr: Ibn Sina
+    ar: ابن سينا
+  area:
+    fr: Avicenne
+    ar: ابن سينا
+  lat: 36.754263
+  lon: 10.193962
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807446778 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-INTILAKA
+  kind: station
+  name:
+    fr: Cité El Intilaka
+    ar: حي الانطلاقة
+  aliases:
+  - Intilaka (الانطلاقة)
+  area:
+    fr: Mnihla
+    ar: المنيهلة
+  lat: 36.839191
+  lon: 10.117037
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/3843950316 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-KHASNADAR
+  kind: station
+  name:
+    fr: Khaznadar
+    ar: خزندار
+  aliases:
+  - Khasnadar
+  area:
+    fr: Ezzouhour 3
+    ar: الزهور 3
+  lat: 36.804183
+  lon: 10.121735
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318010 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-KHEIREDDINE
+  kind: station
+  name:
+    fr: Kheireddine
+    ar: خير الدين
+  aliases:
+  - Khaireddine
+  area:
+    fr: Oued Ellil
+    ar: وادي الليل
+  lat: 36.815295
+  lon: 10.056766
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/4520401404 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-L-ARTISANAT
+  kind: station
+  name:
+    fr: L'Artisanat
+    ar: الصناعات التقليدية
+  area:
+    fr: Ezzouhour 2
+    ar: الزهور 2
+  lat: 36.802899
+  lon: 10.11602
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318672 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-L-INDEPENDANCE
+  kind: station
+  name:
+    fr: L'Indépendance
+    ar: الاستقلال
+  area:
+    fr: Ettaamir IV
+    ar: التعمير 4
+  lat: 36.854392
+  lon: 10.195916
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5815305349 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-LA-JEUNESSE
+  kind: station
+  name:
+    fr: La Jeunesse
+    ar: الشباب
+  aliases:
+  - Cité des Jeunes (حي الشباب)
+  area:
+    fr: Cité Mahrajène
+    ar: حي المهرجان
+  lat: 36.833322
+  lon: 10.182802
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5815305342 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-LE-BARDO
+  kind: station
+  name:
+    fr: Le Bardo
+    ar: باردو
+  aliases:
+  - Bardo
+  area:
+    fr: Le Bardo
+    ar: باردو
+  lat: 36.807211
+  lon: 10.135229
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807317992 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-LES-JASMINS
+  kind: station
+  name:
+    fr: Les Jasmins
+    ar: الياسمين
+  area:
+    fr: Cité Ettahrir
+    ar: حي التحرير
+  lat: 36.825827
+  lon: 10.134587
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/3995088067 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-MANOUBA
+  kind: station
+  name:
+    fr: Manouba
+    ar: منوبة
+  aliases:
+  - Mannouba
+  area:
+    fr: La Manouba
+    ar: منوبة
+  lat: 36.802079
+  lon: 10.102639
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/6383429945 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-MARTYRS
+  kind: station
+  name:
+    fr: Les Martyrs
+    ar: الشهداء
+  aliases:
+  - Martyrs
+  area:
+    fr: Mourouj 5
+    ar: المروج 5
+  lat: 36.72351
+  lon: 10.212199
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-MEFTAH-SAADALLAH
+  kind: station
+  name:
+    fr: Meftah Saadallah
+    ar: مفتاح سعد الله
+  aliases:
+  - Meftah Sâadallah
+  area:
+    fr: Borj Zouara
+    ar: برج زوارة
+  lat: 36.813064
+  lon: 10.15627
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318022 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-MOHAMED-MANACHOU
+  kind: station
+  name:
+    fr: Mohamed Manachou
+    ar: محمد مناشو
+  area:
+    fr: Sayda El Manoubia
+    ar: السيدة المنوبية
+  lat: 36.782084
+  lon: 10.17981
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-MOHAMED-V
+  kind: station
+  name:
+    fr: Mohamed V
+    ar: محمد الخامس
+  aliases:
+  - Mohammed-V
+  area:
+    fr: Montplaisir
+    ar: مونبليزير
+  lat: 36.815925
+  lon: 10.183188
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/13835966905 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-MOHAMMED-ALI
+  kind: station
+  name:
+    fr: Mohamed Ali
+    ar: محمد علي
+  aliases:
+  - Mohammed Ali
+  area:
+    fr: Djebel Jelloud
+    ar: جبل الجلود
+  lat: 36.767708
+  lon: 10.184034
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-MONCEF-BEY
+  kind: station
+  name:
+    fr: Moncef Bey
+    ar: المنصف باي
+  area:
+    fr: La Manouba
+    ar: منوبة
+  lat: 36.805247
+  lon: 10.090656
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5806301471 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-NELSON-MANDELA
+  kind: station
+  name:
+    fr: Nelson Mandela
+    ar: نيلسون مانديلا
+  aliases:
+  - Nelson Mandella
+  area:
+    fr: Lafayette
+    ar: لافايات
+  lat: 36.811104
+  lon: 10.182546
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318035 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-OMRANE-SUPERIEUR
+  kind: station
+  name:
+    fr: El Omrane Supérieur
+    ar: العمران الأعلى
+  aliases:
+  - Omrane Sup
+  - Omrane Supérieur
+  area:
+    fr: Cité Ettahrir
+    ar: حي التحرير
+  lat: 36.830574
+  lon: 10.123995
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/3995088058 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-PALAIS-AL-WARDA
+  kind: station
+  name:
+    fr: Ksar El Warda
+    ar: قصر الوردة
+  aliases:
+  - Kasr el Warda
+  - Palais El Warda / Al-Warda
+  area:
+    fr: La Manouba
+    ar: منوبة
+  lat: 36.810289
+  lon: 10.067947
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5806301474 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-PALESTINE
+  kind: station
+  name:
+    fr: Palestine
+    ar: فلسطين
+  aliases:
+  - quais décalés (deux nœuds OSM)
+  area:
+    fr: Montplaisir
+    ar: مونبليزير
+  lat: 36.820217
+  lon: 10.182178
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/1094902351 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-PLACE-DE-BARCELONE
+  kind: station
+  name:
+    fr: Place de Barcelone
+    ar: ساحة برشلونة
+  aliases:
+  - Barcelone
+  - L4
+  - L6)
+  area:
+    fr: Sidi Al Bachir
+    ar: سيدي البشير
+  lat: 36.796095
+  lon: 10.180449
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318668 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-PLACE-DE-LA-REPUBLIQUE
+  kind: station
+  name:
+    fr: Place de la République
+    ar: ساحة الجمهورية
+  aliases:
+  - La République
+  - محطة الجمهورية
+  area:
+    fr: Bab El Khadhra
+    ar: باب الخضراء
+  lat: 36.806499
+  lon: 10.180827
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5807318669 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-ROMMANA
+  kind: station
+  name:
+    fr: Rommana
+    ar: الرمانة
+  area:
+    fr: Ezzayatine
+    ar: حي الزياتين
+  lat: 36.82353
+  lon: 10.150888
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/3995088080 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-SLIMANE-KAHIA
+  kind: station
+  name:
+    fr: Slimane Kahia
+    ar: سليمان الكاهية
+  aliases:
+  - Slimene Kehia
+  lat: 36.80334
+  lon: 10.09908
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: 'Position : data.transport.tn (Transtu, publié 2026-01-25) ; noms : doc/metro-tramway/stations.md (plan Transtu,
+      data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-STATION-LES-JARDINS
+  kind: station
+  name:
+    fr: Les Jardins
+    ar: الحدائق
+  area:
+    fr: Les Jardins
+    ar: الحدائق
+  lat: 36.82352
+  lon: 10.185586
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/1094915522 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-TAHAR-HADDAD
+  kind: station
+  name:
+    fr: Tahar Haddad
+    ar: الطاهر الحداد
+  aliases:
+  - Taher Haddad (طاهر حداد)
+  area:
+    fr: Avicenne
+    ar: ابن سينا
+  lat: 36.760801
+  lon: 10.186953
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-TECHNOPOLE
+  kind: station
+  name:
+    fr: Pôle Technologique
+    ar: القطب التكنولوجي
+  aliases:
+  - Technopole
+  area:
+    fr: La Manouba
+    ar: منوبة
+  lat: 36.809052
+  lon: 10.075429
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Overpass 2026-10-14 node/5806301473 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc
+- id: MET-TUNIS-MARINE
+  kind: station
+  name:
+    fr: Tunis Marine
+    ar: تونس البحرية
+  aliases:
+  - Station Tunis Marine
+  area:
+    fr: Tunis
+    ar: تونس
+  lat: 36.800126
+  lon: 10.192896
+  status: active
+  provenance:
+    source: OSM
+    ref: 'Position : OSM Geofabrik 2026-10-13 ; noms : doc/metro-tramway/stations.md (plan Transtu, data.transport.tn)'
+    verified_at: '2026-10-14'
+    by: import-doc

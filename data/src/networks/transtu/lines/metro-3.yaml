@@ -1,0 +1,238 @@
+# Généré par `python -m citydata import-doc` depuis doc/metro-tramway/donnees/lignes_metro_arrets.csv et horaires_premiers_derniers_departs.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-M3
+network: TRANSTU
+mode: METRO
+public_code: M3
+name:
+  fr: Métro 3
+  ar: المترو 3
+long_name:
+  fr: Tunis Marine – Ibn Khaldoun
+  ar: تونس البحرية – ابن خلدون
+color: '#2E7D32'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: BANLIEUE
+  headsign:
+    fr: Ibn Khaldoun
+    ar: ابن خلدون
+- id: CENTRE
+  headsign:
+    fr: Tunis Marine
+    ar: تونس البحرية
+patterns:
+- id: BANLIEUE
+  direction: BANLIEUE
+  main: true
+  stops:
+  - MET-TUNIS-MARINE
+  - MET-FARHAT-HACHED
+  - MET-PLACE-DE-BARCELONE
+  - MET-PLACE-DE-LA-REPUBLIQUE
+  - MET-BAB-EL-KHADRA
+  - MET-BAB-EL-ASSEL
+  - MET-BAB-SAADOUN
+  - MET-MEFTAH-SAADALLAH
+  - MET-ROMMANA
+  - MET-CAMPUS
+  - MET-14-JANVIER-2011
+  - MET-LES-JASMINS
+  - MET-IBN-KHALDOUN
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 1
+    - 2
+    - 2
+    CHARGE:
+    - 2
+    - 2
+    - 5
+    - 2
+    - 2
+    - 2
+    - 4
+    - 3
+    - 3
+    - 1
+    - 3
+    - 2
+- id: CENTRE
+  direction: CENTRE
+  main: true
+  stops:
+  - MET-IBN-KHALDOUN
+  - MET-LES-JASMINS
+  - MET-14-JANVIER-2011
+  - MET-CAMPUS
+  - MET-ROMMANA
+  - MET-MEFTAH-SAADALLAH
+  - MET-BAB-SAADOUN
+  - MET-BAB-EL-ASSEL
+  - MET-BAB-EL-KHADRA
+  - MET-PLACE-DE-LA-REPUBLIQUE
+  - MET-PLACE-DE-BARCELONE
+  - MET-FARHAT-HACHED
+  - MET-TUNIS-MARINE
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 2
+    - 2
+    CHARGE:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 4
+    - 2
+    - 3
+    - 2
+    - 3
+    - 3
+    - 3
+    - 2
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    - AID
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 06:40
+      last: '19:02'
+      by_direction:
+        BANLIEUE:
+          first: 06:40
+          last: '18:30'
+        CENTRE:
+          first: 07:15
+          last: '19:02'
+    bands:
+      NUIT:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 30
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 30
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 60
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    - ETE
+    - RAMADAN
+    - AID
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 06:40
+      last: '19:02'
+      by_direction:
+        BANLIEUE:
+          first: 06:40
+          last: '18:30'
+        CENTRE:
+          first: 07:15
+          last: '19:02'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 30
+        run_time: FLUIDE
+  - periods:
+    - ETE
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 06:40
+      last: '18:20'
+      by_direction:
+        BANLIEUE:
+          first: 06:40
+          last: '17:45'
+        CENTRE:
+          first: 07:15
+          last: '18:20'
+    bands:
+      NUIT:
+        headway_min: 35
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 35
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 35
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 35
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 60
+        run_time: FLUIDE
+  - periods:
+    - RAMADAN
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 06:40
+      last: '17:30'
+      by_direction:
+        BANLIEUE:
+          first: 06:40
+          last: '17:00'
+        CENTRE:
+          first: 07:15
+          last: '17:30'
+    bands:
+      NUIT:
+        headway_min: 30
+        run_time: FLUIDE
+      MATIN:
+        headway_min: 30
+        run_time: FLUIDE
+      AVANT_FTOUR:
+        headway_min: 30
+        run_time: CHARGE
+      FTOUR:
+        headway_min: null
+      SOIREE:
+        headway_min: null
+fare: FARE-TRANSTU-METRO
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs, fréquence de pointe (30 min) : Affiche Transtu « marche horaire hiver 2026-2027 » métro
+    et TGM (transtu.tn, page 0143, doc/sources-open-data/raw/transtu.tn/horaires-hiver-2026-2027/MetroTGMH26-27.jpg). Autres
+    tranches estimées (intervalle de pointe en journée, doublé après 19 h ; dimanche : rapport de l''horaire open data), été
+    et Ramadan : modèles des affiches 2026. Durées entre stations estimées (24 km/h). Ordre des stations : doc/metro-tramway/reseau.md.'
+  verified_at: '2026-10-14'
+  by: import-doc

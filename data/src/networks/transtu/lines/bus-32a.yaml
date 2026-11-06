@@ -1,0 +1,175 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-32A
+network: TRANSTU
+mode: BUS
+public_code: 32A
+name:
+  fr: Bus 32A
+  ar: حافلة 32أ
+long_name:
+  fr: Bab Alioua – Sidi Hassine
+  ar: محطة باب عليوة – سيدي حسين
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Sidi Hassine
+    ar: سيدي حسين
+- id: RETOUR
+  headsign:
+    fr: Bab Alioua
+    ar: محطة باب عليوة
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-BAB-ALIOUA
+  - BUS-SIDI-BECHIR-ALLER
+  - BUS-BAB-JDID-ALLER
+  - BUS-BAB-MNARA-ALLER
+  - BUS-KASBAH
+  - BUS-DARGHOUTH-BACHA-ALLER
+  - BUS-STADE-MELLASSINE-ALLER
+  - BUS-SOUK-MELLASSINE-ALLER
+  - BUS-CENTRE-DE-FORMATION-ZOUHOUR-ALLER
+  - BUS-KHAROUBA-ALLER
+  - BUS-OFFICE-DE-L-HUILE-ALLER
+  - BUS-MIZANETTA-ALLER
+  - BUS-ECOLE-ZOUHOUR4-ALLER
+  - BUS-IMMEUBLES-HRAIRIA-ALLER
+  - BUS-CITE-ESSALAMA
+  - BUS-BEN-DAHA-ALLER
+  - BUS-SIDI-HSIN-ALLER
+  - BUS-SIDI-HSIN-ALLER-2
+  - BUS-CROISEMENT-20-MARS
+  - BUS-TERMINUS-33B-32A-533
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 4
+    CHARGE:
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 4
+    - 2
+    - 2
+    - 2
+    - 2
+    - 4
+    - 3
+    - 3
+    - 3
+    - 4
+    - 4
+    - 3
+    - 5
+    - 5
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-33B-32A-533
+  - BUS-CROISEMENT-20-MARS
+  - BUS-SIDI-HSIN-RETOUR-2
+  - BUS-SIDI-HSIN-RETOUR
+  - BUS-BEN-DAHA-RETOUR
+  - BUS-DEPOT-SNT-SIJOUMI
+  - BUS-IMMEUBLES-HRAIRIA-RETOUR
+  - BUS-ECOLE-ZOUHOUR4-RETOUR
+  - BUS-MIZANETTA-RETOUR
+  - BUS-OFFICE-DE-L-HUILE-RETOUR
+  - BUS-KHAROUBA-RETOUR
+  - BUS-CENTRE-DE-FORMATION-ZOUHOUR-RETOUR
+  - BUS-SOUK-MELLASSINE-RETOUR
+  - BUS-STADE-MELLASSINE-RETOUR
+  - BUS-RABTA
+  - BUS-TRIBUNAL-TAAKIB
+  - BUS-BAB-MNARA-RETOUR
+  - BUS-BAB-JDID-RETOUR
+  - BUS-MOSQUEE-SIDI-BECHIR
+  - BUS-SIDI-BECHIR-RETOUR
+  - BUS-BAB-ALIOUA
+  run_times:
+    FLUIDE:
+    - 4
+    - 3
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    - 1
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    CHARGE:
+    - 5
+    - 5
+    - 4
+    - 4
+    - 3
+    - 4
+    - 2
+    - 3
+    - 3
+    - 4
+    - 1
+    - 2
+    - 2
+    - 3
+    - 3
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+schedule:
+  kind: frequency
+  regimes: []
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : horaires incomplets sur l''affiche (manque : dernier départ du pôle, dernier départ du terminus, fréquence
+    de pointe) ; Premiers et derniers départs (pôle 08:10 → –, terminus 05:30 → –) et fréquence de pointe (– min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, BabAliouaH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 32A » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

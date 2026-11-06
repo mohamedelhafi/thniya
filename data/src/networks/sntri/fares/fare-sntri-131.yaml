@@ -1,0 +1,545 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-131
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-AMAIEM
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-AMAIEM
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-AMAIEM
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-AMAIEM
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-AMAIEM
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-AMAIEM
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-AMAIEM
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-AMAIEM
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-AMAIEM
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-AMAIEM
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-AMAIEM
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-B-M-CHERGUA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 9500
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-BEN-ABROUG
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 10400
+  - from: SNTRI-BOUARADA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-BOUARADA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-BOUARADA
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-BOUARADA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-BOUARADA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-BOUARADA
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-BOUARADA
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-BOUARADA
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-BOUARADA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-BOUARADA
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-BOUARADA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-EL-FAHS
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 9500
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 8100
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 200
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 10800
+  - from: SNTRI-FOUCHANA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 5800
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 4400
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 8100
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 800
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-GAAFOUR
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-J-OUEST
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-J-OUEST
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-J-OUEST
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-J-OUEST
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-J-OUEST
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-J-OUEST
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-J-OUEST
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 5300
+  - from: SNTRI-J-OUEST
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 9100
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 800
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-LAKHOUET
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-LAROUSSA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 200
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-M-HAMEDIA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-SILIANA
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-SILIANA
+    to: SNTRI-B-M-CHERGUA
+    price_millimes:
+      PLEIN: 8500
+  - from: SNTRI-SILIANA
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-SILIANA
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-SILIANA
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-SILIANA
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 10800
+  - from: SNTRI-SILIANA
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-SILIANA
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-SILIANA
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-SILIANA
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-SILIANA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-AMAIEM
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-BEN-ABROUG
+    price_millimes:
+      PLEIN: 10400
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-BOUARADA
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-EL-FAHS
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-FOUCHANA
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-GAAFOUR
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-J-OUEST
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-LAKHOUET
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-LAROUSSA
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-M-HAMEDIA
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-SILIANA
+    price_millimes:
+      PLEIN: 11700
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 131 : plein tarif terminus–terminus
+    11,700 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

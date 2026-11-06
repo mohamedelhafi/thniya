@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=../../../schemas/network.schema.json
+id: SNCFT
+name: { fr: "SNCFT", ar: "الشركة الوطنية للسكك الحديدية التونسية" }
+long_name: { fr: "Société nationale des chemins de fer tunisiens", ar: "الشركة الوطنية للسكك الحديدية التونسية" }
+url: "https://www.sncft.com.tn"
+phone: "+216 71 345 511"
+timezone: Africa/Tunis
+calendar:
+  day_type_scheme:
+    mon: OUVRABLE
+    tue: OUVRABLE
+    wed: OUVRABLE
+    thu: OUVRABLE
+    fri: OUVRABLE
+    sat: SAMEDI
+    sun: DIMANCHE
+  # L'affiche banlieue sud regroupe « dimanches & fêtes » : un jour férié roule comme un dimanche.
+  holiday_day_type: DIMANCHE
+  # Par priorité décroissante. Pas de période AID : les jours d'Aïd sont fériés, donc horaires du dimanche.
+  periods: [RAMADAN, ETE, NORMAL]
+  fallback:
+    periods: { RAMADAN: NORMAL, ETE: NORMAL }
+    day_types: { DIMANCHE: SAMEDI, SAMEDI: OUVRABLE }
+status: active
+provenance: { source: OFFICIEL, ref: "sncft.com.tn", verified_at: 2026-10-13, by: import-web }

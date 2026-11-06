@@ -1,0 +1,87 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-144
+network: SNTRI
+mode: BUS
+public_code: '144'
+name:
+  fr: Tunis Sud – Degache
+  ar: تونس الجنوبية – دقاش
+long_name:
+  fr: Tunis Sud – Degache par Kairouan et Gafsa
+  ar: تونس الجنوبية – دقاش عبر القيروان، قفصة
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Degache
+    ar: دقاش
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-B-SAHEL
+  - SNTRI-ENFIDHA
+  - SNTRI-KAIROUAN
+  - SNTRI-EL-HAJEB
+  - SNTRI-B-EL-HAFFEY
+  - SNTRI-BEN-AOUN
+  - SNTRI-GAFSA
+  - SNTRI-METLAOUI
+  - SNTRI-KRIZ
+  - SNTRI-DEGUECHE
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-DEGUECHE
+  - SNTRI-KRIZ
+  - SNTRI-METLAOUI
+  - SNTRI-GAFSA
+  - SNTRI-BEN-AOUN
+  - SNTRI-B-EL-HAFFEY
+  - SNTRI-EL-HAJEB
+  - SNTRI-KAIROUAN
+  - SNTRI-ENFIDHA
+  - SNTRI-B-SAHEL
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/144
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 144 « TUNIS SUD - DEGUECHE » (456
+        km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-144
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 144 « TUNIS SUD - DEGUECHE » (456
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

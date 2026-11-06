@@ -1,0 +1,192 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-98
+network: TRANSTU
+mode: BUS
+public_code: '98'
+name:
+  fr: Bus 98
+  ar: حافلة 98
+long_name:
+  fr: Khaireddine – Jallou
+  ar: محطة الترابط خير الدين – جلو
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Jallou
+    ar: جلو
+- id: RETOUR
+  headsign:
+    fr: Khaireddine
+    ar: محطة الترابط خير الدين
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-KHAIREDDINE
+  - BUS-CROISEMENT-SANHAJA
+  - BUS-COOPERATIVE-CENTRAL
+  - BUS-CITE-TORJMEN
+  - BUS-DOUAR-EL-BEY
+  - BUS-POMPAGE
+  - BUS-ERRIADH
+  - BUS-ZONE-F
+  - BUS-SAIDA
+  - BUS-OUED-CHAFROU
+  - BUS-STIL
+  - BUS-SIDI-TALEB
+  - BUS-STADE-DJEDAIDA
+  - BUS-CITE-RTT
+  - BUS-DJEDAIDA-NOUVELLE
+  - BUS-BRIMO
+  - BUS-CITE-ESSALEM
+  - BUS-LYCEE-CHAOUAT
+  - BUS-ROUTE-CHAOUAT-1
+  - BUS-CHAOUAT
+  - BUS-KIOSQUE-AGIL-JALLOU
+  - BUS-JALLOU
+  - BUS-CAFE-JALLOU-TERMINUS
+  run_times:
+    FLUIDE:
+    - 7
+    - 5
+    - 3
+    - 2
+    - 3
+    - 4
+    - 2
+    - 3
+    - 6
+    - 2
+    - 1
+    - 3
+    - 2
+    - 3
+    - 2
+    - 1
+    - 4
+    - 5
+    - 4
+    - 2
+    - 3
+    - 2
+    CHARGE:
+    - 10
+    - 7
+    - 4
+    - 3
+    - 4
+    - 6
+    - 3
+    - 5
+    - 8
+    - 2
+    - 3
+    - 3
+    - 3
+    - 4
+    - 3
+    - 2
+    - 6
+    - 7
+    - 5
+    - 3
+    - 5
+    - 2
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-CAFE-JALLOU-TERMINUS
+  - BUS-JALLOU
+  - BUS-KIOSQUE-AGIL-JALLOU
+  - BUS-CHAOUAT
+  - BUS-ROUTE-CHAOUAT-1
+  - BUS-LYCEE-CHAOUAT
+  - BUS-CITE-ESSALEM
+  - BUS-BRIMO
+  - BUS-DJEDAIDA-NOUVELLE
+  - BUS-CITE-RTT
+  - BUS-STADE-DJEDAIDA
+  - BUS-SIDI-TALEB
+  - BUS-STIL
+  - BUS-OUED-CHAFROU
+  - BUS-SAIDA
+  - BUS-ZONE-F
+  - BUS-ERRIADH
+  - BUS-POMPAGE
+  - BUS-DOUAR-EL-BEY
+  - BUS-CITE-TORJMEN
+  - BUS-COOPERATIVE-CENTRAL
+  - BUS-CROISEMENT-SANHAJA
+  - BUS-KHAIREDDINE
+  run_times:
+    FLUIDE:
+    - 2
+    - 3
+    - 2
+    - 4
+    - 4
+    - 5
+    - 1
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 5
+    - 4
+    - 2
+    - 4
+    - 3
+    - 2
+    - 3
+    - 5
+    - 7
+    CHARGE:
+    - 2
+    - 5
+    - 3
+    - 5
+    - 7
+    - 6
+    - 2
+    - 3
+    - 4
+    - 3
+    - 3
+    - 3
+    - 2
+    - 8
+    - 5
+    - 3
+    - 5
+    - 5
+    - 3
+    - 4
+    - 7
+    - 10
+schedule:
+  kind: frequency
+  regimes: []
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : statut [I] : listée sur l’affiche sans aucun horaire (exploitation non confirmée) ; horaires incomplets
+    sur l''affiche (manque : premier départ du pôle, dernier départ du pôle, premier départ du terminus, dernier départ du
+    terminus, fréquence de pointe) ; Premiers et derniers départs (pôle – → –, terminus – → –) et fréquence de pointe (– min)
+    : affiche Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, KhaireddineH26-27.jpg) [officiel] ; arrêts
+    : open data Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques
+    des stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non
+    publiée (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 98 » ; heures creuses et dimanche estimés
+    : intervalle de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min
+    plus tard (rapports médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées
+    estimées depuis les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic
+    chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

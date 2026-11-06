@@ -1,0 +1,520 @@
+{
+ "data": {
+  "stop": {
+   "gtfsId": "TN:TRN-HAMMAMLIF",
+   "name": "Hammam Lif",
+   "stoptimesForPatterns": [
+    {
+     "pattern": {
+      "code": "TN:SNCFT-BS:1:05",
+      "directionId": 1,
+      "headsign": "Erriadh",
+      "route": {
+       "gtfsId": "TN:SNCFT-BS"
+      }
+     },
+     "stoptimes": [
+      {
+       "scheduledDeparture": 73980,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:233",
+        "tripShortName": "233"
+       }
+      }
+     ]
+    },
+    {
+     "pattern": {
+      "code": "TN:SNCFT-BS:0:04",
+      "directionId": 0,
+      "headsign": "Tunis Ville",
+      "route": {
+       "gtfsId": "TN:SNCFT-BS"
+      }
+     },
+     "stoptimes": [
+      {
+       "scheduledDeparture": 19140,
+       "serviceDay": 1792105200,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:108",
+        "tripShortName": "108"
+       }
+      },
+      {
+       "scheduledDeparture": 17400,
+       "serviceDay": 1792105200,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:102",
+        "tripShortName": "102"
+       }
+      },
+      {
+       "scheduledDeparture": 71880,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:248",
+        "tripShortName": "248"
+       }
+      },
+      {
+       "scheduledDeparture": 70200,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:246",
+        "tripShortName": "246"
+       }
+      },
+      {
+       "scheduledDeparture": 66600,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:242",
+        "tripShortName": "242"
+       }
+      },
+      {
+       "scheduledDeparture": 58740,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:224",
+        "tripShortName": "224"
+       }
+      },
+      {
+       "scheduledDeparture": 40740,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:172",
+        "tripShortName": "172"
+       }
+      },
+      {
+       "scheduledDeparture": 37140,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:158",
+        "tripShortName": "158"
+       }
+      },
+      {
+       "scheduledDeparture": 33900,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:150",
+        "tripShortName": "150"
+       }
+      }
+     ]
+    },
+    {
+     "pattern": {
+      "code": "TN:SNCFT-BS:0:05",
+      "directionId": 0,
+      "headsign": "Tunis Ville",
+      "route": {
+       "gtfsId": "TN:SNCFT-BS"
+      }
+     },
+     "stoptimes": [
+      {
+       "scheduledDeparture": 24000,
+       "serviceDay": 1792105200,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:120",
+        "tripShortName": "120"
+       }
+      }
+     ]
+    },
+    {
+     "pattern": {
+      "code": "TN:SNCFT-BS:1:01",
+      "directionId": 1,
+      "headsign": "Erriadh",
+      "route": {
+       "gtfsId": "TN:SNCFT-BS"
+      }
+     },
+     "stoptimes": [
+      {
+       "scheduledDeparture": 45480,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:167",
+        "tripShortName": "167"
+       }
+      },
+      {
+       "scheduledDeparture": 41760,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:159",
+        "tripShortName": "159"
+       }
+      },
+      {
+       "scheduledDeparture": 38040,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:149",
+        "tripShortName": "149"
+       }
+      },
+      {
+       "scheduledDeparture": 36240,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:145",
+        "tripShortName": "145"
+       }
+      },
+      {
+       "scheduledDeparture": 34500,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:141",
+        "tripShortName": "141"
+       }
+      },
+      {
+       "scheduledDeparture": 32580,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:137",
+        "tripShortName": "137"
+       }
+      },
+      {
+       "scheduledDeparture": 31080,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:133",
+        "tripShortName": "133"
+       }
+      },
+      {
+       "scheduledDeparture": 29340,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:125",
+        "tripShortName": "125"
+       }
+      },
+      {
+       "scheduledDeparture": 27540,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:121",
+        "tripShortName": "121"
+       }
+      }
+     ]
+    },
+    {
+     "pattern": {
+      "code": "TN:SNCFT-BS:1:02",
+      "directionId": 1,
+      "headsign": "Erriadh",
+      "route": {
+       "gtfsId": "TN:SNCFT-BS"
+      }
+     },
+     "stoptimes": [
+      {
+       "scheduledDeparture": 18300,
+       "serviceDay": 1792105200,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:101",
+        "tripShortName": "101"
+       }
+      },
+      {
+       "scheduledDeparture": 75780,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:235",
+        "tripShortName": "235"
+       }
+      },
+      {
+       "scheduledDeparture": 68580,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:225",
+        "tripShortName": "225"
+       }
+      },
+      {
+       "scheduledDeparture": 64980,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:217",
+        "tripShortName": "217"
+       }
+      },
+      {
+       "scheduledDeparture": 55920,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:195",
+        "tripShortName": "195"
+       }
+      },
+      {
+       "scheduledDeparture": 50580,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:181",
+        "tripShortName": "181"
+       }
+      },
+      {
+       "scheduledDeparture": 47160,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:171",
+        "tripShortName": "171"
+       }
+      },
+      {
+       "scheduledDeparture": 43380,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:163",
+        "tripShortName": "163"
+       }
+      },
+      {
+       "scheduledDeparture": 39780,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:155",
+        "tripShortName": "155"
+       }
+      }
+     ]
+    },
+    {
+     "pattern": {
+      "code": "TN:SNCFT-BS:0:01",
+      "directionId": 0,
+      "headsign": "Tunis Ville",
+      "route": {
+       "gtfsId": "TN:SNCFT-BS"
+      }
+     },
+     "stoptimes": [
+      {
+       "scheduledDeparture": 48300,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:198",
+        "tripShortName": "198"
+       }
+      },
+      {
+       "scheduledDeparture": 46200,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:190",
+        "tripShortName": "190"
+       }
+      },
+      {
+       "scheduledDeparture": 44400,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:182",
+        "tripShortName": "182"
+       }
+      },
+      {
+       "scheduledDeparture": 42600,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:178",
+        "tripShortName": "178"
+       }
+      },
+      {
+       "scheduledDeparture": 39000,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:164",
+        "tripShortName": "164"
+       }
+      },
+      {
+       "scheduledDeparture": 35520,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:152",
+        "tripShortName": "152"
+       }
+      },
+      {
+       "scheduledDeparture": 32520,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:144",
+        "tripShortName": "144"
+       }
+      },
+      {
+       "scheduledDeparture": 30300,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:140",
+        "tripShortName": "140"
+       }
+      },
+      {
+       "scheduledDeparture": 28140,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:136",
+        "tripShortName": "136"
+       }
+      }
+     ]
+    },
+    {
+     "pattern": {
+      "code": "TN:SNCFT-BS:0:02",
+      "directionId": 0,
+      "headsign": "Tunis Ville",
+      "route": {
+       "gtfsId": "TN:SNCFT-BS"
+      }
+     },
+     "stoptimes": [
+      {
+       "scheduledDeparture": 80880,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:258",
+        "tripShortName": "258"
+       }
+      },
+      {
+       "scheduledDeparture": 79080,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:256",
+        "tripShortName": "256"
+       }
+      },
+      {
+       "scheduledDeparture": 77280,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:254",
+        "tripShortName": "254"
+       }
+      },
+      {
+       "scheduledDeparture": 75480,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:252",
+        "tripShortName": "252"
+       }
+      },
+      {
+       "scheduledDeparture": 73680,
+       "serviceDay": 1792018800,
+       "headsign": "Tunis Ville",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:250",
+        "tripShortName": "250"
+       }
+      }
+     ]
+    },
+    {
+     "pattern": {
+      "code": "TN:SNCFT-BS:1:04",
+      "directionId": 1,
+      "headsign": "Erriadh",
+      "route": {
+       "gtfsId": "TN:SNCFT-BS"
+      }
+     },
+     "stoptimes": [
+      {
+       "scheduledDeparture": 81120,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:243",
+        "tripShortName": "243"
+       }
+      },
+      {
+       "scheduledDeparture": 79380,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:241",
+        "tripShortName": "241"
+       }
+      },
+      {
+       "scheduledDeparture": 77580,
+       "serviceDay": 1792018800,
+       "headsign": "Erriadh",
+       "trip": {
+        "gtfsId": "TN:SNCFT-BS:HIVER-2026-2027:NORMAL:TOUS:239",
+        "tripShortName": "239"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

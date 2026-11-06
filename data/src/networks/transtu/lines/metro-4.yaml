@@ -1,0 +1,281 @@
+# Généré par `python -m citydata import-doc` depuis doc/metro-tramway/donnees/lignes_metro_arrets.csv et horaires_premiers_derniers_departs.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-M4
+network: TRANSTU
+mode: METRO
+public_code: M4
+name:
+  fr: Métro 4
+  ar: المترو 4
+long_name:
+  fr: Place de Barcelone – Kheireddine
+  ar: ساحة برشلونة – خير الدين
+color: '#6A1B9A'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: BANLIEUE
+  headsign:
+    fr: Kheireddine
+    ar: خير الدين
+- id: CENTRE
+  headsign:
+    fr: Place de Barcelone
+    ar: ساحة برشلونة
+patterns:
+- id: BANLIEUE
+  direction: BANLIEUE
+  main: true
+  stops:
+  - MET-PLACE-DE-BARCELONE
+  - MET-PLACE-DE-LA-REPUBLIQUE
+  - MET-BAB-EL-KHADRA
+  - MET-BAB-EL-ASSEL
+  - MET-BAB-SAADOUN
+  - MET-BOUCHOUCHA
+  - MET-BOULEVARD-20-MARS
+  - MET-LE-BARDO
+  - MET-ESSAIDA
+  - MET-KHASNADAR
+  - MET-L-ARTISANAT
+  - MET-DEN-DEN
+  - MET-MANOUBA
+  - MET-SLIMANE-KAHIA
+  - MET-MONCEF-BEY
+  - MET-ABOUBAKER-ERRAZI
+  - MET-TECHNOPOLE
+  - MET-PALAIS-AL-WARDA
+  - MET-CAMPUS-UNIVERSITAIRE
+  - MET-KHEIREDDINE
+  run_times:
+    FLUIDE:
+    - 4
+    - 2
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    CHARGE:
+    - 4
+    - 3
+    - 2
+    - 2
+    - 4
+    - 3
+    - 2
+    - 3
+    - 1
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+- id: CENTRE
+  direction: CENTRE
+  main: true
+  stops:
+  - MET-KHEIREDDINE
+  - MET-CAMPUS-UNIVERSITAIRE
+  - MET-PALAIS-AL-WARDA
+  - MET-TECHNOPOLE
+  - MET-ABOUBAKER-ERRAZI
+  - MET-MONCEF-BEY
+  - MET-SLIMANE-KAHIA
+  - MET-MANOUBA
+  - MET-DEN-DEN
+  - MET-L-ARTISANAT
+  - MET-KHASNADAR
+  - MET-ESSAIDA
+  - MET-LE-BARDO
+  - MET-BOULEVARD-20-MARS
+  - MET-BOUCHOUCHA
+  - MET-BAB-SAADOUN
+  - MET-BAB-EL-ASSEL
+  - MET-BAB-EL-KHADRA
+  - MET-PLACE-DE-LA-REPUBLIQUE
+  - MET-PLACE-DE-BARCELONE
+  run_times:
+    FLUIDE:
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    - 4
+    - 2
+    - 2
+    - 3
+    - 3
+    CHARGE:
+    - 2
+    - 2
+    - 3
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 1
+    - 4
+    - 2
+    - 2
+    - 4
+    - 2
+    - 3
+    - 3
+    - 3
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    - AID
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 03:10
+      last: '23:30'
+      by_direction:
+        BANLIEUE:
+          first: 03:10
+          last: '22:36'
+        CENTRE:
+          first: 04:13
+          last: '23:30'
+    bands:
+      NUIT:
+        headway_min: 20
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 20
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 20
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 20
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 40
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    - ETE
+    - RAMADAN
+    - AID
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 03:10
+      last: '23:30'
+      by_direction:
+        BANLIEUE:
+          first: 03:10
+          last: '22:36'
+        CENTRE:
+          first: 04:13
+          last: '23:30'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 38
+        run_time: FLUIDE
+  - periods:
+    - ETE
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 03:10
+      last: '24:30'
+      by_direction:
+        BANLIEUE:
+          first: 03:10
+          last: '23:36'
+        CENTRE:
+          first: 04:13
+          last: '24:30'
+    bands:
+      NUIT:
+        headway_min: 20
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 20
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 20
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 20
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 40
+        run_time: FLUIDE
+  - periods:
+    - RAMADAN
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 03:10
+      last: '23:30'
+      by_direction:
+        BANLIEUE:
+          first: 03:10
+          last: '22:36'
+        CENTRE:
+          first: 04:13
+          last: '23:30'
+    bands:
+      NUIT:
+        headway_min: 20
+        run_time: FLUIDE
+      MATIN:
+        headway_min: 20
+        run_time: FLUIDE
+      AVANT_FTOUR:
+        headway_min: 20
+        run_time: CHARGE
+      FTOUR:
+        headway_min: null
+      SOIREE:
+        headway_min: 40
+        run_time: FLUIDE
+fare: FARE-TRANSTU-METRO
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs, fréquence de pointe (20 min) : Affiche Transtu « marche horaire hiver 2026-2027 » métro
+    et TGM (transtu.tn, page 0143, doc/sources-open-data/raw/transtu.tn/horaires-hiver-2026-2027/MetroTGMH26-27.jpg). Autres
+    tranches estimées (intervalle de pointe en journée, doublé après 19 h ; dimanche : rapport de l''horaire open data), été
+    et Ramadan : modèles des affiches 2026. Durées entre stations estimées (24 km/h). Ordre des stations : doc/metro-tramway/reseau.md.'
+  verified_at: '2026-10-14'
+  by: import-doc

@@ -1,0 +1,457 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-508
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-FERIANA
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-FERIANA
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-FERIANA
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 10900
+  - from: SNTRI-FERIANA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 14300
+  - from: SNTRI-FERIANA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 18400
+  - from: SNTRI-FERIANA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 15700
+  - from: SNTRI-FERIANA
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-FERIANA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 17100
+  - from: SNTRI-FERIANA
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-FERIANA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 22500
+  - from: SNTRI-KASSERINE
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-KASSERINE
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-KASSERINE
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-KASSERINE
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-KASSERINE
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 15900
+  - from: SNTRI-KASSERINE
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 13200
+  - from: SNTRI-KASSERINE
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-KASSERINE
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 14600
+  - from: SNTRI-KASSERINE
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-KASSERINE
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 20000
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 7600
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 9100
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-KT-KHESBA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 15900
+  - from: SNTRI-LE-KEF
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 10900
+  - from: SNTRI-LE-KEF
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-LE-KEF
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-LE-KEF
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-LE-KEF
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 7600
+  - from: SNTRI-LE-KEF
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-LE-KEF
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-LE-KEF
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-LE-KEF
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-LE-KEF
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 11600
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 14300
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 7600
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-MEJEZ
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 18400
+  - from: SNTRI-MEJEZ
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 15900
+  - from: SNTRI-MEJEZ
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 11800
+  - from: SNTRI-MEJEZ
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 7600
+  - from: SNTRI-MEJEZ
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-MEJEZ
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-MEJEZ
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-MEJEZ
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-MEJEZ
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 12600
+  - from: SNTRI-MEJEZ
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 15700
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 13200
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 9100
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 4800
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-TEJEROUINE
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 14300
+  - from: SNTRI-TESTOUR
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 17100
+  - from: SNTRI-TESTOUR
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 14600
+  - from: SNTRI-TESTOUR
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-TESTOUR
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-TESTOUR
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-TESTOUR
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-TESTOUR
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-TESTOUR
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-TESTOUR
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-TESTOUR
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-THALA
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-THALA
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-THALA
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-THALA
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-THALA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-THALA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 12600
+  - from: SNTRI-THALA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-THALA
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 2300
+  - from: SNTRI-THALA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-THALA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 16600
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-FERIANA
+    price_millimes:
+      PLEIN: 22500
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-KASSERINE
+    price_millimes:
+      PLEIN: 20000
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-KT-KHESBA
+    price_millimes:
+      PLEIN: 15900
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-LE-KEF
+    price_millimes:
+      PLEIN: 11600
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 4100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-TEJEROUINE
+    price_millimes:
+      PLEIN: 14300
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-THALA
+    price_millimes:
+      PLEIN: 16600
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 508 : plein tarif terminus–terminus
+    22,500 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

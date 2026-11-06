@@ -1,0 +1,205 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-32
+network: TRANSTU
+mode: BUS
+public_code: '32'
+name:
+  fr: Bus 32
+  ar: حافلة 32
+long_name:
+  fr: Jardin Thameur – Cité Ezzouhour 5
+  ar: محطة حديقة ثامر – حي الزهور 5
+color: '#C62828'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Cité Ezzouhour 5
+    ar: حي الزهور 5
+- id: RETOUR
+  headsign:
+    fr: Jardin Thameur
+    ar: محطة حديقة ثامر
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-JARDIN-THAMEUR
+  - BUS-MECHTEL
+  - BUS-BAB-ABDESLEM-ALLER
+  - BUS-CHARLE-NICOLE-ALLER
+  - BUS-UNIVERSITE-IBN-CHARAF-ALLER
+  - BUS-STADE-MELLASSINE-ALLER
+  - BUS-SOUK-MELLASSINE-ALLER
+  - BUS-CENTRE-DE-FORMATION-ZOUHOUR-ALLER
+  - BUS-KHAROUBA-ALLER
+  - BUS-OFFICE-DE-L-HUILE-ALLER
+  - BUS-MIZANETTA-ALLER
+  - BUS-CASERNE-EZZOUHOUR-ALLER
+  - BUS-EZZOUHOUR-4-ALLER
+  - BUS-POSTE-POLICE-17-ZAHROUNI-ALLER
+  - BUS-EL-AKERMA-ALLER
+  - BUS-MOSQUEE-ZAHROUNI-ALLER
+  - BUS-TERMINUS-ZAHROUNI
+  run_times:
+    FLUIDE:
+    - 4
+    - 4
+    - 3
+    - 2
+    - 2
+    - 2
+    - 1
+    - 1
+    - 2
+    - 3
+    - 1
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    CHARGE:
+    - 6
+    - 5
+    - 4
+    - 3
+    - 4
+    - 2
+    - 2
+    - 2
+    - 2
+    - 4
+    - 2
+    - 4
+    - 2
+    - 4
+    - 1
+    - 2
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-ZAHROUNI
+  - BUS-MOSQUE-ZAHROUNI-RETOUR
+  - BUS-EL-AKERMA-RETOUR
+  - BUS-POSTE-POLICE-17-ZAHROUNI-RETOUR
+  - BUS-EZZOUHOUR-4-RETOUR
+  - BUS-CASERNE-EZZOUHOUR-RETOUR
+  - BUS-MIZANETTA-RETOUR
+  - BUS-OFFICE-DE-L-HUILE-RETOUR
+  - BUS-KHAROUBA-RETOUR
+  - BUS-CENTRE-DE-FORMATION-ZOUHOUR-RETOUR
+  - BUS-SOUK-MELLASSINE-RETOUR
+  - BUS-STADE-MELLASSINE-RETOUR
+  - BUS-RABTA
+  - BUS-CHARLE-NICOLE-RETOUR
+  - BUS-BAB-ABDESLEM-RETOUR
+  - BUS-MOSQUEE-ELBORJ
+  - BUS-AVENUE-MADRID
+  - BUS-JARDIN-THAMEUR
+  run_times:
+    FLUIDE:
+    - 1
+    - 2
+    - 1
+    - 2
+    - 3
+    - 1
+    - 2
+    - 3
+    - 1
+    - 1
+    - 2
+    - 1
+    - 3
+    - 2
+    - 2
+    - 3
+    - 3
+    CHARGE:
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 2
+    - 4
+    - 3
+    - 1
+    - 2
+    - 3
+    - 2
+    - 4
+    - 3
+    - 3
+    - 4
+    - 4
+schedule:
+  kind: frequency
+  regimes:
+  - periods:
+    - NORMAL
+    day_types:
+    - OUVRABLE
+    - SAMEDI
+    service_hours:
+      first: 03:10
+      last: '23:15'
+      by_direction:
+        ALLER:
+          first: 03:40
+          last: '23:15'
+        RETOUR:
+          first: 03:10
+          last: '22:45'
+    bands:
+      NUIT:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_MATIN:
+        headway_min: 30
+        run_time: CHARGE
+      JOURNEE:
+        headway_min: 30
+        run_time: FLUIDE
+      POINTE_SOIR:
+        headway_min: 30
+        run_time: CHARGE
+      SOIREE:
+        headway_min: 40
+        run_time: FLUIDE
+  - periods:
+    - NORMAL
+    day_types:
+    - DIMANCHE
+    service_hours:
+      first: 03:40
+      last: '23:15'
+      by_direction:
+        ALLER:
+          first: 04:10
+          last: '23:15'
+        RETOUR:
+          first: 03:40
+          last: '22:45'
+    bands:
+      TOUTE_LA_JOURNEE:
+        headway_min: 40
+        run_time: FLUIDE
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'Premiers et derniers départs (pôle 03:40 → 23:15, terminus 03:10 → 22:45) et fréquence de pointe (30 min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, JThameurH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 32 » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

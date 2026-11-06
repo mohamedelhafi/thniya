@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Grille dérivée d'une autre grille (timetables/**/<DIRECTION>.yaml)",
+  "type": "object",
+  "properties": {
+    "inherits": { "type": "string", "description": "Chemin relatif à la version : PERIODE/TYPE_JOUR/DIRECTION" },
+    "remove": { "type": "array", "items": { "type": "string" }, "description": "Numéros de trains supprimés" },
+    "add_file": { "type": "string", "description": "Grille CSV de trains ajoutés (même dossier)" },
+    "shift": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "trains": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "minutes": { "type": "integer" }
+        },
+        "required": ["trains", "minutes"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["inherits"],
+  "additionalProperties": false
+}

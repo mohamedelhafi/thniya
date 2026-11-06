@@ -1,0 +1,545 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-512
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 15000
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 15300
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-BIR-ALI
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 17600
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 4900
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 11500
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 10100
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 20200
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 17200
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 13900
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-BOUHAJLA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 12700
+  - from: SNTRI-CHARARDA
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-CHARARDA
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-CHARARDA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-CHARARDA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-CHARARDA
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-CHARARDA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 18500
+  - from: SNTRI-CHARARDA
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 15600
+  - from: SNTRI-CHARARDA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-CHARARDA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-CHARARDA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-CHARARDA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 14400
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 17700
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 26300
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 23400
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 20100
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 14400
+  - from: SNTRI-ENFIDHA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-GABES
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-GABES
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 11500
+  - from: SNTRI-GABES
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 9900
+  - from: SNTRI-GABES
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 17700
+  - from: SNTRI-GABES
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 21600
+  - from: SNTRI-GABES
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-GABES
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-GABES
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 13800
+  - from: SNTRI-GABES
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-GABES
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-GABES
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 24200
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 15000
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 10100
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 21600
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 30300
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 27300
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 24000
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 18300
+  - from: SNTRI-GROMBALIA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-JERBA
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 15300
+  - from: SNTRI-JERBA
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 20200
+  - from: SNTRI-JERBA
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 18500
+  - from: SNTRI-JERBA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 26300
+  - from: SNTRI-JERBA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-JERBA
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 30300
+  - from: SNTRI-JERBA
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-JERBA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 22400
+  - from: SNTRI-JERBA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-JERBA
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 12000
+  - from: SNTRI-JERBA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 32900
+  - from: SNTRI-JORF
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-JORF
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 17200
+  - from: SNTRI-JORF
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 15600
+  - from: SNTRI-JORF
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 23400
+  - from: SNTRI-JORF
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-JORF
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 27300
+  - from: SNTRI-JORF
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-JORF
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 19500
+  - from: SNTRI-JORF
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-JORF
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-JORF
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 30000
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 13800
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 22400
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 19500
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 16100
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 10400
+  - from: SNTRI-KAIROUAN
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-MARETH
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-MARETH
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 13900
+  - from: SNTRI-MARETH
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 12300
+  - from: SNTRI-MARETH
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 20100
+  - from: SNTRI-MARETH
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-MARETH
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 24000
+  - from: SNTRI-MARETH
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 6300
+  - from: SNTRI-MARETH
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-MARETH
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 16100
+  - from: SNTRI-MARETH
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-MARETH
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 26600
+  - from: SNTRI-SKHIRA
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-SKHIRA
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-SKHIRA
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-SKHIRA
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 14400
+  - from: SNTRI-SKHIRA
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-SKHIRA
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 18300
+  - from: SNTRI-SKHIRA
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 12000
+  - from: SNTRI-SKHIRA
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-SKHIRA
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 10400
+  - from: SNTRI-SKHIRA
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-SKHIRA
+    to: SNTRI-TUNIS-SUD
+    price_millimes:
+      PLEIN: 20900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-BIR-ALI
+    price_millimes:
+      PLEIN: 17600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-BOUHAJLA
+    price_millimes:
+      PLEIN: 12700
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-CHARARDA
+    price_millimes:
+      PLEIN: 14400
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-ENFIDHA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-GABES
+    price_millimes:
+      PLEIN: 24200
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-GROMBALIA
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-JERBA
+    price_millimes:
+      PLEIN: 32900
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-JORF
+    price_millimes:
+      PLEIN: 30000
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-KAIROUAN
+    price_millimes:
+      PLEIN: 10500
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-MARETH
+    price_millimes:
+      PLEIN: 26600
+  - from: SNTRI-TUNIS-SUD
+    to: SNTRI-SKHIRA
+    price_millimes:
+      PLEIN: 20900
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 512 : plein tarif terminus–terminus
+    32,900 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

@@ -1,0 +1,14 @@
+- applies_to: { periods: [NORMAL, ETE], day_types: [OUVRABLE, SAMEDI] }
+  bands:
+    - { id: NUIT, from: "00:00", to: "06:00" }
+    - { id: POINTE, from: "06:00", to: "09:00" }
+    - { id: JOURNEE, from: "09:00", to: "26:00" }
+- applies_to: { periods: [RAMADAN], day_types: [OUVRABLE, SAMEDI] }
+  bands:
+    - { id: NUIT, from: "00:00", to: "06:00" }
+    - { id: MATIN, from: "06:00", to: "18:00" }
+    - { id: FTOUR, from: "18:00", to: "19:00" }
+    - { id: SOIREE, from: "19:00", to: "26:00" }
+- applies_to: { periods: [NORMAL, ETE, RAMADAN], day_types: [DIMANCHE] }
+  bands:
+    - { id: TOUTE_LA_JOURNEE, from: "00:00", to: "26:00" }

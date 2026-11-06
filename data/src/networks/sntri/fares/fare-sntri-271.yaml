@@ -1,0 +1,2225 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-lignes.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: FARE-SNTRI-271
+model: od_pairs
+currency: TND
+categories:
+- PLEIN
+versions:
+- valid_from: '2026-10-14'
+  pairs:
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 10100
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 8000
+  - from: SNTRI-AIN-JEMMALA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 3000
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 6000
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-AIN-TONGUA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 3000
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-B-EL-IFFA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 8700
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 14600
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 6500
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 15300
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 12500
+  - from: SNTRI-B-ELAMRI
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 1600
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 7100
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 8100
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-B-MESSAOUDI
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 9100
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 1200
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 3000
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 800
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-BORJ-BRAHIM
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-FURNA
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-FURNA
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-FURNA
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-FURNA
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-FURNA
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-FURNA
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-FURNA
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 14300
+  - from: SNTRI-FURNA
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-FURNA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-FURNA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-FURNA
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-FURNA
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-FURNA
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-FURNA
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-FURNA
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-FURNA
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-FURNA
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 14900
+  - from: SNTRI-FURNA
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 10400
+  - from: SNTRI-FURNA
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-FURNA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-FURNA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-FURNA
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 12100
+  - from: SNTRI-FURNA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-JERADOU
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 10100
+  - from: SNTRI-JERADOU
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 10600
+  - from: SNTRI-JERADOU
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 5900
+  - from: SNTRI-JERADOU
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 14600
+  - from: SNTRI-JERADOU
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-JERADOU
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-JERADOU
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 14300
+  - from: SNTRI-JERADOU
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 13600
+  - from: SNTRI-JERADOU
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-JERADOU
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 12500
+  - from: SNTRI-JERADOU
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 15600
+  - from: SNTRI-JERADOU
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-JERADOU
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-JERADOU
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-JERADOU
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-JERADOU
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-JERADOU
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-JERADOU
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-JERADOU
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 11600
+  - from: SNTRI-JERADOU
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-JERADOU
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-JERADOU
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-JERADOU
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 16700
+  - from: SNTRI-KM44
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 3500
+  - from: SNTRI-KM44
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 3000
+  - from: SNTRI-KM44
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-KM44
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-KM44
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-KM44
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-KM44
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-KM44
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 13600
+  - from: SNTRI-KM44
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-KM44
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-KM44
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-KM44
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 8600
+  - from: SNTRI-KM44
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-KM44
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-KM44
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-KM44
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-KM44
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 14200
+  - from: SNTRI-KM44
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-KM44
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-KM44
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-KM44
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-KM44
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 11400
+  - from: SNTRI-KM44
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 6500
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 800
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 6000
+  - from: SNTRI-LE-KRIB
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 8500
+  - from: SNTRI-MEJEZ
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-MEJEZ
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-MEJEZ
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-MEJEZ
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-MEJEZ
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-MEJEZ
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-MEJEZ
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-MEJEZ
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 12500
+  - from: SNTRI-MEJEZ
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-MEJEZ
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-MEJEZ
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-MEJEZ
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-MEJEZ
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-MEJEZ
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-MEJEZ
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-MEJEZ
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-MEJEZ
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 13100
+  - from: SNTRI-MEJEZ
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 8600
+  - from: SNTRI-MEJEZ
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-MEJEZ
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-MEJEZ
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-MEJEZ
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-MEJEZ
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 8100
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 15600
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 11000
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 9200
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 12100
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 16300
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 6000
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 13500
+  - from: SNTRI-MORNAGUIA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-NEBEUR
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-NEBEUR
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-NEBEUR
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-NEBEUR
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-NEBEUR
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 2600
+  - from: SNTRI-NEBEUR
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-NEBEUR
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 9300
+  - from: SNTRI-NEBEUR
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-NEBEUR
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 8600
+  - from: SNTRI-NEBEUR
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-NEBEUR
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-NEBEUR
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-NEBEUR
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-NEBEUR
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-NEBEUR
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-NEBEUR
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-NEBEUR
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-NEBEUR
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-NEBEUR
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-NEBEUR
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-NEBEUR
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-NEBEUR
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-NEBEUR
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 5500
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 6000
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 9000
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 11000
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 6500
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-O-MELLEGUE
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 12100
+  - from: SNTRI-O-TESSA
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-O-TESSA
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-O-TESSA
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-O-TESSA
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 7800
+  - from: SNTRI-O-TESSA
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-O-TESSA
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-O-TESSA
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-O-TESSA
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-O-TESSA
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-O-TESSA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 1300
+  - from: SNTRI-O-TESSA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-O-TESSA
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-O-TESSA
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 1900
+  - from: SNTRI-O-TESSA
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-O-TESSA
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-O-TESSA
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-O-TESSA
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-O-TESSA
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-O-TESSA
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-O-TESSA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-O-TESSA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-O-TESSA
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-O-TESSA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 1100
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 7900
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 6400
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 9200
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 1800
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 400
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-OUED-KHEDIM
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 10000
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 4600
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 12100
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 3300
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 8000
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-PT-MELLEGUE
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 13100
+  - from: SNTRI-SAKIET
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-SAKIET
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 11200
+  - from: SNTRI-SAKIET
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-SAKIET
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 15300
+  - from: SNTRI-SAKIET
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 8200
+  - from: SNTRI-SAKIET
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-SAKIET
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 14900
+  - from: SNTRI-SAKIET
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 600
+  - from: SNTRI-SAKIET
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 14200
+  - from: SNTRI-SAKIET
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 8800
+  - from: SNTRI-SAKIET
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 13100
+  - from: SNTRI-SAKIET
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 16300
+  - from: SNTRI-SAKIET
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-SAKIET
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-SAKIET
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-SAKIET
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-SAKIET
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-SAKIET
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-SAKIET
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-SAKIET
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-SAKIET
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-SAKIET
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-SAKIET
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 17300
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 6200
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 6700
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 10400
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 3900
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 9700
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 8600
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 300
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-SIDI-KHAIER
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 12800
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 2700
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 11600
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 3400
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 900
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 8000
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 12200
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-SLOUGIA
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 3700
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 2100
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 700
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 9600
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 4000
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 6000
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 5000
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 5700
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-TEBOURSOUK
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-TESTOUR
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-TESTOUR
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-TESTOUR
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 5200
+  - from: SNTRI-TESTOUR
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-TESTOUR
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 3600
+  - from: SNTRI-TESTOUR
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-TESTOUR
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 3200
+  - from: SNTRI-TESTOUR
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 11100
+  - from: SNTRI-TESTOUR
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 2500
+  - from: SNTRI-TESTOUR
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 2900
+  - from: SNTRI-TESTOUR
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-TESTOUR
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 4500
+  - from: SNTRI-TESTOUR
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-TESTOUR
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 6500
+  - from: SNTRI-TESTOUR
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-TESTOUR
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-TESTOUR
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-TESTOUR
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-TESTOUR
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 7200
+  - from: SNTRI-TESTOUR
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 500
+  - from: SNTRI-TESTOUR
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 1500
+  - from: SNTRI-TESTOUR
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-TESTOUR
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-TOUIREF
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 8000
+  - from: SNTRI-TOUIREF
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 8400
+  - from: SNTRI-TOUIREF
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 3800
+  - from: SNTRI-TOUIREF
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 12500
+  - from: SNTRI-TOUIREF
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 5400
+  - from: SNTRI-TOUIREF
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 6800
+  - from: SNTRI-TOUIREF
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 12100
+  - from: SNTRI-TOUIREF
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 2200
+  - from: SNTRI-TOUIREF
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 11400
+  - from: SNTRI-TOUIREF
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 6000
+  - from: SNTRI-TOUIREF
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-TOUIREF
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 13500
+  - from: SNTRI-TOUIREF
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-TOUIREF
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-TOUIREF
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 4700
+  - from: SNTRI-TOUIREF
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 4300
+  - from: SNTRI-TOUIREF
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 1400
+  - from: SNTRI-TOUIREF
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 2800
+  - from: SNTRI-TOUIREF
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 1700
+  - from: SNTRI-TOUIREF
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 9400
+  - from: SNTRI-TOUIREF
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 7500
+  - from: SNTRI-TOUIREF
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 8900
+  - from: SNTRI-TOUIREF
+    to: SNTRI-TUNIS-NORD
+    price_millimes:
+      PLEIN: 14500
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-AIN-JEMMALA
+    price_millimes:
+      PLEIN: 6600
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-AIN-TONGUA
+    price_millimes:
+      PLEIN: 6100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-B-EL-IFFA
+    price_millimes:
+      PLEIN: 10700
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-B-ELAMRI
+    price_millimes:
+      PLEIN: 2000
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-B-MESSAOUDI
+    price_millimes:
+      PLEIN: 9100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-BORJ-BRAHIM
+    price_millimes:
+      PLEIN: 7700
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-FURNA
+    price_millimes:
+      PLEIN: 2400
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-JERADOU
+    price_millimes:
+      PLEIN: 16700
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-KM44
+    price_millimes:
+      PLEIN: 3100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-LE-KRIB
+    price_millimes:
+      PLEIN: 8500
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-MEJEZ
+    price_millimes:
+      PLEIN: 4200
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-MORNAGUIA
+    price_millimes:
+      PLEIN: 1000
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-NEBEUR
+    price_millimes:
+      PLEIN: 11700
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-O-MELLEGUE
+    price_millimes:
+      PLEIN: 12100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-O-TESSA
+    price_millimes:
+      PLEIN: 9800
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-OUED-KHEDIM
+    price_millimes:
+      PLEIN: 10300
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-PT-MELLEGUE
+    price_millimes:
+      PLEIN: 13100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-SAKIET
+    price_millimes:
+      PLEIN: 17300
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-SIDI-KHAIER
+    price_millimes:
+      PLEIN: 12800
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-SLOUGIA
+    price_millimes:
+      PLEIN: 5100
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-TEBOURSOUK
+    price_millimes:
+      PLEIN: 7000
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-TESTOUR
+    price_millimes:
+      PLEIN: 5600
+  - from: SNTRI-TUNIS-NORD
+    to: SNTRI-TOUIREF
+    price_millimes:
+      PLEIN: 14500
+provenance:
+  source: ESTIMATION
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 271 : plein tarif terminus–terminus
+    17,300 DT (officiel), dans les deux sens ; entre arrêts intermédiaires (non publiés) : même prix au kilomètre × km du
+    site, arrondi à 0,100 DT — le tarif SNTRI est proportionnel à la distance (doc/bus/regional-interurbain/sntri.md)'
+  verified_at: '2026-10-14'
+  by: import-doc

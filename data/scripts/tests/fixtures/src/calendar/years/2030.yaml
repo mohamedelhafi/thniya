@@ -1,0 +1,6 @@
+# Année fictive. 2030-01-07 est un lundi.
+year: 2030
+events:
+  - { id: FERIE_TEST, kind: holiday, date: 2030-01-09, status: confirmed, name: { fr: "Férié", ar: "عطلة" } }
+  - { id: RAMADAN, kind: period_event, from: 2030-01-14, to: 2030-01-20, status: estimated, name: { fr: "Ramadan", ar: "رمضان" } }
+  - { id: ETE, kind: period_event, from: 2030-01-17, to: 2030-01-31, status: confirmed, name: { fr: "Été", ar: "صيف" } }

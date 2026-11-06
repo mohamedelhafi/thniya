@@ -1,0 +1,87 @@
+# Généré par `python -m citydata import-doc` depuis doc/trains-grandes-lignes/donnees/horaires-grandes-lignes-hiver-2026-2027.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNCFT-REDEYEF
+network: SNCFT
+mode: TRAIN
+public_code: RM
+name:
+  fr: Redeyef – Métlaoui
+  ar: الرديف – المتلوي
+long_name:
+  fr: Redeyef – Moularès – Métlaoui
+  ar: الرديف – أم العرايس – المتلوي
+color: '#37474F'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: METLAOUI
+  headsign:
+    fr: Métlaoui
+    ar: المتلوي
+- id: REDEYEF
+  headsign:
+    fr: Redeyef
+    ar: الرديف
+patterns:
+- id: METLAOUI
+  direction: METLAOUI
+  main: true
+  stops:
+  - TRN-REDEYEF
+  - TRN-TABEDDIT
+  - TRN-MOULARES
+  - TRN-TABEDDIT
+  - TRN-ELAYOUN
+  - TRN-SELJA
+  - TRN-MAGROUN
+  - TRN-METLAOUI
+  shape: auto
+- id: REDEYEF
+  direction: REDEYEF
+  main: true
+  stops:
+  - TRN-METLAOUI
+  - TRN-MAGROUN
+  - TRN-SELJA
+  - TRN-ELAYOUN
+  - TRN-TABEDDIT
+  - TRN-MOULARES
+  - TRN-TABEDDIT
+  - TRN-REDEYEF
+  shape: auto
+notes:
+  corr72:
+    fr: Correspondance à Métlaoui avec le train 13-5/72 à destination de Tunis
+    ar: الربط في محطة المتلوي مع القطار 13-5/72 في اتجاه تونس
+  corr57:
+    fr: Correspondance à Métlaoui avec le train 5-13/57 (Tunis – Tozeur)
+    ar: الربط في محطة المتلوي مع القطار 5-13/57 في اتجاه توزر
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/redeyef-metlaoui
+  fallback: inherit
+  versions:
+  - id: HIVER-2026-2027
+    valid_from: '2026-09-01'
+    valid_to: '2027-06-30'
+    provenance:
+      source: OFFICIEL
+      ref: Affiche SNCFT « Horaires des trains Grandes Lignes » ligne 5, cartouche Redeyef – Moularès – Métlaoui, du 1er septembre
+        2026 au 30 juin 2027 sauf mois de Ramadan (https://www.sncft.com.tn/wp-content/uploads/2026/09/L-5-TUNIS-TOZEUR-Hiver-2026-2027-1_page-0001-1-scaled.jpg),
+        page https://www.sncft.com.tn/voyageurs/horaires/ consultée le 2026-10-14 ; transcription doc/trains-grandes-lignes/donnees/horaires-grandes-lignes-hiver-2026-2027.csv
+      verified_at: '2026-10-14'
+      by: import-doc
+provenance:
+  source: OFFICIEL
+  ref: https://www.sncft.com.tn/voyageurs/horaires/ — affiche hiver 2026-2027 (https://www.sncft.com.tn/wp-content/uploads/2026/09/L-5-TUNIS-TOZEUR-Hiver-2026-2027-1_page-0001-1-scaled.jpg)
+  verified_at: '2026-10-14'
+  by: import-doc

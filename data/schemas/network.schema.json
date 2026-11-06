@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Réseau / opérateur (networks/<reseau>/network.yaml)",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/id" },
+    "name": { "$ref": "common.schema.json#/$defs/i18n" },
+    "long_name": { "$ref": "common.schema.json#/$defs/i18n" },
+    "url": { "type": "string", "format": "uri" },
+    "phone": { "type": ["string", "null"] },
+    "timezone": { "const": "Africa/Tunis" },
+    "calendar": {
+      "type": "object",
+      "properties": {
+        "day_type_scheme": {
+          "type": "object",
+          "properties": {
+            "mon": { "$ref": "common.schema.json#/$defs/dayType" },
+            "tue": { "$ref": "common.schema.json#/$defs/dayType" },
+            "wed": { "$ref": "common.schema.json#/$defs/dayType" },
+            "thu": { "$ref": "common.schema.json#/$defs/dayType" },
+            "fri": { "$ref": "common.schema.json#/$defs/dayType" },
+            "sat": { "$ref": "common.schema.json#/$defs/dayType" },
+            "sun": { "$ref": "common.schema.json#/$defs/dayType" }
+          },
+          "required": ["mon", "tue", "wed", "thu", "fri", "sat", "sun"],
+          "additionalProperties": false
+        },
+        "holiday_day_type": { "$ref": "common.schema.json#/$defs/dayType" },
+        "periods": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/periodId" }, "minItems": 1 },
+        "fallback": {
+          "type": "object",
+          "properties": {
+            "periods": { "type": "object", "additionalProperties": { "$ref": "common.schema.json#/$defs/periodId" } },
+            "day_types": { "type": "object", "additionalProperties": { "$ref": "common.schema.json#/$defs/dayType" } }
+          },
+          "additionalProperties": false
+        }
+      },
+      "required": ["day_type_scheme", "holiday_day_type", "periods"],
+      "additionalProperties": false
+    },
+    "status": { "$ref": "common.schema.json#/$defs/status" },
+    "provenance": { "$ref": "common.schema.json#/$defs/provenance" }
+  },
+  "required": ["id", "name", "timezone", "calendar", "status", "provenance"],
+  "additionalProperties": false
+}

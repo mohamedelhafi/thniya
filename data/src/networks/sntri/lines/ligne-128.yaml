@@ -1,0 +1,92 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-128
+network: SNTRI
+mode: BUS
+public_code: '128'
+name:
+  fr: Tunis Sud – Kairouan
+  ar: تونس الجنوبية – القيروان
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Kairouan
+    ar: القيروان
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-F-JEDID
+  - SNTRI-GROMBALIA
+  - SNTRI-BOUARGOUB
+  - SNTRI-B-BOUREGBA
+  - SNTRI-B-SAHEL
+  - SNTRI-B-CASERNE
+  - SNTRI-BOUFICHA
+  - SNTRI-ENFIDHA
+  - SNTRI-MENZEL
+  - SNTRI-KONDAR
+  - SNTRI-BIR-JEDID
+  - SNTRI-NEMEMCHA
+  - SNTRI-KAIROUAN
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-KAIROUAN
+  - SNTRI-NEMEMCHA
+  - SNTRI-BIR-JEDID
+  - SNTRI-KONDAR
+  - SNTRI-MENZEL
+  - SNTRI-ENFIDHA
+  - SNTRI-BOUFICHA
+  - SNTRI-B-CASERNE
+  - SNTRI-B-SAHEL
+  - SNTRI-B-BOUREGBA
+  - SNTRI-BOUARGOUB
+  - SNTRI-GROMBALIA
+  - SNTRI-F-JEDID
+  - SNTRI-HAMMAM-LIF
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/128
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 128 « TUNIS SUD - KAIROUAN » (160
+        km)
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-128
+provenance:
+  source: OFFICIEL
+  ref: sntri.com.tn, base horaire de l'application web (consultée le 2026-10-14), ligne 128 « TUNIS SUD - KAIROUAN » (160
+    km)
+  verified_at: '2026-10-14'
+  by: import-doc

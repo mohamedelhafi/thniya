@@ -1,0 +1,1743 @@
+# Généré par `python -m citydata import-doc` depuis doc/louage/donnees/stations.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+- id: LOU-BIZERTE
+  kind: louage_station
+  name:
+    fr: Louages Bizerte
+    ar: Louages Bizerte
+  lat: 37.264688
+  lon: 9.88755
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/256385912) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Bizerte ; rattachement à Bizerte déduit (arrêt du référentiel le plus proche à 1,3 km) ;
+    Nom arabe à saisir (provisoirement le nom français) ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-GHEZALA
+  kind: louage_station
+  name:
+    fr: Louages Ghezala
+    ar: محطة اللواج غزالة
+  area:
+    fr: Ghezala
+    ar: غزالة
+  lat: 37.209915
+  lon: 9.499125
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1753GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Bizerte ; Type : louage'
+- id: LOU-MENZEL-BOURGUIBA
+  kind: louage_station
+  name:
+    fr: Louages Menzel Bourguiba
+    ar: محطة اللواج منزل بورقيبة
+  area:
+    fr: Menzel Bourguiba
+    ar: منزل بورقيبة
+  lat: 37.149023
+  lon: 9.790138
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/14124245001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Bizerte ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-MENZEL-BOURGUIBA-2
+  kind: louage_station
+  name:
+    fr: Louages Menzel Bourguiba
+    ar: محطة اللواج منزل بورقيبة
+  area:
+    fr: Menzel Bourguiba
+    ar: منزل بورقيبة
+  lat: 37.150418
+  lon: 9.7954
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/6311344981) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Bizerte ; Destinations : Tunis (nom OSM « Station de Louages - Tunis MB ») ; À vérifier avant
+    publication (statut [I] dans doc/)'
+- id: LOU-GOUBELLAT
+  kind: louage_station
+  name:
+    fr: Louages Goubellat
+    ar: محطة اللواج قبلاط
+  area:
+    fr: Goubellat
+    ar: قبلاط
+  lat: 36.540103
+  lon: 9.661107
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:2158GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Béja ; Type : louage+rural'
+- id: LOU-OUED-ZARGA
+  kind: louage_station
+  name:
+    fr: Louages Oued Zarga
+    ar: محطة اللواج وادي الزرقاء
+  area:
+    fr: Oued Zarga
+    ar: وادي الزرقاء
+  lat: 36.664282
+  lon: 9.44034
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:2157GR001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Béja ; Type : louage'
+- id: LOU-TAMRA
+  kind: louage_station
+  name:
+    fr: Louages Tamra
+    ar: Louages Tamra
+  area:
+    fr: Nefza
+    ar: نفزة
+  lat: 37.051977
+  lon: 9.115637
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:2154AA001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Béja ; Type : louage+rural ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-EL-HAMMA
+  kind: louage_station
+  name:
+    fr: Louages El Hamma
+    ar: محطة اللواج الحامة
+  area:
+    fr: El Hamma
+    ar: الحامة
+  lat: 33.889557
+  lon: 9.800123
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gabès ; Type : louage+taxi_collectif'
+- id: LOU-GABES
+  kind: louage_station
+  name:
+    fr: Louages Gabès
+    ar: محطة اللواج قابس
+  area:
+    fr: Gabès
+    ar: قابس
+  lat: 33.884777
+  lon: 10.090734
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/6404006085) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gabès ; Destinations : Matmata (nom OSM « Louage Matmata ») ; CORRECTION : le point est à
+    Gabès (quai vers Matmata), pas à Matmata ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-GABES-2
+  kind: louage_station
+  name:
+    fr: Louages Gabès
+    ar: محطة اللواج قابس
+  area:
+    fr: Gabès
+    ar: قابس
+  lat: 33.8832
+  lon: 10.086713
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/2813347524) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gabès ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-GABES-JARA
+  kind: louage_station
+  name:
+    fr: Louages Gabès – Jara
+    ar: Louages Gabès – Jara
+  area:
+    fr: Gabès
+    ar: قابس
+  lat: 33.888612
+  lon: 10.095158
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: 'Référentiel national d''arrêts (data.transport.tn, 2026-03-10) (referentiel: ; osm:node/2813302315) ; doc/louage/stations.md'
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gabès ; Destinations : Mareth (nom OSM « مركز تجمع سيارات أجرة مارث ») ; Type : louage+taxi_collectif
+    ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-MARETH
+  kind: louage_station
+  name:
+    fr: Louages Mareth
+    ar: محطة اللواج مارث
+  area:
+    fr: Mareth
+    ar: مارث
+  lat: 33.617765
+  lon: 10.285863
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gabès ; Type : louage'
+- id: LOU-MATMATA
+  kind: louage_station
+  name:
+    fr: Louages Matmata
+    ar: محطة اللواج مطماطة
+  area:
+    fr: Matmata
+    ar: مطماطة
+  lat: 33.545394
+  lon: 9.968187
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gabès ; Type : louage'
+- id: LOU-NOUVELLE-MATMATA
+  kind: louage_station
+  name:
+    fr: Louages Nouvelle Matmata
+    ar: محطة اللواج مطماطة الجديدة
+  area:
+    fr: Nouvelle Matmata
+    ar: مطماطة الجديدة
+  lat: 33.666664
+  lon: 10.014154
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/13734674701) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gabès ; CORRECTION : anciennement « Médenine ? » ; À vérifier avant publication (statut [I]
+    dans doc/)'
+- id: LOU-EL-GUETTAR
+  kind: louage_station
+  name:
+    fr: Louages El Guettar
+    ar: محطة اللواج القطار
+  area:
+    fr: El Guettar
+    ar: القطار
+  lat: 34.33945
+  lon: 8.949858
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6159GR000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gafsa ; Type : louage'
+- id: LOU-GAFSA
+  kind: louage_station
+  name:
+    fr: Louages Gafsa
+    ar: محطة اللواج قفصة
+  area:
+    fr: Gafsa
+    ar: قفصة
+  lat: 34.411168
+  lon: 8.79411
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6153GR001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gafsa ; Type : louage'
+- id: LOU-METLAOUI
+  kind: louage_station
+  name:
+    fr: Louages Metlaoui
+    ar: محطة اللواج المتلوي
+  area:
+    fr: Metlaoui
+    ar: المتلوي
+  lat: 34.314609
+  lon: 8.41046
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6157GR000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gafsa ; Type : louage'
+- id: LOU-METLAOUI-2
+  kind: louage_station
+  name:
+    fr: Louages Metlaoui
+    ar: محطة اللواج المتلوي
+  area:
+    fr: Metlaoui
+    ar: المتلوي
+  lat: 34.323659
+  lon: 8.402933
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6157GR002) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gafsa ; Type : louage'
+- id: LOU-OUM-LARAYES
+  kind: louage_station
+  name:
+    fr: Louages Oum Larayes
+    ar: محطة اللواج أم العرائس
+  area:
+    fr: Oum Larayes
+    ar: أم العرائس
+  lat: 34.490969
+  lon: 8.266974
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6155GR000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gafsa ; Type : louage'
+- id: LOU-REDEYEF
+  kind: louage_station
+  name:
+    fr: Louages Redeyef
+    ar: محطة اللواج الرديف
+  area:
+    fr: Redeyef
+    ar: الرديف
+  lat: 34.384886
+  lon: 8.154856
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6156GR000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gafsa ; Type : louage'
+- id: LOU-SENED
+  kind: louage_station
+  name:
+    fr: Louages Sened
+    ar: محطة اللواج السند
+  area:
+    fr: Sened
+    ar: السند
+  lat: 34.54034
+  lon: 9.252752
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6161GR000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Gafsa ; Type : louage'
+- id: LOU-AIN-DRAHAM
+  kind: louage_station
+  name:
+    fr: Louages Aïn Draham
+    ar: محطة اللواج عين دراهم
+  area:
+    fr: Aïn Draham
+    ar: عين دراهم
+  lat: 36.77803
+  lon: 8.68783
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/10302101909) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Jendouba ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-BOU-SALEM
+  kind: louage_station
+  name:
+    fr: Louages Bou Salem
+    ar: محطة اللواج بوسالم
+  area:
+    fr: Bou Salem
+    ar: بوسالم
+  lat: 36.612106
+  lon: 8.973215
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/1368512339) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Jendouba ; Destinations : Béja ; Tunis (nom OSM « Station Louage Bousalem-Beja-Tunis ») ;
+    À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-BOU-SALEM-2
+  kind: louage_station
+  name:
+    fr: Louages Bou Salem
+    ar: محطة اللواج بوسالم
+  area:
+    fr: Bou Salem
+    ar: بوسالم
+  lat: 36.605285
+  lon: 8.969834
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/1408118042) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Jendouba ; Destinations : Jendouba ; Tabarka ; Le Kef (nom OSM « Station Louage Jendouba
+    - Tabarka -Kef ») ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-GHARDIMAOU
+  kind: louage_station
+  name:
+    fr: Louages Ghardimaou
+    ar: محطة اللواج غار الدماء
+  area:
+    fr: Ghardimaou
+    ar: غار الدماء
+  lat: 36.450072
+  lon: 8.441202
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/3868050666 ; osm:node/12355170403) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Jendouba ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-TABARKA
+  kind: louage_station
+  name:
+    fr: Louages Tabarka
+    ar: محطة اللواج طبرقة
+  area:
+    fr: Tabarka
+    ar: طبرقة
+  lat: 36.951688
+  lon: 8.759879
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/10304098209 ; osm:node/10308259909) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Jendouba ; CORRECTION : le point OSM « Gare de Louage à Beja » (n/10308259909) est à Tabarka,
+    pas à Béja ; probablement le quai des louages vers Béja ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-DKHILA
+  kind: louage_station
+  name:
+    fr: Louages Dkhila
+    ar: Louages Dkhila
+  lat: 35.8282
+  lon: 9.995877
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4154GA001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kairouan ; Type : louage ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-FATNASSA
+  kind: louage_station
+  name:
+    fr: Louages Fatnassa
+    ar: Louages Fatnassa
+  lat: 35.742417
+  lon: 9.99096
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4151GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kairouan ; Type : louage ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-KAIROUAN
+  kind: louage_station
+  name:
+    fr: Louages Kairouan
+    ar: محطة اللواج القيروان
+  area:
+    fr: Kairouan
+    ar: القيروان
+  lat: 35.681697
+  lon: 10.086387
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4152GR003 ; osm:node/12389226738) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kairouan ; Type : louage+taxi_collectif ; gare routière, louage + taxi collectif (référentiel)'
+- id: LOU-KAIROUAN-RAQQADA
+  kind: louage_station
+  name:
+    fr: Louages Kairouan – Raqqada
+    ar: Louages Kairouan – Raqqada
+  lat: 35.663939
+  lon: 10.097579
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/12676166701) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kairouan ; Nom arabe à saisir (provisoirement le nom français) ; À vérifier avant publication
+    (statut [I] dans doc/)'
+- id: LOU-OUESLATIA
+  kind: louage_station
+  name:
+    fr: Louages Oueslatia
+    ar: محطة اللواج الوسلاتية
+  area:
+    fr: Oueslatia
+    ar: الوسلاتية
+  lat: 35.84777
+  lon: 9.590766
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/12499190745) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kairouan ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-SBIKHA
+  kind: louage_station
+  name:
+    fr: Louages Sbikha
+    ar: محطة اللواج السبيخة
+  area:
+    fr: Sbikha
+    ar: السبيخة
+  lat: 35.9257
+  lon: 10.017572
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4154GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kairouan ; Type : louage'
+- id: LOU-SIDI-NAJI
+  kind: louage_station
+  name:
+    fr: Louages Sidi Naji
+    ar: Louages Sidi Naji
+  area:
+    fr: Sbikha
+    ar: السبيخة
+  lat: 36.054557
+  lon: 10.058447
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4154GA003) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kairouan ; Type : louage ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-FOUSSANA
+  kind: louage_station
+  name:
+    fr: Louages Foussana
+    ar: محطة اللواج فوسانة
+  area:
+    fr: Foussana
+    ar: فوسانة
+  lat: 35.351502
+  lon: 8.627848
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4261ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage+rural'
+- id: LOU-FERIANA
+  kind: louage_station
+  name:
+    fr: Louages Fériana
+    ar: محطة اللواج فريانة
+  area:
+    fr: Fériana
+    ar: فريانة
+  lat: 34.947004
+  lon: 8.567674
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6157GR001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage ; le référentiel indique Gafsa/Metlaoui mais les coordonnées sont
+    à Fériana (Kasserine) : incohérence du référentiel'
+- id: LOU-HAIDRA
+  kind: louage_station
+  name:
+    fr: Louages Haïdra
+    ar: محطة اللواج حيدرة
+  area:
+    fr: Haïdra
+    ar: حيدرة
+  lat: 35.565056
+  lon: 8.448676
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4260ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage+rural'
+- id: LOU-JEDELIENNE
+  kind: louage_station
+  name:
+    fr: Louages Jedelienne
+    ar: محطة اللواج جدليان
+  area:
+    fr: Jedelienne
+    ar: جدليان
+  lat: 35.592492
+  lon: 9.05605
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4257ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage+rural'
+- id: LOU-KASSERINE
+  kind: louage_station
+  name:
+    fr: Louages Kasserine
+    ar: محطة اللواج القصرين
+  area:
+    fr: Kasserine
+    ar: القصرين
+  lat: 35.178223
+  lon: 8.84751
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4253GR001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage'
+- id: LOU-MAJEL-BEL-ABBES
+  kind: louage_station
+  name:
+    fr: Louages Majel Bel Abbès
+    ar: محطة اللواج ماجل بلعباس
+  area:
+    fr: Majel Bel Abbès
+    ar: ماجل بلعباس
+  lat: 34.75322
+  lon: 8.52365
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4263ST001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage+rural'
+- id: LOU-SBEITLA
+  kind: louage_station
+  name:
+    fr: Louages Sbeitla
+    ar: محطة اللواج سبيطلة
+  area:
+    fr: Sbeitla
+    ar: سبيطلة
+  lat: 35.228059
+  lon: 9.127869
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4255GR000 ; osm:node/9293600917) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage ; CORRECTION : anciennement « Sidi Bouzid / Regueb (zone) »'
+- id: LOU-SBIBA
+  kind: louage_station
+  name:
+    fr: Louages Sbiba
+    ar: محطة اللواج سبيبة
+  area:
+    fr: Sbiba
+    ar: سبيبة
+  lat: 35.541658
+  lon: 9.07445
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4256ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage+rural+taxi_collectif'
+- id: LOU-THALA
+  kind: louage_station
+  name:
+    fr: Louages Thala
+    ar: محطة اللواج تالة
+  area:
+    fr: Thala
+    ar: تالة
+  lat: 35.575162
+  lon: 8.670514
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4259ST000 ; osm:node/9352204830) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage ; CORRECTION : anciennement « Sbeitla ? / centre-ouest »'
+- id: LOU-THELEPTE
+  kind: louage_station
+  name:
+    fr: Louages Thelepte
+    ar: Louages Thelepte
+  area:
+    fr: Fériana
+    ar: فريانة
+  lat: 34.977526
+  lon: 8.593529
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:4262ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kasserine ; Type : louage+rural ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-KEBILI
+  kind: louage_station
+  name:
+    fr: Louages Kébili
+    ar: محطة اللواج قبلي
+  area:
+    fr: Kébili
+    ar: قبلي
+  lat: 33.725853
+  lon: 8.979825
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6352ST001 ; osm:node/5763648886) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Kébili ; Type : louage ; CORRECTION : le point OSM « Gare des louages longues lignes » (anciennement
+    « Gafsa ? ») est à Kébili'
+- id: LOU-DAHMANI
+  kind: louage_station
+  name:
+    fr: Louages Dahmani
+    ar: محطة اللواج الدهماني
+  area:
+    fr: Dahmani
+    ar: الدهماني
+  lat: 35.946394
+  lon: 8.830709
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/4978372721) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Le Kef ; nommé « تكسي جماعي » dans OSM ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-DECHRET-NEBEUR
+  kind: louage_station
+  name:
+    fr: Louages Dechret Nebeur
+    ar: محطة اللواج نبر
+  area:
+    fr: Dechret Nebeur
+    ar: نبر
+  lat: 36.294832
+  lon: 8.767167
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:2353GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Le Kef ; Type : louage+rural'
+- id: LOU-LE-KEF
+  kind: louage_station
+  name:
+    fr: Louages Le Kef
+    ar: محطة اللواج الكاف
+  area:
+    fr: Le Kef
+    ar: الكاف
+  lat: 36.175321
+  lon: 8.707495
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/10298110009) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Le Kef ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-SIDI-KHIAR
+  kind: louage_station
+  name:
+    fr: Louages Sidi Khiar
+    ar: Louages Sidi Khiar
+  area:
+    fr: Nebeur
+    ar: نبر
+  lat: 36.373592
+  lon: 8.758593
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:2353GA002) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Le Kef ; Type : louage ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-CHEBBA
+  kind: louage_station
+  name:
+    fr: Louages Chebba
+    ar: محطة اللواج الشابة
+  area:
+    fr: Chebba
+    ar: الشابة
+  lat: 35.236707
+  lon: 11.112837
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:3358ST000 ; osm:node/5988743697) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Mahdia ; Type : louage+rural'
+- id: LOU-EL-JEM
+  kind: louage_station
+  name:
+    fr: Louages El Jem
+    ar: محطة اللواج الجم
+  area:
+    fr: El Jem
+    ar: الجم
+  lat: 35.292787
+  lon: 10.705359
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/201642515) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Mahdia ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-EL-JEM-2
+  kind: louage_station
+  name:
+    fr: Louages El Jem
+    ar: محطة اللواج الجم
+  area:
+    fr: El Jem
+    ar: الجم
+  lat: 35.288255
+  lon: 10.705417
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/12389113049 ; osm:node/12419982502) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Mahdia ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-KSOUR-ESSEF
+  kind: louage_station
+  name:
+    fr: Louages Ksour Essef
+    ar: محطة اللواج قصور الساف
+  area:
+    fr: Ksour Essef
+    ar: قصور الساف
+  lat: 35.417933
+  lon: 11.001153
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:3361ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Mahdia ; Type : louage+rural'
+- id: LOU-MAHDIA
+  kind: louage_station
+  name:
+    fr: Louages Mahdia
+    ar: محطة اللواج المهدية
+  area:
+    fr: Mahdia
+    ar: المهدية
+  lat: 35.497717
+  lon: 11.053095
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:3351ST000 ; osm:way/681230217) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Mahdia ; Type : louage'
+- id: LOU-MELLOULECHE
+  kind: louage_station
+  name:
+    fr: Louages Melloulèche
+    ar: محطة اللواج ملولش
+  area:
+    fr: Melloulèche
+    ar: ملولش
+  lat: 35.167535
+  lon: 11.035062
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:3359ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Mahdia ; Type : louage+rural'
+- id: LOU-MORNAGUIA
+  kind: louage_station
+  name:
+    fr: Louages Mornaguia
+    ar: محطة اللواج المرناقية
+  area:
+    fr: Mornaguia
+    ar: المرناقية
+  lat: 36.760768
+  lon: 9.998657
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1454GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Manouba ; Type : louage ; seule station de louage du Grand Tunis hors des trois gares centrales
+    dans le référentiel national ; destinations inconnues'
+- id: LOU-KSIBET-EL-MEDIOUNI
+  kind: louage_station
+  name:
+    fr: Louages Ksibet El Mediouni
+    ar: محطة اللواج قصيبة المديوني
+  area:
+    fr: Ksibet El Mediouni
+    ar: قصيبة المديوني
+  lat: 35.687203
+  lon: 10.842425
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/11061449364) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Monastir ; nommé « Station de taxi collectif Monastir (louage) » dans OSM ; À vérifier avant
+    publication (statut [I] dans doc/)'
+- id: LOU-MONASTIR
+  kind: louage_station
+  name:
+    fr: Louages Monastir
+    ar: محطة اللواج المنستير
+  area:
+    fr: Monastir
+    ar: المنستير
+  lat: 35.770548
+  lon: 10.825784
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/10720584036 ; osm:way/1253625133) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Monastir ; Destinations : Jemmal ; Ksar Hellal ; Moknine (noms OSM « Monastir-Jammel-Ksar
+    Hellal » / « قصر هلال-مكنين ») ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-MONASTIR-2
+  kind: louage_station
+  name:
+    fr: Louages Monastir
+    ar: محطة اللواج المنستير
+  area:
+    fr: Monastir
+    ar: المنستير
+  lat: 35.773032
+  lon: 10.825696
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/2934330674 ; osm:node/4565026989 ; osm:way/26690322) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Monastir ; près de la gare ferroviaire (Wikivoyage Monastir) ; À vérifier avant publication
+    (statut [I] dans doc/)'
+- id: LOU-TEBOULBA
+  kind: louage_station
+  name:
+    fr: Louages Teboulba
+    ar: محطة اللواج طبلبة
+  area:
+    fr: Teboulba
+    ar: طبلبة
+  lat: 35.642496
+  lon: 10.966555
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/5300772452) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Monastir ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-BEN-GUERDANE
+  kind: louage_station
+  name:
+    fr: Louages Ben Guerdane
+    ar: محطة اللواج بنقردان
+  area:
+    fr: Ben Guerdane
+    ar: بنقردان
+  lat: 33.142559
+  lon: 11.217025
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:5254ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; Type : louage ; lignes intérieures et extérieures (référentiel)'
+- id: LOU-HOUMT-SOUK
+  kind: louage_station
+  name:
+    fr: Louages Houmt Souk
+    ar: محطة اللواج حومة السوق
+  area:
+    fr: Houmt Souk
+    ar: حومة السوق
+  lat: 33.873205
+  lon: 10.858069
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:5256ST000 ; osm:node/3655353998) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; Type : louage ; lignes intérieures et extérieures (référentiel)'
+- id: LOU-MIDOUN
+  kind: louage_station
+  name:
+    fr: Louages Midoun
+    ar: محطة اللواج ميدون
+  area:
+    fr: Midoun
+    ar: ميدون
+  lat: 33.8631
+  lon: 10.990429
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:5257ST001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; Type : louage ; lignes intérieures (référentiel)'
+- id: LOU-MIDOUN-2
+  kind: louage_station
+  name:
+    fr: Louages Midoun
+    ar: محطة اللواج ميدون
+  area:
+    fr: Midoun
+    ar: ميدون
+  lat: 33.810358
+  lon: 10.990476
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/5651484523) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; CORRECTION : anciennement attribué à Houmt Souk ; coordonnées au sud de Midoun
+    ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-MEDENINE
+  kind: louage_station
+  name:
+    fr: Louages Médenine
+    ar: محطة اللواج مدنين
+  area:
+    fr: Médenine
+    ar: مدنين
+  lat: 33.351664
+  lon: 10.496197
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/13737332301) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-MEDENINE-2
+  kind: louage_station
+  name:
+    fr: Louages Médenine
+    ar: محطة اللواج مدنين
+  area:
+    fr: Médenine
+    ar: مدنين
+  lat: 33.343112
+  lon: 10.487209
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:5251ST003) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; Type : louage ; lignes extérieures (référentiel)'
+- id: LOU-MEDENINE-3
+  kind: louage_station
+  name:
+    fr: Louages Médenine
+    ar: محطة اللواج مدنين
+  area:
+    fr: Médenine
+    ar: مدنين
+  lat: 33.346589
+  lon: 10.490836
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:5251ST005) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; Type : louage ; lignes intérieures (référentiel)'
+- id: LOU-MEDENINE-ROUTE-DE-GABES
+  kind: louage_station
+  name:
+    fr: Louages Médenine – route de Gabès
+    ar: Louages Médenine – route de Gabès
+  area:
+    fr: Médenine
+    ar: مدنين
+  lat: 33.360935
+  lon: 10.468758
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:5251ST004 ; osm:way/284065126) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; Type : louage ; gare des louages nationaux / lignes extérieures (référentiel 5251ST004
+    et OSM) ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-SIDI-MAKHLOUF
+  kind: louage_station
+  name:
+    fr: Louages Sidi Makhlouf
+    ar: محطة اللواج سيدي مخلوف
+  area:
+    fr: Sidi Makhlouf
+    ar: سيدي مخلوف
+  lat: 33.696676
+  lon: 10.731541
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/3147197658) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-ZARZIS
+  kind: louage_station
+  name:
+    fr: Louages Zarzis
+    ar: محطة اللواج جرجيس
+  area:
+    fr: Zarzis
+    ar: جرجيس
+  lat: 33.499663
+  lon: 11.114942
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:5255ST001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Médenine ; Type : louage ; lignes intérieures et extérieures (référentiel)'
+- id: LOU-GROMBALIA
+  kind: louage_station
+  name:
+    fr: Louages Grombalia
+    ar: محطة اللواج قرمبالية
+  area:
+    fr: Grombalia
+    ar: قرمبالية
+  lat: 36.593815
+  lon: 10.502562
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/678157614) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Nabeul ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-HAMMAMET
+  kind: louage_station
+  name:
+    fr: Louages Hammamet
+    ar: محطة اللواج الحمامات
+  area:
+    fr: Hammamet
+    ar: الحمامات
+  lat: 36.407967
+  lon: 10.561304
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/5737417422) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Nabeul ; Destinations : Tunis (nom OSM « لواج تونس العاصمة ») ; À vérifier avant publication
+    (statut [I] dans doc/)'
+- id: LOU-HAMMAMET-2
+  kind: louage_station
+  name:
+    fr: Louages Hammamet
+    ar: محطة اللواج الحمامات
+  area:
+    fr: Hammamet
+    ar: الحمامات
+  lat: 36.399436
+  lon: 10.615472
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/6256539405) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Nabeul ; Destinations : Tunis (Moncef Bey selon Wikivoyage Hammamet) (nom OSM « Station Louage
+    Vers Tunis » ; Wikivoyage Hammamet) ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-KORBA
+  kind: louage_station
+  name:
+    fr: Louages Korba
+    ar: محطة اللواج قربة
+  area:
+    fr: Korba
+    ar: قربة
+  lat: 36.575408
+  lon: 10.85897
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/6318392168) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Nabeul ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-MENZEL-TEMIME
+  kind: louage_station
+  name:
+    fr: Louages Menzel Temime
+    ar: محطة اللواج منزل تميم
+  area:
+    fr: Menzel Temime
+    ar: منزل تميم
+  lat: 36.781458
+  lon: 10.994116
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/678016068) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Nabeul ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-NABEUL-ARBI-ZARROUK
+  kind: louage_station
+  name:
+    fr: Louages Nabeul – Arbi Zarrouk
+    ar: Louages Nabeul – Arbi Zarrouk
+  lat: 36.456948
+  lon: 10.740617
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1551ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Nabeul ; Type : louage ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-NABEUL-HABIB-THAMEUR-LAHWECH
+  kind: louage_station
+  name:
+    fr: Louages Nabeul – Habib Thameur / Lahwech
+    ar: Louages Nabeul – Habib Thameur / Lahwech
+  lat: 36.45139
+  lon: 10.729921
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1551ST002 ; osm:way/244662684) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Nabeul ; Type : louage ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-NABEUL-STATION-STEG
+  kind: louage_station
+  name:
+    fr: Louages Nabeul – station STEG
+    ar: Louages Nabeul – station STEG
+  lat: 36.459816
+  lon: 10.727412
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1551ST003 ; osm:way/661590435) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Nabeul ; Type : louage+rural+taxi_collectif ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-SFAX
+  kind: louage_station
+  name:
+    fr: Louages Sfax
+    ar: محطة اللواج صفاقس
+  area:
+    fr: Sfax
+    ar: صفاقس
+  lat: 34.734451
+  lon: 10.74913
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/4629644294 ; osm:node/14111362901) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Sfax ; point OSM ; Wikivoyage Sfax place la station à 34.728425, 10.753559 (~700 m) : voir
+    ligne suivante ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-SFAX-2
+  kind: louage_station
+  name:
+    fr: Louages Sfax
+    ar: محطة اللواج صفاقس
+  area:
+    fr: Sfax
+    ar: صفاقس
+  lat: 34.728437
+  lon: 10.753575
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/28744929) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Sfax ; Wikivoyage Sfax : au-delà de l''extrémité ouest de l''av. Bourguiba, ~1,5 km de la
+    gare ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-SFAX-3
+  kind: louage_station
+  name:
+    fr: Louages Sfax
+    ar: محطة اللواج صفاقس
+  area:
+    fr: Sfax
+    ar: صفاقس
+  lat: 34.741502
+  lon: 10.762
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/5659333605) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Sfax ; Destinations : Jebeniana ; El Hencha (nom OSM « محطة لواج جبنيانة الحنشة ») ; À vérifier
+    avant publication (statut [I] dans doc/)'
+- id: LOU-ZONE-DE-MAHRES
+  kind: louage_station
+  name:
+    fr: Louages zone de Mahrès
+    ar: محطة اللواج المحرس
+  area:
+    fr: zone de Mahrès
+    ar: المحرس
+  lat: 34.532876
+  lon: 10.577686
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/753114640) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Sfax ; CORRECTION : anciennement « Skhira (zone) » ; arrêt du référentiel le plus proche
+    à 4,4 km (Mahrès) ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-BOU-ARADA
+  kind: louage_station
+  name:
+    fr: Louages Bou Arada
+    ar: محطة اللواج بوعرادة
+  area:
+    fr: Bou Arada
+    ar: بوعرادة
+  lat: 36.498355
+  lon: 9.668593
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:2453GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Siliana ; Type : louage'
+- id: LOU-MAKTHAR
+  kind: louage_station
+  name:
+    fr: Louages Makthar
+    ar: محطة اللواج مكثر
+  area:
+    fr: Makthar
+    ar: مكثر
+  lat: 35.858327
+  lon: 9.20427
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/7245511285) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Siliana ; Destinations : Kairouan (nom OSM « Louage Kairouan ») ; À vérifier avant publication
+    (statut [I] dans doc/)'
+- id: LOU-SOUSSE
+  kind: louage_station
+  name:
+    fr: Louages Sousse
+    ar: Louages Sousse
+  lat: 35.83453
+  lon: 10.590053
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/2109037682) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Sousse ; « Station de Bus et louage » ; ancienne mention « Msaken/Kalaa ? » non fondée ;
+    Nom arabe à saisir (provisoirement le nom français) ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-SOUSSE-2
+  kind: louage_station
+  name:
+    fr: Louages Sousse
+    ar: محطة اللواج سوسة
+  area:
+    fr: Sousse
+    ar: سوسة
+  lat: 35.82828
+  lon: 10.637689
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/2095499137) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Sousse ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-SOUSSE-STATION-PRINCIPALE
+  kind: louage_station
+  name:
+    fr: Louages Sousse – station principale
+    ar: Louages Sousse – station principale
+  lat: 35.809326
+  lon: 10.63634
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/2096304542 ; osm:node/4490862999 ; osm:node/4500491425 ; osm:node/5159455423) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Sousse ; Wikivoyage Sousse : rue El Masjed El Aksa, au sud de la médina ; 4 points OSM ;
+    la délégation « Souk Lahad » donnée par l''arrêt le plus proche est une erreur du référentiel ; Nom arabe à saisir (provisoirement
+    le nom français) ; À vérifier avant publication (statut [I] dans doc/)'
+- id: LOU-GHOMRASSEN
+  kind: louage_station
+  name:
+    fr: Louages Ghomrassen
+    ar: محطة اللواج غمراسن
+  area:
+    fr: Ghomrassen
+    ar: غمراسن
+  lat: 33.058931
+  lon: 10.340306
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:way/744568531) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Tataouine ; CORRECTION : anciennement « Ben Guerdane / Sud (zone) » ; À vérifier avant publication
+    (statut [I] dans doc/)'
+- id: LOU-TATAOUINE
+  kind: louage_station
+  name:
+    fr: Louages Tataouine
+    ar: محطة اللواج تطاوين
+  area:
+    fr: Tataouine
+    ar: تطاوين
+  lat: 32.927424
+  lon: 10.447735
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:5452ST000 ; osm:node/9775256831 ; osm:way/1064367665)
+      ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Tataouine ; Destinations : Remada (nom OSM « محطة الواج رمادة ») ; Type : louage+rural ;
+    CORRECTION : le point OSM « محطة الواج رمادة » est à Tataouine (référentiel 5452ST000, louage + rural), quai vers Remada'
+- id: LOU-NEFTA
+  kind: louage_station
+  name:
+    fr: Louages Nefta
+    ar: محطة اللواج نفطة
+  area:
+    fr: Nefta
+    ar: نفطة
+  lat: 33.872619
+  lon: 7.886207
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/10293029709) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Tozeur ; Destinations : Tozeur (nom OSM « Louage à Tozeur ») ; CORRECTION : le point OSM
+    « Louage à Tozeur » est à Nefta ; la station de Tozeur est 33.922891, 8.130528 (référentiel) ; À vérifier avant publication
+    (statut [I] dans doc/)'
+- id: LOU-TOZEUR
+  kind: louage_station
+  name:
+    fr: Louages Tozeur
+    ar: محطة اللواج توزر
+  area:
+    fr: Tozeur
+    ar: توزر
+  lat: 33.922891
+  lon: 8.130528
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:6251ST000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Tozeur ; Type : louage'
+- id: LOU-BAB-ALIOUA
+  kind: louage_station
+  name:
+    fr: Louages Bab Alioua
+    ar: محطة اللواج باب عليوة
+  area:
+    fr: Bab Alioua
+    ar: باب عليوة
+  lat: 36.788997
+  lon: 10.181827
+  status: active
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/10246235609) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Tunis ; Destinations : Nabeul ; Hammamet ; Yasmine Hammamet ; Kélibia ; Korba ; Zaghouan
+    (thetunisiaguide ; destination-tunis.fr ; thehelpfulstranger (2026) ; https://en.wikivoyage.org/wiki/Tunis (raw/wikivoyage/Tunis.wikitext.txt))
+    ; en face de la gare routière Tunis Sud ; point Wikivoyage à 230 m (36.787843, 10.179820, côté gare routière) ; absent
+    du référentiel national'
+- id: LOU-BAB-SAADOUN
+  kind: louage_station
+  name:
+    fr: Louages Bab Saadoun
+    ar: محطة اللواج باب سعدون
+  area:
+    fr: Bab Saadoun
+    ar: باب سعدون
+  lat: 36.810217
+  lon: 10.1538
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1154GR000 ; osm:node/13743543553) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Tunis ; Destinations : Bizerte ; Béja ; Jendouba ; Tabarka ; Le Kef ; Téboursouk ; Ras Jebel
+    (thetunisiaguide ; destination-tunis.fr ; thehelpfulstranger (2026) ; https://en.wikivoyage.org/wiki/Tunis (raw/wikivoyage/Tunis.wikitext.txt))
+    ; Type : louage ; parking de la gare routière Tunis Nord ; coordonnées concordantes référentiel (1154GR000) / OSM / Wikivoyage
+    (< 60 m)'
+- id: LOU-MONCEF-BEY
+  kind: louage_station
+  name:
+    fr: Louages Moncef Bey
+    ar: محطة اللواج المنصف باي
+  area:
+    fr: Moncef Bey
+    ar: المنصف باي
+  lat: 36.791657
+  lon: 10.18715
+  status: active
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/13743543551 ; osm:way/672867836) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Tunis ; Destinations : Sousse ; Monastir ; Mahdia ; Kairouan ; El Jem ; Sfax ; Gabès ; Sidi
+    Bouzid ; Tozeur ; Médenine (thetunisiaguide ; destination-tunis.fr ; thehelpfulstranger (2026) ; https://en.wikivoyage.org/wiki/Tunis
+    (raw/wikivoyage/Tunis.wikitext.txt)) ; absent du référentiel national ; OSM et Wikivoyage concordants (< 100 m)'
+- id: LOU-MEDINA-SUD
+  kind: louage_station
+  name:
+    fr: Louages médina sud
+    ar: Louages médina sud
+  lat: 36.797014
+  lon: 10.188509
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/13743543552) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Tunis ; Destinations : Tataouine (nom OSM « محطة اللواج تطاوين ») ; quai spécifique Tunis→Tataouine
+    selon OSM ; non recoupé ; Nom arabe à saisir (provisoirement le nom français) ; À vérifier avant publication (statut [I]
+    dans doc/)'
+- id: LOU-DRAA
+  kind: louage_station
+  name:
+    fr: Louages Draa
+    ar: Louages Draa
+  lat: 36.272722
+  lon: 10.01691
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1654GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Zaghouan ; Type : louage+rural ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-EL-BEJI
+  kind: louage_station
+  name:
+    fr: Louages El Beji
+    ar: Louages El Beji
+  area:
+    fr: Bir Mcherga
+    ar: بئر مشارقة
+  lat: 36.466198
+  lon: 9.738648
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1653GA000) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Zaghouan ; Type : louage+rural ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-EL-FAHS
+  kind: louage_station
+  name:
+    fr: Louages El Fahs
+    ar: محطة اللواج الفحص
+  area:
+    fr: El Fahs
+    ar: الفحص
+  lat: 36.364975
+  lon: 9.90274
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1654GA001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Zaghouan ; Type : louage+taxi_collectif'
+- id: LOU-EL-FAHS-2
+  kind: louage_station
+  name:
+    fr: Louages El Fahs
+    ar: محطة اللواج الفحص
+  area:
+    fr: El Fahs
+    ar: الفحص
+  lat: 36.375913
+  lon: 9.902279
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1654GR000 ; osm:way/175333832) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Zaghouan ; Type : louage+rural ; CORRECTION : anciennement attribué à « Dougga/Teboursouk
+    (zone) » ; le référentiel national le place à El Fahs (1654GR000)'
+- id: LOU-EL-KHADHRA
+  kind: louage_station
+  name:
+    fr: Louages El Khadhra
+    ar: Louages El Khadhra
+  area:
+    fr: Nadhour
+    ar: الناظور
+  lat: 36.173347
+  lon: 10.054787
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1655GA001) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Zaghouan ; Type : louage+rural ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-NADHOUR
+  kind: louage_station
+  name:
+    fr: Louages Nadhour
+    ar: محطة اللواج الناظور
+  area:
+    fr: Nadhour
+    ar: الناظور
+  lat: 36.12138
+  lon: 10.08856
+  status: active
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1655GA002) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Zaghouan ; Type : louage+taxi_collectif'
+- id: LOU-SOUAR
+  kind: louage_station
+  name:
+    fr: Louages Souar
+    ar: Louages Souar
+  lat: 36.20902
+  lon: 10.015347
+  status: draft
+  provenance:
+    source: OFFICIEL
+    ref: Référentiel national d'arrêts (data.transport.tn, 2026-03-10) (referentiel:1654GA004) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Zaghouan ; Type : louage+rural ; Nom arabe à saisir (provisoirement le nom français)'
+- id: LOU-ZAGHOUAN
+  kind: louage_station
+  name:
+    fr: Louages Zaghouan
+    ar: محطة اللواج زغوان
+  area:
+    fr: Zaghouan
+    ar: زغوان
+  lat: 36.400307
+  lon: 10.147675
+  status: draft
+  provenance:
+    source: OSM
+    ref: OpenStreetMap (osm:node/3846832715) ; doc/louage/stations.md
+    verified_at: '2026-10-14'
+    by: import-doc
+  notes_internes: 'Gouvernorat : Zaghouan ; À vérifier avant publication (statut [I] dans doc/)'

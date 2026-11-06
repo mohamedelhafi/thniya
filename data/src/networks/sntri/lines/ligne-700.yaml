@@ -1,0 +1,81 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-700
+network: SNTRI
+mode: BUS
+public_code: '700'
+name:
+  fr: Tunis Sud – Tripoli (Libye)
+  ar: تونس الجنوبية – طرابلس (ليبيا)
+long_name:
+  fr: Tunis Sud – Tripoli (Libye) par Sousse et Sfax
+  ar: تونس الجنوبية – طرابلس (ليبيا) عبر سوسة، صفاقس
+color: '#00695C'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Tripoli (Libye)
+    ar: طرابلس (ليبيا)
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-SOUSSE
+  - SNTRI-SFAX
+  - SNTRI-GABES
+  - SNTRI-B-GUARDEN
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-B-GUARDEN
+  - SNTRI-GABES
+  - SNTRI-SFAX
+  - SNTRI-SOUSSE
+  - SNTRI-TUNIS-SUD
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/700
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 700 « TUNIS SUD - TRIPOLI »
+        (620 km) ; ligne internationale : seule la partie tunisienne est décrite (jusqu''à B. GUARDEN, les lieux hors de Tunisie
+        sont refusés), le car continue vers Tripoli ; brouillon : aucune annonce de service depuis 2021 et le jeu open data
+        indique « selon la disponibilité du bus » (fiche doc SNTRI, statut [I]) ; tarif Tunis – Tripoli (40,200 DT) non saisi,
+        Tripoli n''étant pas un lieu'
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: null
+provenance:
+  source: OFFICIEL
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 700 « TUNIS SUD - TRIPOLI » (620
+    km) ; ligne internationale : seule la partie tunisienne est décrite (jusqu''à B. GUARDEN, les lieux hors de Tunisie sont
+    refusés), le car continue vers Tripoli ; brouillon : aucune annonce de service depuis 2021 et le jeu open data indique
+    « selon la disponibilité du bus » (fiche doc SNTRI, statut [I]) ; tarif Tunis – Tripoli (40,200 DT) non saisi, Tripoli
+    n''étant pas un lieu'
+  verified_at: '2026-10-14'
+  by: import-doc

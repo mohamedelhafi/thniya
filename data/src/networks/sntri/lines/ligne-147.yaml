@@ -1,0 +1,108 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/regional-interurbain/donnees/sntri-*.csv, fiche sntri.md et sources-open-data/raw (SNTRI, OSM).
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNTRI-147
+network: SNTRI
+mode: BUS
+public_code: '147'
+name:
+  fr: Tunis Sud – Sbiba
+  ar: تونس الجنوبية – سبيبة
+long_name:
+  fr: Tunis Sud – Sbiba par Siliana et Makthar
+  ar: تونس الجنوبية – سبيبة عبر سليانة، مكثر
+color: '#00695C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: ALLER
+  headsign:
+    fr: Sbiba
+    ar: سبيبة
+- id: RETOUR
+  headsign:
+    fr: Tunis Sud
+    ar: تونس الجنوبية
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - SNTRI-TUNIS-SUD
+  - SNTRI-FOUCHANA
+  - SNTRI-M-HAMEDIA
+  - SNTRI-J-OUEST
+  - SNTRI-B-M-CHERGUA
+  - SNTRI-EL-FAHS
+  - SNTRI-AMAIEM
+  - SNTRI-S-AOUIDET
+  - SNTRI-SIDI-SAID
+  - SNTRI-ROBAA
+  - SNTRI-SILIANA
+  - SNTRI-S-MANSOUR
+  - SNTRI-AIN-DISSA
+  - SNTRI-MAKTHAR
+  - SNTRI-NADI
+  - SNTRI-BOUKHRIS
+  - SNTRI-EMB-DEHMANI
+  - SNTRI-ROUHIA
+  - SNTRI-JEDLIANE
+  - SNTRI-SBIBA
+  shape: auto
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - SNTRI-SBIBA
+  - SNTRI-JEDLIANE
+  - SNTRI-ROUHIA
+  - SNTRI-EMB-DEHMANI
+  - SNTRI-BOUKHRIS
+  - SNTRI-NADI
+  - SNTRI-MAKTHAR
+  - SNTRI-AIN-DISSA
+  - SNTRI-S-MANSOUR
+  - SNTRI-SILIANA
+  - SNTRI-ROBAA
+  - SNTRI-SIDI-SAID
+  - SNTRI-AMAIEM
+  - SNTRI-EL-FAHS
+  - SNTRI-B-M-CHERGUA
+  - SNTRI-J-OUEST
+  - SNTRI-M-HAMEDIA
+  - SNTRI-FOUCHANA
+  - SNTRI-TUNIS-SUD
+  shape: auto
+notes:
+  r:
+    fr: Ne circule pas le vendredi
+    ar: لا يسير يوم الجمعة
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/147
+  fallback: inherit
+  versions:
+  - id: SITE-2026-10-14
+    valid_from: '2026-10-14'
+    valid_to: '2027-04-12'
+    provenance:
+      source: OFFICIEL
+      ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 147 « TUNIS SUD - SBIBA » (214
+        km) ; jour sans service : jeu open data SNTRI « horaires des bus » (data.transport.tn, 2026-01-25)'
+      verified_at: '2026-10-14'
+      by: import-doc
+fare: FARE-SNTRI-147
+provenance:
+  source: OFFICIEL
+  ref: 'sntri.com.tn, base horaire de l''application web (consultée le 2026-10-14), ligne 147 « TUNIS SUD - SBIBA » (214 km)
+    ; jour sans service : jeu open data SNTRI « horaires des bus » (data.transport.tn, 2026-01-25)'
+  verified_at: '2026-10-14'
+  by: import-doc

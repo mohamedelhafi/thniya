@@ -1,0 +1,3 @@
+# yaml-language-server: $schema=../schemas/transfers.schema.json
+# Correspondances imposées (specs/04 §12). Vide pour l'instant : OTP calcule les temps de marche.
+[]

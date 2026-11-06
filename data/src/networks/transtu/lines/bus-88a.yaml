@@ -1,0 +1,205 @@
+# Généré par `python -m citydata import-doc` depuis doc/bus/grand-tunis-transtu/donnees/lignes.csv, horaires-hiver-2026-2027.csv, arrets-par-ligne.csv et poles.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: TRANSTU-BUS-88A
+network: TRANSTU
+mode: BUS
+public_code: 88A
+name:
+  fr: Bus 88A
+  ar: حافلة 88أ
+long_name:
+  fr: Jardin Thameur – Cité Jebri
+  ar: محطة حديقة ثامر – حي جبري
+color: '#C62828'
+text_color: '#FFFFFF'
+status: draft
+directions:
+- id: ALLER
+  headsign:
+    fr: Cité Jebri
+    ar: حي جبري
+- id: RETOUR
+  headsign:
+    fr: Jardin Thameur
+    ar: محطة حديقة ثامر
+patterns:
+- id: ALLER
+  direction: ALLER
+  main: true
+  stops:
+  - BUS-JARDIN-THAMEUR
+  - BUS-MECHTEL
+  - BUS-BAB-ABDESLEM-ALLER
+  - BUS-IMMEUBLE-CHEFIA
+  - BUS-BOUCHOUCHA-ALLER
+  - BUS-20-MARS-ALLER
+  - BUS-BARDO-ALLER
+  - BUS-MUNICIPALITE-BARDO
+  - BUS-LYCEE-SAOUEB-ALLER
+  - BUS-LYCEE-KHAZNADAR
+  - BUS-KHAZNADAR-ALLER
+  - BUS-L-ARTISANAT-ALLER
+  - BUS-DENDEN-ALLER
+  - BUS-ABDELMOULA-ALLER
+  - BUS-PEPINIERE-ALLER
+  - BUS-GARDE-NATIONAL-AGBA-ALLER
+  - BUS-AGBA-SUPERIEUR-ALLER
+  - BUS-CANAL-AGBA-ALLER
+  - BUS-BEN-MAHMOUD-ALLER
+  - BUS-CITE-ELWAHA-ALLER
+  - BUS-SONEDE-AGBA-ALLER
+  - BUS-GHDIR-ELGOLLAH-ALLER
+  - BUS-CITE-JABRI-ALLER
+  - BUS-CROISEMENT-BEN-YEDDER-ALLER
+  - BUS-TERMINUS-L88A
+  run_times:
+    FLUIDE:
+    - 4
+    - 4
+    - 3
+    - 2
+    - 2
+    - 1
+    - 2
+    - 2
+    - 1
+    - 2
+    - 1
+    - 3
+    - 3
+    - 3
+    - 1
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    - 3
+    CHARGE:
+    - 6
+    - 5
+    - 4
+    - 3
+    - 3
+    - 2
+    - 2
+    - 3
+    - 2
+    - 2
+    - 3
+    - 3
+    - 5
+    - 4
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 3
+    - 4
+    - 3
+    - 2
+    - 5
+- id: RETOUR
+  direction: RETOUR
+  main: true
+  stops:
+  - BUS-TERMINUS-L88A
+  - BUS-CROISEMENT-BEN-YEDDER-RETOUR
+  - BUS-CITE-JABRI-RETOUR
+  - BUS-GHDIR-ELGOLLAH-RETOUR
+  - BUS-SONEDE-AGBA-RETOUR
+  - BUS-CITE-ELWAHA-RETOUR
+  - BUS-BEN-MAHMOUD-RETOUR
+  - BUS-CANAL-AGBA-RETOUR
+  - BUS-AGBA-SUPERIEUR-RETOUR
+  - BUS-GARDE-NATIONAL-AGBA-RETOUR
+  - BUS-PEPINIERE-RETOUR
+  - BUS-ABDELMOULA-RETOUR
+  - BUS-OUED-GUERIANA-RETOUR
+  - BUS-DENDEN-RETOUR
+  - BUS-L-ARTISANAT-RETOUR
+  - BUS-KHAZNADAR-RETOUR
+  - BUS-SAIDIA
+  - BUS-LYCEE-SAOUEB-RETOUR
+  - BUS-BARDO-RETOUR
+  - BUS-20-MARS-RETOUR
+  - BUS-BOUCHOUCHA-RETOUR
+  - BUS-BAB-SADOUN
+  - BUS-BAB-ABDESLEM-RETOUR
+  - BUS-MOSQUEE-ELBORJ
+  - BUS-AVENUE-MADRID
+  - BUS-JARDIN-THAMEUR
+  run_times:
+    FLUIDE:
+    - 3
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 2
+    - 2
+    - 2
+    - 2
+    - 3
+    - 1
+    - 2
+    - 1
+    - 3
+    - 1
+    - 3
+    - 2
+    - 3
+    - 1
+    - 3
+    - 3
+    CHARGE:
+    - 4
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 2
+    - 2
+    - 2
+    - 3
+    - 4
+    - 3
+    - 3
+    - 3
+    - 1
+    - 3
+    - 4
+    - 2
+    - 3
+    - 2
+    - 5
+    - 2
+    - 5
+    - 3
+schedule:
+  kind: frequency
+  regimes: []
+fare: FARE-TRANSTU-BUS
+provenance:
+  source: ESTIMATION
+  ref: 'BROUILLON : horaires incomplets sur l''affiche (manque : dernier départ du pôle, dernier départ du terminus, fréquence
+    de pointe) ; Premiers et derniers départs (pôle 08:45 → –, terminus 06:15 → –) et fréquence de pointe (– min) : affiche
+    Transtu « marche horaire hiver 2026-2027 » (transtu.tn, page 0143, JThameurH26-27.jpg) [officiel] ; arrêts : open data
+    Transtu (catalogue-data.transport.tn), jeux « itinéraires des lignes du réseau bus » et « positions géographiques des
+    stations » publiés le 2026-01-25 ; réseau décrit antérieur à septembre 2023 pour l''essentiel, date de relevé non publiée
+    (doc/bus/grand-tunis-transtu/donnees-ouvertes.md), ligne open data « 88A » ; heures creuses et dimanche estimés : intervalle
+    de pointe officiel de 0 h à 19 h, ×1,25 après 19 h ; dimanche ×1,3 toute la journée, premier départ 30 min plus tard (rapports
+    médians des départs détaillés de l''open data du dépôt de Ben Arous, hiver 2025-2026 probable) ; durées estimées depuis
+    les distances (détour ×1.25 ; 24 km/h et 0.4 min par arrêt en trafic fluide, 17 km/h et 0.6 min en trafic chargé)'
+  verified_at: '2026-10-14'
+  by: import-doc

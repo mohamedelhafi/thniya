@@ -1,0 +1,6 @@
+{
+  "configVersion": "thniya-1",
+  "transitServiceStart": "-P1M",
+  "transitServiceEnd": "P6M",
+  "transitModelTimeZone": "Africa/Tunis"
+}

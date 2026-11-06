@@ -1,0 +1,137 @@
+# Généré par `python -m citydata import-doc` depuis doc/trains-banlieue/donnees/horaires-banlieue-hiver-2026-2027.csv.
+# Ne pas modifier à la main : corriger la base de saisie (back-office) ou doc/, puis réimporter.
+id: SNCFT-SAHEL
+network: SNCFT
+mode: TRAIN
+public_code: MS
+name:
+  fr: Métro du Sahel
+  ar: مترو الساحل
+long_name:
+  fr: Sousse Bab Jedid – Monastir – Mahdia
+  ar: سوسة باب الجديد – المنستير – المهدية
+color: '#BF360C'
+text_color: '#FFFFFF'
+status: active
+directions:
+- id: MAHDIA
+  headsign:
+    fr: Mahdia
+    ar: المهدية
+- id: SOUSSE
+  headsign:
+    fr: Sousse Bab Jedid
+    ar: سوسة باب الجديد
+patterns:
+- id: MAHDIA
+  direction: MAHDIA
+  main: true
+  stops:
+  - TRN-SOUSSEBABJEDID
+  - TRN-SOUSSEMOHAMEDV
+  - TRN-SOUSSESUD
+  - TRN-SOUSSEZI
+  - TRN-SAHLINEVILLE
+  - TRN-SAHLINESEBKHA
+  - TRN-LESHOTELS
+  - TRN-AEROPORTMONASTIR
+  - TRN-LAFACULTE
+  - TRN-MONASTIR
+  - TRN-LAFACULTE2
+  - TRN-MONASTIRZI
+  - TRN-FRINA
+  - TRN-KHNISSBEMBLA
+  - TRN-KSIBETBENNANE
+  - TRN-BOUHJAR
+  - TRN-LAMTA
+  - TRN-SAYADA
+  - TRN-KSARHELLALZI
+  - TRN-KSARHELLAL
+  - TRN-MOKNINEGRIBAA
+  - TRN-MOKNINE
+  - TRN-MOKNINEZI
+  - TRN-TEBOULBAZI
+  - TRN-TEBOULBA
+  - TRN-BEKALTA
+  - TRN-BAGHDADI
+  - TRN-MAHDIAZT
+  - TRN-SIDIMESSAOUD
+  - TRN-BORJARIF
+  - TRN-MAHDIAEZZAHRA
+  - TRN-MAHDIA
+  shape: auto
+- id: SOUSSE
+  direction: SOUSSE
+  main: true
+  stops:
+  - TRN-MAHDIA
+  - TRN-MAHDIAEZZAHRA
+  - TRN-BORJARIF
+  - TRN-SIDIMESSAOUD
+  - TRN-MAHDIAZT
+  - TRN-BAGHDADI
+  - TRN-BEKALTA
+  - TRN-TEBOULBA
+  - TRN-TEBOULBAZI
+  - TRN-MOKNINEZI
+  - TRN-MOKNINE
+  - TRN-MOKNINEGRIBAA
+  - TRN-KSARHELLAL
+  - TRN-KSARHELLALZI
+  - TRN-SAYADA
+  - TRN-LAMTA
+  - TRN-BOUHJAR
+  - TRN-KSIBETBENNANE
+  - TRN-KHNISSBEMBLA
+  - TRN-FRINA
+  - TRN-MONASTIRZI
+  - TRN-LAFACULTE2
+  - TRN-MONASTIR
+  - TRN-LAFACULTE
+  - TRN-AEROPORTMONASTIR
+  - TRN-LESHOTELS
+  - TRN-SAHLINESEBKHA
+  - TRN-SAHLINEVILLE
+  - TRN-SOUSSEZI
+  - TRN-SOUSSESUD
+  - TRN-SOUSSEMOHAMEDV
+  - TRN-SOUSSEBABJEDID
+  shape: auto
+day_codes:
+  '-':
+    days:
+    - OUVRABLE
+    - SAMEDI
+    - DIMANCHE
+    label:
+      fr: Tous les jours
+      ar: كامل أيام الأسبوع
+schedule:
+  kind: timetable
+  source_dir: timetables/metro-sahel
+  fallback: inherit
+  versions:
+  - id: HIVER-2026-2027
+    valid_from: '2026-09-01'
+    valid_to: '2027-06-30'
+    provenance:
+      source: OFFICIEL
+      ref: 'Affiche SNCFT « Horaires des trains Mahdia – Monastir – Sousse » hiver 2026-2027 (titrée « 2027-2026 », dates
+        de validité et codes de jours non imprimés : dates de l''horaire d''hiver des banlieues SNCFT, circulation supposée
+        quotidienne) (https://www.sncft.com.tn/wp-content/uploads/2026/09/conception-3_page-0001-_1_.webp), page https://www.sncft.com.tn/voyageurs/banlieue-sahel/
+        consultée le 2026-10-14 ; transcription doc/trains-banlieue/donnees/horaires-banlieue-hiver-2026-2027.csv'
+      verified_at: '2026-10-14'
+      by: import-doc
+    corrections:
+    - direction: MAHDIA
+      train: '503'
+      stop: TRN-SOUSSEZI
+      printed: '5:41'
+      corrected: 06:41
+      reason: Entre 06:36 et 06:45 (gares voisines)
+fare: FARE-SNCFT-SAHEL
+provenance:
+  source: OFFICIEL
+  ref: https://www.sncft.com.tn/voyageurs/banlieue-sahel/ — affiche hiver 2026-2027 (https://www.sncft.com.tn/wp-content/uploads/2026/09/conception-3_page-0001-_1_.webp)
+  verified_at: '2026-10-14'
+  by: import-doc
