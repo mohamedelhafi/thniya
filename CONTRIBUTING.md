@@ -1,5 +1,9 @@
 # Contribuer à Thniya
 
+> Pour bien démarrer, lisez la [documentation](docs/README.md) : elle contient des guides pas à pas, par exemple pour
+> [ajouter une ligne de louage](docs/06-ajouter-une-ligne-de-louage.md) ou
+> [de taxi jamaï](docs/07-ajouter-une-ligne-de-taxi-jamai.md).
+
 Merci de votre aide ! Les contributions les plus utiles ne sont pas toujours du code : **une correction d'horaire, de
 tarif ou d'arrêt vérifiée sur le terrain vaut de l'or**.
 

@@ -503,9 +503,8 @@ Aucune zone n'est déclarée pour l'instant (2026-10-14) : l'API répond « donn
 ## 15. Schémas, gabarits et outils de saisie
 
 - `data/schemas/*.schema.json` : un schéma par type de fichier (mode, réseau, lieu, ligne, grille annexe, tarif, perturbation, calendrier). Les énumérations (`status`, `kind`, `effect`…) y sont définies une seule fois.
-- `data/templates/` : gabarits commentés pour une nouvelle ligne de train, de louage, de bus, une station, une perturbation.
+- Exemples commentés et testés, à copier : les guides [`docs/06`](../docs/06-ajouter-une-ligne-de-louage.md) (louage), [`docs/07`](../docs/07-ajouter-une-ligne-de-taxi-jamai.md) (taxi jamaï) et [`docs/08`](../docs/08-corriger-une-donnee.md) (corrections). Les gabarits `data/templates/` et la commande `new line` ne sont pas encore écrits.
 - Commandes outils (conteneur `tools`, voir [04c](04c-generation-gtfs.md)) :
-  - `new line --mode LOUAGE --network LOUAGES-GT --id …` : crée le fichier à partir du gabarit ;
   - `lint` : validation rapide (schémas + références), en quelques secondes ;
   - `calendar-preview` : quel régime s'applique chaque jour ([04b](04b-calendriers-regimes.md) §7) ;
   - `report` : rapport de qualité (données manquantes, périmées, replis utilisés).

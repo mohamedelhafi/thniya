@@ -4,7 +4,7 @@
 
 **Se déplacer en Tunisie, simplement : train, métro, bus et cars interurbains, dans une seule application.**
 
-[Français](#à-quoi-ça-sert) · [English summary](#english-summary) · [Démarrer](#démarrer-en-local) · [Contribuer](CONTRIBUTING.md)
+[Français](#à-quoi-ça-sert) · [English summary](#english-summary) · [Démarrer](#démarrer-en-local) · [Documentation](docs/README.md) · [Contribuer](CONTRIBUTING.md)
 
 [![CI](https://github.com/mohamedelhafi/thniya/actions/workflows/ci.yml/badge.svg)](https://github.com/mohamedelhafi/thniya/actions/workflows/ci.yml)
 [![Code : Apache 2.0](https://img.shields.io/badge/code-Apache%202.0-blue)](LICENSE)
@@ -81,9 +81,12 @@ flowchart LR
 | [`data/`](data/) | Données sources, schémas, générateur Python `citydata`, trajets de référence |
 | [`infra/`](infra/) | Docker Compose, nginx, configuration OTP et Photon |
 | [`specs/`](specs/README.md) | Spécifications vivantes et décisions d'architecture (ADR) |
-| [`docs/images/`](docs/images/) | Captures de ce README |
+| [`docs/`](docs/README.md) | **Documentation pour les nouveaux développeurs**, et les captures de ce README |
 
 ## Démarrer en local
+
+> Nouveau sur le projet ? La [documentation](docs/README.md) explique tout pas à pas : architecture, installation,
+> ajout d'une ligne de louage ou de taxi jamaï, app, API, dépannage.
 
 **Prérequis :** Docker Desktop (8 Go de RAM minimum alloués, environ 5 Go de disque), Flutter 3.47, et Java 21 pour
 les tests de l'API.
