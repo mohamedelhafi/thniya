@@ -35,8 +35,8 @@ def main(argv=None):
     p.add_argument("--bbox", help="ouest,sud,est,nord")
     p.add_argument("--json", action="store_true")
 
-    p = sub.add_parser("import-doc", help="Importe les données retravaillées de doc/ dans data/src (specs/04e)")
-    p.add_argument("--doc", help="Dossier de la base de connaissances (défaut : doc/ à la racine du dépôt)")
+    p = sub.add_parser("import-doc", help="Importe les données retravaillées de recherches-privees/ dans data/src (specs/04e)")
+    p.add_argument("--doc", help="Dossier de la base de connaissances (défaut : recherches-privees/ à la racine du dépôt)")
     p.add_argument("--only", help="Modules à exécuter, séparés par des virgules (défaut : tous)")
 
     sub.add_parser("lint", help="Vérifie les données (schémas, références, règles métier, grilles)")

@@ -30,7 +30,7 @@ MODULES = {
 def run(doc=None, only=None):
     doc = Path(doc) if doc else DOC
     if not doc.exists():
-        print(f"Dossier doc/ introuvable : {doc}")
+        print(f"Base de connaissances introuvable : {doc}")
         return 1
     wanted = list(MODULES) if not only else [m.strip() for m in only.split(",") if m.strip()]
     unknown = [m for m in wanted if m not in MODULES]

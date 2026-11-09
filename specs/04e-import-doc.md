@@ -1,5 +1,9 @@
 # 04e — Import de la base de connaissances `doc/`
 
+> Depuis le 2026-11-09, ce dossier privé s'appelle `recherches-privees/`, pour ne plus le confondre avec la
+> documentation publique `docs/`. Les références `doc/…` de cette spec, des en-têtes « Généré par » et des
+> provenances de `data/src` désignent ce dossier.
+
 > Statut : Implémenté · Mise à jour : 2026-10-14 · Suite de [04d](04d-base-de-saisie.md)
 
 ## 1. Rôle

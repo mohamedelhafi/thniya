@@ -75,7 +75,7 @@ d'OTP.
 
 ### Import de la base de connaissances
 
-`import-doc` régénère une partie de `data/src` à partir d'une base de connaissances privée (`doc/`), qui n'est pas
+`import-doc` régénère une partie de `data/src` à partir d'une base de connaissances privée (`recherches-privees/`), qui n'est pas
 publiée. Vous n'en avez pas besoin pour contribuer : corrigez directement les fichiers de `data/src`.
 
 ## Comprendre un rapport de `lint`

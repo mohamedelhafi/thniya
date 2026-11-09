@@ -15,7 +15,9 @@ import yaml
 
 from citydata import paths
 
-DOC = paths.ROOT / "doc"
+# Base de connaissances privée, jamais publiée. Ancien nom « doc/ » : les références « doc/… » des fichiers
+# générés et des provenances désignent ce dossier (specs/04e).
+DOC = paths.ROOT / "recherches-privees"
 TODAY = "2026-10-14"
 BY = "import-doc"
 GENERATED_BY = "# Généré par `python -m citydata import-doc`"
@@ -38,7 +40,7 @@ def read_csv(path):
 def doc_path(doc, *parts):
     p = Path(doc).joinpath(*parts)
     if not p.exists():
-        raise FileNotFoundError(f"Fichier attendu dans doc/ : {p}")
+        raise FileNotFoundError(f"Fichier attendu dans la base de connaissances : {p}")
     return p
 
 
